@@ -1,0 +1,101 @@
+,subject,relation,object,subject_entity,object_entity,sentence
+0,Gone with the Wind,cast member,Rand Brooks,Q2875,Q1397384,sentence from index
+1,Gone with the Wind,cast member,Olin Howland,Q2875,Q1968576,sentence from index
+2,Gone with the Wind,cast member,Marjorie Reynolds,Q2875,Q3293960,sentence from index
+3,Gone with the Wind,cast member,E. Alyn Warren,Q2875,Q5321717,sentence from index
+4,Gone with the Wind,cast member,Guy Wilkerson,Q2875,Q20738374,sentence from index
+5,Gone with the Wind,cast member,Hans Moebus,Q2875,Q1577419,sentence from index
+6,Gone with the Wind,cast member,Yola d'Avril,Q2875,Q8462262,sentence from index
+7,Red Sun,cast member,Alain Delon,Q32790,Q106529,sentence from index
+8,Red Sun,cast member,Luc Merenda,Q32790,Q1109046,sentence from index
+9,Red Sun,cast member,John Hamilton,Q32790,Q3181681,sentence from index
+10,Red Sun,cast member,Ursula Andress,Q32790,Q211111,sentence from index
+11,Red Sun,cast member,Ricardo Palacios,Q32790,Q1433036,sentence from index
+12,Red Sun,cast member,Mónica Randall,Q32790,Q442525,sentence from index
+13,Red Sun,cast member,Anthony Dawson,Q32790,Q573128,sentence from index
+14,Red Sun,cast member,Capucine,Q32790,Q256466,sentence from index
+15,Red Sun,cast member,Guido Lollobrigida,Q32790,Q1553604,sentence from index
+16,Red Sun,cast member,José Jaspe,Q32790,Q1709266,sentence from index
+17,916,cast member,Mukesh,Q32786,Q277422,sentence from index
+18,Gone with the Wind,cast member,Mary Anderson,Q2875,Q287688,sentence from index
+19,Gone with the Wind,cast member,George Reeves,Q2875,Q342537,sentence from index
+20,Gone with the Wind,cast member,Alicia Rhett,Q2875,Q437443,sentence from index
+21,916,cast member,Anoop Menon,Q32786,Q4770059,sentence from index
+22,Taxi Driver,cast member,Robert De Niro,Q47221,Q36949,sentence from index
+23,Taxi Driver,cast member,Jodie Foster,Q47221,Q41351,sentence from index
+24,The Intouchables,cast member,Nicky Marbot,Q595,Q20723802,sentence from index
+25,July 14,cast member,Thomy Bourdelle,Q24585,Q3525769,sentence from index
+26,July 14,cast member,Georges Tréville,Q24585,Q5546905,sentence from index
+27,Citizen Kane,cast member,Georgia Backus,Q24815,Q5547351,sentence from index
+28,We Live in Public,cast member,Joshua Harris,Q372,Q6288962,sentence from index
+29,Citizen Kane,cast member,Buddy Swan,Q24815,Q4984951,sentence from index
+30,Citizen Kane,cast member,Walter Sande,Q24815,Q5421985,sentence from index
+31,A Gang Story,cast member,Valeria Cavalli,Q593,Q3553690,sentence from index
+32,Citizen Kane,cast member,Orson Welles,Q24815,Q24829,sentence from index
+33,Citizen Kane,cast member,Roland Winters,Q24815,Q7360500,sentence from index
+34,Scarface,cast member,Al Pacino,Q47075,Q41163,sentence from index
+35,Dead like Me: Life After Death,cast member,Jesse Rath,Q33148,Q16237560,sentence from index
+36,Dead like Me: Life After Death,cast member,Neil Napier,Q33148,Q17521856,sentence from index
+37,A Gang Story,cast member,Christophe Kourotchkine,Q593,Q17521763,sentence from index
+38,The Intouchables,cast member,Benjamin Baroche,Q595,Q15146875,sentence from index
+39,The Intouchables,cast member,Michel Winogradoff,Q595,Q18326681,sentence from index
+40,July 14,cast member,Maximilienne,Q24585,Q13567757,sentence from index
+41,The Intouchables,cast member,Marie-Laure Descoureaux,Q595,Q15069878,sentence from index
+42,Dead like Me: Life After Death,cast member,Christine Willes,Q33148,Q4981274,sentence from index
+43,A Gang Story,cast member,Stéphane Caillard,Q593,Q37798753,sentence from index
+44,Taxi Driver,cast member,Peter Savage,Q47221,Q20789791,sentence from index
+45,The Broken Coin,cast member,Neil Hardin,Q24732,Q16222603,sentence from index
+46,The Intouchables,cast member,Émilie Caen,Q595,Q16685232,sentence from index
+47,The Intouchables,cast member,Thomas Solivérès,Q595,Q3525573,sentence from index
+48,Citizen Kane,cast member,Gino Corrado,Q24815,Q5563216,sentence from index
+49,Dead like Me: Life After Death,cast member,Lucinda Davis,Q33148,Q16207399,sentence from index
+50,The Intouchables,cast member,Christian Ameri,Q595,Q17352673,sentence from index
+51,Taxi Driver,cast member,Martin Scorsese,Q47221,Q41148,sentence from index
+52,Dead like Me: Life After Death,cast member,Tyrone Benskin,Q33148,Q3546363,sentence from index
+53,Jaded,cast member,Danny Aiello III,Q24618,Q5220087,sentence from index
+54,Taxi Driver,cast member,Harry Northup,Q47221,Q3783517,sentence from index
+55,The Broken Coin,cast member,John Ford,Q24732,Q51114,sentence from index
+56,July 14,cast member,Raymond Cordy,Q24585,Q2134104,sentence from index
+57,Citizen Kane,cast member,William Alland,Q24815,Q925872,sentence from index
+58,July 14,cast member,Albert Broquin,Q24585,Q2830987,sentence from index
+59,July 14,cast member,Anna Lefeuvrier,Q24585,Q2850540,sentence from index
+60,A Gang Story,cast member,Étienne Chicot,Q593,Q289524,sentence from index
+61,A Gang Story,cast member,Gérard Lanvin,Q593,Q1558999,sentence from index
+62,The Broken Coin,cast member,Eddie Polo,Q24732,Q1282938,sentence from index
+63,A Gang Story,cast member,Daniel Duval,Q593,Q778573,sentence from index
+64,Citizen Kane,cast member,Joseph Cotten,Q24815,Q95148,sentence from index
+65,Citizen Kane,cast member,Agnes Moorehead,Q24815,Q231221,sentence from index
+66,Citizen Kane,cast member,Ruth Warrick,Q24815,Q456375,sentence from index
+67,July 14,cast member,Arlette Balkis,Q24585,Q2861619,sentence from index
+68,July 14,cast member,René Bergeron,Q24585,Q3425827,sentence from index
+69,July 14,cast member,René Fleur,Q24585,Q3426199,sentence from index
+70,July 14,cast member,Odette Talazac,Q24585,Q3349208,sentence from index
+71,A Gang Story,cast member,François Levantal,Q593,Q658664,sentence from index
+72,A Gang Story,cast member,Lionnel Astier,Q593,Q3241976,sentence from index
+73,A Gang Story,cast member,Simon Astier,Q593,Q3484193,sentence from index
+74,Dead like Me: Life After Death,cast member,Jasmine Guy,Q33148,Q448141,sentence from index
+75,A Gang Story,cast member,Patrick Catalifo,Q593,Q3369315,sentence from index
+76,Dead like Me: Life After Death,cast member,Shenae Grimes,Q33148,Q253183,sentence from index
+77,Dead like Me: Life After Death,cast member,Henry Ian Cusick,Q33148,Q294404,sentence from index
+78,Dead like Me: Life After Death,cast member,Britt McKillip,Q33148,Q458871,sentence from index
+79,The Intouchables,cast member,Audrey Fleurot,Q595,Q457089,sentence from index
+80,The Intouchables,cast member,Caroline Bourg,Q595,Q1044462,sentence from index
+81,Taxi Driver,cast member,Leonard Harris,Q47221,Q3229673,sentence from index
+82,Jaded,cast member,Christopher McDonald,Q24618,Q349857,sentence from index
+83,Jaded,cast member,Anna Thomson,Q24618,Q448587,sentence from index
+84,Taxi Driver,cast member,Peter Boyle,Q47221,Q315123,sentence from index
+85,Jaded,cast member,Richard Bright,Q24618,Q786720,sentence from index
+86,Jaded,cast member,Aida Turturro,Q24618,Q115134,sentence from index
+87,The Intouchables,cast member,François Caron,Q595,Q3084174,sentence from index
+88,Dead like Me: Life After Death,cast member,Cynthia Stevenson,Q33148,Q444187,sentence from index
+89,Jaded,cast member,Lorraine Toussaint,Q24618,Q460786,sentence from index
+90,The Broken Coin,cast member,Francis Ford,Q24732,Q1361838,sentence from index
+91,The Broken Coin,cast member,Jack Holt,Q24732,Q1357250,sentence from index
+92,The Broken Coin,cast member,Grace Cunard,Q24732,Q2757658,sentence from index
+93,Jaded,cast member,Catherine Dent,Q24618,Q457395,sentence from index
+94,Jaded,cast member,Carla Gugino,Q24618,Q228871,sentence from index
+95,Jaded,cast member,Frankie Faison,Q24618,Q943589,sentence from index
+96,Taxi Driver,cast member,Joe Spinell,Q47221,Q960676,sentence from index
+97,Jaded,cast member,Rya Kihlstedt,Q24618,Q435652,sentence from index
+98,Taxi Driver,cast member,Harry Cohn,Q47221,Q1586470,sentence from index
+99,Taxi Driver,cast member,Harvey Keitel,Q47221,Q191132,sentence from index

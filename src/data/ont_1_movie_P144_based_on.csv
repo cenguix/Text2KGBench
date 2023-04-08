@@ -1,0 +1,101 @@
+,subject,relation,object,subject_entity,object_entity,sentence
+0,Sleeping Betty,based on,Sleeping Beauty,Q7539850,Q11824,sentence from index
+1,The Lure,based on,The Little Mermaid,Q21993425,Q11859,sentence from index
+2,Camp Cuddly Pines Powertool Massacre,based on,The Texas Chainsaw Massacre,Q1029789,Q80981,sentence from index
+3,Licence to Kill,based on,James Bond,Q309086,Q844,sentence from index
+4,A Chinese Odyssey,based on,Journey to the West,Q868483,Q70784,sentence from index
+5,The Forbidden Kingdom,based on,Journey to the West,Q176568,Q70784,sentence from index
+6,Schneewittchen und die sieben Zwerge,based on,Snow White,Q2247474,Q11831,sentence from index
+7,The Hobbit: An Unexpected Journey,based on,The Hobbit,Q80379,Q74287,sentence from index
+8,Puss in Boots,based on,Puss in Boots,Q4235902,Q11834,sentence from index
+9,Romeo + Juliet,based on,Romeo and Juliet,Q463313,Q83186,sentence from index
+10,Oopiri,based on,The Intouchables,Q19899083,Q595,sentence from index
+11,Don Chisciotte and Sancio Panza,based on,Don Quixote,Q3713502,Q480,sentence from index
+12,Don Quixote,based on,Don Quixote,Q3035884,Q480,sentence from index
+13,Bhimanjaneya Yuddham,based on,Mahabharata,Q13004999,Q8276,sentence from index
+14,Heart,based on,Heart,Q3699445,Q11336,sentence from index
+15,Sleepy Hollow,based on,The Legend of Sleepy Hollow,Q208592,Q72309,sentence from index
+16,Romeo and Juliet,based on,Romeo and Juliet,Q517265,Q83186,sentence from index
+17,GoldenEye,based on,James Bond,Q19089,Q844,sentence from index
+18,Don Quixote,based on,Don Quixote,Q3415590,Q480,sentence from index
+19,The Babes in the Woods,based on,Hansel and Gretel,Q64729095,Q11829,sentence from index
+20,Quantum of Solace,based on,James Bond,Q181540,Q844,sentence from index
+21,The Last Airbender,based on,Avatar: The Last Airbender,Q11593,Q11572,sentence from index
+22,Tomorrow Never Dies,based on,James Bond,Q207916,Q844,sentence from index
+23,Don Quixote,based on,Don Quixote,Q16988903,Q480,sentence from index
+24,Bleach,based on,Bleach,Q27958503,Q904,sentence from index
+25,Star Trek VI: The Undiscovered Country,based on,Star Trek: The Original Series,Q579757,Q1077,sentence from index
+26,Private Romeo,based on,Romeo and Juliet,Q3404244,Q83186,sentence from index
+27,The Last Fiction,based on,Shahnameh,Q27636108,Q8279,sentence from index
+28,The Hunger Games,based on,The Hunger Games,Q212965,Q11678,sentence from index
+29,The Spy Who Loved Me,based on,James Bond,Q320423,Q844,sentence from index
+30,Don Quixote,based on,Don Quixote,Q3713503,Q480,sentence from index
+31,Don Quixote,based on,Don Quixote,Q3713583,Q480,sentence from index
+32,Hansel & Gretel,based on,Hansel and Gretel,Q5651001,Q11829,sentence from index
+33,The Little Mermaid,based on,The Little Mermaid,Q7747661,Q11859,sentence from index
+34,And Quiet Flows the Don,based on,And Quiet Flows the Don,Q673349,Q75840,sentence from index
+35,Romeo and Juliet,based on,Romeo and Juliet,Q1081181,Q83186,sentence from index
+36,Gretel and Hansel,based on,Hansel and Gretel,Q63994491,Q11829,sentence from index
+37,Popelka,based on,Cinderella,Q12046369,Q11841,sentence from index
+38,Sneakerella,based on,Cinderella,Q102036276,Q11841,sentence from index
+39,Hansel and Gretel,based on,Hansel and Gretel,Q1033464,Q11829,sentence from index
+40,Hansel and Gretel,based on,Hansel and Gretel,Q5651017,Q11829,sentence from index
+41,Cinderella,based on,Cinderella,Q83973483,Q11841,sentence from index
+42,Hansel and Gretel,based on,Hansel and Gretel,Q1254777,Q11829,sentence from index
+43,Dorian Gray,based on,The Picture of Dorian Gray,Q3037012,Q82464,sentence from index
+44,Star Trek V: The Final Frontier,based on,Star Trek: The Original Series,Q241218,Q1077,sentence from index
+45,The Man Who Killed Don Quixote,based on,Don Quixote,Q2095178,Q480,sentence from index
+46,Snow White,based on,Snow White,Q739210,Q11831,sentence from index
+47,Noah,based on,Book of Genesis,Q286868,Q9184,sentence from index
+48,Hansel and Gretel,based on,Hansel and Gretel,Q1642340,Q11829,sentence from index
+49,Samson and Delilah,based on,Judges,Q426352,Q81240,sentence from index
+50,Spectre,based on,James Bond,Q18602670,Q844,sentence from index
+51,Under the Boardwalk,based on,The Little Mermaid,Q113485088,Q11859,sentence from index
+52,Han Solo: A Smuggler's Trade,based on,Star Wars,Q64683240,Q462,sentence from index
+53,Die Another Day,based on,James Bond,Q30931,Q844,sentence from index
+54,Honor of the Knights,based on,Don Quixote,Q3140173,Q480,sentence from index
+55,Don Quixote,based on,Don Quixote,Q518901,Q480,sentence from index
+56,Star Trek IV: The Voyage Home,based on,Star Trek: The Original Series,Q471842,Q1077,sentence from index
+57,The Hobbit: The Battle of the Five Armies,based on,The Hobbit,Q919649,Q74287,sentence from index
+58,Sky,based on,reality,Q108558949,Q9510,sentence from index
+59,Simpsons: The XXX Parody,based on,The Simpsons,Q50412719,Q886,sentence from index
+60,Don Quichotte,based on,Don Quixote,Q4166021,Q480,sentence from index
+61,Snow White,based on,Snow White,Q1589300,Q11831,sentence from index
+62,The Hobbit: The Desolation of Smaug,based on,The Hobbit,Q719915,Q74287,sentence from index
+63,Romeo and Juliet,based on,Romeo and Juliet,Q2716956,Q83186,sentence from index
+64,Mirror Mirror,based on,Snow White,Q628851,Q11831,sentence from index
+65,Grimm's Snow White,based on,Snow White,Q12124671,Q11831,sentence from index
+66,Super Mario Bros.,based on,Super Mario Bros.,Q535550,Q11168,sentence from index
+67,Harry Potter and the Order of the Phoenix,based on,Harry Potter and the Order of the Phoenix,Q102235,Q80817,sentence from index
+68,As Quatro Chaves Mágicas,based on,Hansel and Gretel,Q17168956,Q11829,sentence from index
+69,Sydney White,based on,Snow White,Q1137907,Q11831,sentence from index
+70,Skyfall,based on,James Bond,Q4941,Q844,sentence from index
+71,Tromeo and Juliet,based on,Romeo and Juliet,Q1158741,Q83186,sentence from index
+72,Fantasia 3,based on,The Little Mermaid,Q5434130,Q11859,sentence from index
+73,The Da Vinci Code,based on,The Da Vinci Code,Q160560,Q81689,sentence from index
+74,Superman,based on,Superman,Q213053,Q79015,sentence from index
+75,Superman and the Mole Men,based on,Superman,Q1115677,Q79015,sentence from index
+76,Star Trek III: The Search for Spock,based on,Star Trek: The Original Series,Q221305,Q1077,sentence from index
+77,Dorian Gray,based on,The Picture of Dorian Gray,Q327546,Q82464,sentence from index
+78,The World Is Not Enough,based on,James Bond,Q212145,Q844,sentence from index
+79,The Little Mermaid,based on,The Little Mermaid,Q1219608,Q11859,sentence from index
+80,The Upside,based on,The Intouchables,Q28793040,Q595,sentence from index
+81,Romeo and Juliet,based on,Romeo and Juliet,Q3441351,Q83186,sentence from index
+82,Black Rain,based on,Black Rain,Q930312,Q81810,sentence from index
+83,The Bible: In the Beginning...,based on,Book of Genesis,Q773293,Q9184,sentence from index
+84,Kick-Ass,based on,Kick-Ass,Q2201,Q2515,sentence from index
+85,The Little Mermaid,based on,The Little Mermaid,Q14857809,Q11859,sentence from index
+86,Hansel & Gretel: Witch Hunters,based on,Hansel and Gretel,Q498287,Q11829,sentence from index
+87,Super Kabuki II: One Piece,based on,One Piece,Q40889063,Q673,sentence from index
+88,Three Kingdoms: Resurrection of the Dragon,based on,The Romance of the Three Kingdoms,Q703857,Q70806,sentence from index
+89,White As Snow,based on,Snow White,Q64868943,Q11831,sentence from index
+90,Dorian Gray,based on,The Picture of Dorian Gray,Q921510,Q82464,sentence from index
+91,Red Cliff,based on,The Romance of the Three Kingdoms,Q815606,Q70806,sentence from index
+92,Snow White,based on,Snow White,Q7548340,Q11831,sentence from index
+93,Puss in Boots,based on,Puss in Boots,Q3794074,Q11834,sentence from index
+94,The Little Mermaid,based on,The Little Mermaid,Q24357415,Q11859,sentence from index
+95,Gone with the Wind,based on,Gone with the Wind,Q2875,Q2870,sentence from index
+96,The Little Mermaid,based on,The Little Mermaid,Q28970981,Q11859,sentence from index
+97,Raavanan,based on,Ramayana,Q3521744,Q37293,sentence from index
+98,The Gospel of John,based on,Gospel of John,Q48674664,Q36766,sentence from index
+99,The Snow Queen,based on,The Snow Queen,Q18693366,Q11880,sentence from index

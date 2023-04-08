@@ -1,0 +1,101 @@
+,subject,relation,object,subject_entity,object_entity,sentence
+0,Skyfall,award received,Academy Award for Best Sound Editing,Q4941,Q488645,sentence from index
+1,Gone with the Wind,award received,"Academy Award for Best Cinematography, Color",Q2875,Q21995136,sentence from index
+2,Monty Python's The Meaning of Life,award received,Cannes Film Festival Grand Prix,Q24980,Q844804,sentence from index
+3,Citizen Kane,award received,National Board of Review: Top Ten Films,Q24815,Q1966965,sentence from index
+4,American Beauty,award received,BAFTA Award for Best Film,Q25139,Q139184,sentence from index
+5,The Hidden Fortress,award received,FIPRESCI Prize at Berlinale,Q39946,Q16020748,sentence from index
+6,Star Wars: Episode III – Revenge of the Sith,award received,Saturn Award for Best Science Fiction Film,Q42051,Q1131772,sentence from index
+7,Inception,award received,Academy Award for Best Sound,Q25188,Q830079,sentence from index
+8,Inception,award received,"Hugo Award for Best Dramatic Presentation, Long Form",Q25188,Q1056240,sentence from index
+9,American Beauty,award received,Amanda Award for Best Foreign Feature Film,Q25139,Q17748520,sentence from index
+10,Hamlet,award received,"Academy Award for Best Costume Design, Black-and-White",Q27178,Q22120095,sentence from index
+11,Citizen Kane,award received,National Board of Review Award for Best Film,Q24815,Q1789102,sentence from index
+12,The Sound of Music,award received,Academy Award for Best Picture,Q60072,Q102427,sentence from index
+13,The Midas Touch,award received,European Film Award for Best Director,Q51121,Q1377755,sentence from index
+14,Argo,award received,BAFTA Award for Best Film,Q59653,Q139184,sentence from index
+15,Frida,award received,Academy Award for Best Makeup and Hairstyling,Q35738,Q487136,sentence from index
+16,Inception,award received,Academy Award for Best Sound Editing,Q25188,Q488645,sentence from index
+17,The Sound of Music,award received,Academy Award for Best Director,Q60072,Q103360,sentence from index
+18,The Sound of Music,award received,Academy Award for Best Sound,Q60072,Q830079,sentence from index
+19,Midnight Cowboy,award received,Academy Award for Best Picture,Q61696,Q102427,sentence from index
+20,Midnight Cowboy,award received,"Academy Award for Best Writing, Adapted Screenplay",Q61696,Q107258,sentence from index
+21,Inception,award received,Academy Award for Best Cinematography,Q25188,Q131520,sentence from index
+22,Frida,award received,National Board of Review: Top Ten Films,Q35738,Q1966965,sentence from index
+23,Inception,award received,National Board of Review: Top Ten Films,Q25188,Q1966965,sentence from index
+24,Family Plot,award received,National Board of Review: Top Ten Films,Q47296,Q1966965,sentence from index
+25,The Godfather,award received,Academy Award for Best Picture,Q47703,Q102427,sentence from index
+26,The Godfather,award received,Academy Award for Best Actor,Q47703,Q103916,sentence from index
+27,The Godfather,award received,"Academy Award for Best Writing, Adapted Screenplay",Q47703,Q107258,sentence from index
+28,Stagecoach,award received,"Academy Award for Best Score, Adaptation or Treatment",Q50714,Q22752811,sentence from index
+29,Stagecoach,award received,National Board of Review: Top Ten Films,Q50714,Q1966965,sentence from index
+30,Cabaret Balkan,award received,European Film Academy Critics Award,Q60021,Q1377683,sentence from index
+31,Goodfellas,award received,National Board of Review: Top Ten Films,Q42047,Q1966965,sentence from index
+32,The Sound of Music,award received,Academy Award for Best Film Editing,Q60072,Q281939,sentence from index
+33,Midnight Cowboy,award received,Academy Award for Best Director,Q61696,Q103360,sentence from index
+34,Planet of the Apes,award received,National Board of Review: Top Ten Films,Q59534,Q1966965,sentence from index
+35,Men in Black,award received,Saturn Award for Best Science Fiction Film,Q51416,Q1131772,sentence from index
+36,Frida,award received,Academy Award for Best Original Score,Q35738,Q488651,sentence from index
+37,Black Box BRD,award received,European Film Award for Best Documentary,Q25454,Q1377752,sentence from index
+38,The Girl from Nowhere,award received,Golden Leopard,Q38235,Q1700510,sentence from index
+39,Les Misérables,award received,Academy Award for Best Sound,Q28234,Q830079,sentence from index
+40,The Sound of Music,award received,"Academy Award for Best Score, Adaptation or Treatment",Q60072,Q22752811,sentence from index
+41,The Sound of Music,award received,National Board of Review: Top Ten Films,Q60072,Q1966965,sentence from index
+42,The Last Winter,award received,Bodil Award for Best Danish Film,Q24911,Q889845,sentence from index
+43,Moon,award received,"Hugo Award for Best Dramatic Presentation, Long Form",Q26751,Q1056240,sentence from index
+44,Les Misérables,award received,Academy Award for Best Makeup and Hairstyling,Q28234,Q487136,sentence from index
+45,The Intouchables,award received,Satellite Award for Best Foreign Language Film,Q595,Q2354778,sentence from index
+46,American Beauty,award received,"Academy Award for Best Writing, Original Screenplay",Q25139,Q41417,sentence from index
+47,The Intouchables,award received,David di Donatello for Best European Film,Q595,Q3703456,sentence from index
+48,Inception,award received,Academy Award for Best Visual Effects,Q25188,Q393686,sentence from index
+49,Midnight Cowboy,award received,National Board of Review: Top Ten Films,Q61696,Q1966965,sentence from index
+50,Star Wars: Episode III – Revenge of the Sith,award received,MTV Movie Award for Best Villain,Q42051,Q1062026,sentence from index
+51,Taxi Driver,award received,Palme d'Or,Q47221,Q179808,sentence from index
+52,Hamlet,award received,Academy Award for Best Picture,Q27178,Q102427,sentence from index
+53,Hamlet,award received,Academy Award for Best Actor,Q27178,Q103916,sentence from index
+54,Stagecoach,award received,Academy Award for Best Supporting Actor,Q50714,Q106291,sentence from index
+55,Goodfellas,award received,Academy Award for Best Supporting Actor,Q42047,Q106291,sentence from index
+56,Les Misérables,award received,Academy Award for Best Supporting Actress,Q28234,Q106301,sentence from index
+57,Scream,award received,Saturn Award for Best Actress,Q27411,Q1413741,sentence from index
+58,The Godfather,award received,National Board of Review: Top Ten Films,Q47703,Q1966965,sentence from index
+59,American Beauty,award received,Academy Award for Best Picture,Q25139,Q102427,sentence from index
+60,American Beauty,award received,Academy Award for Best Actor,Q25139,Q103916,sentence from index
+61,What Ever Happened to Baby Jane?,award received,"Academy Award for Best Costume Design, Black-and-White",Q26644,Q22120095,sentence from index
+62,Men in Black,award received,Academy Award for Best Makeup and Hairstyling,Q51416,Q487136,sentence from index
+63,Gone with the Wind,award received,Academy Award for Best Picture,Q2875,Q102427,sentence from index
+64,Gone with the Wind,award received,"Academy Award for Best Writing, Adapted Screenplay",Q2875,Q107258,sentence from index
+65,Chasing Amy,award received,Independent Spirit Award for Best Screenplay,Q40115,Q1170507,sentence from index
+66,Scream,award received,Saturn Award for Best Horror Film,Q27411,Q115705,sentence from index
+67,American Beauty,award received,Academy Award for Best Director,Q25139,Q103360,sentence from index
+68,Argo,award received,Academy Award for Best Picture,Q59653,Q102427,sentence from index
+69,Argo,award received,"Academy Award for Best Writing, Adapted Screenplay",Q59653,Q107258,sentence from index
+70,Gone with the Wind,award received,Academy Award for Best Director,Q2875,Q103360,sentence from index
+71,Gone with the Wind,award received,Academy Award for Best Actress,Q2875,Q103618,sentence from index
+72,"Goodbye, Mr. Chips",award received,Academy Award for Best Actor,Q43228,Q103916,sentence from index
+73,Citizen Kane,award received,"Academy Award for Best Writing, Original Screenplay",Q24815,Q41417,sentence from index
+74,Gone with the Wind,award received,Academy Award for Best Film Editing,Q2875,Q281939,sentence from index
+75,American Beauty,award received,Dallas-Fort Worth Film Critics Association Award for Best Film,Q25139,Q5211226,sentence from index
+76,The Hidden Fortress,award received,Silver Bear for Best Director,Q39946,Q706031,sentence from index
+77,Back to Stay,award received,Golden Leopard,Q38297,Q1700510,sentence from index
+78,Scream,award received,Saturn Award for Best Writing,Q27411,Q981030,sentence from index
+79,Moon,award received,Sitges Film Festival Best Feature-Length Film award,Q26751,Q6359242,sentence from index
+80,American Beauty,award received,Academy Award for Best Cinematography,Q25139,Q131520,sentence from index
+81,The People Under the Stairs,award received,http://www.wikidata.org/entity/Q3411704,Q27338,,sentence from index
+82,Argo,award received,Academy Award for Best Film Editing,Q59653,Q281939,sentence from index
+83,The Patriots,award received,Mussolini Cup,Q52442,Q7886343,sentence from index
+84,Gone with the Wind,award received,Academy Award for Best Supporting Actress,Q2875,Q106301,sentence from index
+85,Russian Ark,award received,Nika award for the best work of the artist Costume,Q59721,Q16687981,sentence from index
+86,American Beauty,award received,National Board of Review Award for Best Film,Q25139,Q1789102,sentence from index
+87,Argo,award received,César Award for Best Foreign Film,Q59653,Q900414,sentence from index
+88,Gone with the Wind,award received,Academy Award for Best Production Design,Q2875,Q277751,sentence from index
+89,Inception,award received,Saturn Award for Best Science Fiction Film,Q25188,Q1131772,sentence from index
+90,Chasing Amy,award received,Independent Spirit Award for Best Supporting Male,Q40115,Q2294693,sentence from index
+91,Hamlet,award received,"Academy Award for Best Art Direction, Black and White",Q27178,Q22253133,sentence from index
+92,Son of the Bride,award received,http://www.wikidata.org/entity/Q111970528,Q59543,,sentence from index
+93,Titanic,award received,Academy Award for Best Cinematography,Q44578,Q131520,sentence from index
+94,The English Patient,award received,BAFTA Award for Best Film,Q63026,Q139184,sentence from index
+95,Ghost,award received,Academy Award for Best Supporting Actress,Q49003,Q106301,sentence from index
+96,Titanic,award received,Academy Award for Best Production Design,Q44578,Q277751,sentence from index
+97,The Social Network,award received,"Academy Award for Best Writing, Adapted Screenplay",Q185888,Q107258,sentence from index
+98,Titanic,award received,Academy Award for Best Visual Effects,Q44578,Q393686,sentence from index
+99,Titanic,award received,Amanda Award for Best Foreign Feature Film,Q44578,Q17748520,sentence from index

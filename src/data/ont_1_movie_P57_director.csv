@@ -1,0 +1,101 @@
+,subject,relation,object,subject_entity,object_entity,sentence
+0,Family Plot,director,Alfred Hitchcock,Q47296,Q7374,sentence from index
+1,Plumíferos,director,Dani De Felippo,Q46916,Q5798262,sentence from index
+2,Kick-Ass,director,Matthew Vaughn,Q2201,Q2593,sentence from index
+3,A Gang Story,director,Olivier Marchal,Q593,Q694259,sentence from index
+4,Fat Girl,director,Catherine Breillat,Q59503,Q289054,sentence from index
+5,The Ninth Gate,director,Roman Polanski,Q19405,Q51552,sentence from index
+6,Deathdream,director,Bob Clark,Q33671,Q526359,sentence from index
+7,Salsa,director,Joyce Buñuel,Q59660,Q3187220,sentence from index
+8,Son of the Bride,director,Juan J. Campanella,Q59543,Q726925,sentence from index
+9,Life is Beautiful,director,Roberto Benigni,Q19355,Q23301,sentence from index
+10,Farewell to Enrico Berlinguer,director,Massimo Sani,Q19303,Q3851455,sentence from index
+11,Frida,director,Julie Taymor,Q35738,Q240490,sentence from index
+12,Una spina nel cuore,director,Alberto Lattuada,Q46609,Q59204,sentence from index
+13,Dances with Wolves,director,Kevin Costner,Q20456,Q11930,sentence from index
+14,Dead like Me: Life After Death,director,Stephen Herek,Q33148,Q545669,sentence from index
+15,Johnny Stecchino,director,Roberto Benigni,Q19322,Q23301,sentence from index
+16,Nothing Left to Do But Cry,director,Massimo Troisi,Q19311,Q53035,sentence from index
+17,Farewell to Enrico Berlinguer,director,Sergio Spina,Q19303,Q3956295,sentence from index
+18,People Like Us,director,Alex Kurtzman,Q33191,Q432598,sentence from index
+19,Do Bigha Zamin,director,Bimal Roy,Q23089,Q55405,sentence from index
+20,Signs,director,M. Night Shyamalan,Q22432,Q51489,sentence from index
+21,Farewell to Enrico Berlinguer,director,Piero Vivarelli,Q19303,Q2092907,sentence from index
+22,The Intouchables,director,Olivier Nakache,Q595,Q74428,sentence from index
+23,Farewell to Enrico Berlinguer,director,Paolo Pietrangeli,Q19303,Q3894379,sentence from index
+24,The Monster,director,Roberto Benigni,Q19352,Q23301,sentence from index
+25,12 Angry Men,director,Sidney Lumet,Q2345,Q51559,sentence from index
+26,We Live in Public,director,Ondi Timoner,Q372,Q7092172,sentence from index
+27,Rear Window,director,Alfred Hitchcock,Q34414,Q7374,sentence from index
+28,Pirates of the Caribbean: The Curse of the Black Pearl,director,Gore Verbinski,Q46717,Q295463,sentence from index
+29,Seven Psychopaths,director,Martin McDonagh,Q59610,Q372394,sentence from index
+30,Pinocchio,director,Roberto Benigni,Q19356,Q23301,sentence from index
+31,Celluloide,director,Carlo Lizzani,Q34643,Q26208,sentence from index
+32,Swept Away,director,Lina Wertmüller,Q1365,Q53039,sentence from index
+33,Roadside Romeo,director,Jugal Hansraj,Q46918,Q2347167,sentence from index
+34,Nothing Left to Do But Cry,director,Roberto Benigni,Q19311,Q23301,sentence from index
+35,The Tiger and the Snow,director,Roberto Benigni,Q19358,Q23301,sentence from index
+36,Anatomy of Hell,director,Catherine Breillat,Q59531,Q289054,sentence from index
+37,Argo,director,Ben Affleck,Q59653,Q483118,sentence from index
+38,A Touch of Spice,director,Tasos Boulmetis,Q59687,Q23829745,sentence from index
+39,Mr. Deeds,director,Steven Brill,Q59595,Q345259,sentence from index
+40,Wolfhound,director,Nikolai Lebedev,Q33189,Q3341663,sentence from index
+41,Not Here to Be Loved,director,Stéphane Brizé,Q59634,Q2380085,sentence from index
+42,Farewell to Enrico Berlinguer,director,Nicolò Ferrari,Q19303,Q1987238,sentence from index
+43,Farewell to Enrico Berlinguer,director,Luigi Perelli,Q19303,Q3839996,sentence from index
+44,Planet of the Apes,director,Franklin J. Schaffner,Q59534,Q51503,sentence from index
+45,Farewell to Enrico Berlinguer,director,Paolo Bianchini,Q19303,Q3893785,sentence from index
+46,Farewell to Enrico Berlinguer,director,Roberto Russo,Q19303,Q3939129,sentence from index
+47,Farewell to Enrico Berlinguer,director,Libero Bizzarri,Q19303,Q1822962,sentence from index
+48,Farewell to Enrico Berlinguer,director,Anna Maria Tatò,Q19303,Q2850562,sentence from index
+49,The Intouchables,director,Éric Toledano,Q595,Q2778106,sentence from index
+50,"Elisa, vida mía",director,Carlos Saura,Q59612,Q295855,sentence from index
+51,Maximum Overdrive,director,Stephen King,Q46637,Q39829,sentence from index
+52,Whale Rider,director,Niki Caro,Q19393,Q449163,sentence from index
+53,The Little Devil,director,Roberto Benigni,Q19320,Q23301,sentence from index
+54,The Pleasure Is All Mine,director,Isabelle Broué,Q59530,Q15973972,sentence from index
+55,The Trial,director,David Hugh Jones,Q35725,Q1174792,sentence from index
+56,Stranger,director,Małgorzata Szumowska,Q34499,Q274265,sentence from index
+57,Fear and Loathing in Las Vegas,director,Terry Gilliam,Q23395,Q25078,sentence from index
+58,Gone with the Wind,director,Victor Fleming,Q2875,Q62503,sentence from index
+59,The Manchurian Candidate,director,Jonathan Demme,Q3589,Q48987,sentence from index
+60,Visions of Light,director,Todd McCarthy,Q24258,Q2894636,sentence from index
+61,A Fantastic Fear of Everything,director,Crispian Mills,Q3242,Q711920,sentence from index
+62,Zeitgeist: The Movie,director,Peter Joseph,Q186014,Q513726,sentence from index
+63,Van Diemen's Land,director,Jonathan auf der Heide,Q24154,Q29442224,sentence from index
+64,Rough Night in Jericho,director,Arnold Laven,Q3187,Q695676,sentence from index
+65,Shaolin,director,Benny Chan,Q24515,Q702326,sentence from index
+66,Skřítek,director,Tomáš Vorel,Q50929,Q3531480,sentence from index
+67,Alien Raiders,director,Ben Rock,Q3208,Q4886378,sentence from index
+68,Wanted,director,Timur Bekmambetov,Q4444,Q344854,sentence from index
+69,Borat,director,Larry Charles,Q186323,Q722115,sentence from index
+70,The Twilight Saga: Breaking Dawn – Part 1,director,Bill Condon,Q60506,Q361336,sentence from index
+71,It Came from Beneath the Sea,director,Robert Gordon,Q50937,Q7344862,sentence from index
+72,Eugene Onegin,director,Vasily Goncharov,Q50962,Q2372663,sentence from index
+73,The Madwoman of Chaillot,director,John Huston,Q38561,Q51575,sentence from index
+74,Delirious,director,Tom DiCillo,Q4471,Q784641,sentence from index
+75,The Madwoman of Chaillot,director,Bryan Forbes,Q38561,Q850385,sentence from index
+76,Eraserhead,director,David Lynch,Q11618,Q2071,sentence from index
+77,Red Sun,director,Terence Young,Q32790,Q314882,sentence from index
+78,The Girl from Nowhere,director,Jean-Claude Brisseau,Q38235,Q953105,sentence from index
+79,The Man Between,director,Carol Reed,Q3092,Q95143,sentence from index
+80,El astronauta,director,Javier Aguirre,Q23771,Q3163127,sentence from index
+81,The Brest Fortress,director,Alexander Kott,Q23871,Q2833792,sentence from index
+82,Mirageman,director,Ernesto Díaz Espinoza,Q4479,Q5836844,sentence from index
+83,Gone with the Wind,director,Sam Wood,Q2875,Q457269,sentence from index
+84,Eugene Onegin,director,Roman Tikhomirov,Q50961,Q4458585,sentence from index
+85,Saturday Night Fever,director,John Badham,Q47654,Q547485,sentence from index
+86,Fly Away Home,director,Carroll Ballard,Q49018,Q1045172,sentence from index
+87,Killers,director,Mike Mendez,Q185999,Q1119064,sentence from index
+88,Wheels on Meals,director,Sammo Hung,Q60792,Q311219,sentence from index
+89,Gone with the Wind,director,George Cukor,Q2875,Q56014,sentence from index
+90,The Last Airbender,director,M. Night Shyamalan,Q11593,Q51489,sentence from index
+91,A Fantastic Fear of Everything,director,Chris Hopewell,Q3242,Q5106916,sentence from index
+92,Be Like Others,director,Tanaz Eshaghian,Q33109,Q2392136,sentence from index
+93,¿¡Revolución!?,director,Charles Gervais,Q8907,Q27057303,sentence from index
+94,The Hidden Face,director,Andrés Baiz,Q24196,Q3616495,sentence from index
+95,Anna Karamazoff,director,Rustam Khamdamov,Q24340,Q24583,sentence from index
+96,Onegin,director,Martha Fiennes,Q50969,Q458730,sentence from index
+97,To Die like a Man,director,João Pedro Rodrigues,Q33139,Q782982,sentence from index
+98,Yojimbo,director,Akira Kurosawa,Q20475,Q8006,sentence from index
+99,The Godfather,director,Francis Ford Coppola,Q47703,Q56094,sentence from index

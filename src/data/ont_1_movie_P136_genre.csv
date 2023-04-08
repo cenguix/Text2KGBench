@@ -1,0 +1,101 @@
+,subject,relation,object,subject_entity,object_entity,sentence
+0,The Trial,genre,drama film,Q35725,Q130232,sentence from index
+1,Hopscotch,genre,comedy thriller,Q53095,Q16950433,sentence from index
+2,A Gang Story,genre,crime film,Q593,Q959790,sentence from index
+3,We Live in Public,genre,documentary film,Q372,Q93204,sentence from index
+4,Rear Window,genre,mystery film,Q34414,Q1200678,sentence from index
+5,People Like Us,genre,drama film,Q33191,Q130232,sentence from index
+6,Fat Girl,genre,coming-of-age fiction,Q59503,Q2975633,sentence from index
+7,Family Plot,genre,comedy film,Q47296,Q157443,sentence from index
+8,Sátántangó,genre,drama film,Q53481,Q130232,sentence from index
+9,Sátántangó,genre,art film,Q53481,Q1135802,sentence from index
+10,Family Plot,genre,mystery film,Q47296,Q1200678,sentence from index
+11,Deathdream,genre,drama film,Q33671,Q130232,sentence from index
+12,Deathdream,genre,horror film,Q33671,Q200092,sentence from index
+13,A Gang Story,genre,drama film,Q593,Q130232,sentence from index
+14,Deathdream,genre,slasher film,Q33671,Q853630,sentence from index
+15,Deathdream,genre,vampire film,Q33671,Q2137852,sentence from index
+16,Tell No One,genre,crime film,Q59567,Q959790,sentence from index
+17,Deathdream,genre,zombie film,Q33671,Q3072049,sentence from index
+18,Domino,genre,crime thriller,Q32910,Q19367312,sentence from index
+19,Planet of the Apes,genre,speculative/fantastic fiction film,Q59534,Q2973181,sentence from index
+20,Tell No One,genre,drama film,Q59567,Q130232,sentence from index
+21,Rear Window,genre,thriller film,Q34414,Q2484376,sentence from index
+22,Scarface,genre,crime film,Q47075,Q959790,sentence from index
+23,The Patriots,genre,war film,Q52442,Q369747,sentence from index
+24,Wolfhound,genre,Slavic fantasy,Q33189,Q7539366,sentence from index
+25,Family Plot,genre,thriller film,Q47296,Q2484376,sentence from index
+26,Domino,genre,action film,Q32910,Q188473,sentence from index
+27,Tell No One,genre,mystery film,Q59567,Q1200678,sentence from index
+28,Scarface,genre,drama film,Q47075,Q130232,sentence from index
+29,Red Sun,genre,Western film,Q32790,Q172980,sentence from index
+30,Anatomy of Hell,genre,pornographic film,Q59531,Q185529,sentence from index
+31,Dead like Me: Life After Death,genre,fantasy film,Q33148,Q157394,sentence from index
+32,Anatomy of Hell,genre,drama film,Q59531,Q130232,sentence from index
+33,Anatomy of Hell,genre,art film,Q59531,Q1135802,sentence from index
+34,Red Sun,genre,thriller,Q32790,Q182015,sentence from index
+35,Taxi Driver,genre,drama film,Q47221,Q130232,sentence from index
+36,The Intouchables,genre,biographical film,Q595,Q645928,sentence from index
+37,The Intouchables,genre,drama film,Q595,Q130232,sentence from index
+38,Kick-Ass,genre,superhero film,Q2201,Q1535153,sentence from index
+39,A Gang Story,genre,film noir,Q593,Q185867,sentence from index
+40,Taxi Driver,genre,vigilante film,Q47221,Q2642760,sentence from index
+41,To Die like a Man,genre,melodrama,Q33139,Q1919632,sentence from index
+42,Hopscotch,genre,comedy film,Q53095,Q157443,sentence from index
+43,In the Cut,genre,erotic film,Q59572,Q599558,sentence from index
+44,Tell No One,genre,thriller film,Q59567,Q2484376,sentence from index
+45,In the Cut,genre,erotic thriller,Q59572,Q2439025,sentence from index
+46,Kick-Ass,genre,comedy film,Q2201,Q157443,sentence from index
+47,The Intouchables,genre,comedy film,Q595,Q157443,sentence from index
+48,Moscow Does Not Believe in Tears,genre,melodrama,Q53105,Q1919632,sentence from index
+49,A Gang Story,genre,heist film,Q593,Q496523,sentence from index
+50,Saturday Night Fever,genre,musical film,Q47654,Q842256,sentence from index
+51,Nothing like the Holidays,genre,romantic comedy,Q33131,Q860626,sentence from index
+52,Planet of the Apes,genre,science fiction film,Q59534,Q471839,sentence from index
+53,In the Cut,genre,mystery film,Q59572,Q1200678,sentence from index
+54,Be Like Others,genre,documentary film,Q33109,Q93204,sentence from index
+55,Nothing like the Holidays,genre,comedy drama,Q33131,Q859369,sentence from index
+56,A Gang Story,genre,neo-noir,Q593,Q2421031,sentence from index
+57,Family Plot,genre,comedy thriller,Q47296,Q16950433,sentence from index
+58,Swept Away,genre,comedy film,Q1365,Q157443,sentence from index
+59,Hopscotch,genre,spy film,Q53095,Q2297927,sentence from index
+60,The Pleasure Is All Mine,genre,comedy film,Q59530,Q157443,sentence from index
+61,Red Sun,genre,action film,Q32790,Q188473,sentence from index
+62,Made in Dagenham,genre,comedy film,Q53096,Q157443,sentence from index
+63,Moscow Does Not Believe in Tears,genre,romance film,Q53105,Q1054574,sentence from index
+64,Taxi Driver,genre,thriller film,Q47221,Q2484376,sentence from index
+65,Wolfhound,genre,fantasy film,Q33189,Q157394,sentence from index
+66,Scarface,genre,action film,Q47075,Q188473,sentence from index
+67,In the Cut,genre,thriller film,Q59572,Q2484376,sentence from index
+68,The Upside of Anger,genre,melodrama,Q59566,Q191489,sentence from index
+69,Kick-Ass,genre,teen film,Q2201,Q1146335,sentence from index
+70,Saturday Night Fever,genre,coming-of-age fiction,Q47654,Q2975633,sentence from index
+71,Fat Girl,genre,art film,Q59503,Q1135802,sentence from index
+72,The Patriots,genre,comedy film,Q52442,Q157443,sentence from index
+73,The Upside of Anger,genre,romantic comedy,Q59566,Q860626,sentence from index
+74,Kick-Ass,genre,action film,Q2201,Q188473,sentence from index
+75,Rear Window,genre,crime film,Q34414,Q959790,sentence from index
+76,Domino,genre,biographical film,Q32910,Q645928,sentence from index
+77,The Upside of Anger,genre,comedy film,Q59566,Q157443,sentence from index
+78,Family Plot,genre,crime film,Q47296,Q959790,sentence from index
+79,The Upside of Anger,genre,sport film,Q59566,Q1339864,sentence from index
+80,Taxi Driver,genre,neo-noir,Q47221,Q2421031,sentence from index
+81,The Trial,genre,trial film,Q35725,Q3072039,sentence from index
+82,Son of the Bride,genre,romantic comedy,Q59543,Q860626,sentence from index
+83,Frida,genre,biographical film,Q35738,Q645928,sentence from index
+84,In the Cut,genre,neo-noir,Q59572,Q2421031,sentence from index
+85,Domino,genre,flashback film,Q32910,Q21401869,sentence from index
+86,Frida,genre,LGBT-related film,Q35738,Q20442589,sentence from index
+87,Rear Window,genre,detective film,Q34414,Q25533274,sentence from index
+88,Nothing like the Holidays,genre,Christmas film,Q33131,Q28026639,sentence from index
+89,The Intouchables,genre,film based on literature,Q595,Q52162262,sentence from index
+90,Wolfhound,genre,film based on a novel,Q33189,Q52207399,sentence from index
+91,Tell No One,genre,LGBT-related film,Q59567,Q20442589,sentence from index
+92,The Trial,genre,dystopian film,Q35725,Q20443008,sentence from index
+93,Planet of the Apes,genre,dystopian film,Q59534,Q20443008,sentence from index
+94,Tell No One,genre,flashback film,Q59567,Q21401869,sentence from index
+95,Anatomy of Hell,genre,LGBT-related film,Q59531,Q20442589,sentence from index
+96,Frida,genre,film based on books,Q35738,Q52207310,sentence from index
+97,Family Plot,genre,film based on a novel,Q47296,Q52207399,sentence from index
+98,Planet of the Apes,genre,film based on a novel,Q59534,Q52207399,sentence from index
+99,To Die like a Man,genre,LGBT-related film,Q33139,Q20442589,sentence from index

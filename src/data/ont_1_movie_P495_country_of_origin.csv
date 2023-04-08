@@ -1,0 +1,101 @@
+,subject,relation,object,subject_entity,object_entity,sentence
+0,Drunken Master III,country of origin,Hong Kong,Q56864,Q8646,sentence from index
+1,To Live and Die in Tsimshatsui,country of origin,Hong Kong,Q56862,Q8646,sentence from index
+2,Varudu,country of origin,India,Q59495,Q668,sentence from index
+3,National Lampoon's Van Wilder,country of origin,United States of America,Q18967,Q30,sentence from index
+4,Jeon Woo Chi,country of origin,South Korea,Q51173,Q884,sentence from index
+5,Birthday Girl,country of origin,United States of America,Q18964,Q30,sentence from index
+6,American Beauty,country of origin,United States of America,Q25139,Q30,sentence from index
+7,The Broken Coin,country of origin,United States of America,Q24732,Q30,sentence from index
+8,Be Like Others,country of origin,Canada,Q33109,Q16,sentence from index
+9,Cloud Atlas,country of origin,Hong Kong,Q28936,Q8646,sentence from index
+10,Be Like Others,country of origin,Iran,Q33109,Q794,sentence from index
+11,Moscow Does Not Believe in Tears,country of origin,Soviet Union,Q53105,Q15180,sentence from index
+12,Cloud Atlas,country of origin,Singapore,Q28936,Q334,sentence from index
+13,Men of Israel,country of origin,Israel,Q36190,Q801,sentence from index
+14,Map of the Human Heart,country of origin,Australia,Q32424,Q408,sentence from index
+15,Van Diemen's Land,country of origin,Australia,Q24154,Q408,sentence from index
+16,Map of the Human Heart,country of origin,Canada,Q32424,Q16,sentence from index
+17,Duelist,country of origin,South Korea,Q51734,Q884,sentence from index
+18,Visions of Light,country of origin,Japan,Q24258,Q17,sentence from index
+19,The Sons of Great Bear,country of origin,German Democratic Republic,Q323401,Q16957,sentence from index
+20,Abhijan,country of origin,India,Q320574,Q668,sentence from index
+21,The King and the Clown,country of origin,South Korea,Q51743,Q884,sentence from index
+22,Citizen Kane,country of origin,United States of America,Q24815,Q30,sentence from index
+23,"Zemlya, do vostrebovaniya",country of origin,Soviet Union,Q36169,Q15180,sentence from index
+24,The Patriots,country of origin,Soviet Union,Q52442,Q15180,sentence from index
+25,Gangster Squad,country of origin,Australia,Q27751,Q408,sentence from index
+26,The Hidden Fortress,country of origin,Japan,Q39946,Q17,sentence from index
+27,Wonderful Apples,country of origin,Soviet Union,Q48904,Q15180,sentence from index
+28,Rotation,country of origin,German Democratic Republic,Q323359,Q16957,sentence from index
+29,Do Bigha Zamin,country of origin,India,Q23089,Q668,sentence from index
+30,Mirageman,country of origin,Chile,Q4479,Q298,sentence from index
+31,Mother,country of origin,Soviet Union,Q29816,Q15180,sentence from index
+32,Vaa Arugil Vaa,country of origin,India,Q4005,Q668,sentence from index
+33,Mama,country of origin,Canada,Q29446,Q16,sentence from index
+34,Son of the Bride,country of origin,Argentina,Q59543,Q414,sentence from index
+35,Domino,country of origin,United States of America,Q32910,Q30,sentence from index
+36,Der Untertan,country of origin,German Democratic Republic,Q316628,Q16957,sentence from index
+37,Bichhoo,country of origin,India,Q16453,Q668,sentence from index
+38,Frida,country of origin,Canada,Q35738,Q16,sentence from index
+39,Samar,country of origin,India,Q58118,Q668,sentence from index
+40,Anna Karamazoff,country of origin,Soviet Union,Q24340,Q15180,sentence from index
+41,Pay or Die,country of origin,United States of America,Q25086,Q30,sentence from index
+42,Charisma,country of origin,Japan,Q25518,Q17,sentence from index
+43,Apollo 18,country of origin,Canada,Q29733,Q16,sentence from index
+44,Yor-yor,country of origin,Soviet Union,Q32686,Q15180,sentence from index
+45,The Housemaid,country of origin,South Korea,Q49729,Q884,sentence from index
+46,Curse of the Golden Flower,country of origin,Hong Kong,Q51737,Q8646,sentence from index
+47,The Kick,country of origin,Thailand,Q52021,Q869,sentence from index
+48,Opera House,country of origin,India,Q56768,Q668,sentence from index
+49,The Kick,country of origin,South Korea,Q52021,Q884,sentence from index
+50,Akele Hum Akele Tum,country of origin,India,Q58619,Q668,sentence from index
+51,Deathdream,country of origin,Canada,Q33671,Q16,sentence from index
+52,Shaolin,country of origin,Hong Kong,Q24515,Q8646,sentence from index
+53,Jab Tak Hai Jaan,country of origin,India,Q44280,Q668,sentence from index
+54,Yojimbo,country of origin,Japan,Q20475,Q17,sentence from index
+55,Heading South,country of origin,Canada,Q59426,Q16,sentence from index
+56,Paradesi,country of origin,India,Q60818,Q668,sentence from index
+57,Hotel Rwanda,country of origin,South Africa,Q223884,Q258,sentence from index
+58,The Master,country of origin,Hong Kong,Q28312,Q8646,sentence from index
+59,We Live in Public,country of origin,United States of America,Q372,Q30,sentence from index
+60,30 Minutes or Less,country of origin,Canada,Q224133,Q16,sentence from index
+61,Gorgeous,country of origin,Hong Kong,Q60794,Q8646,sentence from index
+62,Between Shanghai and St. Pauli,country of origin,West Germany,Q244883,Q713750,sentence from index
+63,Harmony,country of origin,Japan,Q40085,Q17,sentence from index
+64,Iron Eagle,country of origin,Canada,Q39956,Q16,sentence from index
+65,The Hidden Face,country of origin,Colombia,Q24196,Q739,sentence from index
+66,Ghost Rider,country of origin,Australia,Q41754,Q408,sentence from index
+67,The Godfather,country of origin,United States of America,Q47703,Q30,sentence from index
+68,High and Low,country of origin,Japan,Q244878,Q17,sentence from index
+69,Cabaret Balkan,country of origin,Federal Republic of Yugoslavia,Q60021,Q838261,sentence from index
+70,The Kautokeino Rebellion,country of origin,Norway,Q62513,Q20,sentence from index
+71,Wheels on Meals,country of origin,Hong Kong,Q60792,Q8646,sentence from index
+72,Back to Stay,country of origin,Argentina,Q38297,Q414,sentence from index
+73,Steal,country of origin,Canada,Q43925,Q16,sentence from index
+74,In the Cut,country of origin,Australia,Q59572,Q408,sentence from index
+75,Jaded,country of origin,United States of America,Q24618,Q30,sentence from index
+76,Eugene Onegin,country of origin,Soviet Union,Q50961,Q15180,sentence from index
+77,Ghost Rider: Spirit of Vengeance,country of origin,United Arab Emirates,Q41854,Q878,sentence from index
+78,Confession of Murder,country of origin,South Korea,Q28289,Q884,sentence from index
+79,Iron Eagle II,country of origin,Israel,Q39960,Q801,sentence from index
+80,Tokyo Story,country of origin,Japan,Q26060,Q17,sentence from index
+81,Russian Ark,country of origin,Afghanistan,Q59721,Q889,sentence from index
+82,Russian Ark,country of origin,Japan,Q59721,Q17,sentence from index
+83,Friesennot,country of origin,Nazi Germany,Q320288,Q7318,sentence from index
+84,Whale Rider,country of origin,New Zealand,Q19393,Q664,sentence from index
+85,The Ninth Gate,country of origin,Spain,Q19405,Q29,sentence from index
+86,Two Weeks in Another Town,country of origin,Italy,Q59240,Q38,sentence from index
+87,Salsa,country of origin,Spain,Q59660,Q29,sentence from index
+88,The Clowns,country of origin,Italy,Q18421,Q38,sentence from index
+89,The Monster,country of origin,Italy,Q19352,Q38,sentence from index
+90,Barbarella,country of origin,Italy,Q41132,Q38,sentence from index
+91,Cloud Atlas,country of origin,Spain,Q28936,Q29,sentence from index
+92,The Queen,country of origin,Italy,Q223367,Q38,sentence from index
+93,Ginger and Fred,country of origin,Italy,Q18439,Q38,sentence from index
+94,The Day of the Owl,country of origin,Italy,Q38815,Q38,sentence from index
+95,"The Good, the Bad and the Ugly",country of origin,Spain,Q41483,Q29,sentence from index
+96,"The Good, the Bad and the Ugly",country of origin,Italy,Q41483,Q38,sentence from index
+97,Pinocchio,country of origin,Italy,Q19356,Q38,sentence from index
+98,Between Shanghai and St. Pauli,country of origin,Italy,Q244883,Q38,sentence from index
+99,The Midas Touch,country of origin,Hungary,Q51121,Q28,sentence from index
