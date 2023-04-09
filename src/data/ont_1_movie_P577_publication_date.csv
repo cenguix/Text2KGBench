@@ -1,101 +1,251 @@
 ,subject,relation,object,subject_entity,object_entity,sentence
-0,Scarface,publication date,1983-01-01T00:00:00Z,Q47075,,sentence from index
-1,Scarface,publication date,1983-12-09T00:00:00Z,Q47075,,sentence from index
-2,Scarface,publication date,1984-03-09T00:00:00Z,Q47075,,sentence from index
-3,Aftermath,publication date,2004-03-26T00:00:00Z,Q24910,,sentence from index
-4,Monty Python’s Life of Brian,publication date,1979-01-01T00:00:00Z,Q24953,,sentence from index
-5,Monty Python’s Life of Brian,publication date,1979-08-17T00:00:00Z,Q24953,,sentence from index
-6,Monty Python’s Life of Brian,publication date,1979-11-08T00:00:00Z,Q24953,,sentence from index
-7,Monty Python’s Life of Brian,publication date,1980-08-14T00:00:00Z,Q24953,,sentence from index
-8,Anatomy of Hell,publication date,2004-01-01T00:00:00Z,Q59531,,sentence from index
-9,July 14,publication date,1933-01-14T00:00:00Z,Q24585,,sentence from index
-10,July 14,publication date,1932-01-01T00:00:00Z,Q24585,,sentence from index
-11,A Gang Story,publication date,2011-11-10T00:00:00Z,Q593,,sentence from index
-12,Jaded,publication date,1998-01-01T00:00:00Z,Q24618,,sentence from index
-13,The Haunted Castle,publication date,1960-12-15T00:00:00Z,Q24933,,sentence from index
-14,We Live in Public,publication date,2009-01-19T00:00:00Z,Q372,,sentence from index
-15,The Broken Coin,publication date,1915-01-01T00:00:00Z,Q24732,,sentence from index
-16,The Last Winter,publication date,1960-09-30T00:00:00Z,Q24911,,sentence from index
-17,Planet of the Apes,publication date,1968-05-03T00:00:00Z,Q59534,,sentence from index
-18,Planet of the Apes,publication date,1968-02-08T00:00:00Z,Q59534,,sentence from index
-19,Fat Girl,publication date,2001-01-01T00:00:00Z,Q59503,,sentence from index
-20,The Intouchables,publication date,2011-09-23T00:00:00Z,Q595,,sentence from index
-21,The Intouchables,publication date,2012-01-05T00:00:00Z,Q595,,sentence from index
-22,The Intouchables,publication date,2012-05-25T00:00:00Z,Q595,,sentence from index
-23,Kick-Ass,publication date,2010-03-12T00:00:00Z,Q2201,,sentence from index
-24,Kick-Ass,publication date,2010-04-22T00:00:00Z,Q2201,,sentence from index
-25,Kick-Ass,publication date,2010-06-17T00:00:00Z,Q2201,,sentence from index
-26,Family Plot,publication date,1976-03-21T00:00:00Z,Q47296,,sentence from index
-27,Family Plot,publication date,1976-04-09T00:00:00Z,Q47296,,sentence from index
-28,Family Plot,publication date,1976-05-28T00:00:00Z,Q47296,,sentence from index
-29,Family Plot,publication date,1976-07-08T00:00:00Z,Q47296,,sentence from index
-30,Family Plot,publication date,1976-07-21T00:00:00Z,Q47296,,sentence from index
-31,Family Plot,publication date,1976-08-06T00:00:00Z,Q47296,,sentence from index
-32,Family Plot,publication date,1976-08-16T00:00:00Z,Q47296,,sentence from index
-33,Family Plot,publication date,1976-08-19T00:00:00Z,Q47296,,sentence from index
-34,Family Plot,publication date,1976-08-27T00:00:00Z,Q47296,,sentence from index
-35,Family Plot,publication date,1976-08-28T00:00:00Z,Q47296,,sentence from index
-36,The Pleasure Is All Mine,publication date,2004-01-01T00:00:00Z,Q59530,,sentence from index
-37,Argo,publication date,2012-08-31T00:00:00Z,Q59653,,sentence from index
-38,Argo,publication date,2012-11-08T00:00:00Z,Q59653,,sentence from index
-39,Argo,publication date,2012-11-22T00:00:00Z,Q59653,,sentence from index
-40,Taxi Driver,publication date,1976-02-07T00:00:00Z,Q47221,,sentence from index
-41,Taxi Driver,publication date,1976-10-07T00:00:00Z,Q47221,,sentence from index
-42,Taxi Driver,publication date,1977-03-12T00:00:00Z,Q47221,,sentence from index
-43,Son of the Bride,publication date,2001-01-01T00:00:00Z,Q59543,,sentence from index
-44,Rough Night in Jericho,publication date,1967-01-01T00:00:00Z,Q3187,,sentence from index
-45,The Manchurian Candidate,publication date,2004-01-01T00:00:00Z,Q3589,,sentence from index
-46,A Fantastic Fear of Everything,publication date,2012-01-01T00:00:00Z,Q3242,,sentence from index
-47,Nic śmiesznego,publication date,1996-02-02T00:00:00Z,Q54982,,sentence from index
-48,Swept Away,publication date,2004-08-06T00:00:00Z,Q1365,,sentence from index
-49,Skyfall,publication date,2012-10-23T00:00:00Z,Q4941,,sentence from index
-50,Percy's Progress,publication date,1974-01-01T00:00:00Z,Q4815,,sentence from index
-51,I Hate Mondays,publication date,1971-01-01T00:00:00Z,Q54981,,sentence from index
-52,Małżeństwo z rozsądku,publication date,1967-01-01T00:00:00Z,Q54978,,sentence from index
-53,A Jungle Book of Regulations,publication date,1974-12-25T00:00:00Z,Q54983,,sentence from index
-54,Bloodbath at the House of Death,publication date,1984-01-01T00:00:00Z,Q4733,,sentence from index
-55,Kingsajz,publication date,1987-01-01T00:00:00Z,Q54976,,sentence from index
-56,Mąż swojej żony,publication date,1961-01-01T00:00:00Z,Q54980,,sentence from index
-57,Mąż swojej żony,publication date,1960-01-01T00:00:00Z,Q54980,,sentence from index
-58,Percy,publication date,1971-01-01T00:00:00Z,Q4657,,sentence from index
-59,Drop Dead Fred,publication date,1991-01-01T00:00:00Z,Q53703,,sentence from index
-60,Drop Dead Fred,publication date,1992-06-04T00:00:00Z,Q53703,,sentence from index
-61,Kiler-ów 2-óch,publication date,1999-01-01T00:00:00Z,Q54975,,sentence from index
-62,Citizen Kane,publication date,1946-07-03T00:00:00Z,Q24815,,sentence from index
-63,Pirates of the Caribbean: At World's End,publication date,2007-05-23T00:00:00Z,Q54274,,sentence from index
-64,Pirates of the Caribbean: At World's End,publication date,2007-05-24T00:00:00Z,Q54274,,sentence from index
-65,Pirates of the Caribbean: At World's End,publication date,2007-05-25T00:00:00Z,Q54274,,sentence from index
-66,Teddy Bear,publication date,1980-01-01T00:00:00Z,Q54979,,sentence from index
-67,Citizen Kane,publication date,1941-05-01T00:00:00Z,Q24815,,sentence from index
-68,Son of the Bride,publication date,2002-12-26T00:00:00Z,Q59543,,sentence from index
-69,Gone with the Wind,publication date,1939-12-15T00:00:00Z,Q2875,,sentence from index
-70,The Godfather,publication date,1972-03-15T00:00:00Z,Q47703,,sentence from index
-71,The Godfather,publication date,1972-08-24T00:00:00Z,Q47703,,sentence from index
-72,The Godfather,publication date,1972-09-27T00:00:00Z,Q47703,,sentence from index
-73,The Godfather,publication date,1972-10-18T00:00:00Z,Q47703,,sentence from index
-74,Kiler,publication date,1997-01-01T00:00:00Z,Q54974,,sentence from index
-75,Looper,publication date,2012-01-01T00:00:00Z,Q53719,,sentence from index
-76,Looper,publication date,2012-09-06T00:00:00Z,Q53719,,sentence from index
-77,Looper,publication date,2012-09-27T00:00:00Z,Q53719,,sentence from index
-78,Looper,publication date,2012-09-28T00:00:00Z,Q53719,,sentence from index
-79,Looper,publication date,2012-10-03T00:00:00Z,Q53719,,sentence from index
-80,The Oranges,publication date,2011-01-01T00:00:00Z,Q4739,,sentence from index
-81,Swept Away,publication date,1974-12-19T00:00:00Z,Q1365,,sentence from index
-82,Swept Away,publication date,1975-09-17T00:00:00Z,Q1365,,sentence from index
-83,The Oranges,publication date,2012-12-13T00:00:00Z,Q4739,,sentence from index
-84,Swept Away,publication date,1975-11-27T00:00:00Z,Q1365,,sentence from index
-85,Swept Away,publication date,1976-05-05T00:00:00Z,Q1365,,sentence from index
-86,Swept Away,publication date,1976-06-09T00:00:00Z,Q1365,,sentence from index
-87,Swept Away,publication date,1976-11-06T00:00:00Z,Q1365,,sentence from index
-88,Swept Away,publication date,1978-05-27T00:00:00Z,Q1365,,sentence from index
-89,Cleopatra,publication date,1963-06-12T00:00:00Z,Q4430,,sentence from index
-90,Mr. Deeds,publication date,2002-06-28T00:00:00Z,Q59595,,sentence from index
-91,Mr. Deeds,publication date,2002-08-15T00:00:00Z,Q59595,,sentence from index
-92,Swept Away,publication date,1982-03-25T00:00:00Z,Q1365,,sentence from index
-93,Swept Away,publication date,1984-03-19T00:00:00Z,Q1365,,sentence from index
-94,Wanted,publication date,2008-06-12T00:00:00Z,Q4444,,sentence from index
-95,Wanted,publication date,2008-06-27T00:00:00Z,Q4444,,sentence from index
-96,Wanted,publication date,2008-09-04T00:00:00Z,Q4444,,sentence from index
-97,Gorgeous,publication date,1999-01-01T00:00:00Z,Q60794,,sentence from index
-98,Seven Psychopaths,publication date,2012-01-01T00:00:00Z,Q59610,,sentence from index
-99,Marcellino,publication date,1991-01-01T00:00:00Z,Q58553,,sentence from index
+0,Rear Window,publication date,01 January 1954,Q34414,,Rear Window was screened at the 1954 Venice Film Festival.
+1,A Gang Story,publication date,10 November 2011,Q593,,A Gang Story (French: Les Lyonnais) is a 2011 French drama film directed by Olivier Marchal.
+2,We Live in Public,publication date,19 January 2009,Q372,,"WE LIVE IN PUBLIC is a 2009 documentary film by Ondi Timoner, which profiles Internet pioneer Josh Harris."
+3,The Broken Coin,publication date,01 January 1915,Q24732,,The Broken Coin is a 1915 American adventure-mystery film serial directed by Francis Ford.
+4,Citizen Kane,publication date,01 May 1941,Q24815,,Principal photography took place in 1940 and the film received Citizen Kane's American release in 1941.
+5,Jack the Giant Slayer,publication date,01 January 2013,Q27513,,"Jack the Giant Slayer (previously titled Jack the Giant Killer) is a 2013 American fantasy adventure film directed and co-produced by Bryan Singer and written by Darren Lemke, Christopher McQuarrie and Dan Studney, from a story by Lemke and David Dobkin."
+6,Jack the Giant Slayer,publication date,14 March 2013,Q27513,,"Jack the Giant Slayer (previously titled Jack the Giant Killer) is a 2013 American fantasy adventure film directed and co-produced by Bryan Singer and written by Darren Lemke, Christopher McQuarrie and Dan Studney, from a story by Lemke and David Dobkin."
+7,Red Sun,publication date,01 January 1971,Q32790,,"Red Sun (French: Soleil rouge, Italian: Sole rosso) is a 1971 Spaghetti Western film directed by Terence Young and starring Charles Bronson, ToshirÅ Mifune, Alain Delon, Ursula Andress, and Capucine."
+8,The Intouchables,publication date,23 September 2011,Q595,,The film was voted the cultural event of 2011 in France with 52% of votes in a poll by Fnac.
+9,Taxi Driver,publication date,07 February 1976,Q47221,,"A critical and commercial success upon release and nominated for four Academy Awards, including for Best Picture, Best Actor (for De Niro) and Best Supporting Actress (for Foster), Taxi Driver won the Palme d'Or at the 1976 Cannes Film Festival."
+10,Taxi Driver,publication date,07 October 1976,Q47221,,"A critical and commercial success upon release and nominated for four Academy Awards, including for Best Picture, Best Actor (for De Niro) and Best Supporting Actress (for Foster), Taxi Driver won the Palme d'Or at the 1976 Cannes Film Festival."
+11,Monty Python's The Meaning of Life,publication date,01 January 1983,Q24980,,"Monty Python's The Meaning of Life, also known simply as The Meaning of Life, is a 1983 British musical sketch comedy film written and performed by the Monty Python troupe, directed by Terry Jones."
+12,Be Like Others,publication date,01 January 2008,Q33109,,Be Like Others (also known as Transsexual in Iran) is a 2008 documentary film written and directed by Tanaz Eshaghian about transsexuals in Iran.
+13,Dead like Me: Life After Death,publication date,01 January 2009,Q33148,,"Dead like Me: Life After Death is a 2009 American fantasy comedy-drama film directed by Stephen Herek and written by John Masius and Stephen Godchaux, based on the short-lived 2003 television series Dead Like Me, created by Bryan Fuller."
+14,Frida,publication date,29 August 2002,Q35738,,Frida is a 2002 American biographical drama film directed by Julie Taymor which depicts the professional and private life of the surrealist Mexican artist Frida Kahlo.
+15,Celluloide,publication date,01 January 1996,Q34643,,Celluloide is a 1996 Italian film directed by Carlo Lizzani.
+16,Nothing like the Holidays,publication date,01 January 2008,Q33131,,"Nothing Like the Holidays is a 2008 film about a Puerto Rican family living in the area of Humboldt Park, Chicago facing what may be their last Christmas together."
+17,Confession of Murder,publication date,08 November 2012,Q28289,,"""I Am the Murderer"") is a 2012 South Korean action thriller film directed by Jung Byung-gil, starring Jung Jae-young and Park Si-hoo."
+18,To Die like a Man,publication date,01 January 2009,Q33139,,"To Die like a Man (Portuguese: Morrer Como Um Homem) is a 2009 Portuguese drama film directed by JoÃ£o Pedro Rodrigues, produced by the production company Rosa Filmes."
+19,Family Plot,publication date,01 January 1976,Q47296,,Family Plot is a 1976 American Technicolor comedy thriller that was the final film directed by Alfred Hitchcock.
+20,The Death and Life of Bobby Z,publication date,01 January 2007,Q38486,,"The Death and Life of Bobby Z, also known as Bobby Z and Let's Kill Bobby Z, is a 2007 American-German action film, directed by John Herzfeld, and starring Paul Walker, Laurence Fishburne, Olivia Wilde and Joaquim de Almeida."
+21,Inception,publication date,08 July 2010,Q25188,,"Considered one of the best films of the 2010s, Inception received critical praise for its screenplay, direction, themes, visual effects, musical score, and ensemble cast."
+22,Inception,publication date,22 July 2010,Q25188,,"Considered one of the best films of the 2010s, Inception received critical praise for its screenplay, direction, themes, visual effects, musical score, and ensemble cast."
+23,Inception,publication date,29 July 2010,Q25188,,"Considered one of the best films of the 2010s, Inception received critical praise for its screenplay, direction, themes, visual effects, musical score, and ensemble cast."
+24,The File of the Golden Goose,publication date,01 January 1969,Q38143,,"The File of the Golden Goose is a 1969 British thriller film directed by Sam Wanamaker and starring Yul Brynner, Charles Gray and Edward Woodward."
+25,Love on the Ground,publication date,01 January 1984,Q25508,,Love on the Ground (French: L'Amour par terre) is a 1984 French film directed by Jacques Rivette.
+26,Men of Israel,publication date,01 January 2009,Q36190,,Men of Israel is a 2009 gay pornographic film released by Lucas Entertainment studio.
+27,Ammavin Kaipesi,publication date,01 January 2012,Q25482,,Ammavin Kaipesi was among 2012 Deepavali releases and was released along with Podaa Podi and Thuppakki receiving mixed to positive reviews.
+28,Special Effects: Anything Can Happen,publication date,01 January 1996,Q8547,,Special Effects : Anything Can Happen was released to IMAX theaters in 1996.
+29,Percy's Progress,publication date,01 January 1974,Q4815,,Percy's Progress is a 1974 British comedy film directed by Ralph Thomas.
+30,Life or Something Like It,publication date,01 January 2002,Q29871,,Life or Something Like It is a 2002 American romantic comedy/drama film directed by Stephen Herek.
+31,A Fantastic Fear of Everything,publication date,01 January 2012,Q3242,,"A Fantastic Fear of Everything is a 2012 British horror comedy film starring Simon Pegg, written and directed by Crispian Mills with Chris Hopewell as co-director."
+32,Alien Raiders,publication date,01 January 2008,Q3208,,"Alien Raiders is a 2008 American science fiction horror film, starring Carlos Bernard, Rockmond Dunbar and Mathew St. Patrick."
+33,Mallrats,publication date,01 January 1995,Q39999,,"Mallrats is a 1995 American buddy comedy film written and directed by Kevin Smith and starring Jason Lee, Jeremy London, Shannen Doherty, Claire Forlani, Ben Affleck, Jason Mewes, Joey Lauren Adams, Michael Rooker, and Smith himself."
+34,Bandits in Milan,publication date,01 January 1968,Q25994,,Bandits in Milan (Italian: Banditi a Milano; also known as The Violent Four) is a 1968 Italian crime film directed by Carlo Lizzani.
+35,Strike Commando 2,publication date,01 January 1988,Q25947,,"Strike Commando 2 (also known as Trappola diabolica) is a 1988 Italian English-language action film, starring Brent Huff, Richard Harris and Mary Stavin."
+36,Reap the Wild Wind,publication date,01 January 1942,Q31971,,"Reap the Wild Wind is an American 1942 adventure film starring Ray Milland, John Wayne, Paulette Goddard, Robert Preston, and Susan Hayward, and directed by Cecil B. DeMille, his second picture to be filmed in color."
+37,Flight from Ashiya,publication date,01 January 1964,Q25506,,"Flight from Ashiya (aka Ashiya Kara no hiko) is a 1964 film about the U.S. Air Force's Air Rescue Service, flying from Ashiya Air Base, Japan."
+38,Skyfall,publication date,23 October 2012,Q4941,,"Skyfall became the seventh-highest-grossing film of all time, the highest-grossing film in the UK, the highest-grossing film in the series, the highest-grossing film worldwide for both Sony Pictures and MGM, and the second highest-grossing film of 2012."
+39,The Hidden Fortress,publication date,25 December 1958,Q39946,,"The Hidden Fortress (, Kakushi toride no san akunin, literally, ""The Three Villains of the Hidden Fortress"") is a 1958 jidaigeki adventure film directed by Akira Kurosawa."
+40,200 Cigarettes,publication date,01 January 1999,Q40071,,200 Cigarettes is a 1999 American comedy film directed by Risa Bramon Garcia and written by Shana Larsen.
+41,Paris Belongs to Us,publication date,01 January 1961,Q25513,,"Paris Belongs to Us (French: Paris nous appartient, sometimes translated as Paris Is Ours) is a 1961 French mystery film directed by Jacques Rivette."
+42,Vaa Arugil Vaa,publication date,01 January 1991,Q4005,,"'Come closer, come') is a 1991 Tamil language horror film starring Ramya Krishnan."
+43,Iron Eagle,publication date,01 January 1986,Q39956,,"Iron Eagle is a 1986 military action film directed by Sidney J. Furie, co-written by Kevin Alyn Elders and starring Jason Gedrick and Louis Gossett Jr."
+44,¿¡Revolución!?,publication date,01 January 2006,Q8907,,"As part of the Rencontres internationales du documentaire de Montréal film festival, first screenings occurred on November 10 and 14, 2006 at the Cinéma ONF in Montreal."
+45,Iron Eagle II,publication date,01 January 1988,Q39960,,Iron Eagle II (also titled Iron Eagle II: The Battle Beyond the Flag) is a 1988 military action film directed by Sidney J. Furie and written by Furie and Kevin Alyn Elders.
+46,Adhisaya Manithan,publication date,01 January 1990,Q3998,,"Adhisaya Manithan (English: Mysterious Human) is a 1990 Tamil Slasher film, produced by Thakkali Srinivasan and directed by Velu Prabhakaran."
+47,Le Pont du Nord,publication date,01 January 1981,Q25503,,Le Pont du Nord is a 1981 French film directed by Jacques Rivette.
+48,My Forbidden Past,publication date,01 January 1951,Q39422,,My Forbidden Past is a 1951 film directed by Robert Stevenson.
+49,Pay or Die,publication date,01 January 1960,Q25086,,"Pay or Die is a 1960 American biographical and crime film directed by Richard Wilson and starring Ernest Borgnine, Zohra Lampert, Howard Caine, Alan Austin, and Robert F. Simon."
+50,Back to Stay,publication date,08 August 2011,Q38297,,The film won the Golden Leopard at the 2011 Locarno International Film Festival and the Golden Astor at the Mar del Plata International Film Festival.
+51,The Girl from Nowhere,publication date,08 August 2012,Q38235,,The Girl from Nowhere (French: La Fille de nulle part) is a 2012 French drama film directed by Jean-Claude Brisseau.
+52,Aces: Iron Eagle III,publication date,09 January 1992,Q39969,,"Aces: Iron Eagle III is a 1992 military action film directed by John Glen, produced by Ron Samuels, and written by Kevin Alyn Elders."
+53,School Ties,publication date,01 January 1992,Q40074,,"School Ties is a 1992 American sports-drama film directed by Robert Mandel and starring Brendan Fraser, Matt Damon, Ben Affleck, Chris O'Donnell, Cole Hauser, Randall Batinkoff, Andrew Lowery and Anthony Rapp."
+54,Pirates II: Stagnetti's Revenge,publication date,27 September 2008,Q7216,,Pirates II: Stagnetti's Revenge is a 2008 American pornographic action-adventure film and sequel to the 2005 film Pirates.
+55,"Up, Down, Fragile",publication date,01 January 1995,Q25617,,"Up, Down, Fragile (French: Haut bas fragile) is a 1995 French film directed by Jacques Rivette."
+56,More Than a Miracle,publication date,01 January 1967,Q31786,,More Than a Miracle (Italian: C'era una volta) is a 1967 film also titled Cinderella Italian Style and Happily Ever After.
+57,Assassination Games,publication date,01 January 2011,Q31540,,Assassination Games is a 2011 American action thriller film directed by Ernie Barbarash and starring Jean-Claude van Damme and Scott Adkins with Ivan Kaye as their main antagonist.
+58,Invitation to a Gunfighter,publication date,01 January 1964,Q25466,,"Invitation to a Gunfighter is a 1964 DeLuxe Color western directed by Richard Wilson, starring Yul Brynner and George Segal."
+59,Matchstick Men,publication date,01 January 2003,Q4536,,"Matchstick Men is a 2003 black comedy crime film directed by Ridley Scott, and based on Eric Garcia's 2002 novel of the same name."
+60,Testament of Orpheus,publication date,01 January 1960,Q25521,,Testament of Orpheus (French: Le testament d'OrphÃ©e) is a 1960 black-and-white film with a few seconds of color film spliced in.
+61,Hurlevent,publication date,01 January 1985,Q25524,,Hurlevent (Howling wind) is a 1985 French drama film directed by Jacques Rivette.
+62,Unakkaga Ellam Unakkaga,publication date,01 January 1999,Q25539,,"is a 1999 Indian Tamil-language romantic comedy film written and directed by Sundar C., starring Karthik and Rambha with Goundamani, Vivek, Vinu Chakravarthy, Anju among others in supporting roles."
+63,The American Soldier,publication date,01 January 1970,Q25600,,The American Soldier (German: Der amerikanische Soldat) is a 1970 West German film written and directed by Rainer Werner Fassbinder.
+64,Escape from Zahrain,publication date,01 January 1962,Q25471,,"Escape from Zahrain is a 1962 American action film directed by Ronald Neame and starring Yul Brynner, Sal Mineo, Jack Warden, Madlyn Rhue and Anthony Caruso."
+65,Cast a Giant Shadow,publication date,01 January 1966,Q25835,,"Cast a Giant Shadow is a 1966 big-budget action film based on the life of Colonel Mickey Marcus, and stars Kirk Douglas, Senta Berger, Yul Brynner, John Wayne, Frank Sinatra and Angie Dickinson."
+66,Matchstick Men,publication date,18 September 2003,Q4536,,"Matchstick Men is a 2003 black comedy crime film directed by Ridley Scott, and based on Eric Garcia's 2002 novel of the same name."
+67,Die Another Day,publication date,22 November 2002,Q30931,,Die Another Day is a 2002 spy film and the twentieth film in the James Bond series produced by Eon Productions.
+68,Die Another Day,publication date,28 November 2002,Q30931,,Die Another Day is a 2002 spy film and the twentieth film in the James Bond series produced by Eon Productions.
+69,The Company Men,publication date,01 January 2010,Q31791,,"The Company Men premiered at the 26th Sundance Film Festival on JanuaryÂ 22, 2010 and had a one-week run in DecemberÂ 10, 2010 to be eligible for the year's Academy Awards."
+70,The Company Men,publication date,07 July 2011,Q31791,,"The movie was released commercially in the United States and Canada on JanuaryÂ 21, 2011."
+71,Kings of the Sun,publication date,01 January 1963,Q25858,,Kings of the Sun is a 1963 DeLuxe Color film directed by J. Lee Thompson for Mirisch Productions set in Mesoamerica at the time of the conquest of Chichen Itza by Hunac Ceel.
+72,Black Box BRD,publication date,24 May 2001,Q25454,,"Black Box BRD was screened at a number of festivals and won several awards in 2001 and 2002, including the 2002 German Film Award for Best Documentary Film and the 2001 European Film Award."
+73,The Godfather,publication date,15 March 1972,Q47703,,"The Godfather was the highest-grossing film of 1972, and was for a time the highest-grossing film ever made, earning between $246 and $287 million at the box office."
+74,The Godfather,publication date,24 August 1972,Q47703,,"The Godfather was the highest-grossing film of 1972, and was for a time the highest-grossing film ever made, earning between $246 and $287 million at the box office."
+75,The Godfather,publication date,27 September 1972,Q47703,,"The Godfather was the highest-grossing film of 1972, and was for a time the highest-grossing film ever made, earning between $246 and $287 million at the box office."
+76,The Seventh Victim,publication date,01 January 1943,Q31212,,"The Seventh Victim is a 1943 American horror film noir directed by Mark Robson and starring Tom Conway, Jean Brooks, Isabel Jewell, Kim Hunter, and Hugh Beaumont."
+77,Podaa Podi,publication date,01 January 2012,Q26162,,"Go boy, go girl) is a 2012 Indian Tamil-language musical romantic comedy film written and directed by debutant Vignesh Shivan, starring Silambarasan and Varalaxmi Sarathkumar."
+78,Soldier Boyz,publication date,01 January 1995,Q32217,,Soldier Boyz is a 1995 action film directed by Louis Mourneau and starring Michael Dudikoff.
+79,Incident at Loch Ness,publication date,01 January 2004,Q32241,,"Incident at Loch Ness is a 2004 mockumentary starring, produced by and written by Werner Herzog and Zak Penn."
+80,Prabhuvinte Makkal,publication date,01 January 2012,Q26659,,"Prabhuvinte Makkal is a 2012 Indian Malayalam-language drama film written and directed by Sajeevan Anthikkad, and starring Vinay Forrt, Jijoy Rajagopal, Swasika, and Madhu."
+81,The Sisterhood of the Traveling Pants 2,publication date,01 January 2008,Q16458,,The Sisterhood of the Traveling Pants 2 is a 2008 American comedy-drama film and a sequel to the 2005 film The Sisterhood of the Traveling Pants.
+82,Liar Liar,publication date,01 January 1997,Q48980,,"Liar Liar is a 1997 American fantasy comedy film directed by Tom Shadyac, written by Paul Guay and Stephen Mazur and starring Jim Carrey, who was nominated for a Golden Globe Award for Best Actor in a Comedy."
+83,Map of the Human Heart,publication date,01 January 1992,Q32424,,Map of the Human Heart (also called Carte du Tendre and La Carte du Tendre; released in the Philippines as War Dragon) is a 1992 film by New Zealand director Vincent Ward.
+84,Saturday Night Fever,publication date,16 December 1977,Q47654,,Saturday Night Fever is a 1977 American dance drama film directed by John Badham.
+85,Jour de Fête,publication date,31 December 1949,Q29867,,Jour de fête (The Big Day) is a 1949 French comedy film starring Jacques Tati in his feature film directional debut as an inept and easily distracted mailman in a backward French village.
+86,The Hawk's Trail,publication date,01 January 1919,Q27128,,The Hawk's Trail is a 1919 American crime film serial directed by W. S. Van Dyke.
+87,Tokyo Story,publication date,03 November 1953,Q26060,,"Tokyo Story (, TÅkyÅ Monogatari) is a 1953 Japanese drama film directed by YasujirÅ Ozu and starring ChishÅ« RyÅ« and Chieko Higashiyama."
+88,Eraserhead,publication date,01 January 1977,Q11618,,"Eraserhead is a 1977 American experimental body horror film written, directed, produced, and edited by David Lynch."
+89,"The Good, the Bad and the Ugly",publication date,23 December 1966,Q41483,,"'""The good, the ugly, the bad""') is a 1966 Italian epic Spaghetti Western film directed by Sergio Leone and starring Clint Eastwood as ""the Good"", Lee Van Cleef as ""the Bad"", and Eli Wallach as ""the Ugly""."
+90,Liar Liar,publication date,29 May 1997,Q48980,,"Liar Liar is a 1997 American fantasy comedy film directed by Tom Shadyac, written by Paul Guay and Stephen Mazur and starring Jim Carrey, who was nominated for a Golden Globe Award for Best Actor in a Comedy."
+91,Fly Away Home,publication date,01 January 1996,Q49018,,Flying Wild and Father Goose) is a 1996 family drama film directed by Carroll Ballard.
+92,The Black Windmill,publication date,01 January 1974,Q49398,,"The Black Windmill is a 1974 British spy thriller film directed by Don Siegel and starring Michael Caine, John Vernon, Janet Suzman and Donald Pleasence."
+93,The People Under the Stairs,publication date,01 January 1991,Q27338,,"The People Under the Stairs is a 1991 American horror comedy film written and directed by Wes Craven and starring Brandon Adams, Everett McGill, Wendy Robie, A. J. Langer, Ving Rhames, and Sean Whalen."
+94,Four Lions,publication date,01 January 2010,Q5590,,"Four Lions is a 2010 British satirical dark comedy film, directed by Chris Morris in his directorial debut, and written by Morris, Sam Bain and Jesse Armstrong."
+95,My Boss,publication date,13 December 2012,Q32780,,"My Boss is a 2012 Malayalam romantic comedy film directed by Jeethu Joseph, starring Dileep and Mamta Mohandas in the lead roles and Mukesh in a cameo appearance."
+96,Married to the Mob,publication date,01 January 1988,Q48984,,"Married to the Mob is a 1988 American comedy film directed by Jonathan Demme, starring Michelle Pfeiffer and Matthew Modine."
+97,A Time for Dying,publication date,01 January 1969,Q81898,,"A Time for Dying is a 1969 Western film written directed by Budd Boetticher with a cameo role by Audie Murphy, who also produced the film, as Jesse James."
+98,New Jersey Drive,publication date,01 January 1995,Q81597,,"New Jersey Drive is a 1995 crime drama film about joy riding black teenagers in 1990s Newark, New Jersey, then known as the ""car theft capital of the world""."
+99,Catlow,publication date,01 January 1971,Q43846,,"Catlow is a 1971 Western film, based on a 1963 novel of the same name by Louis L'Amour."
+100,La Dolce Vita,publication date,01 January 1960,Q18407,,La Dolce Vita won the Palme d'Or (Golden Palm) at the 1960 Cannes Film Festival and the Oscar for Best Costumes.
+101,Married to the Mob,publication date,22 December 1988,Q48984,,"Married to the Mob is a 1988 American comedy film directed by Jonathan Demme, starring Michelle Pfeiffer and Matthew Modine."
+102,Lonely Are the Brave,publication date,24 May 1962,Q49396,,Lonely Are the Brave is a 1962 American Drama Western film adaptation of the Edward Abbey novel The Brave Cowboy.
+103,Live Free or Die Hard,publication date,27 June 2007,Q50861,,Live Free or Die Hard (released as Die Hard 4.0 outside North America) is a 2007 American action-thriller film and the fourth installment in the Die Hard film series.
+104,Live Free or Die Hard,publication date,26 October 2007,Q50861,,Live Free or Die Hard (released as Die Hard 4.0 outside North America) is a 2007 American action-thriller film and the fourth installment in the Die Hard film series.
+105,The Day After Tomorrow,publication date,27 May 2004,Q14320,,"The Day After Tomorrow is a 2004 American science fiction disaster film co-written, directed, and produced by Roland Emmerich and starring Dennis Quaid, Jake Gyllenhaal, Ian Holm, Emmy Rossum, and Sela Ward."
+106,The Day After Tomorrow,publication date,28 May 2004,Q14320,,"Originally slated for release in the summer of 2003, The Day After Tomorrow premiered in Mexico City on May 17, 2004, and was released in the United States on May 28, 2004."
+107,Step Up 2: The Streets,publication date,06 March 2008,Q81487,,Step Up 2: The Streets is a 2008 American dance film directed by Jon M. Chu (in Step Up 2 : The Streets's feature directorial debut) and written by Toni Ann Johnson and Karen Barna.
+108,La Strada,publication date,01 January 1954,Q18402,,"'""The Road""') is a 1954 Italian drama film directed by Federico Fellini from La Strada's own screenplay co-written with Tullio Pinelli and Ennio Flaiano."
+109,Variety Lights,publication date,01 January 1951,Q18395,,"Variety Lights (Italian: Luci del varietÃ ) is a 1951 Italian romantic drama film produced and directed by Federico Fellini and Alberto Lattuada and starring Peppino De Filippo, Carla Del Poggio, and Giulietta Masina."
+110,"O-Bi, O-Ba: The End of Civilization",publication date,01 January 1985,Q82297,,"O-Bi, O-Ba: The End of Civilization (Polish: O-bi, o-ba: Koniec cywilizacji) is a 1985 Polish drama science fiction film written and directed by Piotr Szulkin."
+111,It Came from Beneath the Sea,publication date,01 January 1955,Q50937,,"It Came from Beneath the Sea is a 1955 American horror science fiction giant monster film from Columbia Pictures, produced by Sam Katzman and Charles Schneer, directed by Robert Gordon, that stars Kenneth Tobey, Faith Domergue, and Donald Curtis."
+112,I Vitelloni,publication date,01 January 1953,Q18399,,"""The Bullocks/The layabouts"") is a 1953 Italian comedy-drama directed by Federico Fellini from a screenplay by Fellini, Ennio Flaiano and Tullio Pinelli."
+113,Nights of Cabiria,publication date,16 October 1957,Q18405,,"Besides the best actress award at the Cannes Film Festival for Giulietta Masina, Nights of Cabiria won the 1957 Academy Award for Best Foreign Language Film."
+114,Nights of Cabiria,publication date,27 May 1957,Q18405,,"Besides the best actress award at the Cannes Film Festival for Giulietta Masina, Nights of Cabiria won the 1957 Academy Award for Best Foreign Language Film."
+115,Nights of Cabiria,publication date,10 May 1957,Q18405,,"Besides the best actress award at the Cannes Film Festival for Giulietta Masina, Nights of Cabiria won the 1957 Academy Award for Best Foreign Language Film."
+116,The White Sheik,publication date,01 January 1952,Q18397,,"The White Sheik (Italian: Lo sceicco bianco) is a 1952 Italian romantic comedy film directed by Federico Fellini and starring Alberto Sordi, Leopoldo Trieste, Brunella Bovo and Giulietta Masina."
+117,Docking the Boat,publication date,26 December 1965,Q18331,,"Docking the Boat (Swedish: Att angÃ¶ra en brygga, or sometimes: To Go Ashore) is a Swedish dark comedy film from 1965 directed by Tage Danielsson."
+118,Docking the Boat,publication date,01 January 1965,Q18331,,"Docking the Boat (Swedish: Att angÃ¶ra en brygga, or sometimes: To Go Ashore) is a Swedish dark comedy film from 1965 directed by Tage Danielsson."
+119,Il bidone,publication date,01 January 1955,Q18403,,"Il bidone ([il bidne], ""The Drum [container]""; also known as The Swindle or The Swindlers) is a 1955 Italian film directed by Federico Fellini."
+120,Be-Imaan,publication date,01 January 1972,Q82321,,Dishonest) is a 1972 film directed by Sohanlal Kanwar.
+121,Walter Defends Sarajevo,publication date,01 January 1972,Q82223,,"Walter Defends Sarajevo (Serbo-Croatian: Valter brani Sarajevo/  ) is a 1972 Yugoslav partisan film, directed by Hajrudin Krvavac and starring Bata Å½ivojinoviÄ, LjubiÅ¡a SamardÅ¾iÄ and Rade MarkoviÄ."
+122,Dharmputra,publication date,01 January 1961,Q82374,,Dharmputra is a 1961 Hindi film directed by Yash Chopra based on a novel of the same name by Acharya Chatursen.
+123,The King and the Clown,publication date,29 December 2005,Q51743,,"The King's Man) is a 2005 South Korean historical drama film, starring Kam Woo-sung, Lee Joon-gi and Jung Jin-young."
+124,Bichhoo,publication date,01 January 2000,Q16453,,Scorpion) is a 2000 Indian action thriller film starring Bobby Deol and Rani Mukerji.
+125,Love Is Not Blind,publication date,01 January 2011,Q51732,,: '33 Days of Breakup') is a 2011 Chinese romantic comedy film directed by Teng Huatao.
+126,Curse of the Golden Flower,publication date,01 January 2006,Q51737,,Curse of the Golden Flower (Chinese: ; pinyin: MÇnchÃ©ngjÃ¬ndÃ ihuÃ¡ngjÄ«njiÇ) is a 2006 Chinese epic wuxia drama film written and directed by Zhang Yimou.
+127,Amarcord,publication date,01 January 1973,Q18428,,"Amarcord (Italian: [amarkrd]) is a 1973 Italian comedy-drama film directed by Federico Fellini, a semi-autobiographical tale about Titta, an adolescent boy growing up among an eccentric cast of characters in the village of Borgo San Giuliano (situated near the ancient walls of Rimini) in 1930s Fascist Italy."
+128,In Bruges,publication date,15 May 2008,Q244931,,In Bruges is a 2008 British-American black comedy crime film written and directed by Martin McDonagh.
+129,In Bruges,publication date,25 June 2008,Q244931,,In Bruges is a 2008 British-American black comedy crime film written and directed by Martin McDonagh.
+130,The Matrix,publication date,31 March 1999,Q83495,,"Released on March 31, 1999, The Matrix proved to be a box office success, grossing over $460 million worldwide."
+131,2 Girls 1 Cup,publication date,05 January 2007,Q83103,,"2 Girls 1 Cup is the unofficial nickname of the trailer for Hungry Bitches, a 2007 Brazilian scat fetish pornographic film produced by MFX Media."
+132,Curse of the Golden Flower,publication date,26 April 2007,Q51737,,"In 2007 Curse of the Golden Flower received fourteen nominations at the 26th Hong Kong Film Awards and won Best Actress for Gong Li, Best Art Direction, Best Costume and Make Up Design and Best Original Film Song for """" (Chrysanthemum Terrace) by Jay Chou."
+133,D-Day the Sixth of June,publication date,12 December 1956,Q244872,,D-Day the Sixth of June is a DeLuxe Color 1956 CinemaScope romance war film made by 20th Century Fox.
+134,D-Day the Sixth of June,publication date,15 October 1956,Q244872,,D-Day the Sixth of June is a DeLuxe Color 1956 CinemaScope romance war film made by 20th Century Fox.
+135,D-Day the Sixth of June,publication date,31 August 1956,Q244872,,D-Day the Sixth of June is a DeLuxe Color 1956 CinemaScope romance war film made by 20th Century Fox.
+136,D-Day the Sixth of June,publication date,29 May 1956,Q244872,,D-Day the Sixth of June is a DeLuxe Color 1956 CinemaScope romance war film made by 20th Century Fox.
+137,Captain America: The First Avenger,publication date,22 July 2011,Q275120,,"Captain America: The First Avenger premiered at the El Capitan Theatre on July 19, 2011, and was released in the United States on July 22, as part of Phase One of the MCU."
+138,Captain America: The First Avenger,publication date,05 August 2011,Q275120,,Captain America: The First Avenger is a 2011 American superhero film based on the Marvel Comics character Captain America.
+139,Captain America: The First Avenger,publication date,11 August 2011,Q275120,,Captain America: The First Avenger is a 2011 American superhero film based on the Marvel Comics character Captain America.
+140,Captain America: The First Avenger,publication date,17 August 2011,Q275120,,Captain America: The First Avenger is a 2011 American superhero film based on the Marvel Comics character Captain America.
+141,Captain America: The First Avenger,publication date,18 August 2011,Q275120,,Captain America: The First Avenger is a 2011 American superhero film based on the Marvel Comics character Captain America.
+142,Captain America: The First Avenger,publication date,09 September 2011,Q275120,,Captain America: The First Avenger is a 2011 American superhero film based on the Marvel Comics character Captain America.
+143,In Bruges,publication date,17 January 2008,Q244931,,In Bruges is a 2008 British-American black comedy crime film written and directed by Martin McDonagh.
+144,The Landlord,publication date,01 January 1970,Q82519,,"The Landlord is a 1970 American comedy-drama film directed by Hal Ashby, adapted by Bill Gunn from the 1966 novel by Kristin Hunter."
+145,Gates to Paradise,publication date,01 January 1968,Q83005,,Gates to Paradise is a 1968 film by Polish director Andrzej Wajda.
+146,December Boys,publication date,01 January 2007,Q83730,,December Boys is an Australian 2007 drama film directed by Rod Hardy and written by Marc Rosenberg and adapted from the 1963 novel of the same name by Michael Noonan.
+147,And the Ship Sails On,publication date,01 January 1983,Q18437,,And the Ship Sails On (Italian: E la nave va) is a 1983 Italian film directed and co-written by Federico Fellini.
+148,Made in Dagenham,publication date,01 January 2010,Q53096,,Made in Dagenham is a 2010 British film directed by Nigel Cole.
+149,The Great Race,publication date,01 January 1965,Q304366,,"The Great Race is a 1965 American Technicolor slapstick comedy film starring Jack Lemmon, Tony Curtis, and Natalie Wood, directed by Blake Edwards, written by Edwards and Arthur A. Ross, and with music by Henry Mancini and cinematography by Russell Harlan."
+150,The Bedford Incident,publication date,01 January 1965,Q244929,,The Bedford Incident (aka Aux Postes De Combat) is a 1965 British-American Cold War film starring Richard Widmark and Sidney Poitier and co-produced by Widmark.
+151,Fellini: A Director's Notebook,publication date,01 January 1969,Q18418,,"Fellini: A Director's Notebook (Italian: Bloc-notes di un regista) is an Italian documentary for television directed by Federico Fellini shot in 16mm and first broadcast in the United States on NBC in 1969, on NBC Experiment in Television."
+152,City of Women,publication date,01 January 1980,Q18433,,City of Women (Italian: La cittÃ  delle donne) is a 1980 Italian fantasy comedy-drama film written and directed by Federico Fellini.
+153,On the Path,publication date,01 January 2010,Q244900,,On the Path (Bosnian: Na putu) is a 2010 Bosnian and Herzegovinian drama film directed by Jasmila Žbanić.
+154,On the Path,publication date,02 September 2010,Q244900,,On the Path (Bosnian: Na putu) is a 2010 Bosnian and Herzegovinian drama film directed by Jasmila Žbanić.
+155,Khosla Ka Ghosla,publication date,01 January 2006,Q83505,,"In 2006, UTV Motion Pictures stepped in and distributed the film."
+156,Resident Evil: Retribution,publication date,01 January 2012,Q83542,,Resident Evil: Retribution is a 2012 action horror film written and directed by Paul W. S. Anderson.
+157,Resident Evil: Retribution,publication date,20 September 2012,Q83542,,Resident Evil: Retribution is a 2012 action horror film written and directed by Paul W. S. Anderson.
+158,Passport to Paris,publication date,01 January 1999,Q244767,,"Passport to Paris is a 1999 American direct-to-video film starring Mary-Kate and Ashley Olsen, who also serve as the film's executive producers."
+159,House by the River,publication date,25 March 1950,Q303833,,"House by the River is a 1950 American crime film noir directed by Fritz Lang and starring Louis Hayward, Lee Bowman and Jane Wyatt."
+160,First Blood,publication date,22 October 1982,Q244963,,"First Blood is a 1982 American action film directed by Ted Kotcheff, and co-written by Sylvester Stallone, who also stars as Vietnam War veteran John Rambo."
+161,Rocky V,publication date,16 November 1990,Q82949,,Rocky V is a 1990 American sports drama film.
+162,Rocky V,publication date,20 December 1990,Q82949,,Rocky V is a 1990 American sports drama film.
+163,Rocky V,publication date,21 December 1990,Q82949,,Rocky V is a 1990 American sports drama film.
+164,Nuns on the Run,publication date,01 January 1990,Q275530,,"Nuns on the Run is a 1990 British comedy film starring Eric Idle and Robbie Coltrane, also featuring Camille Coduri and Janet Suzman."
+165,Nuns on the Run,publication date,28 June 1990,Q275530,,"Nuns on the Run is a 1990 British comedy film starring Eric Idle and Robbie Coltrane, also featuring Camille Coduri and Janet Suzman."
+166,The Cell 2,publication date,01 January 2009,Q245641,,The Cell 2  is a 2009 direct-to-video sequel to the 2000 film The Cell.
+167,Six Bullets,publication date,01 January 2012,Q246086,,"Six Bullets is a 2012 American action film directed by Ernie Barbarash and starring Jean-Claude Van Damme, Joe Flanigan, Anna-Louise Plowman, and Charlotte Beaumont."
+168,Zyzzyx Road,publication date,01 January 2006,Q246211,,"Zyzzyx Road (/zzzks/ z-ZIZ-iks), also called Zyzzyx Rd., is a 2006 American thriller film written, produced and directed by John Penney and starring Katherine Heigl, Leo Grillo,  and Tom Sizemore."
+169,House of the Long Shadows,publication date,01 January 1983,Q245916,,House of the Long Shadows is a 1983 comedy horror film directed by Pete Walker.
+170,"Je t'aime, je t'aime",publication date,01 January 1968,Q245920,,"Je t'aime, je t'aime (""I Love You, I Love You"") is a 1968 French science fiction film directed by Alain Resnais from a screenplay by Jacques Sternberg."
+171,December Boys,publication date,09 September 2007,Q83730,,December Boys is an Australian 2007 drama film directed by Rod Hardy and written by Marc Rosenberg and adapted from the 1963 novel of the same name by Michael Noonan.
+172,December Boys,publication date,11 October 2007,Q83730,,December Boys is an Australian 2007 drama film directed by Rod Hardy and written by Marc Rosenberg and adapted from the 1963 novel of the same name by Michael Noonan.
+173,My Life Without Me,publication date,10 February 2003,Q83630,,"My Life Without Me is a 2003 Canadian drama film directed by Isabel Coixet and starring Sarah Polley, Mark Ruffalo, Scott Speedman, and Leonor Watling."
+174,My Life Without Me,publication date,04 September 2003,Q83630,,"My Life Without Me is a 2003 Canadian drama film directed by Isabel Coixet and starring Sarah Polley, Mark Ruffalo, Scott Speedman, and Leonor Watling."
+175,A Cinderella Story,publication date,10 July 2004,Q276415,,"A Cinderella Story is a 2004 American teen romantic comedy film directed by Mark Rosman, written by Leigh Dunlap and stars Hilary Duff, Chad Michael Murray, Jennifer Coolidge and Regina King."
+176,A Cinderella Story,publication date,07 October 2004,Q276415,,"A Cinderella Story is a 2004 American teen romantic comedy film directed by Mark Rosman, written by Leigh Dunlap and stars Hilary Duff, Chad Michael Murray, Jennifer Coolidge and Regina King."
+177,"Je t'aime, je t'aime",publication date,26 April 1968,Q245920,,"Je t'aime, je t'aime (""I Love You, I Love You"") is a 1968 French science fiction film directed by Alain Resnais from a screenplay by Jacques Sternberg."
+178,The Heroic Trio,publication date,12 February 1993,Q245817,,"The Heroic Trio (Dung fong saam hap, TC: , pinyin: dÅng fÄng sÄn xiÃ¡) is a 1993 Hong Kong action film directed by Johnnie To, starring Michelle Yeoh, Maggie Cheung, and Anita Mui as the titular trio."
+179,The Adventurer: The Curse of the Midas Box,publication date,01 January 2014,Q245671,,"The Adventurer: The Curse of the Midas Box is a 2014 fantasy adventure film directed by Jonathan Newman and starring Aneurin Barnard as the protagonist, Mariah Mundi."
+180,Eat Pray Love,publication date,23 September 2010,Q304030,,"Eat Pray Love is a 2010 American biographical romantic drama film starring Julia Roberts as Elizabeth Gilbert, based on Gilbert's 2006 memoir of the same name."
+181,Eat Pray Love,publication date,14 October 2010,Q304030,,"Eat Pray Love is a 2010 American biographical romantic drama film starring Julia Roberts as Elizabeth Gilbert, based on Gilbert's 2006 memoir of the same name."
+182,Let's Go to Prison,publication date,01 January 2006,Q303977,,"Let's Go to Prison is a 2006 American comedy film directed by Bob Odenkirk and starring Dax Shepard, Will Arnett and Chi McBride."
+183,5ive Girls,publication date,01 January 2006,Q245452,,"5ive Girls is a 2006 Canadian horror film written and directed by Warren P. Sonoda and starring Ron Perlman, Jennifer Miller, and Jordan Madley."
+184,Birthday Girl,publication date,01 January 2001,Q18964,,Birthday Girl is a 2001 erotic comedy thriller film directed by Jez Butterworth.
+185,Lo vedi come sei... lo vedi come sei?,publication date,01 January 1939,Q18444,,is a 1939 Italian comedy film directed by Mario Mattoli and starring Erminio Macario.
+186,Holy Motors,publication date,01 January 2012,Q304739,,The film competed for the Palme d'Or at the 2012 Cannes Film Festival.
+187,Holy Motors,publication date,30 August 2012,Q304739,,The film competed for the Palme d'Or at the 2012 Cannes Film Festival.
+188,Saw III,publication date,01 January 2006,Q276392,,Saw III is a 2006 horror film directed by Darren Lynn Bousman from a screenplay by Leigh Whannell and a story by Whannell and James Wan.
+189,The Man Who Sleeps,publication date,01 January 1974,Q245638,,The film won the Prix Jean Vigo in 1974.
+190,Invisible Stripes,publication date,01 January 1939,Q245180,,Invisible Stripes is a 1939 Warner Bros. crime film starring George Raft as a gangster unable to go straight after returning home from prison.
+191,5x2,publication date,01 January 2004,Q245465,,"5x2 (also Cinq fois deux; English: Five Times Two) is a 2004 French film directed by FranÃ§ois Ozon, which uncovers the back story to the gradual disintegration of a middle class marriage by depicting five key moments in the relationship, but in reverse order."
+192,The Thirteen Chairs,publication date,01 January 1969,Q245205,,"The Thirteen Chairs (12 + 1 - original title and Italian release title) is a 1969 comedy film directed by Nicolas Gessner and Luciano Lucignani and starring Sharon Tate, Vittorio Gassman, Orson Welles, Vittorio De Sica, and Tim Brooke-Taylor."
+193,Saw III,publication date,27 October 2006,Q276392,,"Saw III was released in the United States on October 27, 2006, by Lionsgate."
+194,Saw III,publication date,12 January 2007,Q276392,,"Bell was nominated for ""Best Villain"" at the 2007 MTV Movie Awards and the film received nominations for a Saturn Award as ""Best Horror Film""."
+195,Saw III,publication date,01 February 2007,Q276392,,"Bell was nominated for ""Best Villain"" at the 2007 MTV Movie Awards and the film received nominations for a Saturn Award as ""Best Horror Film""."
+196,Intervista,publication date,01 January 1987,Q18441,,Intervista (English: Interview) is a 1987 Italian film directed by Federico Fellini.
+197,Intervista,publication date,12 November 1987,Q18441,,Intervista (English: Interview) is a 1987 Italian film directed by Federico Fellini.
+198,Ab-normal Beauty,publication date,04 November 2004,Q303839,,Ab-normal Beauty () (also Sei mong se jun) is a 2004 Hong Kong horror film directed and co-written by Oxide Pang.
+199,5 Days of War,publication date,05 June 2011,Q245430,,5 Days of War is a 2011 action film directed by Renny Harlin.
+200,Bread and Tulips,publication date,21 December 2000,Q84064,,Bread and Tulips or Pane e tulipani is a 2000 romance comedy film directed by Italian Director Silvio Soldini.
+201,Holy Motors,publication date,23 May 2012,Q304739,,The film competed for the Palme d'Or at the 2012 Cannes Film Festival.
+202,The Honeytrap,publication date,01 January 2002,Q305112,,"The Honeytrap is a 2002 British thriller film featuring Emily Lloyd as Catherine, a young woman about to marry her fiancÃ© in London."
+203,Presque rien,publication date,01 January 2000,Q304711,,"Presque rien (meaning Almost Nothing, which is also the UK release title; the U.S. title is Come Undone) is a 2000 French-Belgian romantic drama film directed by Sebastien Lifshitz, set in Brittany, depicting a stormy holiday romance between two 18-year-olds and what remains of that relationship eighteen months later."
+204,Calendar Girls,publication date,01 January 2003,Q83789,,Calendar Girls is a 2003 British comedy film directed by Nigel Cole.
+205,Anatomy of Hell,publication date,01 January 2004,Q59531,,Anatomy of Hell (French: Anatomie de l'enfer) is a 2004 French erotic drama film directed by Catherine Breillat and written by Breillat based on her 2001 novel Pornocratie.
+206,Vampyr,publication date,01 January 1932,Q304923,,'Vampyr: The Dream of Allan Gray') is a 1932 horror film directed by Danish director Carl Theodor Dreyer.
+207,Fat Girl,publication date,01 January 2001,Q59503,,"is a 2001 French drama film written and directed by Catherine Breillat, and starring AnaÃ¯s Reboux and Roxane Mesquida."
+208,Tsuribaka Nisshi 2,publication date,01 January 1989,Q304806,,Tsuribaka Nisshi 2 ( 2) is a 1989 Japanese film directed by Tomio Kuriyama.
+209,The Magnificent Seven,publication date,01 January 1960,Q19069,,"The Magnificent Seven is a 1960 American Western film directed by John Sturges and starring Yul Brynner, Eli Wallach, Steve McQueen, Charles Bronson, Robert Vaughn, Brad Dexter, James Coburn and Horst Buchholz."
+210,Not Here to Be Loved,publication date,01 January 2005,Q59634,,Not Here to Be Loved (French: Je ne suis pas lÃ  pour Ãªtre aimÃ©) is a 2005 French film directed by StÃ©phane BrizÃ©.
+211,S.F.W.,publication date,01 January 1994,Q227540,,(or So Fucking What) is a 1994 black comedy film directed by Jefery Levy.
+212,A Woman's Face,publication date,15 May 1941,Q304789,,"A Woman's Face is a 1941 American melodrama film directed by George Cukor and starring Joan Crawford, Melvyn Douglas and Conrad Veidt."
+213,The Searchers,publication date,13 March 1956,Q276769,,"The Searchers is a 1956 American Technicolor VistaVision Western film directed by John Ford, based on the 1954 novel by Alan Le May, set during the Texas-Indian wars, and starring John Wayne as a middle-aged Civil War veteran who spends years looking for his abducted niece (Natalie Wood), accompanied by his adoptive nephew (Jeffrey Hunter)."
+214,Tell No One,publication date,01 November 2006,Q59567,,Tell No One (French: Ne le dis Ã  personne) is a 2006 French thriller film directed by Guillaume Canet and based on the 2001 novel of the same name by Harlan Coben.
+215,Russian Ark,publication date,22 May 2002,Q59721,,"Russian Ark (Russian:  , Russkij Kovcheg) is a 2002 experimental historical drama film directed by Alexander Sokurov."
+216,Russian Ark,publication date,08 November 2002,Q59721,,"Russian Ark (Russian:  , Russkij Kovcheg) is a 2002 experimental historical drama film directed by Alexander Sokurov."
+217,A Touch of Spice,publication date,01 January 2003,Q59687,,A Touch of Spice (Greek:  /Politiki Kouzina)  is a 2003 Greek film directed by Tassos Boulmetis and starring Georges Corraface as the character of the adult Fanis Iakovides.
+218,Pardon My Sarong,publication date,01 January 1942,Q306785,,Pardon My Sarong is a 1942 comedy film starring Abbott and Costello.
+219,Red Line 7000,publication date,01 January 1965,Q247609,,Red Line 7000 is a 1965 American action sports film released by Paramount Pictures.
+220,Gone Baby Gone,publication date,01 January 2007,Q247182,,Gone Baby Gone is a 2007 American neo-noir mystery thriller film directed by Ben Affleck.
+221,Abbott and Costello Meet Captain Kidd,publication date,01 January 1952,Q306783,,"Abbott and Costello Meet Captain Kidd is a 1952 comedy film directed by Charles Lamont and starring the comedy team of Abbott and Costello, along with Charles Laughton, who reprised his role as the infamous pirate from the 1945 film Captain Kidd."
+222,In the Cut,publication date,01 January 2003,Q59572,,The novel was adapted into a feature film of the same name in 2003 by director Jane Campion.
+223,Abbott and Costello Meet the Mummy,publication date,01 January 1955,Q306778,,Abbott and Costello Meet the Mummy is a 1955 horror comedy film directed by Charles Lamont and starring the comedy team of Abbott and Costello.
+224,To New Shores,publication date,01 January 1937,Q227464,,"To New Shores (German: Zu neuen Ufern) is a 1937 German drama film directed by Hans Detlef Sierck (later Douglas Sirk) and starring Zarah Leander, Willy Birgel and Viktor Staal."
+225,Green Street 2: Stand Your Ground,publication date,01 January 2009,Q284656,,Green Street 2: Stand Your Ground (also known as Green Street 2 and Green Street Hooligans 2: Stand Your Ground) is a 2009 American-British film directed by Jesse V. Johnson.
+226,Training Day,publication date,01 January 2001,Q308929,,"Training Day is a 2001 American crime thriller film directed by Antoine Fuqua, and written by David Ayer."
+227,Secret Things,publication date,01 January 2002,Q59722,,"Secret Things (French: Choses secrÃ¨tes) is a 2002 French erotic thriller film directed by Jean-Claude Brisseau, starring Coralie Revel and Sabrina Seyvecou."
+228,The Weather Man,publication date,01 January 2005,Q60296,,"The Weather Man is a 2005 American comedy-drama film directed by Gore Verbinski, written by Steve Conrad, and starring Nicolas Cage, Michael Caine and Hope Davis."
+229,Too Beautiful for You,publication date,01 January 1989,Q227474,,Too Beautiful for You (French: Trop belle pour toi) is a 1989 French comedy-drama film written and directed by Bertrand Blier.
+230,36 China Town,publication date,01 January 2006,Q227520,,36 China Town is a 2006 Indian Hindi-language mystery comedy film directed by Abbas-Mustan and produced by Subhash Ghai.
+231,Letters from a Killer,publication date,01 January 1998,Q285806,,Letters from a Killer is a 1998 British-American crime drama mystery film starring Patrick Swayze as a man who is falsely convicted of the murder of his wife.
+232,Caliche sangriento,publication date,01 January 1969,Q285651,,Bloody Nitrate) is a Chilean movie of 1969 and the first one directed by Helvio Soto.
+233,Asiris Nuna,publication date,01 January 2006,Q285677,,"Asiris nuna (Russian:  ) is a 2006 Russian children's science fiction film directed by Oleg Kompasov and produced by Vladimir Khrapunov, Aleksei Kuznetsov and Sergey Chernyakov."
+234,Tarzan and the Mermaids,publication date,01 January 1948,Q285746,,Tarzan and the Mermaids is a 1948 adventure film based on the Tarzan character created by Edgar Rice Burroughs.
+235,Seven Psychopaths,publication date,01 January 2012,Q59610,,Seven Psychopaths is a 2012 dark comedy crime film written and directed by Martin McDonagh.
+236,Secret Things,publication date,04 December 2003,Q59722,,The film was awarded the 'French Cineaste of the Year' title at the 2003 Cannes Film Festival.
+237,Lord of War,publication date,16 September 2005,Q308681,,"Lord of War is a 2005 American crime drama film written, produced, and directed by Andrew Niccol, and co-produced by and starring Nicolas Cage."
+238,Gone Baby Gone,publication date,29 November 2007,Q247182,,Gone Baby Gone is a 2007 American neo-noir mystery thriller film directed by Ben Affleck.
+239,Back to the Future,publication date,03 July 1985,Q91540,,"Back to the Future was released on July 3, 1985."
+240,Training Day,publication date,06 December 2001,Q308929,,"Training Day is a 2001 American crime thriller film directed by Antoine Fuqua, and written by David Ayer."
+241,The Singing Fool,publication date,01 January 1928,Q285618,,The Singing Fool is a 1928 American musical drama Part-Talkie motion picture directed by Lloyd Bacon which was released by Warner Bros.
+242,Seven Psychopaths,publication date,06 December 2012,Q59610,,Seven Psychopaths is a 2012 dark comedy crime film written and directed by Martin McDonagh.
+243,Cabaret Balkan,publication date,01 August 1998,Q60021,,"The film received a number of distinctions, including a FIPRESCI award at the Venice Film Festival in 1998."
+244,Abbott and Costello Meet Frankenstein,publication date,15 June 1948,Q306791,,Abbott and Costello Meet Frankenstein is a 1948 American horror comedy film directed by Charles Barton and starring the comedy team of Abbott and Costello.
+245,Abbuzze! Der Badesalz-Film,publication date,17 January 1996,Q306868,,Abbuzze ! Der Badesalz-Film was released in 1996.
+246,Abbuzze! Der Badesalz-Film,publication date,18 January 1996,Q306868,,Abbuzze ! Der Badesalz-Film was released in 1996.
+247,Mr. Deeds,publication date,28 June 2002,Q59595,,"Deeds is a 2002 American comedy film directed by Steven Brill, written by Tim Herlihy, and starring Adam Sandler, Winona Ryder, Peter Gallagher, Jared Harris, Allen Covert, Erick Avari, John Turturro, and Conchata Ferrell."
+248,Mr. Deeds,publication date,15 August 2002,Q59595,,"Deeds is a 2002 American comedy film directed by Steven Brill, written by Tim Herlihy, and starring Adam Sandler, Winona Ryder, Peter Gallagher, Jared Harris, Allen Covert, Erick Avari, John Turturro, and Conchata Ferrell."
+249,The Last Lear,publication date,01 January 2007,Q277741,,The Last Lear is a 2007 Indian drama film directed by Rituparno Ghosh.

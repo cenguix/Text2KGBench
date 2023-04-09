@@ -1,101 +1,251 @@
 ,subject,relation,object,subject_entity,object_entity,sentence
-0,Family Plot,director,Alfred Hitchcock,Q47296,Q7374,sentence from index
-1,Plumíferos,director,Dani De Felippo,Q46916,Q5798262,sentence from index
-2,Kick-Ass,director,Matthew Vaughn,Q2201,Q2593,sentence from index
-3,A Gang Story,director,Olivier Marchal,Q593,Q694259,sentence from index
-4,Fat Girl,director,Catherine Breillat,Q59503,Q289054,sentence from index
-5,The Ninth Gate,director,Roman Polanski,Q19405,Q51552,sentence from index
-6,Deathdream,director,Bob Clark,Q33671,Q526359,sentence from index
-7,Salsa,director,Joyce Buñuel,Q59660,Q3187220,sentence from index
-8,Son of the Bride,director,Juan J. Campanella,Q59543,Q726925,sentence from index
-9,Life is Beautiful,director,Roberto Benigni,Q19355,Q23301,sentence from index
-10,Farewell to Enrico Berlinguer,director,Massimo Sani,Q19303,Q3851455,sentence from index
-11,Frida,director,Julie Taymor,Q35738,Q240490,sentence from index
-12,Una spina nel cuore,director,Alberto Lattuada,Q46609,Q59204,sentence from index
-13,Dances with Wolves,director,Kevin Costner,Q20456,Q11930,sentence from index
-14,Dead like Me: Life After Death,director,Stephen Herek,Q33148,Q545669,sentence from index
-15,Johnny Stecchino,director,Roberto Benigni,Q19322,Q23301,sentence from index
-16,Nothing Left to Do But Cry,director,Massimo Troisi,Q19311,Q53035,sentence from index
-17,Farewell to Enrico Berlinguer,director,Sergio Spina,Q19303,Q3956295,sentence from index
-18,People Like Us,director,Alex Kurtzman,Q33191,Q432598,sentence from index
-19,Do Bigha Zamin,director,Bimal Roy,Q23089,Q55405,sentence from index
-20,Signs,director,M. Night Shyamalan,Q22432,Q51489,sentence from index
-21,Farewell to Enrico Berlinguer,director,Piero Vivarelli,Q19303,Q2092907,sentence from index
-22,The Intouchables,director,Olivier Nakache,Q595,Q74428,sentence from index
-23,Farewell to Enrico Berlinguer,director,Paolo Pietrangeli,Q19303,Q3894379,sentence from index
-24,The Monster,director,Roberto Benigni,Q19352,Q23301,sentence from index
-25,12 Angry Men,director,Sidney Lumet,Q2345,Q51559,sentence from index
-26,We Live in Public,director,Ondi Timoner,Q372,Q7092172,sentence from index
-27,Rear Window,director,Alfred Hitchcock,Q34414,Q7374,sentence from index
-28,Pirates of the Caribbean: The Curse of the Black Pearl,director,Gore Verbinski,Q46717,Q295463,sentence from index
-29,Seven Psychopaths,director,Martin McDonagh,Q59610,Q372394,sentence from index
-30,Pinocchio,director,Roberto Benigni,Q19356,Q23301,sentence from index
-31,Celluloide,director,Carlo Lizzani,Q34643,Q26208,sentence from index
-32,Swept Away,director,Lina Wertmüller,Q1365,Q53039,sentence from index
-33,Roadside Romeo,director,Jugal Hansraj,Q46918,Q2347167,sentence from index
-34,Nothing Left to Do But Cry,director,Roberto Benigni,Q19311,Q23301,sentence from index
-35,The Tiger and the Snow,director,Roberto Benigni,Q19358,Q23301,sentence from index
-36,Anatomy of Hell,director,Catherine Breillat,Q59531,Q289054,sentence from index
-37,Argo,director,Ben Affleck,Q59653,Q483118,sentence from index
-38,A Touch of Spice,director,Tasos Boulmetis,Q59687,Q23829745,sentence from index
-39,Mr. Deeds,director,Steven Brill,Q59595,Q345259,sentence from index
-40,Wolfhound,director,Nikolai Lebedev,Q33189,Q3341663,sentence from index
-41,Not Here to Be Loved,director,Stéphane Brizé,Q59634,Q2380085,sentence from index
-42,Farewell to Enrico Berlinguer,director,Nicolò Ferrari,Q19303,Q1987238,sentence from index
-43,Farewell to Enrico Berlinguer,director,Luigi Perelli,Q19303,Q3839996,sentence from index
-44,Planet of the Apes,director,Franklin J. Schaffner,Q59534,Q51503,sentence from index
-45,Farewell to Enrico Berlinguer,director,Paolo Bianchini,Q19303,Q3893785,sentence from index
-46,Farewell to Enrico Berlinguer,director,Roberto Russo,Q19303,Q3939129,sentence from index
-47,Farewell to Enrico Berlinguer,director,Libero Bizzarri,Q19303,Q1822962,sentence from index
-48,Farewell to Enrico Berlinguer,director,Anna Maria Tatò,Q19303,Q2850562,sentence from index
-49,The Intouchables,director,Éric Toledano,Q595,Q2778106,sentence from index
-50,"Elisa, vida mía",director,Carlos Saura,Q59612,Q295855,sentence from index
-51,Maximum Overdrive,director,Stephen King,Q46637,Q39829,sentence from index
-52,Whale Rider,director,Niki Caro,Q19393,Q449163,sentence from index
-53,The Little Devil,director,Roberto Benigni,Q19320,Q23301,sentence from index
-54,The Pleasure Is All Mine,director,Isabelle Broué,Q59530,Q15973972,sentence from index
-55,The Trial,director,David Hugh Jones,Q35725,Q1174792,sentence from index
-56,Stranger,director,Małgorzata Szumowska,Q34499,Q274265,sentence from index
-57,Fear and Loathing in Las Vegas,director,Terry Gilliam,Q23395,Q25078,sentence from index
-58,Gone with the Wind,director,Victor Fleming,Q2875,Q62503,sentence from index
-59,The Manchurian Candidate,director,Jonathan Demme,Q3589,Q48987,sentence from index
-60,Visions of Light,director,Todd McCarthy,Q24258,Q2894636,sentence from index
-61,A Fantastic Fear of Everything,director,Crispian Mills,Q3242,Q711920,sentence from index
-62,Zeitgeist: The Movie,director,Peter Joseph,Q186014,Q513726,sentence from index
-63,Van Diemen's Land,director,Jonathan auf der Heide,Q24154,Q29442224,sentence from index
-64,Rough Night in Jericho,director,Arnold Laven,Q3187,Q695676,sentence from index
-65,Shaolin,director,Benny Chan,Q24515,Q702326,sentence from index
-66,Skřítek,director,Tomáš Vorel,Q50929,Q3531480,sentence from index
-67,Alien Raiders,director,Ben Rock,Q3208,Q4886378,sentence from index
-68,Wanted,director,Timur Bekmambetov,Q4444,Q344854,sentence from index
-69,Borat,director,Larry Charles,Q186323,Q722115,sentence from index
-70,The Twilight Saga: Breaking Dawn – Part 1,director,Bill Condon,Q60506,Q361336,sentence from index
-71,It Came from Beneath the Sea,director,Robert Gordon,Q50937,Q7344862,sentence from index
-72,Eugene Onegin,director,Vasily Goncharov,Q50962,Q2372663,sentence from index
-73,The Madwoman of Chaillot,director,John Huston,Q38561,Q51575,sentence from index
-74,Delirious,director,Tom DiCillo,Q4471,Q784641,sentence from index
-75,The Madwoman of Chaillot,director,Bryan Forbes,Q38561,Q850385,sentence from index
-76,Eraserhead,director,David Lynch,Q11618,Q2071,sentence from index
-77,Red Sun,director,Terence Young,Q32790,Q314882,sentence from index
-78,The Girl from Nowhere,director,Jean-Claude Brisseau,Q38235,Q953105,sentence from index
-79,The Man Between,director,Carol Reed,Q3092,Q95143,sentence from index
-80,El astronauta,director,Javier Aguirre,Q23771,Q3163127,sentence from index
-81,The Brest Fortress,director,Alexander Kott,Q23871,Q2833792,sentence from index
-82,Mirageman,director,Ernesto Díaz Espinoza,Q4479,Q5836844,sentence from index
-83,Gone with the Wind,director,Sam Wood,Q2875,Q457269,sentence from index
-84,Eugene Onegin,director,Roman Tikhomirov,Q50961,Q4458585,sentence from index
-85,Saturday Night Fever,director,John Badham,Q47654,Q547485,sentence from index
-86,Fly Away Home,director,Carroll Ballard,Q49018,Q1045172,sentence from index
-87,Killers,director,Mike Mendez,Q185999,Q1119064,sentence from index
-88,Wheels on Meals,director,Sammo Hung,Q60792,Q311219,sentence from index
-89,Gone with the Wind,director,George Cukor,Q2875,Q56014,sentence from index
-90,The Last Airbender,director,M. Night Shyamalan,Q11593,Q51489,sentence from index
-91,A Fantastic Fear of Everything,director,Chris Hopewell,Q3242,Q5106916,sentence from index
-92,Be Like Others,director,Tanaz Eshaghian,Q33109,Q2392136,sentence from index
-93,¿¡Revolución!?,director,Charles Gervais,Q8907,Q27057303,sentence from index
-94,The Hidden Face,director,Andrés Baiz,Q24196,Q3616495,sentence from index
-95,Anna Karamazoff,director,Rustam Khamdamov,Q24340,Q24583,sentence from index
-96,Onegin,director,Martha Fiennes,Q50969,Q458730,sentence from index
-97,To Die like a Man,director,João Pedro Rodrigues,Q33139,Q782982,sentence from index
-98,Yojimbo,director,Akira Kurosawa,Q20475,Q8006,sentence from index
-99,The Godfather,director,Francis Ford Coppola,Q47703,Q56094,sentence from index
+0,A Gang Story,director,Olivier Marchal,Q593,Q694259,A Gang Story (French: Les Lyonnais) is a 2011 French drama film directed by Olivier Marchal.
+1,The Ninth Gate,director,Roman Polanski,Q19405,Q51552,"The Ninth Gate is a 1999 mystery thriller film directed, produced, and co-written by Roman Polanski."
+2,Lonely Are the Brave,director,Kirk Douglas,Q49396,Q104027,"Lonely Are the Brave stars Kirk Douglas as cowboy Jack Burns, Gena Rowlands as his best friend's wife and Walter Matthau as a sheriff who sympathizes with Burns but must do his job and chase him down."
+3,Johnny Stecchino,director,Roberto Benigni,Q19322,Q23301,Johnny Stecchino is an Italian comedy film directed by and starring Roberto Benigni in dual roles.
+4,Nothing Left to Do But Cry,director,Massimo Troisi,Q19311,Q53035,"Non ci resta che piangere  (in the U.S. is also known as Nothing Left to Do But Cry) is a 1984  Italian comedy film, starring Roberto Benigni and Massimo Troisi, who are also directors and writers of the movie."
+5,The Intouchables,director,Olivier Nakache,Q595,Q74428,"The Intouchables (French: Intouchables, [tuabl]), also known as Untouchable (UK)), is a French buddy comedy-drama film  directed by Olivier Nakache & Ãric Toledano."
+6,We Live in Public,director,Ondi Timoner,Q372,Q7092172,"WE LIVE IN PUBLIC is a 2009 documentary film by Ondi Timoner, which profiles Internet pioneer Josh Harris."
+7,The Black Windmill,director,Don Siegel,Q49398,Q358322,"The Black Windmill is a 1974 British spy thriller film directed by Don Siegel and starring Michael Caine, John Vernon, Janet Suzman and Donald Pleasence."
+8,Monty Python's The Meaning of Life,director,Terry Jones,Q24980,Q166159,"Monty Python's The Meaning of Life, also known simply as The Meaning of Life, is a 1983 British musical sketch comedy film written and performed by the Monty Python troupe, directed by Terry Jones."
+9,Varudu,director,Gunasekhar,Q59495,Q5618508,Bridegroom) is a 2010 Indian Telugu-language Romantic action film directed by Gunasekhar in Varudu's tenth directorial film.
+10,Nothing Left to Do But Cry,director,Roberto Benigni,Q19311,Q23301,"Non ci resta che piangere  (in the U.S. is also known as Nothing Left to Do But Cry) is a 1984  Italian comedy film, starring Roberto Benigni and Massimo Troisi, who are also directors and writers of the movie."
+11,Be Like Others,director,Tanaz Eshaghian,Q33109,Q2392136,Be Like Others (also known as Transsexual in Iran) is a 2008 documentary film written and directed by Tanaz Eshaghian about transsexuals in Iran.
+12,Whale Rider,director,Niki Caro,Q19393,Q449163,Whale Rider is a 2002 New Zealand-German family drama film written and directed by Niki Caro.
+13,The Little Devil,director,Roberto Benigni,Q19320,Q23301,"The Little Devil (original Italian name Il piccolo diavolo) is a 1988 Italian film directed by and starring Roberto Benigni, also starring Walter Matthau, Stefania Sandrelli, Nicoletta Braschi and John Lurie."
+14,Nothing like the Holidays,director,Alfredo De Villa,Q33131,Q4723756,"Nothing like the Holidays was directed by Alfredo De Villa, written by Rick Najera, Ted Perkins, and Alison Swan, and features an ensemble cast."
+15,Escape from Zahrain,director,Ronald Neame,Q25471,Q460090,"Escape from Zahrain is a 1962 American action film directed by Ronald Neame and starring Yul Brynner, Sal Mineo, Jack Warden, Madlyn Rhue and Anthony Caruso."
+16,Live Free or Die Hard,director,Len Wiseman,Q50861,Q336099,The film was directed by Len Wiseman and starred Bruce Willis as John McClane.
+17,Deathdream,director,Bob Clark,Q33671,Q526359,"Deathdream (also known as Dead of Night) is a 1974 horror film directed by Bob Clark and written by Alan Ormsby, and starring Richard Backus, John Marley, and Lynn Carlin."
+18,A Fantastic Fear of Everything,director,Crispian Mills,Q3242,Q711920,"A Fantastic Fear of Everything is a 2012 British horror comedy film starring Simon Pegg, written and directed by Crispian Mills with Chris Hopewell as co-director."
+19,Alien Raiders,director,Ben Rock,Q3208,Q4886378,The film is Ben Rock's first feature film as a director.
+20,Black Box BRD,director,Andres Veiel,Q25454,Q53412,Black Box BRD is a 2001 German documentary film written and directed by Andres Veiel.
+21,Dead like Me: Life After Death,director,Stephen Herek,Q33148,Q545669,"Dead like Me: Life After Death is a 2009 American fantasy comedy-drama film directed by Stephen Herek and written by John Masius and Stephen Godchaux, based on the short-lived 2003 television series Dead Like Me, created by Bryan Fuller."
+22,The Hidden Fortress,director,Akira Kurosawa,Q39946,Q8006,"The Hidden Fortress (, Kakushi toride no san akunin, literally, ""The Three Villains of the Hidden Fortress"") is a 1958 jidaigeki adventure film directed by Akira Kurosawa."
+23,Family Plot,director,Alfred Hitchcock,Q47296,Q7374,Family Plot is a 1976 American Technicolor comedy thriller that was the final film directed by Alfred Hitchcock.
+24,Love Is Not Blind,director,Teng Huatao,Q51732,Q9048569,: '33 Days of Breakup') is a 2011 Chinese romantic comedy film directed by Teng Huatao.
+25,Saturday Night Fever,director,John Badham,Q47654,Q547485,Saturday Night Fever is a 1977 American dance drama film directed by John Badham.
+26,Testament of Orpheus,director,Jean Cocteau,Q25521,Q83158,"Directed by and starring Jean Cocteau, who plays himself as an 18th-century poet, the film includes cameo appearances by Pablo Picasso, Jean Marais, Charles Aznavour, Jean-Pierre Leaud, and Yul Brynner."
+27,A Fantastic Fear of Everything,director,Chris Hopewell,Q3242,Q5106916,"A Fantastic Fear of Everything is a 2012 British horror comedy film starring Simon Pegg, written and directed by Crispian Mills with Chris Hopewell as co-director."
+28,Hurlevent,director,Jacques Rivette,Q25524,Q167475,Hurlevent (Howling wind) is a 1985 French drama film directed by Jacques Rivette.
+29,The American Soldier,director,Rainer Werner Fassbinder,Q25600,Q44426,The American Soldier (German: Der amerikanische Soldat) is a 1970 West German film written and directed by Rainer Werner Fassbinder.
+30,The File of the Golden Goose,director,Sam Wanamaker,Q38143,Q1370307,"The File of the Golden Goose is a 1969 British thriller film directed by Sam Wanamaker and starring Yul Brynner, Charles Gray and Edward Woodward."
+31,Liar Liar,director,Tom Shadyac,Q48980,Q722135,"Liar Liar is a 1997 American fantasy comedy film directed by Tom Shadyac, written by Paul Guay and Stephen Mazur and starring Jim Carrey, who was nominated for a Golden Globe Award for Best Actor in a Comedy."
+32,Married to the Mob,director,Jonathan Demme,Q48984,Q48987,"Married to the Mob is a 1988 American comedy film directed by Jonathan Demme, starring Michelle Pfeiffer and Matthew Modine."
+33,Abbott and Costello in the Foreign Legion,director,Charles Lamont,Q23896,Q1065270,Abbott and Costello in the Foreign Legion is a 1950 comedy film directed by Charles Lamont and starring the comedy team of Abbott and Costello.
+34,Podaa Podi,director,Vignesh Shivan,Q26162,Q18210252,"Go boy, go girl) is a 2012 Indian Tamil-language musical romantic comedy film written and directed by debutant Vignesh Shivan, starring Silambarasan and Varalaxmi Sarathkumar."
+35,Paris Belongs to Us,director,Jacques Rivette,Q25513,Q167475,"Paris Belongs to Us (French: Paris nous appartient, sometimes translated as Paris Is Ours) is a 1961 French mystery film directed by Jacques Rivette."
+36,Mallrats,director,Kevin Smith,Q39999,Q489831,"Mallrats is a 1995 American buddy comedy film written and directed by Kevin Smith and starring Jason Lee, Jeremy London, Shannen Doherty, Claire Forlani, Ben Affleck, Jason Mewes, Joey Lauren Adams, Michael Rooker, and Smith himself."
+37,Adhisaya Manithan,director,Velu Prabhakaran,Q3998,Q16734684,"Adhisaya Manithan (English: Mysterious Human) is a 1990 Tamil Slasher film, produced by Thakkali Srinivasan and directed by Velu Prabhakaran."
+38,Cast a Giant Shadow,director,Melville Shavelson,Q25835,Q117479,"Melville Shavelson adapted, produced and directed."
+39,Frida,director,Julie Taymor,Q35738,Q240490,Frida is a 2002 American biographical drama film directed by Julie Taymor which depicts the professional and private life of the surrealist Mexican artist Frida Kahlo.
+40,Le Pont du Nord,director,Jacques Rivette,Q25503,Q167475,Le Pont du Nord is a 1981 French film directed by Jacques Rivette.
+41,The Girl from Nowhere,director,Jean-Claude Brisseau,Q38235,Q953105,The Girl from Nowhere (French: La Fille de nulle part) is a 2012 French drama film directed by Jean-Claude Brisseau.
+42,"Up, Down, Fragile",director,Jacques Rivette,Q25617,Q167475,"Up, Down, Fragile (French: Haut bas fragile) is a 1995 French film directed by Jacques Rivette."
+43,Drop Dead Fred,director,Ate de Jong,Q53703,Q279894,"Drop Dead Fred is a 1991 British-American black comedy fantasy film directed by Ate de Jong, produced by PolyGram Filmed Entertainment and Working Title Films and released and distributed by New Line Cinema."
+44,Ammavin Kaipesi,director,Thangar Bachan,Q25482,Q7710300,Shanthanu and Iniya play the lead role while Thangar Bachan plays a pivotal role.
+45,200 Cigarettes,director,Risa Bramon Garcia,Q40071,Q22976011,200 Cigarettes is a 1999 American comedy film directed by Risa Bramon Garcia and written by Shana Larsen.
+46,Celluloide,director,Carlo Lizzani,Q34643,Q26208,Celluloide is a 1996 Italian film directed by Carlo Lizzani.
+47,Fly Away Home,director,Carroll Ballard,Q49018,Q1045172,Flying Wild and Father Goose) is a 1996 family drama film directed by Carroll Ballard.
+48,Kings of the Sun,director,J. Lee Thompson,Q25858,Q456979,Kings of the Sun is a 1963 DeLuxe Color film directed by J. Lee Thompson for Mirisch Productions set in Mesoamerica at the time of the conquest of Chichen Itza by Hunac Ceel.
+49,The Tiger and the Snow,director,Roberto Benigni,Q19358,Q23301,The Tiger and the Snow (Italian: La tigre e la neve) is a 2005 Italian comedy-drama  film starring and directed by Roberto Benigni.
+50,Curse of the Golden Flower,director,Zhang Yimou,Q51737,Q55430,Curse of the Golden Flower (Chinese: ; pinyin: MÇnchÃ©ngjÃ¬ndÃ ihuÃ¡ngjÄ«njiÇ) is a 2006 Chinese epic wuxia drama film written and directed by Zhang Yimou.
+51,Bloodbath at the House of Death,director,Ray Cameron,Q4733,Q16012937,Bloodbath at the House of Death is a 1983 British comedy horror film directed by Ray Cameron and starring the comedian Kenny Everett and featuring Vincent Price.
+52,Percy's Progress,director,Ralph Thomas,Q4815,Q433960,Percy's Progress is a 1974 British comedy film directed by Ralph Thomas.
+53,Bandits in Milan,director,Carlo Lizzani,Q25994,Q26208,Bandits in Milan (Italian: Banditi a Milano; also known as The Violent Four) is a 1968 Italian crime film directed by Carlo Lizzani.
+54,Strike Commando 2,director,Bruno Mattei,Q25947,Q729124,"Strike Commando 2 follows Bruno Mattei's (who also directed the film) Strike Commando (1987), where Reb Brown plays the lead character (Huff replaced him in this one)."
+55,Iron Eagle,director,Sidney J. Furie,Q39956,Q1359422,"Iron Eagle is a 1986 military action film directed by Sidney J. Furie, co-written by Kevin Alyn Elders and starring Jason Gedrick and Louis Gossett Jr."
+56,Back to Stay,director,Milagros Mumenthaler,Q38297,Q3313842,"Back to Stay (Spanish: Abrir puertas y ventanas) is a 2011 Argentine-Swiss comedy-drama film, written and directed by Milagros Mumenthaler and is her first full-length feature film."
+57,Skyfall,director,Sam Mendes,Q4941,Q223233,"The film is the third to star Daniel Craig as fictional MI6 agent James Bond and features Javier Bardem as Raoul Silva, the villain, and Judi Dench as M. It was directed by Sam Mendes and written by Neal Purvis, Robert Wade, and John Logan, and features the theme song ""Skyfall"", written and performed by Adele."
+58,Love on the Ground,director,Jacques Rivette,Q25508,Q167475,Love on the Ground (French: L'Amour par terre) is a 1984 French film directed by Jacques Rivette.
+59,The Long Duel,director,Ken Annakin,Q38365,Q470818,"The Long Duel is a 1967 British adventure film directed by Ken Annakin and starring Yul Brynner, Trevor Howard, Charlotte Rampling and Harry Andrews."
+60,"The Good, the Bad and the Ugly",director,Sergio Leone,Q41483,Q164562,"'""The good, the ugly, the bad""') is a 1966 Italian epic Spaghetti Western film directed by Sergio Leone and starring Clint Eastwood as ""the Good"", Lee Van Cleef as ""the Bad"", and Eli Wallach as ""the Ugly""."
+61,Iron Eagle II,director,Sidney J. Furie,Q39960,Q1359422,Iron Eagle II (also titled Iron Eagle II: The Battle Beyond the Flag) is a 1988 military action film directed by Sidney J. Furie and written by Furie and Kevin Alyn Elders.
+62,School Ties,director,Robert Mandel,Q40074,Q3091066,"School Ties is a 1992 American sports-drama film directed by Robert Mandel and starring Brendan Fraser, Matt Damon, Ben Affleck, Chris O'Donnell, Cole Hauser, Randall Batinkoff, Andrew Lowery and Anthony Rapp."
+63,The Death and Life of Bobby Z,director,John Herzfeld,Q38486,Q328814,"The Death and Life of Bobby Z, also known as Bobby Z and Let's Kill Bobby Z, is a 2007 American-German action film, directed by John Herzfeld, and starring Paul Walker, Laurence Fishburne, Olivia Wilde and Joaquim de Almeida."
+64,Kingsajz,director,Juliusz Machulski,Q54976,Q1349134,Kingsajz is a 1987 cult Polish comedy fantasy film directed by Juliusz Machulski.
+65,La Strada,director,Federico Fellini,Q18402,Q7371,"'""The Road""') is a 1954 Italian drama film directed by Federico Fellini from La Strada's own screenplay co-written with Tullio Pinelli and Ennio Flaiano."
+66,I Vitelloni,director,Federico Fellini,Q18399,Q7371,"""The Bullocks/The layabouts"") is a 1953 Italian comedy-drama directed by Federico Fellini from a screenplay by Fellini, Ennio Flaiano and Tullio Pinelli."
+67,Visions of Light,director,Todd McCarthy,Q24258,Q2894636,"Visions of Light is a 1992 documentary film directed by Arnold Glassman, Todd McCarthy and Stuart Samuels."
+68,Penny Gold,director,Jack Cardiff,Q43911,Q436704,"Penny Gold is a 1973 British drama film directed by Jack Cardiff and starring James Booth, Francesca Annis, Nicky Henson and Joss Ackland."
+69,The People Under the Stairs,director,Wes Craven,Q27338,Q223992,"The People Under the Stairs is a 1991 American horror comedy film written and directed by Wes Craven and starring Brandon Adams, Everett McGill, Wendy Robie, A. J. Langer, Ving Rhames, and Sean Whalen."
+70,Jack the Giant Slayer,director,Bryan Singer,Q27513,Q220751,"Jack the Giant Slayer (previously titled Jack the Giant Killer) is a 2013 American fantasy adventure film directed and co-produced by Bryan Singer and written by Darren Lemke, Christopher McQuarrie and Dan Studney, from a story by Lemke and David Dobkin."
+71,Borat,director,Larry Charles,Q186323,Q722115,"Borat: Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan, more commonly known simply as Borat, is a 2006 British-American comedy film directed by Larry Charles as well as co-written and produced by Sacha Baron Cohen."
+72,The White Sheik,director,Federico Fellini,Q18397,Q7371,"The White Sheik (Italian: Lo sceicco bianco) is a 1952 Italian romantic comedy film directed by Federico Fellini and starring Alberto Sordi, Leopoldo Trieste, Brunella Bovo and Giulietta Masina."
+73,Do Bigha Zamin,director,Bimal Roy,Q23089,Q55405,'Two bighas of land') is a 1953 Indian Hindi-language drama film directed by Bimal Roy.
+74,Eraserhead,director,David Lynch,Q11618,Q2071,"Eraserhead is a 1977 American experimental body horror film written, directed, produced, and edited by David Lynch."
+75,The Trapp Family,director,Wolfgang Liebeneiner,Q43968,Q67568,"The Trapp Family (German: Die Trapp-Familie) is a 1956 West German comedy drama film about the real-life Austrian musical family of that name directed by Wolfgang Liebeneiner and starring Ruth Leuwerik, Hans Holt, and Maria Holst."
+76,Ghost Rider: Spirit of Vengeance,director,Mark Neveldine,Q41854,Q1340718,"The film was directed by Mark Neveldine and Brian Taylor, from a screenplay written by Scott M. Gimple, Seth Hoffman, and David S. Goyer."
+77,Kiler,director,Juliusz Machulski,Q54974,Q1349134,"Kiler (English: The Hitman) is a 1997 Polish comedy by Juliusz Machulski, starring Cezary Pazura, Jerzy Stuhr, Janusz RewiÅski, Jan Englert, Katarzyna Figura and MaÅgorzata KoÅ¼uchowska."
+78,Chasing Amy,director,Kevin Smith,Q40115,Q489831,"The film received mostly positive reviews, praising the humor, performances and Kevin Smith's direction."
+79,Anna Karamazoff,director,Rustam Khamdamov,Q24340,Q24583,Anna Karamazoff (Russian:  ) is a 1991 Soviet drama film directed by Rustam Khamdamov.
+80,Made in Dagenham,director,Nigel Cole,Q53096,Q365726,Made in Dagenham is a 2010 British film directed by Nigel Cole.
+81,Jab Tak Hai Jaan,director,Yash Chopra,Q44280,Q30876,Yash Chopra returned to direction eight years after Veer-Zaara.
+82,The Sisterhood of the Traveling Pants 2,director,Sanaa Hamri,Q16458,Q4119610,"The Sisterhood of the Traveling Pants 2 was directed by Sanaa Hamri and screenplay by Elizabeth Chandler, who wrote the previous film."
+83,Moscow Does Not Believe in Tears,director,Vladimir Menshov,Q53105,Q726105,Moscow Does Not Believe in Tears was written by Valentin Chernykh and directed by Vladimir Menshov.
+84,Matchstick Men,director,Ridley Scott,Q4536,Q56005,"Matchstick Men is a 2003 black comedy crime film directed by Ridley Scott, and based on Eric Garcia's 2002 novel of the same name."
+85,Special Effects: Anything Can Happen,director,Ben Burtt,Q8547,Q816456,Special Effects: Anything Can Happen is an American documentary film directed by Academy Award-winning sound designer Ben Burtt and narrated by John Lithgow.
+86,The Hills Have Eyes Part II,director,Wes Craven,Q27536,Q223992,The Hills Have Eyes Part II is a 1985 American horror film written and directed by Wes Craven.
+87,The Day After Tomorrow,director,Roland Emmerich,Q14320,Q60100,"The Day After Tomorrow is a 2004 American science fiction disaster film co-written, directed, and produced by Roland Emmerich and starring Dennis Quaid, Jake Gyllenhaal, Ian Holm, Emmy Rossum, and Sela Ward."
+88,Il bidone,director,Federico Fellini,Q18403,Q7371,"Il bidone ([il bidne], ""The Drum [container]""; also known as The Swindle or The Swindlers) is a 1955 Italian film directed by Federico Fellini."
+89,A Walk with Love and Death,director,John Huston,Q186490,Q51575,"A Walk with Love and Death is a 1969 DeLuxe Color romantic drama film directed by John Huston and starring Anjelica Huston, Assi Dayan, Anthony Higgins, and John Huston."
+90,Vabank,director,Juliusz Machulski,Q54993,Q1349134,"Vabank is a 1981 Polish comedy heist film written and directed by Juliusz Machulski, set in 1934 Warsaw (although actually filmed  in ÅÃ³dÅº and PiotrkÃ³w Trybunalski)."
+91,A Jungle Book of Regulations,director,Stanisław Bareja,Q54983,Q721037,"Nie ma róży bez ognia (title in Polish: There is no rose without fire, in reference to two mixed up proverbs - There is no rose without thorns, and There is no smoke without the fire) is a Polish comedy film from 1974 directed by Stanisław Bareja."
+92,Life or Something Like It,director,Stephen Herek,Q29871,Q545669,Life or Something Like It is a 2002 American romantic comedy/drama film directed by Stephen Herek.
+93,Variety Lights,director,Federico Fellini,Q18395,Q7371,"Variety Lights (Italian: Luci del varietÃ ) is a 1951 Italian romantic drama film produced and directed by Federico Fellini and Alberto Lattuada and starring Peppino De Filippo, Carla Del Poggio, and Giulietta Masina."
+94,Goodfellas,director,Martin Scorsese,Q42047,Q41148,"The critical consensus on Rotten Tomatoes calls Goodfellas ""arguably the high point of Martin Scorsese's career""."
+95,Docking the Boat,director,Tage Danielsson,Q18331,Q1384021,"Docking the Boat (Swedish: Att angÃ¶ra en brygga, or sometimes: To Go Ashore) is a Swedish dark comedy film from 1965 directed by Tage Danielsson."
+96,Spirits of the Dead,director,Federico Fellini,Q18415,Q7371,"American International Pictures distributed this horror anthology film featuring three Poe stories directed by European directors Roger Vadim, Louis Malle and Federico Fellini."
+97,Spirits of the Dead,director,Louis Malle,Q18415,Q55392,"American International Pictures distributed this horror anthology film featuring three Poe stories directed by European directors Roger Vadim, Louis Malle and Federico Fellini."
+98,Madonna: Truth or Dare,director,Alek Keshishian,Q187561,Q2832478,Madonna: Truth or Dare (also known as Truth or Dare and In Bed with Madonna outside of North America) is a 1991 American documentary film by director Alek Keshishian chronicling the life of singer and songwriter Madonna during Madonna : Truth or Dare's 1990 Blond Ambition World Tour.
+99,Intervista,director,Federico Fellini,Q18441,Q7371,Intervista (English: Interview) is a 1987 Italian film directed by Federico Fellini.
+100,Michael Jackson's This Is It,director,Kenny Ortega,Q44447,Q380852,"The film's director, Kenny Ortega, confirmed that none of the footage was originally intended for release, but after Jackson's death, Michael Jackson 's This Is It was agreed that the film would be made."
+101,Heading South,director,Laurent Cantet,Q59426,Q117071,Heading South (French: Vers le sud) is a 2005 French-Canadian drama film directed by Laurent Cantet and based on three short stories by Dany LaferriÃ¨re.
+102,Assassination Games,director,Ernie Barbarash,Q31540,Q2326442,Assassination Games is a 2011 American action thriller film directed by Ernie Barbarash and starring Jean-Claude van Damme and Scott Adkins with Ivan Kaye as their main antagonist.
+103,Ginger and Fred,director,Federico Fellini,Q18439,Q7371,Ginger and Fred (Italian: Ginger e Fred) is a 1986 comedy/drama film directed by Federico Fellini and starring Marcello Mastroianni and Giulietta Masina.
+104,Dangerous Beauty,director,Marshall Herskovitz,Q187999,Q925604,"Dangerous Beauty is a 1998 American biographical drama film directed by Marshall Herskovitz and starring Catherine McCormack, Rufus Sewell, and Oliver Platt."
+105,Variety Lights,director,Alberto Lattuada,Q18395,Q59204,"Variety Lights (Italian: Luci del varietÃ ) is a 1951 Italian romantic drama film produced and directed by Federico Fellini and Alberto Lattuada and starring Peppino De Filippo, Carla Del Poggio, and Giulietta Masina."
+106,More Than a Miracle,director,Francesco Rosi,Q31786,Q53050,"Filmed in the countryside outside Naples, Francesco Rosi directed and Carlo Ponti produced."
+107,Fellini: A Director's Notebook,director,Federico Fellini,Q18418,Q7371,"Fellini: A Director's Notebook (Italian: Bloc-notes di un regista) is an Italian documentary for television directed by Federico Fellini shot in 16mm and first broadcast in the United States on NBC in 1969, on NBC Experiment in Television."
+108,Die Another Day,director,Lee Tamahori,Q30931,Q449104,"Die Another Day was produced by Michael G. Wilson and Barbara Broccoli, and directed by Lee Tamahori."
+109,Two Weeks in Another Town,director,Vincente Minnelli,Q59240,Q51535,"Two Weeks in Another Town is a 1962 American drama film directed by Vincente Minnelli and starring Kirk Douglas, Edward G. Robinson, Cyd Charisse, Claire Trevor, Daliah Lavi, George Hamilton, and Rosanna Schiaffino."
+110,Pirates of the Caribbean: At World's End,director,Gore Verbinski,Q54274,Q295463,"Pirates of the Caribbean: At World's End is a 2007 American epic fantasy swashbuckler film directed by Gore Verbinski, the third installment in the Pirates of the Caribbean film series and the sequel to Dead Man's Chest (2006)."
+111,The Adventures of Anton,director,Wiktor Biegański,Q54986,Q82956,The Adventures of Anton (Polish:Przygody pana Antoniego) is a 1913 Polish silent comedy film directed by Wiktor Biegański and starring Antoni Siemaszko and Wanda Jarszewska.
+112,Sex Is Comedy,director,Catherine Breillat,Q59423,Q289054,Sex Is Comedy is a 2002 French film written and directed by Catherine Breillat.
+113,Hachi: A Dog's Tale,director,Lasse Hallström,Q59249,Q316051,"This version, which places Hachi : A Dog 's Tale in a modern American context, was directed by Lasse Hallström, written by Stephen P. Lindsey and Kaneto Shindo, and produced by Richard Gere."
+114,Confession of Murder,director,Jung Byung-gil,Q28289,Q15985300,"""I Am the Murderer"") is a 2012 South Korean action thriller film directed by Jung Byung-gil, starring Jung Jae-young and Park Si-hoo."
+115,Lo vedi come sei... lo vedi come sei?,director,Mario Mattoli,Q18444,Q55458,is a 1939 Italian comedy film directed by Mario Mattoli and starring Erminio Macario.
+116,Spirits of the Dead,director,Roger Vadim,Q18415,Q383420,"American International Pictures distributed this horror anthology film featuring three Poe stories directed by European directors Roger Vadim, Louis Malle and Federico Fellini."
+117,Amarcord,director,Federico Fellini,Q18428,Q7371,"Amarcord (Italian: [amarkrd]) is a 1973 Italian comedy-drama film directed by Federico Fellini, a semi-autobiographical tale about Titta, an adolescent boy growing up among an eccentric cast of characters in the village of Borgo San Giuliano (situated near the ancient walls of Rimini) in 1930s Fascist Italy."
+118,La Dolce Vita,director,Federico Fellini,Q18407,Q7371,"La Dolce Vita ([la dolte vita]; Italian for ""the sweet life"" or ""the good life"") is a 1960 comedy-drama film directed and co-written by Federico Fellini."
+119,Batman Returns,director,Tim Burton,Q189054,Q56008,"Batman Returns is a 1992 American superhero film directed by Tim Burton and produced by Denise Di Novi and Burton, based on the DC Comics character Batman."
+120,Life is All You Get,director,Wolfgang Becker,Q320318,Q60669,Life Is All You Get (German: Das Leben ist eine Baustelle) is a 1997 German comedy film directed by Wolfgang Becker.
+121,Orchestra Rehearsal,director,Federico Fellini,Q18431,Q7371,Orchestra Rehearsal (Italian: Prova d'orchestra) is a 1978 Italian satirical film directed by Federico Fellini.
+122,And the Ship Sails On,director,Federico Fellini,Q18437,Q7371,And the Ship Sails On (Italian: E la nave va) is a 1983 Italian film directed and co-written by Federico Fellini.
+123,City of Women,director,Federico Fellini,Q18433,Q7371,City of Women (Italian: La cittÃ  delle donne) is a 1980 Italian fantasy comedy-drama film written and directed by Federico Fellini.
+124,Akele Hum Akele Tum,director,Mansoor Khan,Q58619,Q3286556,"Akele Hum Akele Tum (I'm Alone, You Are Alone) is a 1995 Indian Hindi-language romantic drama film starring Aamir Khan, Manisha Koirala and Master Adil, and directed by Mansoor Khan."
+125,Fellini's Casanova,director,Federico Fellini,Q18429,Q7371,"Fellini's Casanova (Il Casanova di Federico Fellini) is a 1976 Italian film by director Federico Fellini, adapted from the autobiography of Giacomo Casanova, the 18th-century adventurer and writer."
+126,Reap the Wild Wind,director,Cecil B. DeMille,Q31971,Q72267,"Reap the Wild Wind is an American 1942 adventure film starring Ray Milland, John Wayne, Paulette Goddard, Robert Preston, and Susan Hayward, and directed by Cecil B. DeMille, his second picture to be filmed in color."
+127,Jour de Fête,director,Jacques Tati,Q29867,Q51549,Jour de fête (The Big Day) is a 1949 French comedy film starring Jacques Tati in his feature film directional debut as an inept and easily distracted mailman in a backward French village.
+128,13 Tzameti,director,Géla Babluani,Q186900,Q200748,"13 Tzameti is a 2005 suspense thriller film written, produced, and directed by Georgian filmmaker Géla Babluani."
+129,Incident at Loch Ness,director,Zak Penn,Q32241,Q19031,"Incident at Loch Ness is a 2004 mockumentary starring, produced by and written by Werner Herzog and Zak Penn."
+130,The Mortal Instruments: City of Bones,director,Harald Zwart,Q59346,Q962552,"Directed by Harald Zwart, the film stars an international cast, including Lily Collins, Jamie Campbell Bower, Robert Sheehan, Kevin Zegers, Jemima West, Godfrey Gao, Lena Headey, Jonathan Rhys Meyers, Aidan Turner, Kevin Durand, and Jared Harris."
+131,A Time to Love and a Time to Die,director,Douglas Sirk,Q185834,Q60858,A Time to Love and a Time to Die is a 1958 Eastmancolor CinemaScope drama war film directed by Douglas Sirk and starring John Gavin.
+132,Apocalypto,director,Mel Gibson,Q188035,Q42229,"Apocalypto (/pklpto/) is a 2006 American epic historical adventure film produced, co-written, and directed by Mel Gibson."
+133,Johnny Guitar,director,Nicholas Ray,Q59318,Q240677,"Johnny Guitar is a 1954 American Drama Western film directed by Nicholas Ray starring Joan Crawford, Sterling Hayden, Mercedes McCambridge, Ernest Borgnine and Scott Brady."
+134,The Magnificent Seven,director,John Sturges,Q19069,Q361670,"The Magnificent Seven is a 1960 American Western film directed by John Sturges and starring Yul Brynner, Eli Wallach, Steve McQueen, Charles Bronson, Robert Vaughn, Brad Dexter, James Coburn and Horst Buchholz."
+135,Abhijan,director,Satyajit Ray,Q320574,Q8873,"Abhijan (, The Expedition) is a 1962 Bengali film directed by the Indian filmmaker Satyajit Ray."
+136,Invasion of the Body Snatchers,director,Don Siegel,Q45386,Q358322,"Invasion of the Body Snatchers is a 1956 American science fiction horror film produced by Walter Wanger, directed by Don Siegel, that stars Kevin McCarthy and Dana Wynter."
+137,The Thing About My Folks,director,Raymond De Felitta,Q188064,Q788314,"The Thing About My Folks is a 2005 American drama film directed by Raymond De Felitta and starring  Peter Falk, Paul Reiser, and Olympia Dukakis."
+138,The Angels' Share,director,Ken Loach,Q45318,Q55238,"The Angels' Share is a comedy-drama film directed by Ken Loach and starring Paul Brannigan, John Henshaw, and William Ruane."
+139,For Richer or Poorer,director,Bryan Spicer,Q185859,Q2927184,For Richer or Poorer is a 1997 American comedy film directed by Bryan Spicer starring Tim Allen and Kirstie Alley as a New York socialite couple who decide to end their spoiled relationship.
+140,Zelig,director,Woody Allen,Q187423,Q25089,Zelig is a 1983 American mockumentary film written and directed by Woody Allen and starring Allen and Mia Farrow.
+141,A Dangerous Method,director,David Cronenberg,Q188159,Q55422,"A Dangerous Method is a 2011 historical film directed by David Cronenberg and starring Keira Knightley, Viggo Mortensen, Michael Fassbender, and Vincent Cassel."
+142,Miracle of Marcelino,director,Ladislao Vajda,Q56217,Q59972,"Miracle of Marcelino (Spanish: Marcelino, pan y vino, ""Marcelino, bread and wine"") is a 1955 Spanish film written by JosÃ© Maria Sanchez-Silva, based on his novel, and directed by Ladislao Vajda."
+143,Birthday Girl,director,Jez Butterworth,Q18964,Q1688756,Birthday Girl is a 2001 erotic comedy thriller film directed by Jez Butterworth.
+144,Beetlejuice,director,Tim Burton,Q320384,Q56008,"Beetlejuice is a 1988 American horror comedy film directed by Tim Burton, produced by the Geffen Company, and distributed by Warner Bros. Pictures."
+145,GoldenEye,director,Martin Campbell,Q19089,Q282033,GoldenEye was directed by Martin Campbell and is the first in the series not to utilize any story elements from the works of novelist Ian Fleming.
+146,The Free Will,director,Matthias Glasner,Q320319,Q100325,The Free Will (German: Der freie Wille) is a 2006 German drama film directed by Matthias Glasner.
+147,Robin Hood and the Pirates,director,Giorgio Simonelli,Q188323,Q1010090,"Robin Hood and the Pirates (Italian: Robin Hood e i pirati) is a 1960 Italian adventure film directed by Giorgio Simonelli, and starring Lex Barker and Jackie Lane."
+148,Be Kind Rewind,director,Michel Gondry,Q320236,Q126098,"Be Kind Rewind is a 2008 comedy film written and directed by Michel Gondry, and starring Jack Black, Mos Def, Melonie Diaz, Danny Glover, Mia Farrow and Sigourney Weaver."
+149,Virtuosity,director,Brett Leonard,Q187414,Q736300,Virtuosity is a 1995 American science fiction action film directed by Brett Leonard and starring Denzel Washington and Russell Crowe.
+150,Code Name: Wild Geese,director,Antonio Margheriti,Q322364,Q603216,"Code Name: Wild Geese (Italian: Arcobaleno selvaggio, German: Geheimcode: WildgÃ¤nse) is a 1984 West German-Italian Euro War film directed by Antonio Margheriti and starring Lewis Collins in the first of Code Name : Wild Geese's three mercenary war films."
+151,Anatomy of t.A.T.u.,director,Vitaly Mansky,Q488362,Q1660652,"), is a documentary film directed by Vitaly Mansky, chronicling the lives of the group t.A.T.u."
+152,Seduction: The Cruel Woman,director,Elfi Mikesch,Q321468,Q1328532,"Seduction: The Cruel Woman (VerfÃ¼hrung: Die grausame Frau) is a 1985 West German film, directed by Elfi Mikesch and Monika Treut, who both also wrote the screenplay."
+153,Teknolust,director,Lynn Hershman Leeson,Q323771,Q6709060,"Teknolust is a 2002 film written, produced, and directed by Lynn Hershman Leeson who, at the time of production, was working in the art department at University of California, Davis."
+154,Dead Men Don't Count,director,Rafael Romero Marchent,Q240061,Q930168,"Dead Men Don't Count (Spanish: Â¿QuiÃ©n grita venganza?, Italian: I morti non si contano, also known as Cry for Revenge) is a 1968 Spanish-Italian Spaghetti Western film written and directed by Rafael Romero Marchent."
+155,Madigan,director,Don Siegel,Q45304,Q358322,"Madigan is a 1968 American neo-noir crime drama thriller film directed by Don Siegel (as Donald Siegal) and starring Richard Widmark, Henry Fonda and Inger Stevens The screenplay-originally titled Friday, Saturday, Sunday-was adapted by two writers who had been blacklisted in the 1950s, Howard Rodman (credited here under the pseudonym Henri Simoun) and Abraham Polonsky."
+156,The Nightmare Before Christmas,director,Henry Selick,Q322328,Q514859,"The Nightmare Before Christmas (also known as Tim Burton's The Nightmare Before Christmas) is a 1993 American stop-motion animated musical Halloween-Christmas dark fantasy film directed by Henry Selick, and produced and conceived by Tim Burton."
+157,Female Perversions,director,Susan Streitfeld,Q321454,Q36844215,"Female Perversions is a 1996 drama film, the first feature directed by Susan Streitfeld, which stars Tilda Swinton, Amy Madigan, Karen Sillas, Frances Fisher, Paulina Porizkova, and Clancy Brown."
+158,Yesterday Girl,director,Alexander Kluge,Q321957,Q60637,"Yesterday Girl (German: Abschied von gestern, ""Farewell to Yesterday"") is a 1966 drama film directed and written by Alexander Kluge."
+159,Circus of Fear,director,Werner Jacobs,Q323820,Q97799,Werner Jacobs directed the version release in West Germany.
+160,"Ricardo, Miriam y Fidel",director,Christian Frei,Q239907,Q123400,"Ricardo, Miriam y Fidel is the first feature-length documentary of the Swiss director Christian Frei."
+161,The Borrower,director,John McNaughton,Q240194,Q522382,"The Borrower is a 1991 American science fiction horror film directed by John McNaughton and starring Rae Dawn Chong, Tom Towles and Antonio Fargas."
+162,Palermo or Wolfsburg,director,Werner Schroeter,Q322107,Q62323,Palermo or Wolfsburg (German: Palermo oder Wolfsburg) is a 1980 West German film by Werner Schroeter.
+163,Der Postmeister,director,Gustav Ucicky,Q322346,Q78666,Der Postmeister (English:  The Postmaster or The Stationmaster) is a 1940 Austrian-German film directed by Gustav Ucicky.
+164,The Sons of Great Bear,director,Josef Mach,Q323401,Q331311,"The Sons of Great Bear (German: Die SÃ¶hne der groÃen BÃ¤rin; literally, The Sons of the Great She-Bear) is a 1966 East German Western film, directed by the Czechoslovak filmmaker Josef Mach and starring the Yugoslav actor Gojko MitiÄ in the leading role of Tokei-ihto."
+165,Roadside Romeo,director,Jugal Hansraj,Q46918,Q2347167,"Roadside Romeo is a 2008 3D Indian-American computer animated romantic comedy film written and directed by Jugal Hansraj in his directorial debut., produced by Aditya Chopra and Yash Chopra of Yash Raj Films and distributed by Walt Disney Studios Motion Pictures in United States, United Kingdom and India."
+166,The Dark Knight Rises,director,Christopher Nolan,Q189330,Q25191,"The Dark Knight Rises is a 2012 superhero film directed by Christopher Nolan, who co-wrote the screenplay with his brother Jonathan Nolan, and the story with David S. Goyer."
+167,The Last Stage,director,Wanda Jakubowska,Q322105,Q437696,"The Last Stage (Polish: Ostatni etap) is a 1947 Polish feature film directed and co-written by Wanda Jakubowska, depicting her experiences in the Auschwitz concentration camp during World War II."
+168,Guys and Balls,director,Sherry Hormann,Q240535,Q2278451,"Guys and Balls (German: MÃ¤nner wie wir, literally Men like us, UK title: Balls) is a 2004 sports comedy/romance film by German American director Sherry Hormann about a gay goalkeeper who assembles a gay-only soccer team to play against his ex-team, which fired him due to homophobia."
+169,Achanurangatha Veedu,director,Lal Jose,Q45268,Q6480060,'The House Where the Father Doesn't Sleep') is a 2006 Indian Malayalam-language drama film directed by Lal Jose and written by Babu Janardhanan.
+170,The Cave of the Yellow Dog,director,Byambasuren Davaa,Q322139,Q467764,The Cave of the Yellow Dog (Mongolian   ) is a 2005 Mongolian/German film written and directed by Byambasuren Davaa.
+171,Rocky,director,John G. Avildsen,Q188652,Q260125,"Rocky is a 1976 American sports drama film directed by John G. Avildsen, written by and starring Sylvester Stallone."
+172,The Mummy Returns,director,Stephen Sommers,Q320461,Q363402,"The Mummy Returns is a 2001 American action-adventure fantasy horror film, written and directed by Stephen Sommers, starring Brendan Fraser, Rachel Weisz, John Hannah, Arnold Vosloo, Oded Fehr, Patricia VelÃ¡squez, and Dwayne Johnson."
+173,Who's Harry Crumb?,director,Paul Flaherty,Q186445,Q113503224,"Paul Flaherty directed the film, which co-stars Annie Potts, Jeffrey Jones and Shawnee Smith."
+174,Anatomy of a Murder,director,Otto Preminger,Q488376,Q52997,Anatomy of a Murder is a 1959 American courtroom drama crime film produced and directed by Otto Preminger.
+175,Kamikaze 1989,director,Wolf Gremm,Q323787,Q98062,"Kamikaze 1989 is a 1982 West German cyberpunk thriller film co-written and directed by Wolf Gremm, based on the 1964 novel Murder on the Thirty-First Floor by Per WahlÃ¶Ã¶."
+176,Hollow Point,director,Sidney J. Furie,Q490204,Q1359422,"Hollow Point is a 1996 film directed by Sidney J. Furie and starring Thomas Ian Griffith, Tia Carrere, John Lithgow, and Donald Sutherland."
+177,Tu mi turbi,director,Roberto Benigni,Q19276,Q23301,"Tu mi turbi (also known as You Upset Me and You Disturb Me) is a 1983 Italian anthology comedy film written, directed and starred by Roberto Benigni."
+178,In the Cut,director,Jane Campion,Q59572,Q230448,The novel was adapted into a feature film of the same name in 2003 by director Jane Campion.
+179,Secret Things,director,Jean-Claude Brisseau,Q59722,Q953105,"Secret Things (French: Choses secrÃ¨tes) is a 2002 French erotic thriller film directed by Jean-Claude Brisseau, starring Coralie Revel and Sabrina Seyvecou."
+180,The Million Pound Note,director,Ronald Neame,Q490300,Q460090,"The Million Pound Note (released as Man with a Million and as Big Money in the U.S.) is a 1954 British comedy, directed by Ronald Neame and starring Gregory Peck."
+181,Favorites of the Moon,director,Otar Iosseliani,Q46533,Q321365,Les Favoris de la lune (internationally released as Favorites of the Moon) is a 1984 French drama film written and directed by Otar Iosseliani.
+182,The Rosebud Beach Hotel,director,Harry Hurwitz,Q324352,Q15438432,The Rosebud Beach Hotel is a 1984 film directed by Harry Hurwitz.
+183,The Cabin in the Woods,director,Drew Goddard,Q45394,Q922368,"The Cabin in the Woods is a 2012 American horror comedy film directed by Drew Goddard in his directorial debut, produced by Joss Whedon, and written by Whedon and Goddard."
+184,I've Heard the Mermaids Singing,director,Patricia Rozema,Q488595,Q273164,"I've Heard the Mermaids Singing is a 1987 comedy-drama film directed by Patricia Rozema and starring Sheila McCarthy, Paule Baillargeon, and Ann-Marie MacDonald."
+185,Anthropophagous 2000,director,Andreas Schnaas,Q324694,Q67727,"Anthropophagous 2000 is a 1999 German horror film directed by Andreas Schnaas, and written by Karl-Heinz Geisendorf."
+186,Portrait of a Beauty,director,Jeon Yun-su,Q487376,Q19364547,Portrait of a Beauty (Korean:Â ; RR:Â Miindo) is a 2008 South Korean film directed by Jeon Yun-su.
+187,The Indian Scarf,director,Alfred Vohrer,Q45679,Q76398,The Indian Scarf (German: Das indische Tuch) is a 1963 West German crime film directed by Alfred Vohrer.
+188,Passenger 57,director,Kevin Hooks,Q325691,Q2453153,Passenger 57 is a 1992 American action thriller film directed by Kevin Hooks.
+189,The House That Dripped Blood,director,Peter Duffell,Q324615,Q7173760,The House That Dripped Blood is a 1971 British horror anthology film directed by Peter Duffell and distributed by Amicus Productions.
+190,Star Trek V: The Final Frontier,director,William Shatner,Q241218,Q16297,Star Trek V: The Final Frontier is a 1989 American science fiction film directed by William Shatner and based on the television series Star Trek created by Gene Roddenberry.
+191,The Fruit is Ripe,director,Sigi Rothemund,Q324841,Q2284752,'Greek Figs') is a 1977 German softcore erotic comedy film directed by Sigi Rothemund.
+192,The Taste of Money,director,Im Sang-soo,Q487487,Q483616,"A decadent and sensational film that presents biting commentary on the rich and famous, The Taste of Money is Im Sang-soo's seventh film."
+193,The Hunchback of Rome,director,Carlo Lizzani,Q489133,Q26208,Il gobbo (internationally released as The Hunchback of Rome) is a 1960 Italian crime-drama film directed by Carlo Lizzani.
+194,Seven Psychopaths,director,Martin McDonagh,Q59610,Q372394,Seven Psychopaths is a 2012 dark comedy crime film written and directed by Martin McDonagh.
+195,Austin Powers: The Spy Who Shagged Me,director,Jay Roach,Q487978,Q524278,Austin Powers: The Spy Who Shagged Me is a 1999 American spy comedy film directed by Jay Roach.
+196,The Sweet Sex and Love,director,Bong Man-dae,Q487358,Q19483841,The Sweet Sex and Love was directed by Bong Man-dae and starred Kim Seo-hyung and Kim Sung-soo.
+197,Seven Samurai,director,Akira Kurosawa,Q189540,Q8006,"Seven Samurai (Japanese: , Hepburn: Shichinin no Samurai) is a 1954 Japanese epic samurai drama film co-written, edited, and directed by Akira Kurosawa."
+198,Road to Singapore,director,Victor Schertzinger,Q325538,Q707999,"Road to Singapore is a 1940 American semi-musical comedy film directed by Victor Schertzinger and starring Bing Crosby, Dorothy Lamour and Bob Hope."
+199,Mapado,director,Choo Chang-min,Q487516,Q5104728,Mapado (Korean:Â ) is a 2005 South Korean film directed by Choo Chang-min.
+200,Innocence of Muslims,director,Nakoula Basseley Nakoula,Q487612,Q652025,Innocence of Muslims is an anti-Islamic short film that was written and produced by Nakoula Basseley Nakoula.
+201,Rocky III,director,Sylvester Stallone,Q241504,Q40026,"Rocky III is a 1982 American sports drama film written, directed by, and starring Sylvester Stallone."
+202,Samurai II: Duel at Ichijoji Temple,director,Hiroshi Inagaki,Q325621,Q960868,"Duel at Ichijoji Temple (, Zoku Miyamoto Musashi: IchijÅji no KettÅ) is a color 1955 Japanese film directed by Hiroshi Inagaki starring Toshiro Mifune."
+203,Fat Girl,director,Catherine Breillat,Q59503,Q289054,"is a 2001 French drama film written and directed by Catherine Breillat, and starring AnaÃ¯s Reboux and Roxane Mesquida."
+204,Love Actually,director,Richard Curtis,Q190588,Q355300,Love Actually is a 2003 Christmas-themed romantic comedy film written and directed by Richard Curtis.
+205,Fight Club,director,David Fincher,Q190050,Q184903,"Fight Club is a 1999 American film directed by David Fincher and starring Brad Pitt, Edward Norton, and Helena Bonham Carter."
+206,Paradise Alley,director,Sylvester Stallone,Q19268,Q40026,"Paradise Alley is a 1978 American sports drama film written, directed by and starring Sylvester Stallone, in his feature film directorial debut."
+207,Memories of Murder,director,Bong Joon-ho,Q488169,Q495980,Memories of Murder (Korean:Â  ; RR:Â Sarinui chueok) is a 2003 South Korean crime drama film co-written and directed by Bong Joon-ho.
+208,3-Iron,director,Kim Ki-duk,Q489818,Q212990,"""Empty House"") is a 2004 romantic drama film written, produced and directed by Kim Ki-duk."
+209,Timecop,director,Peter Hyams,Q240849,Q458766,Timecop is a 1994 American science fiction action film directed by Peter Hyams and co-written by Mike Richardson and Mark Verheiden.
+210,Voice of a Murderer,director,Park Jin-pyo,Q491549,Q12597221,"""His Voice"") is a 2007 South Korean crime thriller-drama film written and directed by Park Jin-pyo, starring Sol Kyung-gu and Kim Nam-joo."
+211,50 First Dates,director,Peter Segal,Q241482,Q339551,"50 First Dates is a 2004 American romantic comedy film directed by Peter Segal and starring Adam Sandler, Drew Barrymore, Rob Schneider, Sean Astin, Blake Clark, and Dan Aykroyd."
+212,Lettere di una novizia,director,Alberto Lattuada,Q46361,Q59204,Lettere di una novizia (internationally released as Letters by a Novice and Rita) is a 1960 Italian drama film directed by Alberto Lattuada.
+213,Venus Beauty Institute,director,Tonie Marshall,Q240765,Q2555171,The film is directed by Tonie Marshall.
+214,Tell No One,director,Guillaume Canet,Q59567,Q314403,"Written by Canet and Philippe Lefebvre and starring François Cluzet, the film won four categories at the 2007 César Awards in France: Best Director (Guillaume Canet), Best Actor (François Cluzet), Best Editing and Best Music Written for a Film."
+215,Some Like It Hot,director,Billy Wilder,Q190086,Q51547,The screenplay by Billy Wilder and I.
+216,Who's Afraid of Virginia Woolf?,director,Mike Nichols,Q325643,Q51537,"The film adaptation was released in 1966, written by Ernest Lehman, directed by Mike Nichols, and starring Richard Burton, Elizabeth Taylor, George Segal and Sandy Dennis."
+217,Russian Ark,director,Alexander Sokurov,Q59721,Q55172,"Russian Ark (Russian:  , Russkij Kovcheg) is a 2002 experimental historical drama film directed by Alexander Sokurov."
+218,Anatomy of Hell,director,Catherine Breillat,Q59531,Q289054,Anatomy of Hell (French: Anatomie de l'enfer) is a 2004 French erotic drama film directed by Catherine Breillat and written by Breillat based on her 2001 novel Pornocratie.
+219,My Friend from Faro,director,Nana Neul,Q325901,Q21511943,My Friend from Faro marks the directorial debut of Nana Neul and stars Anjorka Strechel and Lucie Hollmann.
+220,My Boss,director,Jeethu Joseph,Q32780,Q14566057,My Boss is the third film by Jeethu Joseph.
+221,Sundance and the Kid,director,Duccio Tessari,Q488140,Q716460,"'Alive or Preferably Dead') a 1969 Spaghetti Western comedy directed by Duccio Tessari and starring Giuliano Gemma, Nino Benvenuti, and Sydne Rome."
+222,Main Madhuri Dixit Banna Chahti Hoon,director,Chandan Arora,Q45987,Q5070934,Main Madhuri Dixit Banna Chahti Hoon (English: I Want To Be Madhuri Dixit) is a 2003 Indian Hindi-language comedy-drama film directed by Chandan Arora and produced by Ram Gopal Varma.
+223,Jakob the Liar,director,Peter Kassovitz,Q240894,Q331007,"Jakob the Liar is a 1999 American war comedy-drama film directed by Peter Kassovitz, produced by Steven Haft, Marsha Garces Williams and written by Kassovitz and Didier Decoin."
+224,The Weather Man,director,Gore Verbinski,Q60296,Q295463,"The Weather Man is a 2005 American comedy-drama film directed by Gore Verbinski, written by Steve Conrad, and starring Nicolas Cage, Michael Caine and Hope Davis."
+225,Five Senses of Eros,director,Hur Jin-ho,Q490764,Q487607,"The shorts are: Five Senses of Eros's Concern, directed by Daniel H. Byun; I'm Right Here (Korean:Â , ; RR:Â Na, Yeogi Isseoyo), directed by Hur Jin-ho; The 33rd Man (Korean:Â 33 ; RR:Â 33beonjjae Namja), directed by Yoo Young-sik; In My End Is My Beginning (Korean:Â  ; RR:Â Ggeutgwa Sijak), directed by Min Kyu-dong; and Believe in the Moment (Korean:Â  ; RR:Â Sunganeul Mideoyo), directed by Oh Ki-hwan."
+226,Pornorama,director,Marc Rothemund,Q324351,Q67266,Pornorama  is a 2007 German comedy film directed by Marc Rothemund.
+227,Konikar Ramdhenu,director,Jahnu Barua,Q61953,Q378391,Konikar Ramdhenu (Assamese:  ) is a 2003 Indian Assamese language film directed by Jahnu Barua.
+228,Bunshinsaba,director,Ahn Byeong-ki,Q324183,Q323668,Bunshinsaba (Korean:Â ) is a 2004 South Korean horror film directed by Ahn Byeong-ki.
+229,55 Days at Peking,director,Andrew Marton,Q244115,Q506183,"The film was directed primarily by Nicholas Ray, although Guy Green and Andrew Marton took over in the latter stages of filming after Ray had fallen ill."
+230,Little Miss Sunshine,director,Valerie Faris,Q192073,Q13644887,Little Miss Sunshine is a 2006 American comedy-drama road film and the directorial debut of the husband-wife team of Jonathan Dayton and Valerie Faris.
+231,The Best Offer,director,Giuseppe Tornatore,Q324011,Q53045,The Best Offer (Italian: La migliore offerta - entitled Deception in the UK) is a 2013 English-language Italian psychological thriller film written and directed by Giuseppe Tornatore.
+232,Hannie Caulder,director,Burt Kennedy,Q489042,Q786712,"The film was directed by Burt Kennedy and starred Raquel Welch, Robert Culp and Ernest Borgnine."
+233,Pirates of the Caribbean: The Curse of the Black Pearl,director,Gore Verbinski,Q46717,Q295463,Pirates of the Caribbean: The Curse of the Black Pearl is a 2003 American fantasy swashbuckler film directed by Gore Verbinski and the first film in the Pirates of the Caribbean film series.
+234,The Bothersome Man,director,Jens Lien,Q490588,Q3741556,The Bothersome Man was directed by Jens Lien after a script by Per H. V. Schreiner.
+235,The Con Artists,director,Sergio Corbucci,Q489615,Q55443,"Bluff - storia di truffe e di imbroglioni (internationally released as The Con Artists, Bluff, High Rollers, The Switch, and The Con Man) is a 1976 Italian crime-comedy film directed by Sergio Corbucci."
+236,And Now... Ladies and Gentlemen,director,Claude Lelouch,Q489564,Q295093,And now... Ladies and Gentlemen is a 2002 thriller film directed by Claude Lelouch and starring Jeremy Irons and Patricia Kaas.
+237,The Kautokeino Rebellion,director,Nils Gaup,Q62513,Q175498,"The Kautokeino Rebellion was directed by Nils Gaup and was released in January, 2008."
+238,D-Day the Sixth of June,director,Henry Koster,Q244872,Q61859,"D-Day the Sixth of June was directed by Henry Koster and produced by Charles Brackett from a screenplay by Ivan Moffat and Harry Brown, based on the 1955 novel, The Sixth of June by Lionel Shapiro."
+239,Bugsy,director,Barry Levinson,Q241085,Q269692,Bugsy is a 1991 American neo noir biographical crime drama directed by Barry Levinson which tells the story of mobster Bugsy Siegel and his relationship with Virginia Hill.
+240,55 Days at Peking,director,Nicholas Ray,Q244115,Q240677,"The film was directed primarily by Nicholas Ray, although Guy Green and Andrew Marton took over in the latter stages of filming after Ray had fallen ill."
+241,The Sting,director,George Roy Hill,Q62665,Q51570,"The film was directed by George Roy Hill, who had directed Newman and Redford in the western Butch Cassidy and the Sundance Kid."
+242,She Done Him Wrong,director,Lowell Sherman,Q62163,Q2058654,"She Done Him Wrong was directed by Lowell Sherman, and produced by William LeBaron."
+243,Things to Come,director,William Cameron Menzies,Q241141,Q261997,"Things to Come (also known in promotional material as H. G. Wells' Things to Come) is a 1936 British black-and-white science fiction film from United Artists, produced by Alexander Korda, directed by William Cameron Menzies, and written by H. G. Wells."
+244,Little Miss Sunshine,director,Jonathan Dayton,Q192073,Q13644938,Little Miss Sunshine is a 2006 American comedy-drama road film and the directorial debut of the husband-wife team of Jonathan Dayton and Valerie Faris.
+245,April Snow,director,Hur Jin-ho,Q489453,Q487607,"""Outing"" or ""Going Out"") is a 2005 South Korean romantic drama film co-written and directed by Hur Jin-ho, starring Bae Yong-joon and Son Ye-jin."
+246,My Magic,director,Eric Khoo,Q190196,Q3056313,My Magic is a 2008 Singaporean Tamil language drama film directed by Eric Khoo and produced by Zhao Wei Films in association with Infinite Frameworks.
+247,5 Days of War,director,Renny Harlin,Q245430,Q318712,5 Days of War is a 2011 action film directed by Renny Harlin.
+248,Adajya,director,Santwana Bardoloi,Q61875,Q97248791,Adajya is a 1996 Indian Assamese language drama film directed by Santwana Bardoloi based on a novel by Indira Goswami.
+249,Xagoroloi Bohudoor,director,Jahnu Barua,Q61955,Q378391,"Hkhagoroloi Bohu Door (Assamese: , English: It's a Long Way to the Sea) is a 1995 Indian Assamese language drama film directed by Jahnu Barua."
