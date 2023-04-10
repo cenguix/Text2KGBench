@@ -1,101 +1,170 @@
 ,subject,relation,object,subject_entity,object_entity,sentence
-0,The Trial,genre,drama film,Q35725,Q130232,sentence from index
-1,Hopscotch,genre,comedy thriller,Q53095,Q16950433,sentence from index
-2,A Gang Story,genre,crime film,Q593,Q959790,sentence from index
-3,We Live in Public,genre,documentary film,Q372,Q93204,sentence from index
-4,Rear Window,genre,mystery film,Q34414,Q1200678,sentence from index
-5,People Like Us,genre,drama film,Q33191,Q130232,sentence from index
-6,Fat Girl,genre,coming-of-age fiction,Q59503,Q2975633,sentence from index
-7,Family Plot,genre,comedy film,Q47296,Q157443,sentence from index
-8,Sátántangó,genre,drama film,Q53481,Q130232,sentence from index
-9,Sátántangó,genre,art film,Q53481,Q1135802,sentence from index
-10,Family Plot,genre,mystery film,Q47296,Q1200678,sentence from index
-11,Deathdream,genre,drama film,Q33671,Q130232,sentence from index
-12,Deathdream,genre,horror film,Q33671,Q200092,sentence from index
-13,A Gang Story,genre,drama film,Q593,Q130232,sentence from index
-14,Deathdream,genre,slasher film,Q33671,Q853630,sentence from index
-15,Deathdream,genre,vampire film,Q33671,Q2137852,sentence from index
-16,Tell No One,genre,crime film,Q59567,Q959790,sentence from index
-17,Deathdream,genre,zombie film,Q33671,Q3072049,sentence from index
-18,Domino,genre,crime thriller,Q32910,Q19367312,sentence from index
-19,Planet of the Apes,genre,speculative/fantastic fiction film,Q59534,Q2973181,sentence from index
-20,Tell No One,genre,drama film,Q59567,Q130232,sentence from index
-21,Rear Window,genre,thriller film,Q34414,Q2484376,sentence from index
-22,Scarface,genre,crime film,Q47075,Q959790,sentence from index
-23,The Patriots,genre,war film,Q52442,Q369747,sentence from index
-24,Wolfhound,genre,Slavic fantasy,Q33189,Q7539366,sentence from index
-25,Family Plot,genre,thriller film,Q47296,Q2484376,sentence from index
-26,Domino,genre,action film,Q32910,Q188473,sentence from index
-27,Tell No One,genre,mystery film,Q59567,Q1200678,sentence from index
-28,Scarface,genre,drama film,Q47075,Q130232,sentence from index
-29,Red Sun,genre,Western film,Q32790,Q172980,sentence from index
-30,Anatomy of Hell,genre,pornographic film,Q59531,Q185529,sentence from index
-31,Dead like Me: Life After Death,genre,fantasy film,Q33148,Q157394,sentence from index
-32,Anatomy of Hell,genre,drama film,Q59531,Q130232,sentence from index
-33,Anatomy of Hell,genre,art film,Q59531,Q1135802,sentence from index
-34,Red Sun,genre,thriller,Q32790,Q182015,sentence from index
-35,Taxi Driver,genre,drama film,Q47221,Q130232,sentence from index
-36,The Intouchables,genre,biographical film,Q595,Q645928,sentence from index
-37,The Intouchables,genre,drama film,Q595,Q130232,sentence from index
-38,Kick-Ass,genre,superhero film,Q2201,Q1535153,sentence from index
-39,A Gang Story,genre,film noir,Q593,Q185867,sentence from index
-40,Taxi Driver,genre,vigilante film,Q47221,Q2642760,sentence from index
-41,To Die like a Man,genre,melodrama,Q33139,Q1919632,sentence from index
-42,Hopscotch,genre,comedy film,Q53095,Q157443,sentence from index
-43,In the Cut,genre,erotic film,Q59572,Q599558,sentence from index
-44,Tell No One,genre,thriller film,Q59567,Q2484376,sentence from index
-45,In the Cut,genre,erotic thriller,Q59572,Q2439025,sentence from index
-46,Kick-Ass,genre,comedy film,Q2201,Q157443,sentence from index
-47,The Intouchables,genre,comedy film,Q595,Q157443,sentence from index
-48,Moscow Does Not Believe in Tears,genre,melodrama,Q53105,Q1919632,sentence from index
-49,A Gang Story,genre,heist film,Q593,Q496523,sentence from index
-50,Saturday Night Fever,genre,musical film,Q47654,Q842256,sentence from index
-51,Nothing like the Holidays,genre,romantic comedy,Q33131,Q860626,sentence from index
-52,Planet of the Apes,genre,science fiction film,Q59534,Q471839,sentence from index
-53,In the Cut,genre,mystery film,Q59572,Q1200678,sentence from index
-54,Be Like Others,genre,documentary film,Q33109,Q93204,sentence from index
-55,Nothing like the Holidays,genre,comedy drama,Q33131,Q859369,sentence from index
-56,A Gang Story,genre,neo-noir,Q593,Q2421031,sentence from index
-57,Family Plot,genre,comedy thriller,Q47296,Q16950433,sentence from index
-58,Swept Away,genre,comedy film,Q1365,Q157443,sentence from index
-59,Hopscotch,genre,spy film,Q53095,Q2297927,sentence from index
-60,The Pleasure Is All Mine,genre,comedy film,Q59530,Q157443,sentence from index
-61,Red Sun,genre,action film,Q32790,Q188473,sentence from index
-62,Made in Dagenham,genre,comedy film,Q53096,Q157443,sentence from index
-63,Moscow Does Not Believe in Tears,genre,romance film,Q53105,Q1054574,sentence from index
-64,Taxi Driver,genre,thriller film,Q47221,Q2484376,sentence from index
-65,Wolfhound,genre,fantasy film,Q33189,Q157394,sentence from index
-66,Scarface,genre,action film,Q47075,Q188473,sentence from index
-67,In the Cut,genre,thriller film,Q59572,Q2484376,sentence from index
-68,The Upside of Anger,genre,melodrama,Q59566,Q191489,sentence from index
-69,Kick-Ass,genre,teen film,Q2201,Q1146335,sentence from index
-70,Saturday Night Fever,genre,coming-of-age fiction,Q47654,Q2975633,sentence from index
-71,Fat Girl,genre,art film,Q59503,Q1135802,sentence from index
-72,The Patriots,genre,comedy film,Q52442,Q157443,sentence from index
-73,The Upside of Anger,genre,romantic comedy,Q59566,Q860626,sentence from index
-74,Kick-Ass,genre,action film,Q2201,Q188473,sentence from index
-75,Rear Window,genre,crime film,Q34414,Q959790,sentence from index
-76,Domino,genre,biographical film,Q32910,Q645928,sentence from index
-77,The Upside of Anger,genre,comedy film,Q59566,Q157443,sentence from index
-78,Family Plot,genre,crime film,Q47296,Q959790,sentence from index
-79,The Upside of Anger,genre,sport film,Q59566,Q1339864,sentence from index
-80,Taxi Driver,genre,neo-noir,Q47221,Q2421031,sentence from index
-81,The Trial,genre,trial film,Q35725,Q3072039,sentence from index
-82,Son of the Bride,genre,romantic comedy,Q59543,Q860626,sentence from index
-83,Frida,genre,biographical film,Q35738,Q645928,sentence from index
-84,In the Cut,genre,neo-noir,Q59572,Q2421031,sentence from index
-85,Domino,genre,flashback film,Q32910,Q21401869,sentence from index
-86,Frida,genre,LGBT-related film,Q35738,Q20442589,sentence from index
-87,Rear Window,genre,detective film,Q34414,Q25533274,sentence from index
-88,Nothing like the Holidays,genre,Christmas film,Q33131,Q28026639,sentence from index
-89,The Intouchables,genre,film based on literature,Q595,Q52162262,sentence from index
-90,Wolfhound,genre,film based on a novel,Q33189,Q52207399,sentence from index
-91,Tell No One,genre,LGBT-related film,Q59567,Q20442589,sentence from index
-92,The Trial,genre,dystopian film,Q35725,Q20443008,sentence from index
-93,Planet of the Apes,genre,dystopian film,Q59534,Q20443008,sentence from index
-94,Tell No One,genre,flashback film,Q59567,Q21401869,sentence from index
-95,Anatomy of Hell,genre,LGBT-related film,Q59531,Q20442589,sentence from index
-96,Frida,genre,film based on books,Q35738,Q52207310,sentence from index
-97,Family Plot,genre,film based on a novel,Q47296,Q52207399,sentence from index
-98,Planet of the Apes,genre,film based on a novel,Q59534,Q52207399,sentence from index
-99,To Die like a Man,genre,LGBT-related film,Q33139,Q20442589,sentence from index
+0,We Live in Public,genre,documentary film,Q372,Q93204,"WE LIVE IN PUBLIC is a 2009 documentary film by Ondi Timoner, which profiles Internet pioneer Josh Harris."
+1,Deathdream,genre,horror film,Q33671,Q200092,"Deathdream (also known as Dead of Night) is a 1974 horror film directed by Bob Clark and written by Alan Ormsby, and starring Richard Backus, John Marley, and Lynn Carlin."
+2,Red Sun,genre,Western film,Q32790,Q172980,"Red Sun (French: Soleil rouge, Italian: Sole rosso) is a 1971 Spaghetti Western film directed by Terence Young and starring Charles Bronson, ToshirÅ Mifune, Alain Delon, Ursula Andress, and Capucine."
+3,Be Like Others,genre,documentary film,Q33109,Q93204,Be Like Others (also known as Transsexual in Iran) is a 2008 documentary film written and directed by Tanaz Eshaghian about transsexuals in Iran.
+4,Family Plot,genre,comedy thriller,Q47296,Q16950433,Family Plot is a 1976 American Technicolor comedy thriller that was the final film directed by Alfred Hitchcock.
+5,The Broken Coin,genre,mystery film,Q24732,Q1200678,The Broken Coin is a 1915 American adventure-mystery film serial directed by Francis Ford.
+6,Citizen Kane,genre,biographical film,Q24815,Q645928,"The quasi-biographical film examines the life and legacy of Charles Foster Kane, played by Welles, a character based in part upon the American newspaper magnates William Randolph Hearst and Joseph Pulitzer, Chicago tycoons Samuel Insull and Harold McCormick, and aspects of the screenwriters' own lives."
+7,The Death and Life of Bobby Z,genre,action film,Q38486,Q188473,"The Death and Life of Bobby Z, also known as Bobby Z and Let's Kill Bobby Z, is a 2007 American-German action film, directed by John Herzfeld, and starring Paul Walker, Laurence Fishburne, Olivia Wilde and Joaquim de Almeida."
+8,Seven Psychopaths,genre,crime film,Q59610,Q959790,Seven Psychopaths is a 2012 dark comedy crime film written and directed by Martin McDonagh.
+9,Liar Liar,genre,comedy film,Q48980,Q157443,"Liar Liar is a 1997 American fantasy comedy film directed by Tom Shadyac, written by Paul Guay and Stephen Mazur and starring Jim Carrey, who was nominated for a Golden Globe Award for Best Actor in a Comedy."
+10,Monty Python's The Meaning of Life,genre,comedy film,Q24980,Q157443,"Monty Python's The Meaning of Life, also known simply as The Meaning of Life, is a 1983 British musical sketch comedy film written and performed by the Monty Python troupe, directed by Terry Jones."
+11,Lonely Are the Brave,genre,Western film,Q49396,Q172980,Lonely Are the Brave is a 1962 American Drama Western film adaptation of the Edward Abbey novel The Brave Cowboy.
+12,Men of Israel,genre,pornographic film,Q36190,Q185529,Men of Israel is a 2009 gay pornographic film released by Lucas Entertainment studio.
+13,The File of the Golden Goose,genre,thriller film,Q38143,Q2484376,"The File of the Golden Goose is a 1969 British thriller film directed by Sam Wanamaker and starring Yul Brynner, Charles Gray and Edward Woodward."
+14,Iron Eagle,genre,action film,Q39956,Q188473,"Iron Eagle is a 1986 military action film directed by Sidney J. Furie, co-written by Kevin Alyn Elders and starring Jason Gedrick and Louis Gossett Jr."
+15,A Fantastic Fear of Everything,genre,comedy film,Q3242,Q157443,"A Fantastic Fear of Everything is a 2012 British horror comedy film starring Simon Pegg, written and directed by Crispian Mills with Chris Hopewell as co-director."
+16,Alien Raiders,genre,horror film,Q3208,Q200092,"Alien Raiders is a 2008 American science fiction horror film, starring Carlos Bernard, Rockmond Dunbar and Mathew St. Patrick."
+17,Vaa Arugil Vaa,genre,horror film,Q4005,Q200092,"'Come closer, come') is a 1991 Tamil language horror film starring Ramya Krishnan."
+18,Invitation to a Gunfighter,genre,Western film,Q25466,Q172980,"Invitation to a Gunfighter is a 1964 DeLuxe Color western directed by Richard Wilson, starring Yul Brynner and George Segal."
+19,Escape from Zahrain,genre,action film,Q25471,Q188473,"Escape from Zahrain is a 1962 American action film directed by Ronald Neame and starring Yul Brynner, Sal Mineo, Jack Warden, Madlyn Rhue and Anthony Caruso."
+20,Aces: Iron Eagle III,genre,action film,Q39969,Q188473,"Aces: Iron Eagle III is a 1992 military action film directed by John Glen, produced by Ron Samuels, and written by Kevin Alyn Elders."
+21,Matchstick Men,genre,crime film,Q4536,Q959790,"Matchstick Men is a 2003 black comedy crime film directed by Ridley Scott, and based on Eric Garcia's 2002 novel of the same name."
+22,Iron Eagle II,genre,action film,Q39960,Q188473,Iron Eagle II (also titled Iron Eagle II: The Battle Beyond the Flag) is a 1988 military action film directed by Sidney J. Furie and written by Furie and Kevin Alyn Elders.
+23,Strike Commando 2,genre,action film,Q25947,Q188473,"Strike Commando 2 (also known as Trappola diabolica) is a 1988 Italian English-language action film, starring Brent Huff, Richard Harris and Mary Stavin."
+24,Black Box BRD,genre,documentary film,Q25454,Q93204,"Black Box BRD was screened at a number of festivals and won several awards in 2001 and 2002, including the 2002 German Film Award for Best Documentary Film and the 2001 European Film Award."
+25,Unakkaga Ellam Unakkaga,genre,romantic comedy,Q25539,Q860626,"is a 1999 Indian Tamil-language romantic comedy film written and directed by Sundar C., starring Karthik and Rambha with Goundamani, Vivek, Vinu Chakravarthy, Anju among others in supporting roles."
+26,Podaa Podi,genre,romantic comedy,Q26162,Q860626,"Go boy, go girl) is a 2012 Indian Tamil-language musical romantic comedy film written and directed by debutant Vignesh Shivan, starring Silambarasan and Varalaxmi Sarathkumar."
+27,A Lot Like Love,genre,romantic comedy,Q75546,Q860626,A Lot Like Love is a 2005 American romantic comedy-drama film directed by Nigel Cole and starring Ashton Kutcher and Amanda Peet.
+28,Love Is Not Blind,genre,romantic comedy,Q51732,Q860626,: '33 Days of Breakup') is a 2011 Chinese romantic comedy film directed by Teng Huatao.
+29,The Hidden Fortress,genre,adventure film,Q39946,Q319221,"The Hidden Fortress (, Kakushi toride no san akunin, literally, ""The Three Villains of the Hidden Fortress"") is a 1958 jidaigeki adventure film directed by Akira Kurosawa."
+30,Four Lions,genre,black comedy film,Q5590,Q5778924,"Four Lions is a 2010 British satirical dark comedy film, directed by Chris Morris in his directorial debut, and written by Morris, Sam Bain and Jesse Armstrong."
+31,Skyfall,genre,spy film,Q4941,Q2297927,Skyfall is a 2012 spy film and the twenty-third in the James Bond series produced by Eon Productions.
+32,"The Good, the Bad and the Ugly",genre,Spaghetti Western,Q41483,Q212781,"Due to general disapproval of the Spaghetti Western genre at the time, critical reception of the film following The Good , the Bad and the Ugly's release was mixed, but it gained critical acclaim in later years."
+33,Bloodbath at the House of Death,genre,comedy horror,Q4733,Q224700,Bloodbath at the House of Death is a 1983 British comedy horror film directed by Ray Cameron and starring the comedian Kenny Everett and featuring Vincent Price.
+34,Forgetting Sarah Marshall,genre,romantic comedy,Q201379,Q860626,"Forgetting Sarah Marshall is a 2008 American  romantic comedy film directed by Nicholas Stoller and starring Jason Segel, Kristen Bell, Mila Kunis and Russell Brand."
+35,Special Effects: Anything Can Happen,genre,documentary film,Q8547,Q93204,Special Effects: Anything Can Happen is an American documentary film directed by Academy Award-winning sound designer Ben Burtt and narrated by John Lithgow.
+36,Ghost Rider: Spirit of Vengeance,genre,superhero film,Q41854,Q1535153,Ghost Rider: Spirit of Vengeance is a 2011 American superhero film based on the Marvel Comics antihero Ghost Rider.
+37,Cat Ballou,genre,Western film,Q76824,Q172980,The film was selected by the American Film Institute as the 10th greatest Western of all time in Cat Ballou's AFI's 10 Top 10 list in 2008.
+38,The Evil Dead,genre,horror film,Q327604,Q200092,"The Evil Dead (originally released as Book of the Dead) is a 1981 American supernatural horror film written and directed by Sam Raimi, produced by Robert Tapert and executive produced by Raimi, Tapert and Bruce Campbell, who also starred alongside Ellen Sandweiss, Richard DeManicor, Betsy Baker and Theresa Tilly."
+39,Lobos de Arga,genre,horror film,Q75000,Q200092,"Lobos de Arga (Game of Werewolves in United States and ""Attack of the Werewolves"" in United Kingdom) is a 2012 Spanish comedy-horror film directed by Juan MartÃ­nez Moreno."
+40,The Hobbit: An Unexpected Journey,genre,adventure film,Q80379,Q319221,The Hobbit: An Unexpected Journey is a 2012 epic high fantasy adventure film directed by Peter Jackson.
+41,A Fistful of Dollars,genre,Spaghetti Western,Q76479,Q212781,"Released in Italy in 1964 and then in the United States in 1967, A Fistful of Dollars initiated the popularity of the Spaghetti Western genre."
+42,A Fistful of Dollars,genre,Western film,Q76479,Q172980,"Released in Italy in 1964 and then in the United States in 1967, A Fistful of Dollars initiated the popularity of the Spaghetti Western genre."
+43,Rock & Rule,genre,fantasy film,Q116149,Q157394,Rock & Rule (known as Ring of Power outside North America) is a 1983 Canadian adult animated musical science fiction fantasy film from the animated-film company Nelvana.
+44,Death Watch,genre,science fiction film,Q115210,Q471839,Death Watch (French: La Mort en direct) is a 1980 science fiction film directed by Bertrand Tavernier.
+45,Dirty Heroes,genre,war film,Q327919,Q369747,"Dirty Heroes (Italian: Dalle Ardenne all'inferno), is a 1967 Italian war film directed by Alberto De Martino and starring Frederick Stafford."
+46,De Lift,genre,horror film,Q116426,Q200092,De Lift (also known as The Lift) is a 1983 Dutch science-fiction horror film directed and written by Dick Maas.
+47,Queen of the Damned,genre,horror film,Q202982,Q200092,"Queen of the Damned is a 2002 fantasy horror film directed by Michael Rymer, loosely based on the third novel of Anne Rice's The Vampire Chronicles series, The Queen of the Damned (1988), although the film contains many plot elements from the novel's predecessor The Vampire Lestat."
+48,Catlow,genre,Western film,Q43846,Q172980,"Catlow is a 1971 Western film, based on a 1963 novel of the same name by Louis L'Amour."
+49,Zille and Me,genre,musical film,Q203102,Q842256,Zille and Me (German: Zille und ick) is a 1983 East German musical film directed by Werner W. Wallroth.
+50,A Time to Love and a Time to Die,genre,war film,Q185834,Q369747,A Time to Love and a Time to Die is a 1958 Eastmancolor CinemaScope drama war film directed by Douglas Sirk and starring John Gavin.
+51,Moonwalker,genre,musical film,Q44396,Q842256,Moonwalker is a 1988 American experimental anthology musical film starring Michael Jackson.
+52,Tetsuo: The Iron Man,genre,horror film,Q185884,Q200092,"Tetsuo: The Iron Man (, Tetsuo) is a 1989 Japanese cyberpunk horror film."
+53,The Day After Tomorrow,genre,disaster film,Q14320,Q846544,"The Day After Tomorrow is a 2004 American science fiction disaster film co-written, directed, and produced by Roland Emmerich and starring Dennis Quaid, Jake Gyllenhaal, Ian Holm, Emmy Rossum, and Sela Ward."
+54,Bichhoo,genre,action thriller,Q16453,Q3990883,Scorpion) is a 2000 Indian action thriller film starring Bobby Deol and Rani Mukerji.
+55,A Nightmare on Elm Street,genre,slasher film,Q329434,Q853630,"A Nightmare on Elm Street is a 1984 American slasher film written and directed by Wes Craven, and produced by Robert Shaye."
+56,How I Won the War,genre,black comedy film,Q117090,Q5778924,"How I Won the War is a 1967 British black comedy film directed and produced by Richard Lester, based on a novel of the same name by Patrick Ryan."
+57,Thirteen Ghosts,genre,horror film,Q186864,Q200092,Thirteen Ghosts (also known as 13 Ghosts and stylized as THIR13EN Ghosts) is a 2001 supernatural horror film directed by Steve Beck.
+58,Dragonheart,genre,adventure film,Q330612,Q319221,Dragonheart (stylized as DragonHeart) is a 1996 British-American fantasy action-adventure film directed by Rob Cohen.
+59,Who's Harry Crumb?,genre,mystery film,Q186445,Q1200678,is a 1989 American comedy-mystery film featuring John Candy as the title character.
+60,Madonna: Truth or Dare,genre,documentary film,Q187561,Q93204,Madonna: Truth or Dare (also known as Truth or Dare and In Bed with Madonna outside of North America) is a 1991 American documentary film by director Alek Keshishian chronicling the life of singer and songwriter Madonna during Madonna : Truth or Dare's 1990 Blond Ambition World Tour.
+61,The Far Country,genre,Western film,Q331039,Q172980,This was the fourth western film collaboration between Anthony Mann and James Stewart.
+62,Robin Hood and the Pirates,genre,adventure film,Q188323,Q319221,"Robin Hood and the Pirates (Italian: Robin Hood e i pirati) is a 1960 Italian adventure film directed by Giorgio Simonelli, and starring Lex Barker and Jackie Lane."
+63,The Shanghai Gesture,genre,film noir,Q331274,Q185867,"The Shanghai Gesture is a 1941 American film noir directed by Josef von Sternberg and starring Gene Tierney, Walter Huston, Victor Mature, and Ona Munson."
+64,Enter the Dragon,genre,martial arts film,Q331617,Q1033891,Enter the Dragon is a 1973 martial arts film produced by and starring Bruce Lee.
+65,Pistol for a Hundred Coffins,genre,Western film,Q195011,Q172980,"Pistol for a Hundred Coffins (Italian: Una pistola per cento bare, Spanish: El sabor del odio (The Taste of Hate), also known as A Gun for One Hundred Graves and Vengeance) is a 1968 Italian-Spanish Spaghetti Western film written and directed by Umberto Lenzi and starring Peter Lee Lawrence."
+66,Apache Fury,genre,Spaghetti Western,Q331690,Q212781,"Apache Fury (Spanish: El hombre de la diligencia meaning ""man of the stage"", Italian: La furia degli Apache) is a 1964 Italian-Spanish Spaghetti Western directed and co-written by JosÃ© MarÃ­a Elorrieta."
+67,Captain Caution,genre,adventure film,Q331698,Q319221,Captain Caution is a 1940 American adventure film directed by Richard Wallace set during the War of 1812.
+68,Absolut Warhola,genre,documentary film,Q332364,Q93204,"Absolut Warhola is a 2001 Polish-German documentary film directed by Stanislaw Mucha about Andy Warhol's extended family, whom he never met, from rural Slovakia."
+69,Iron Man 3,genre,superhero film,Q209538,Q1535153,"Iron Man 3 is a 2013 American superhero film based on the Marvel Comics character Iron Man, produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures."
+70,The Narrow Margin,genre,film noir,Q195772,Q185867,"The Narrow Margin is a 1952 American film noir directed by Richard Fleischer and written by Earl Felton, based on an unpublished story written by Martin Goldsmith and Jack Leonard."
+71,"Sick: The Life and Death of Bob Flanagan, Supermasochist",genre,documentary film,Q195809,Q93204,"Sick: The Life and Death of Bob Flanagan, Supermasochist is a 1997 documentary film directed by Kirby Dick about Bob Flanagan, a Los Angeles writer, poet, performance artist, comic, and BDSM celebrity, who suffered from and later died of cystic fibrosis."
+72,"Buffalo Bill, Hero of the Far West",genre,Spaghetti Western,Q326621,Q212781,"Buffalo Bill, Hero of the Far West (Buffalo Bill, l'eroe del far west) is a 1964 Italian spaghetti western directed by Mario Costa."
+73,Leatherface: The Texas Chainsaw Massacre III,genre,slasher film,Q334169,Q853630,Leatherface: The Texas Chainsaw Massacre III is a 1990 American slasher film directed by Jeff Burr.
+74,Texas Chainsaw Massacre: The Next Generation,genre,slasher film,Q334179,Q853630,"Texas Chainsaw Massacre: The Next Generation (originally released as The Return of The Texas Chainsaw Massacre) is a 1995 American slasher film written and directed by Kim Henkel, and starring Renée Zellweger, Matthew McConaughey, and Robert Jacks as Leatherface."
+75,The Texas Chainsaw Massacre 2,genre,slasher film,Q334185,Q853630,The Texas Chainsaw Massacre 2 (also known as The Texas Chainsaw Massacre Part 2) is a 1986 American black comedy slasher film directed by Tobe Hooper.
+76,Sin City,genre,neo-noir,Q192115,Q2421031,Sin City is a series of neo-noir comics by American comic book writer-artist Frank Miller.
+77,Human Desire,genre,film noir,Q62976,Q185867,"Human Desire is a 1954 black-and-white film noir directed by Fritz Lang and starring Glenn Ford, Gloria Grahame and Broderick Crawford."
+78,Sweet Rosie O'Grady,genre,musical film,Q64083,Q842256,"Sweet Rosie O'Grady is a 1943 Technicolor musical film about an American singer who attempts to better herself by marrying an English duke, but is harassed by a reporter."
+79,Silent Hill: Revelation,genre,psychological horror,Q64017,Q604725,"Silent Hill: Revelation is a 2012 psychological horror film, directed and written by M. J. Bassett."
+80,Leave Her to Heaven,genre,film noir,Q210873,Q185867,"In the decades following its release, Leave Her to Heaven garnered a cult following and has been the subject of film criticism for its unique blurring of genres, featuring elements of film noir, psychological thrillers, and melodramas."
+81,2001 Maniacs: Field of Screams,genre,comedy horror,Q211282,Q224700,2001 Maniacs: Field of Screams is a 2010 comedy horror film written and directed by Tim Sullivan.
+82,2001 Maniacs,genre,comedy horror,Q211278,Q224700,"2001 Maniacs is a 2005 American comedy horror film directed by Tim Sullivan and starring Robert Englund, Lin Shaye, Jay Gillespie, Dylan Edrington, and Matthew Carey."
+83,X-Men: The Last Stand,genre,superhero film,Q221168,Q1535153,X-Men: The Last Stand (also marketed as X3) is a 2006 superhero film based on the X-Men superhero team introduced in Marvel Comics.
+84,The World Is Not Enough,genre,spy film,Q212145,Q2297927,"The World Is Not Enough is a 1999 spy film and the nineteenth in the James Bond series produced by Eon Productions, and the third to star Pierce Brosnan as the fictional MI6 agent James Bond."
+85,I'll Sell My Skin Dearly,genre,Spaghetti Western,Q228922,Q212781,I'll Sell My Skin Dearly (Italian: Vendo cara la pelle) is a 1968 Italian Spaghetti Western film directed by Ettore Maria Fizzarotti.
+86,Confession of Murder,genre,action thriller,Q28289,Q3990883,"""I Am the Murderer"") is a 2012 South Korean action thriller film directed by Jung Byung-gil, starring Jung Jae-young and Park Si-hoo."
+87,March of the Penguins,genre,nature documentary,Q330113,Q1760864,"March of the Penguins (French La Marche de l'empereurÂ ; [lama dlpÅ]) is a 2005 French feature-length nature documentary directed and co-written by Luc Jacquet, and co-produced by Bonne Pioche and the National Geographic Society."
+88,What Have You Done to Solange?,genre,giallo,Q338091,Q1332055,"is a 1972 giallo film directed by Massimo Dallamano, and starring Fabio Testi, Karin Baal, Joachim Fuchsberger, Cristina GalbÃ³, and Camille Keaton."
+89,Abraham Lincoln vs. Zombies,genre,mockbuster,Q330247,Q1941707,"In the tradition of The Asylum's catalog, the film is a mockbuster of the 20th Century Fox film Abraham Lincoln: Vampire Hunter."
+90,Victims of the Past,genre,propaganda film,Q328558,Q1935609,Victims of the Past (original German title:  Opfer der Vergangenheit: Die SÃ¼nde wider Blut und Rasse (English: Victims of the Past: The Sin against Blood and Race)) was a Nazi propaganda film  made in 1937.
+91,X-Men Origins: Wolverine,genre,superhero film,Q217552,Q1535153,X-Men Origins: Wolverine is a 2009 American superhero film based on the Marvel Comics fictional character Wolverine.
+92,Batman Forever,genre,superhero film,Q221345,Q1535153,"Batman Forever is a 1995 American superhero film directed by Joel Schumacher and produced by Tim Burton, based on the DC Comics character Batman."
+93,The Wrath of God,genre,Western film,Q229552,Q172980,"The Wrath of God is a 1972 offbeat Western genre film directed by Ralph Nelson and starring Robert Mitchum, Frank Langella, Rita Hayworth and Victor Buono."
+94,Octopussy,genre,spy film,Q204398,Q2297927,"Octopussy is a 1983 spy film and the thirteenth in the James Bond series produced by Eon Productions, and the sixth to star Roger Moore as the fictional MI6 agent James Bond."
+95,3 Dev Adam,genre,superhero film,Q229655,Q1535153,"Captain America and Santo vs. Spider-Man; Turkish: 3 Dev Adam (Üç Dev Adam) is a 1973 Turkish cult superhero film, directed by T. Fikret Uçak and written by Doğan Tamer based on the characters created by Steve Ditko, Jack Kirby, Stan Lee, Joe Simon and Rodolfo Guzmán Huerta, featuring Aytekin Akkaya as Captain America and Yavuz Selekman as Santo called to Istanbul on a special mission to stop the villainous Spider-Man and his criminal gang."
+96,A View to a Kill,genre,spy film,Q332368,Q2297927,"A View to a Kill is a 1985 spy film and the fourteenth in the James Bond series produced by Eon Productions, and both the seventh and the last to star Roger Moore as the fictional MI6 agent James Bond."
+97,Ocean's Eleven,genre,heist film,Q205447,Q496523,Ocean's Eleven is a 2001 American heist film directed by Steven Soderbergh and written by Ted Griffin.
+98,Pirates of the Caribbean: At World's End,genre,swashbuckler film,Q54274,Q222639,"Pirates of the Caribbean: At World's End is a 2007 American epic fantasy swashbuckler film directed by Gore Verbinski, the third installment in the Pirates of the Caribbean film series and the sequel to Dead Man's Chest (2006)."
+99,Number Seventeen,genre,comedy thriller,Q205694,Q16950433,"Number Seventeen is a 1932 comedy thriller film directed by Alfred Hitchcock and starring John Stuart, Anne Grey and Leon M. Lion."
+100,Ghost Sweepers,genre,comedy horror,Q333122,Q224700,"Ghost Sweepers (Korean:Â ; RR:Â Jeomjaengyideul; MR:Â ChÅmjaengidÅ­l; also known as The Fortune Tellers) is a 2012 South Korean comedy horror film about a group of shamans from across the nation who gather together for a grand exorcism at a small village notorious for dark spirits, as a young journalist gets sent to cover the story."
+101,Sorority House Massacre II,genre,slasher film,Q333381,Q853630,"Sorority House Massacre II (also known as Sorority House Massacre II: Nighty Nightmare) is a 1990 American slasher film directed by Jim Wynorski, featuring scream queens Melissa Ann Moore and Gail Harris (credited as Robyn Harris)."
+102,Slumber Party Massacre II,genre,slasher film,Q333377,Q853630,"Slumber Party Massacre II is a 1987 American black comedy slasher film written and directed by Deborah Brock, and produced by Roger Corman."
+103,Vabank,genre,heist film,Q54993,Q496523,"Vabank is a 1981 Polish comedy heist film written and directed by Juliusz Machulski, set in 1934 Warsaw (although actually filmed  in ÅÃ³dÅº and PiotrkÃ³w Trybunalski)."
+104,Maniac Cop 2,genre,slasher film,Q123097,Q853630,Maniac Cop 2 is a 1990 American action slasher film directed by William Lustig and written by Larry Cohen.
+105,The Soviet Paradise,genre,propaganda film,Q323901,Q1935609,"The Soviet Paradise (German original title ""Das Sowjet-Paradies"") was the name of an exhibition and a propaganda film, which was organized by the Reichspropagandaleitung of the NSDAP and was displayed in the big cities of the Reich and occupied countries: Vienna, Prague, Berlin and others."
+106,The Sons of Great Bear,genre,Western film,Q323401,Q172980,"The Sons of Great Bear (German: Die SÃ¶hne der groÃen BÃ¤rin; literally, The Sons of the Great She-Bear) is a 1966 East German Western film, directed by the Czechoslovak filmmaker Josef Mach and starring the Yugoslav actor Gojko MitiÄ in the leading role of Tokei-ihto."
+107,Johnny Guitar,genre,Western film,Q59318,Q172980,"Johnny Guitar is a 1954 American Drama Western film directed by Nicholas Ray starring Joan Crawford, Sterling Hayden, Mercedes McCambridge, Ernest Borgnine and Scott Brady."
+108,The Matrix Revolutions,genre,science fiction action film,Q207536,Q20656232,The Matrix Revolutions is a 2003 American science fiction action film written and directed by the Wachowskis.
+109,The Cabin in the Woods,genre,slasher film,Q45394,Q853630,"Goddard and Whedon, having worked together previously on Buffy the Vampire Slayer and Angel, wrote the screenplay in three days, describing The Cabin in the Woods as an attempt to ""revitalize"" the slasher film genre and as a critical satire on torture porn."
+110,Johnny Hamlet,genre,Spaghetti Western,Q467221,Q212781,The film is a Spaghetti Western version of William Shakespeare's tragedy Hamlet.
+111,American Warships,genre,mockbuster,Q467227,Q1941707,"In the tradition of The Asylum's film catalog, the film is an extremely low-budget mockbuster of the Hasbro Studios/Universal Pictures film Battleship."
+112,Old Surehand,genre,Western film,Q316151,Q172980,"Teil, also known as Flaming Frontier) is a 1965 West German Western film starring Stewart Granger, Pierre Brice and Letitia Roman."
+113,Zift,genre,neo-noir,Q199310,Q2421031,"Zift (Bulgarian: , Dzift) is 2008 black-and-white Bulgarian drama film that combines neo-noir and black comedy with socialist retro motifs; it is based on Vladislav Todorov's 2006 same-named novel and he also wrote the script."
+114,Pirates of the Caribbean: The Curse of the Black Pearl,genre,swashbuckler film,Q46717,Q222639,Pirates of the Caribbean: The Curse of the Black Pearl is a 2003 American fantasy swashbuckler film directed by Gore Verbinski and the first film in the Pirates of the Caribbean film series.
+115,Dragons Forever,genre,action comedy film,Q343667,Q2678111,Dragons Forever (Chinese: ) is a 1988 Hong Kong action comedy film directed by Sammo Hung and Corey Yuen.
+116,The Magnificent Seven,genre,Western film,Q19069,Q172980,"The Magnificent Seven is a 1960 American Western film directed by John Sturges and starring Yul Brynner, Eli Wallach, Steve McQueen, Charles Bronson, Robert Vaughn, Brad Dexter, James Coburn and Horst Buchholz."
+117,Hickey & Boggs,genre,neo-noir,Q221827,Q2421031,Hickey & Boggs is a 1972 American neo-noir  crime film written by Walter Hill and directed by Robert Culp.
+118,Butch Cassidy and the Sundance Kid,genre,Western film,Q232000,Q172980,Butch Cassidy and the Sundance Kid was selected by the American Film Institute as the 7th greatest Western of all time in the AFI's 10 Top 10 list in 2008.
+119,The Fearless Hyena,genre,action comedy film,Q232108,Q2678111,"The Fearless Hyena is a 1979 Hong Kong action comedy kung fu film written, directed by and starring Jackie Chan."
+120,Batman Returns,genre,superhero film,Q189054,Q1535153,"Batman Returns is a 1992 American superhero film directed by Tim Burton and produced by Denise Di Novi and Burton, based on the DC Comics character Batman."
+121,The Dark Knight Rises,genre,superhero film,Q189330,Q1535153,"The Dark Knight Rises is a 2012 superhero film directed by Christopher Nolan, who co-wrote the screenplay with his brother Jonathan Nolan, and the story with David S. Goyer."
+122,Wild Zero,genre,comedy horror,Q524484,Q224700,Wild Zero is a 1999 Japanese comedy horror film directed by Tetsuro Takeuchi.
+123,House of Strangers,genre,film noir,Q525029,Q185867,"House of Strangers is a 1949 American film noir directed by Joseph L. Mankiewicz, and starring Edward G. Robinson, Susan Hayward, and Richard Conte."
+124,The Best Offer,genre,psychological thriller,Q324011,Q590103,The Best Offer (Italian: La migliore offerta - entitled Deception in the UK) is a 2013 English-language Italian psychological thriller film written and directed by Giuseppe Tornatore.
+125,Three Way,genre,crime thriller,Q223122,Q19367312,"Three Way is a 2004 neo-noir crime thriller film directed by Scott Ziehl and starring Dominic Purcell, Joy Bryant, Ali Larter, Desmond Harrington, Dwight Yoakam, and Gina Gershon."
+126,Underclassman,genre,action comedy film,Q73028,Q2678111,"Underclassman is a 2005 American action comedy film directed by Marcos Siega and starring Nick Cannon, Shawn Ashmore, Roselyn SÃ¡nchez, Kelly Hu, Hugh Bonneville, and Cheech Marin."
+127,The Ring Two,genre,psychological horror,Q468253,Q604725,"The Ring Two (stylized as the ring twO) is a 2005 American supernatural psychological horror film and a sequel to the 2002 film The Ring, which was a remake of the 1998 Japanese film Ringu."
+128,Zombie King and the Legion of Doom,genre,comedy horror,Q219187,Q224700,"Zombie King and the Legion of Doom, also known as Enter... Zombie King and Zombie Pool Party, is a 2003 Canadian comedy horror lucha film directed by Stacey Case, written by Bill Marks and Sean K. Robb, and starring Jules Delmore, Raymond Carle, Jennifer Thom, and Rob ""El Fuego"" Etcheverria as masked Mexican wrestlers (luchadores) who fight zombies."
+129,Zombie Self-Defense Force,genre,zombie comedy,Q219792,Q1747837,"Zombie Self-Defense Force (, Zonbi jieitai) is a 2006 Japanese zombie comedy directed by  Naoyuki Tomomatsu, written by Naoyuki Tomomatsu and Masami Teranishi, and starring MiyÃ» Watase, Mihiro, Kenji Arai, YÃ» Machimura, Masayuki Hase, and Norman England."
+130,Zombie Strippers,genre,zombie comedy,Q219796,Q1747837,"Zombie Strippers is a 2008 American zombie comedy film shot, edited, written, and directed by Jay Lee."
+131,Zombieland,genre,zombie comedy,Q219810,Q1747837,Zombieland is a 2009 American post-apocalyptic zombie comedy film directed by Ruben Fleischer in his theatrical debut and written by Rhett Reese and Paul Wernick.
+132,...e vennero in quattro per uccidere Sartana!,genre,Spaghetti Western,Q220124,Q212781,is an Italian 1969 Spaghetti Western film directed by Demofilo Fidani.
+133,20 Years After,genre,post-apocalyptic film,Q212864,Q1341051,"20 Years After is a 2007 American post-apocalyptic film directed by Jim Torres and Ron Harris and starring Azura Skye, Joshua Leonard, and Nathan Baesel."
+134,God Is My Colt .45,genre,Spaghetti Western,Q112572,Q212781,La colt era il suo Dio (internationally released as God Is My Colt .45) is a 1972 Italian spaghetti western directed by Luigi Batzella.
+135,Henry: Portrait of a Serial Killer,genre,psychological horror,Q125058,Q604725,"Henry: Portrait of a Serial Killer is a 1986 American psychological horror crime film directed and co-written by John McNaughton, about the random crime spree of a serial killer who seemingly operates with impunity."
+136,Transmorphers,genre,mockbuster,Q126676,Q1941707,"Transmorphers was developed as a mockbuster, intending to capitalize on Michael Bay's Transformers."
+137,Body Heat,genre,erotic thriller,Q472096,Q2439025,Body Heat is a 1981 American neo-noir erotic thriller film written and directed by Lawrence Kasdan.
+138,30 Winchester per El Diablo,genre,Spaghetti Western,Q224165,Q212781,30 Winchester per El Diablo is a 1965 Italian spaghetti western film directed and written by Gianfranco Baldanello.
+139,2 Girls 1 Cup,genre,pornographic film,Q83103,Q185529,"2 Girls 1 Cup is the unofficial nickname of the trailer for Hungry Bitches, a 2007 Brazilian scat fetish pornographic film produced by MFX Media."
+140,My Soul to Take,genre,slasher film,Q374449,Q853630,My Soul to Take is a 2010 American slasher film written and directed by Wes Craven.
+141,Dead Men Don't Count,genre,Spaghetti Western,Q240061,Q212781,"Dead Men Don't Count (Spanish: Â¿QuiÃ©n grita venganza?, Italian: I morti non si contano, also known as Cry for Revenge) is a 1968 Spanish-Italian Spaghetti Western film written and directed by Rafael Romero Marchent."
+142,Ways to Strength and Beauty,genre,silent film,Q541297,Q226730,Ways to Strength and Beauty  (German: Wege zu Kraft und SchÃ¶nheit) is a 1925 German silent film directed by Nicholas Kaufmann and Wilhelm Prager.
+143,The Forgotten Pistolero,genre,Spaghetti Western,Q546446,Q212781,"""The Gunman of Hail Mary"") is a 1969 Italian Spaghetti Western film co-written and directed by Ferdinando Baldi."
+144,Kill Them All and Come Back Alone,genre,Spaghetti Western,Q542918,Q212781,Kill Them All and Come Back Alone (Italian: Ammazzali tutti e torna solo) is a 1968 Italian Spaghetti Western film directed by Enzo G. Castellari.
+145,The Taste of Money,genre,erotic thriller,Q487487,Q2439025,The Taste of Money (Korean:Â  ; RR:Â Donui Mat) is a 2012 South Korean erotic thriller film about a conglomerate-owning family.
+146,Godzilla vs. Hedorah,genre,kaiju,Q200432,Q1065444,"Godzilla vs. Hedorah (, Gojira tai Hedora) is a 1971 Japanese kaiju film directed by Yoshimitsu Banno, written by Banno and Takeshi Kimura, and produced and distributed by Toho Studios."
+147,The Matrix,genre,cyberpunk,Q83495,Q174526,The Matrix is an example of the cyberpunk subgenre of science fiction.
+148,Cutie Honey,genre,magical girl,Q375248,Q752321,The first anime aired in 1973 and is considered a magical girl series in retrospect.
+149,White Shadows in the South Seas,genre,silent film,Q535195,Q226730,White Shadows in the South Seas is a 1928 American silent film adventure romance directed by W.S.
+150,5150 Elm's Way,genre,psychological thriller,Q242079,Q590103,"5150 Elm's Way (French: 5150, rue des ormes) is a 2009 French-language Canadian psychological thriller drama film directed by Ãric Tessier and starring RenÃ©-Daniel Dubois and Marc-AndrÃ© Grondin."
+151,Die You Zombie Bastards!,genre,zombie comedy,Q535642,Q1747837,"is a 2005 American zombie comedy directed by Caleb Emerson, written by Emerson and Haig Demarjian, and starring Tim Gerstmar, Geoff Mosher, and Pippi Zornoza."
+152,The Burning Soil,genre,silent film,Q552747,Q226730,The Burning Soil (German: Der brennende Acker) is a 1922 German silent film directed by F.W.
+153,Ich klage an,genre,propaganda film,Q473778,Q1935609,Ich klage an (English: I Accuse) is a 1941 German pro-euthanasia propaganda film directed by Wolfgang Liebeneiner and produced by Ewald von Demandowsky.
+154,King Kong Escapes,genre,kaiju,Q127430,Q1065444,"King Kong Escapes, released in Japan as King Kong's Counterattack (, Kingu Kongu no GyakushÅ«), is a 1967 Japanese-American science-fiction kaiju film featuring King Kong, co-produced by Toho and Rankin/Bass."
+155,Marriage Is a Crazy Thing,genre,erotic film,Q258848,Q599558,"Marriage Is a Crazy Thing is a 2002 South Korean erotic film, and the second film directed by South Korean poet-turned-director Yoo Ha."
+156,Godzilla vs. Mechagodzilla,genre,kaiju,Q251335,Q1065444,"Godzilla vs. Mechagodzilla (, Gojira tai Mekagojira) is a 1974 Japanese kaiju film directed by Jun Fukuda, with special effects by Teruyoshi Nakano."
+157,Dirty Dancing,genre,dance film,Q253978,Q3072043,"Dirty Dancing is a 1987 American romantic drama dance film written by Eleanor Bergstein, produced by Linda Gottlieb, and directed by Emile Ardolino."
+158,A Tale of Two Sisters,genre,psychological horror,Q255260,Q604725,"""Rose Flower, Red Lotus"") is a 2003 South Korean psychological horror drama film written and directed by Kim Jee-woon."
+159,Attack of the Killer Tomatoes,genre,parody film,Q543365,Q622548,"Attack of the Killer Tomatoes is a 1978 American parody film produced by J. Stephen Peace and John DeBello, and directed by John DeBello based upon an original idea by Costa Dillon."
+160,The Devil in Miss Jones,genre,pornographic film,Q248051,Q185529,"The Devil in Miss Jones is a 1973 pornographic film, written, directed and produced by Gerard Damiano and starring Georgina Spelvin and Harry Reems."
+161,Basic Instinct,genre,erotic thriller,Q146673,Q2439025,Basic Instinct is a 1992 neo-noir erotic thriller film directed by Paul Verhoeven and written by Joe Eszterhas.
+162,Zandalee,genre,erotic thriller,Q146605,Q2439025,"Zandalee is a 1991 American erotic thriller/romantic tragedy directed by Sam Pillsbury and starring Nicolas Cage, Judge Reinhold, Erika Anderson, Viveca Lindfors, Aaron Neville, Joe Pantoliano and Steve Buscemi."
+163,Triumph of the Will,genre,propaganda film,Q156497,Q1935609,"Triumph of the Will (German: Triumph des Willens) is a 1935 Nazi propaganda film directed, produced, edited, and co-written by Leni Riefenstahl."
+164,Animals Are Beautiful People,genre,nature documentary,Q493416,Q1760864,"Animals Are Beautiful People (also called Beautiful People) is a 1974 South African nature documentary written, produced, directed, filmed and edited by Jamie Uys, about the wildlife in Southern Africa, presented with comedic elements."
+165,Airport 1975,genre,disaster film,Q392924,Q846544,Airport 1975 (also known as Airport '75) is a 1974 American air disaster film and the first sequel to the successful 1970 film Airport.
+166,Where the Truth Lies,genre,erotic thriller,Q151848,Q2439025,"Where the Truth Lies is a 2005 British-Canadian erotic thriller film written and directed by Atom Egoyan and starring Kevin Bacon, Colin Firth, and Alison Lohman."
+167,Airline Disaster,genre,disaster film,Q408780,Q846544,"Airline Disaster is an action disaster film directed by John J. Willis III and starring Meredith Baxter, Scott Valentine, Lindsey McKeon and Jay Beyers."
+168,Pirates of the Caribbean: Dead Man's Chest,genre,swashbuckler film,Q161087,Q222639,Pirates of the Caribbean: Dead Man's Chest is a 2006 American fantasy swashbuckler film.

@@ -1,101 +1,29 @@
 ,subject,relation,object,subject_entity,object_entity,sentence
-0,The Theory of Everything,nominated for,Academy Award for Best Picture,Q15079318,Q102427,sentence from index
-1,Bridge of Spies,nominated for,Academy Award for Best Picture,Q18067135,Q102427,sentence from index
-2,The Yearling,nominated for,Academy Award for Best Picture,Q1217612,Q102427,sentence from index
-3,Auntie Mame,nominated for,Academy Award for Best Picture,Q1219582,Q102427,sentence from index
-4,David Copperfield,nominated for,Academy Award for Best Picture,Q1174069,Q102427,sentence from index
-5,Stagecoach,nominated for,Academy Award for Best Picture,Q50714,Q102427,sentence from index
-6,Hacksaw Ridge,nominated for,Academy Award for Best Picture,Q21010856,Q102427,sentence from index
-7,Goodfellas,nominated for,Academy Award for Best Picture,Q42047,Q102427,sentence from index
-8,The Letter,nominated for,Academy Award for Best Picture,Q1168233,Q102427,sentence from index
-9,Dead Poets Society,nominated for,Academy Award for Best Picture,Q106316,Q102427,sentence from index
-10,Blood Diamond,nominated for,Academy Award for Best Actor,Q74958,Q103916,sentence from index
-11,In the Bedroom,nominated for,Academy Award for Best Actor,Q151945,Q103916,sentence from index
-12,Juno,nominated for,Academy Award for Best Director,Q79503,Q103360,sentence from index
-13,Rear Window,nominated for,Academy Award for Best Director,Q34414,Q103360,sentence from index
-14,Dead Poets Society,nominated for,Academy Award for Best Actor,Q106316,Q103916,sentence from index
-15,8½,nominated for,Academy Award for Best Director,Q12018,Q103360,sentence from index
-16,San Francisco,nominated for,Academy Award for Best Actor,Q130769,Q103916,sentence from index
-17,Forrest Gump,nominated for,Academy Award for Best Actor,Q134773,Q103916,sentence from index
-18,Stagecoach,nominated for,Academy Award for Best Director,Q50714,Q103360,sentence from index
-19,Goodfellas,nominated for,Academy Award for Best Director,Q42047,Q103360,sentence from index
-20,Oliver!,nominated for,Academy Award for Best Actor,Q141359,Q103916,sentence from index
-21,Brokeback Mountain,nominated for,Academy Award for Best Actor,Q160618,Q103916,sentence from index
-22,The Silence of the Lambs,nominated for,Academy Award for Best Actor,Q133654,Q103916,sentence from index
-23,The Pianist,nominated for,Academy Award for Best Actor,Q150804,Q103916,sentence from index
-24,Lost in Translation,nominated for,Academy Award for Best Actor,Q107270,Q103916,sentence from index
-25,The Sound of Music,nominated for,Academy Award for Best Director,Q60072,Q103360,sentence from index
-26,Midnight Cowboy,nominated for,Academy Award for Best Director,Q61696,Q103360,sentence from index
-27,Das Boot,nominated for,Academy Award for Best Director,Q62730,Q103360,sentence from index
-28,The Godfather,nominated for,Academy Award for Best Director,Q47703,Q103360,sentence from index
-29,E.T. the Extra-Terrestrial,nominated for,Academy Award for Best Director,Q11621,Q103360,sentence from index
-30,Le Concert,nominated for,César Award for Best Director,Q1169399,Q24137,sentence from index
-31,India Song,nominated for,César Award for Best Music Written for a Film,Q3007766,Q23091,sentence from index
-32,The Untouchables,nominated for,Academy Award for Best Supporting Actor,Q108525,Q106291,sentence from index
-33,Un linceul n'a pas de poches,nominated for,César Award for Best Music Written for a Film,Q3548773,Q23091,sentence from index
-34,House of Tolerance,nominated for,César Award for Best Music Written for a Film,Q1139698,Q23091,sentence from index
-35,A Prophet,nominated for,César Award for Best Music Written for a Film,Q1061541,Q23091,sentence from index
-36,Chocolat,nominated for,César Award for Best Music Written for a Film,Q19521218,Q23091,sentence from index
-37,The King's Daughters,nominated for,César Award for Best Director,Q1407454,Q24137,sentence from index
-38,Places in the Heart,nominated for,Academy Award for Best Supporting Actor,Q59073,Q106291,sentence from index
-39,Lovers Like Us,nominated for,César Award for Best Director,Q1219423,Q24137,sentence from index
-40,Collateral,nominated for,Academy Award for Best Supporting Actor,Q110203,Q106291,sentence from index
-41,An Impudent Girl,nominated for,César Award for Best Director,Q1171154,Q24137,sentence from index
-42,Blue Is the Warmest Colour,nominated for,César Award for Best Director,Q11648811,Q24137,sentence from index
-43,Argo,nominated for,Academy Award for Best Supporting Actor,Q59653,Q106291,sentence from index
-44,Kings and Queen,nominated for,César Award for Best Director,Q1169568,Q24137,sentence from index
-45,Rust and Bone,nominated for,César Award for Best Director,Q73803,Q24137,sentence from index
-46,L'argent des autres,nominated for,César Award for Best Director,Q1168288,Q24137,sentence from index
-47,The Thing,nominated for,Saturn Award for Best Special Effects,Q210756,Q8555,sentence from index
-48,A Prophet,nominated for,César Award for Best Director,Q1061541,Q24137,sentence from index
-49,Place Vendôme,nominated for,César Award for Best Director,Q151606,Q24137,sentence from index
-50,Star Trek,nominated for,Saturn Award for Best Special Effects,Q213081,Q8555,sentence from index
-51,Captain America: The Winter Soldier,nominated for,Saturn Award for Best Special Effects,Q1765358,Q8555,sentence from index
-52,The Double Life of Véronique,nominated for,César Award for Best Music Written for a Film,Q1130211,Q23091,sentence from index
-53,Pulp Fiction,nominated for,Academy Award for Best Supporting Actor,Q104123,Q106291,sentence from index
-54,Bird People,nominated for,César Award for Best Music Written for a Film,Q12141709,Q23091,sentence from index
-55,Thor: The Dark World,nominated for,Saturn Award for Best Special Effects,Q1201853,Q8555,sentence from index
-56,Galaxy Quest,nominated for,Saturn Award for Best Special Effects,Q502067,Q8555,sentence from index
-57,Iron Man,nominated for,Saturn Award for Best Special Effects,Q192724,Q8555,sentence from index
-58,Silver Linings Playbook,nominated for,Academy Award for Best Supporting Actor,Q116845,Q106291,sentence from index
-59,The Messenger: The Story of Joan of Arc,nominated for,César Award for Best Music Written for a Film,Q1140257,Q23091,sentence from index
-60,Black Box,nominated for,César Award for Best Music Written for a Film,Q107368708,Q23091,sentence from index
-61,Blade Runner,nominated for,Saturn Award for Best Special Effects,Q184843,Q8555,sentence from index
-62,Bilitis,nominated for,César Award for Best Music Written for a Film,Q475763,Q23091,sentence from index
-63,Iron Man 2,nominated for,Saturn Award for Best Special Effects,Q205028,Q8555,sentence from index
-64,Blood Diamond,nominated for,Academy Award for Best Supporting Actor,Q74958,Q106291,sentence from index
-65,Stagecoach,nominated for,Academy Award for Best Supporting Actor,Q50714,Q106291,sentence from index
-66,The Godfather,nominated for,Academy Award for Best Supporting Actor,Q47703,Q106291,sentence from index
-67,Harry Potter and the Chamber of Secrets,nominated for,Saturn Award for Best Special Effects,Q102244,Q8555,sentence from index
-68,Innerspace,nominated for,Saturn Award for Best Special Effects,Q506390,Q8555,sentence from index
-69,Married to the Mob,nominated for,Academy Award for Best Supporting Actor,Q48984,Q106291,sentence from index
-70,Haut les cœurs!,nominated for,César Award for Best Actress,Q3128490,Q24241,sentence from index
-71,Coco Before Chanel,nominated for,César Award for Best Actress,Q1044859,Q24241,sentence from index
-72,Darling,nominated for,César Award for Best Actress,Q3016384,Q24241,sentence from index
-73,Children of Chaos,nominated for,César Award for Best Actress,Q3232375,Q24241,sentence from index
-74,Indochine,nominated for,César Award for Best Actress,Q1130644,Q24241,sentence from index
-75,The Last Metro,nominated for,César Award for Best Actress,Q1049604,Q24241,sentence from index
-76,Mademoiselle Chambon,nominated for,César Award for Best Actress,Q1140062,Q24241,sentence from index
-77,The Singer,nominated for,César Award for Best Actress,Q1062358,Q24241,sentence from index
-78,The Source,nominated for,César Award for Best Actress,Q2709092,Q24241,sentence from index
-79,Suzanne,nominated for,César Award for Best Actress,Q13553881,Q24241,sentence from index
-80,Big,nominated for,"Academy Award for Best Writing, Original Screenplay",Q858467,Q41417,sentence from index
-81,The Candidate,nominated for,"Academy Award for Best Writing, Original Screenplay",Q500672,Q41417,sentence from index
-82,Deconstructing Harry,nominated for,"Academy Award for Best Writing, Original Screenplay",Q551762,Q41417,sentence from index
-83,The Goddess,nominated for,"Academy Award for Best Writing, Original Screenplay",Q602283,Q41417,sentence from index
-84,Michael Clayton,nominated for,BAFTA Award for Best Original Screenplay,Q694140,Q41375,sentence from index
-85,...And Justice for All,nominated for,"Academy Award for Best Writing, Original Screenplay",Q426517,Q41417,sentence from index
-86,The Apartment,nominated for,"Academy Award for Best Writing, Original Screenplay",Q270510,Q41417,sentence from index
-87,Boyz n the Hood,nominated for,"Academy Award for Best Writing, Original Screenplay",Q896103,Q41417,sentence from index
-88,Flight,nominated for,"Academy Award for Best Writing, Original Screenplay",Q564298,Q41417,sentence from index
-89,Father Goose,nominated for,"Academy Award for Best Writing, Original Screenplay",Q533638,Q41417,sentence from index
-90,Witness,nominated for,"Academy Award for Best Writing, Original Screenplay",Q488041,Q41417,sentence from index
-91,The Piano,nominated for,BAFTA Award for Best Original Screenplay,Q117315,Q41375,sentence from index
-92,Collateral,nominated for,BAFTA Award for Best Original Screenplay,Q110203,Q41375,sentence from index
-93,Unforgiven,nominated for,BAFTA Award for Best Original Screenplay,Q104137,Q41375,sentence from index
-94,The Queen,nominated for,BAFTA Award for Best Original Screenplay,Q223367,Q41375,sentence from index
-95,Groundhog Day,nominated for,BAFTA Award for Best Original Screenplay,Q488655,Q41375,sentence from index
-96,Pulp Fiction,nominated for,BAFTA Award for Best Original Screenplay,Q104123,Q41375,sentence from index
-97,21 Grams,nominated for,BAFTA Award for Best Original Screenplay,Q214013,Q41375,sentence from index
-98,The King of Comedy,nominated for,BAFTA Award for Best Original Screenplay,Q1122281,Q41375,sentence from index
-99,Bullets Over Broadway,nominated for,BAFTA Award for Best Original Screenplay,Q1004531,Q41375,sentence from index
+0,The Barefoot Contessa,nominated for,Academy Award for Best Supporting Actor,Q1217922,Q106291,"For The Barefoot Contessa's performance, O'Brien won the Academy Award for Best Supporting Actor and the corresponding Golden Globe."
+1,The Color of Money,nominated for,Academy Award for Best Actor,Q470916,Q103916,"Newman won the Academy Award for Best Actor for The Color of Money's performance, his first Oscar win after eight nominations, seven of them for Best Actor."
+2,The Story of Louis Pasteur,nominated for,Academy Award for Best Actor,Q1619752,Q103916,"Muni won an Academy Award for Best Actor, while Collings and Gibney won for Best Screenplay and Best Story."
+3,The Pirates! In an Adventure with Scientists!,nominated for,Academy Award for Best Animated Feature,Q1137359,Q106800,"The film was nominated for the 2013 Academy Award for Best Animated Feature, but lost to DisneyÂ·Pixar's Brave."
+4,Fellini's Casanova,nominated for,Academy Award for Best Costume Design,Q18429,Q277536,"Shot entirely at the CinecittÃ  studios in Rome, the film won an Academy Award for Best Costume Design, with the Oscar going to Danilo Donati."
+5,"So Long, My Son",nominated for,Golden Bear,Q60738683,Q154590,"So Long , My Son was selected to compete for the Golden Bear at the 69th Berlin International Film Festival."
+6,Kagemusha,nominated for,Palme d'Or,Q854990,Q179808,The film won the Palme d'Or at the 1980 Cannes Film Festival.
+7,Dead Poets Society,nominated for,BAFTA Award for Best Film,Q106316,Q139184,"The film won the BAFTA Award for Best Film, the CÃ©sar Award for Best Foreign Film and the David di Donatello Award for Best Foreign Film."
+8,Dragonheart,nominated for,Academy Award for Best Visual Effects,Q330612,Q393686,Dragonheart was nominated for the Academy Award for Best Visual Effects and various other awards in 1996 and 1997.
+9,The Nightmare Before Christmas,nominated for,Academy Award for Best Visual Effects,Q322328,Q393686,"The Nightmare Before Christmas was nominated for the Academy Award for Best Visual Effects, a first for an animated film."
+10,The Abyss,nominated for,Academy Award for Best Visual Effects,Q336517,Q393686,The Abyss won the Academy Award for Best Visual Effects and was nominated for three more Academy awards.
+11,Attenberg,nominated for,Golden Lion,Q127267,Q209459,The film was nominated for the Golden Lion at the 67th Venice International Film Festival and Ariane Labed won the Coppa Volpi for the Best Actress.
+12,Hollow Man,nominated for,Academy Award for Best Visual Effects,Q1098140,Q393686,"The film was nominated for an Academy Award for Best Visual Effects in 2001, losing to Gladiator."
+13,Never Look Away,nominated for,Golden Lion,Q28796230,Q209459,Never Look Away was nominated for a Golden Lion at the 75th Venice International Film Festival and for a Golden Globe by the Hollywood Foreign Press Association.
+14,Run Lola Run,nominated for,Golden Lion,Q468697,Q209459,"Run Lola Run screened at the Venice Film Festival, where it competed for the Golden Lion."
+15,Happy as Lazzaro,nominated for,Palme d'Or,Q52988787,Q179808,Happy as Lazzaro was selected to compete for the Palme d'Or at the 2018 Cannes Film Festival.
+16,Sorry Angel,nominated for,Palme d'Or,Q51822263,Q179808,Sorry Angel was selected to compete for the Palme d'Or at the 2018 Cannes Film Festival.
+17,Seven Days to Noon,nominated for,Academy Award for Best Story,Q1389525,Q504298,"Based on the book, Un Nazi en Manhattan, written by Fernando Josseau, Paul Dehn and James Bernard won the Academy Award for Best Story for this film."
+18,"So Long, My Son",nominated for,Silver Bear,Q60738683,Q708135,"At the festival, the film won the two main acting awards, with Wang Jingchun and Yong Mei winning the Silver Bear for Best Actor and Actress, respectively."
+19,Mohabbatein,nominated for,Filmfare Award for Best Supporting Actor,Q1135349,Q966068,"The film changed Amitabh Bachchan's career prospects and earned him critical acclaim as well as several awards, including the Filmfare Award for Best Supporting Actor for Mohabbatein's performance."
+20,Mohabbatein,nominated for,Filmfare Award for Best Supporting Actress,Q1135349,Q388433,"Aishwarya Rai was also noted for Mohabbatein's work, earning her a nomination for the Filmfare Award for Best Supporting Actress."
+21,Galaxy Quest,nominated for,Nebula Award for Best Script,Q502067,Q644077,The film was a modest box office success and positively received by critics: Galaxy Quest won the Hugo Award for Best Dramatic Presentation (an award won by the original Star Trek series in the 1960s) and the Nebula Award for Best Script.
+22,Gone Nutty,nominated for,Academy Award for Best Animated Short Film,Q1011848,Q917808,The film was nominated for the 2003 Academy Award for Best Animated Short Film.
+23,Naked Amazon,nominated for,1954 Cannes Film Festival,Q6960430,Q664211,Naked Amazon was entered into the 1954 Cannes Film Festival.
+24,Mohabbatein,nominated for,Filmfare Award for Best Director,Q1135349,Q1113428,Aditya Chopra was nominated for the Filmfare Award for Best Director and the film was also nominated for the Filmfare Award for Best Film.
+25,The Heart of Jenin,nominated for,German Film Award for Best Documentary Film,Q1168958,Q1204830,"In April 2010, The Heart of Jenin won the German Film Award for Best Documentary Film."
+26,The Legend of Jimmy Blue Eyes,nominated for,Academy Award for Best Live Action Short Film,Q19880766,Q1324407,"The film was nominated for the Academy Award for Best Live Action Short Film at the 37th Academy Awards, but lost to Casals Conducts: 1964."
+27,Fortress of Peace,nominated for,Academy Award for Best Live Action Short Film,Q18170903,Q1324407,Fortress of Peace was nominated for the 1965 Academy Award for Best Live Action Short Film.
