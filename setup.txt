@@ -1,0 +1,22 @@
+SETUP.txt Nandana here I include the set up instructions 
+========================================================
+
+1)Access https://github.com/abetlen/llama-cpp-python Python Bindings for llama.cpp, please have a look at this simple library which mentions that it is an OpenAI-like API. 
+
+NOTE: I have not tried other methods for the time being. This library has a limit of only 512 tokens.
+
+Execute at your project directory => pip install llama-cpp-python
+
+2) Access huggingFace Vicuna 13B model at: https://huggingface.co/eachadea/legacy-ggml-vicuna-13b-4bit/tree/main (I include this model just to verify that it is too verbose the output as compared to Alpaca 13B)
+
+download: ggml-vicuna-13b-4bit-rev1.bin (Vicuna Model) save in models folder
+
+3) Access huggingFace Alpaca 13B model at: https://huggingface.co/eachadea/ggml-toolpaca-13b-4bit/tree/main (I suggest using this model as a proof-of-concept, given that it is less verbose)
+
+download: ggml-toolpaca-13b-4bit.bin (Alpaca model) save in models folder
+
+NOTE: I believe you can download any model from https://huggingface.co/eachadea but to be consistent please try the ones mentioned above.
+
+4) The python script in the main repo dir: vicuna-alpaca-test-v4.py is a simple toy example. It works but it is really slow. It requires 75secs. for each prompt request.
+
+NOTE: As suggested by Nandana I will try to parallelize the access to the Alpaca model if possible. 

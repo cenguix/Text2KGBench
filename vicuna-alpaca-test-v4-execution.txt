@@ -1,0 +1,51 @@
+C:\Users\Carlo\AnacondaProjects\iswc-2023\venv\Documents\GitHub\Scripts\python.exe C:\Users\Carlo\AnacondaProjects\iswc-2023\vicuna-alpaca-test-v4.py 
+Loading model...
+llama.cpp: loading model from ./models/ggml-toolpaca-13b-4bit.bin
+llama_model_load_internal: format     = ggjt v1 (latest)
+llama_model_load_internal: n_vocab    = 32001
+llama_model_load_internal: n_ctx      = 512
+llama_model_load_internal: n_embd     = 5120
+llama_model_load_internal: n_mult     = 256
+llama_model_load_internal: n_head     = 40
+llama_model_load_internal: n_layer    = 40
+llama_model_load_internal: n_rot      = 128
+llama_model_load_internal: f16        = 2
+llama_model_load_internal: n_ff       = 13824
+llama_model_load_internal: n_parts    = 1
+llama_model_load_internal: model size = 13B
+llama_model_load_internal: ggml ctx size =  73.73 KB
+llama_model_load_internal: mem required  = 9807.47 MB (+ 3216.00 MB per state)
+llama_init_from_file: kv self size  =  800.00 MB
+AVX = 1 | AVX2 = 1 | AVX512 = 0 | FMA = 1 | NEON = 0 | ARM_FMA = 0 | F16C = 1 | FP16_VA = 0 | WASM_SIMD = 0 | BLAS = 0 | SSE3 = 1 | VSX = 0 | 
+Model loading time: 0.6407871246337891
+Query LLM loading time: 85.24485874176025
+Answer: 
+director(A Gang Story, Olivier Marchal)
+
+llama_print_timings:        load time =  3161.56 ms
+llama_print_timings:      sample time =     0.86 ms /    13 runs   (    0.07 ms per run)
+llama_print_timings: prompt eval time = 79371.42 ms /   240 tokens (  330.71 ms per token)
+llama_print_timings:        eval time =  5869.51 ms /    13 runs   (  451.50 ms per run)
+llama_print_timings:       total time = 85244.73 ms
+Query LLM loading time: 79.53851413726807
+Answer: 
+genre(A Fistful of Dollars, Spaghetti Western)
+
+llama_print_timings:        load time =  3161.56 ms
+llama_print_timings:      sample time =     1.17 ms /    18 runs   (    0.06 ms per run)
+llama_print_timings: prompt eval time = 71944.34 ms /   213 tokens (  337.77 ms per token)
+llama_print_timings:        eval time =  7588.08 ms /    17 runs   (  446.36 ms per run)
+llama_print_timings:       total time = 79536.76 ms
+Query LLM loading time: 97.11253046989441
+Answer: 
+director(The Dark Knight Rises, Christopher Nolan)
+co-writer(The Dark Knight Rises, Christopher Nolan)
+story(The Dark Knight Rises, David S. Goyer)
+
+llama_print_timings:        load time =  3161.56 ms
+llama_print_timings:      sample time =     2.91 ms /    44 runs   (    0.07 ms per run)
+llama_print_timings: prompt eval time = 77833.74 ms /   232 tokens (  335.49 ms per token)
+llama_print_timings:        eval time = 19268.33 ms /    43 runs   (  448.10 ms per run)
+llama_print_timings:       total time = 97111.46 ms
+
+Process finished with exit code 0
