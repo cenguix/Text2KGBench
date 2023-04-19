@@ -1,0 +1,35 @@
+{
+	"title": "Movie Ontology",
+	"id": "ont_1_movie",
+	"concepts": [
+		{"qid": "Q5", "label": "human"},
+		{"qid": "Q515", "label": "city"},
+		{"qid": "Q6256", "label": "country"},
+		{"qid": "Q11424", "label": "film"},
+		{"qid": "Q201658", "label": "film genre"},
+		{"qid": "Q483394", "label": "genre"},
+		{"qid": "Q1762059", "label": "film production company"},
+		{"qid": "Q4220917", "label": "film award"},
+		{"qid": "Q618779", "label": "award"},
+		{"qid": "Q47461344", "label": "written work"},
+		{"qid": "Q15773347", "label": "film character"},
+		{"qid": "Q104649845", "label": "film organization"}
+	],
+	"relations": [
+		{"pid": "P57", "label": "director", "domain": "Q11424", "range": "Q5"},
+		{"pid": "P58", "label": "screenwriter", "domain": "Q11424", "range": "Q5"},
+		{"pid": "P136", "label": "genre", "domain": "Q11424", "range": "Q483394"},
+		{"pid": "P144", "label": "based on", "domain": "Q11424", "range": "Q47461344"},
+		{"pid": "P161", "label": "cast member", "domain": "Q11424", "range": "Q5"},
+		{"pid": "P166", "label": "award received", "domain": "Q11424", "range": "Q618779"},
+		{"pid": "P272", "label": "production company", "domain": "Q11424", "range": "Q1762059"},
+		{"pid": "P495", "label": "country of origin", "domain": "Q11424", "range": "Q6256"},
+		{"pid": "P577", "label": "publication date", "domain": "Q11424", "range": ""},
+		{"pid": "P674", "label": "characters", "domain": "Q11424", "range": "Q15773347"},
+		{"pid": "P840", "label": "narrative location", "domain": "Q11424", "range": "Q515"},
+		{"pid": "P915", "label": "filming location", "domain": "Q11424", "range": "Q515"},
+		{"pid": "P921", "label": "main subject", "domain": "Q11424", "range": ""},
+		{"pid": "P1411", "label": "nominated for", "domain": "Q11424", "range": "Q618779"},
+		{"pid": "P2130", "label": "cost", "domain": "Q11424", "range": ""}
+	]
+}
