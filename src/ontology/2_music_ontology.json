@@ -1,3 +1,4 @@
+
 {
   "title": "Music Ontology", 
   "id": "ont_2_music",
@@ -14,8 +15,7 @@
     {"qid": "Q164204", "label": "musicology"},
     {"qid": "Q746359", "label": "music industry"}, 
     {"qid": "Q482994", "label": "album"},
-    {"qid": "Q618779", "label": "award"},
-    {"qid": "Q2188189", "label": "musical work"}
+    {"qid": "Q618779", "label": "award "}
   ],
   "relations": [
     {"pid": "P86", "label": "composer", "domain": "Q2188189", "range": "Q5"},
@@ -29,8 +29,12 @@
     {"pid": "P136", "label": "genre", "domain": "Q2188189", "range": "Q188451"},
     {"pid": "P175", "label": "performer", "domain": "Q2188189", "range": ""},
     {"pid": "P162", "label": "producer", "domain": "Q482994", "range": ""},
-    {"pid": "P1411", "label": "nominated for", "domain": "Q2188189", "range": "Q618779"},
+    {"pid": "P1411", "label": "nominated for", "domain": "Q482994", "range": "Q618779"},
     {"pid": "P264", "label": "record label", "domain": "Q482994", "range": ""}
 
   ]
 }
+
+
+
+ 
