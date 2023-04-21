@@ -1,0 +1,41 @@
+{
+"title": "Book Ontology",
+"id": "ont_4_book",
+"concepts": [
+{"qid": "Q571", "label": "book"},
+{"qid": "Q7725634", "label": "literary work"},    
+{"qid": "Q482980","label": "author"},
+{"qid": "Q2085381","label": "publisher"},
+{"qid": "Q33057","label": "International Standard Book Number"}, 
+{"qid": "Q7075","label": "library"},
+{"qid": "Q205892","label": "calender date"}, 
+{"qid": "Q11424","label": "film"},
+{"qid": "Q95074","label": "fictional character"},
+{"qid": "Q36180","label": "writer"}, 
+{"qid": "Q5633421","label": "scientific journal"}, 
+{"qid": "Q191067","label": "article"},
+{"qid": "Q5","label": "human"},
+{"qid": "Q223393","label": "literary genre"},
+{"qid": "Q732577","label": "publication"},
+{"qid": "Q685935","label": "trade magazine"},    
+{"qid": "Q34770","label": "language"},
+{"qid": "Q15621286","label": "intellectual work"},
+{"qid": "Q6256","label": "country"},
+{"qid": "Q4835091","label": "territory"}   
+],
+
+"relations": [
+{"pid": "P110", "label": "illustrator", "domain": "Q47461344", "range": "Q5"},    
+{"pid": "P156", "label": "followed by", "domain": "Q47461344", "range": "Q47461344"},     
+{"pid": "P577", "label": "publication date", "domain": "Q571", "range": ""}, 
+{"pid": "P50", "label": "author", "domain": "Q571", "range": "Q5"},
+{"pid": "P123", "label": "publisher", "domain": "Q571", "range": "Q2085381"},  
+{"pid": "P674", "label": "characters", "domain": "Q7725634", "range": "Q95074"},
+{"pid": "P98", "label": "editor", "domain": "Q685935", "range": "Q5"}, 
+{"pid": "P291", "label": "place of publication", "domain": "Q47461344", "range": "Q82794"},
+{"pid": "P840", "label": "narrative location", "domain": "Q7725634", "range": "Q4835091"},
+{"pid": "P136", "label": "genre", "domain": "Q7725634", "range": "Q223393"},
+{"pid": "P407", "label": "language of work or name", "domain": "Q7725634", "range": "Q34770"},
+{"pid": "P180", "label": "depicts", "domain": "Q47461344", "range": ""}    
+]
+}
