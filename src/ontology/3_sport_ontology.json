@@ -1,0 +1,51 @@
+
+{
+  "title": "Sports Ontology",
+  "id": "ont_3_sport",
+  "concepts": [
+    {"qid": "Q5", "label": "human"},
+    {"qid": "Q50995749", "label": "sportsperson"},  
+    {"qid": "Q327245", "label": "team"},
+    {"qid": "Q2066131", "label": "athlete"},
+    {"qid": "Q349", "label": "sport"},
+    {"qid": "Q6256", "label": "country"},
+    {"qid": "Q4438121", "label": "sports organization"},
+    {"qid": "Q27020041", "label": "sports team season"},
+    {"qid": "Q847017", "label": "sports club"},
+    {"qid": "Q1154710", "label": "association football venue"},
+    {"qid": "Q16510064", "label": "sporting event"},
+    {"qid": "Q167170", "label": "multi-sport event"},
+    {"qid": "Q2485448", "label": "sports governing body"},
+    {"qid": "Q747883", "label": "physical activity"},
+    {"qid": "Q2312410", "label": "sports discipline"},
+    {"qid": "Q27020041" , "label": "sports season"},
+    {"qid": "Q15991290" , "label": "professional sports league"},      
+    {"qid": "Q13406554", "label": "sports competition"},
+    {"qid": "Q847017", "label": "sports club"},
+    {"qid": "Q1539532", "label": "sports season of a sports club"}
+  ],
+  "relations": [
+    {"pid": "P106", "label": "occupation", "domain": "Q5", "range": "Q2066131"},
+    {"pid": "P641", "label": "sport", "domain": "Q13406554", "range": "Q349"},
+    {"pid": "P54", "label": "member of sports team", "domain": "Q5", "range": "Q847017"},
+    {"pid": "P1532", "label": "country for sport", "domain": "Q5", "range": "Q6256"},
+    {"pid": "P3450", "label": "sports season of league or competition", "domain": "Q27020041", "range": "Q500834"},
+    {"pid": "P6087", "label": "coach of sports team", "domain": "Q5", "range": "Q847017"},
+    {"pid": "P118", "label": "league", "domain": "Q5", "range": "Q15991290"},
+    {"pid": "P159", "label": "home venue", "domain": "Q847017", "range": "Q23764314"},  
+    {"pid": "P495", "label": "country of origin ", "domain": "Q349", "range": "Q6256"}, 
+    {"pid": "P118", "label": "league", "domain": "Q5", "range": "Q623109"},
+    {"pid": "P2094", "label": "competition class", "domain": "Q4438121", "range": ""}
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+ 

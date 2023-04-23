@@ -1,0 +1,40 @@
+
+{
+  "title": "Music Ontology", 
+  "id": "ont_2_music",
+  "concepts": [
+    {"qid": "Q5", "label": "human"},
+    {"qid": "Q638", "label": "music"},
+    {"qid": "Q2188189", "label": "musical work"},
+    {"qid": "Q4830453", "label": "record producer"},
+    {"qid": "Q207628", "label": "composed musical work"},
+    {"qid": "Q36834", "label": "composer"},
+    {"qid": "Q34770", "label": "language"},
+    {"qid": "Q188451", "label": "music genre"},
+    {"qid": "Q7390", "label": "voice"},
+    {"qid": "Q164204", "label": "musicology"},
+    {"qid": "Q746359", "label": "music industry"}, 
+    {"qid": "Q482994", "label": "album"},
+    {"qid": "Q618779", "label": "award "}
+  ],
+  "relations": [
+    {"pid": "P86", "label": "composer", "domain": "Q2188189", "range": "Q5"},
+    {"pid": "P361", "label": "part of", "domain": "Q2188189", "range": "Q482994"},
+    {"pid": "P676", "label": "lyrics by", "domain": "Q2188189", "range": "Q5"}, 
+    {"pid": "P577", "label": "publication date", "domain": "Q2188189", "range": ""},
+    {"pid": "P407", "label": "language of work or name", "domain": "Q2188189", "range": "Q34770"},  
+    {"pid": "P412", "label": "voice type", "domain": "Q5", "range": "Q7390"},
+    {"pid": "P870", "label": "instrumentation", "domain": "Q2188189", "range": ""}, 
+    {"pid": "P658", "label": "tracklist", "domain": "Q482994", "range": "Q2188189"}, 
+    {"pid": "P136", "label": "genre", "domain": "Q2188189", "range": "Q188451"},
+    {"pid": "P175", "label": "performer", "domain": "Q2188189", "range": ""},
+    {"pid": "P162", "label": "producer", "domain": "Q482994", "range": ""},
+    {"pid": "P1411", "label": "nominated for", "domain": "Q482994", "range": "Q618779"},
+    {"pid": "P264", "label": "record label", "domain": "Q482994", "range": ""}
+
+  ]
+}
+
+
+
+ 
