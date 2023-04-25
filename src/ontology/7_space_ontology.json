@@ -1,0 +1,32 @@
+{
+  "title": "Space Ontology",
+  "id": "ont_7_space",
+  "concepts": [
+    {"qid": "Q4169", "label": "outer space"},
+    {"qid": "Q634", "label": "planet"},
+    {"qid": "Q2488", "label": "spiral galaxy"}, 
+    {"qid": "Q8928", "label": "constellation"},
+    {"qid": "Q109228604", "label": "Celestial bodies"},
+    {"qid": "Q3863", "label": "asteroid"},
+    {"qid": "Q205892", "label": "calendar date"},
+    {"qid": "Q11631", "label": "astronaut"},
+    {"qid": "Q2133344", "label": "space mission"}, 
+    {"qid": "Q62832", "label": "observatory"},
+    {"qid": "Q40218", "label": "Spacecraft"},
+    {"qid": "Q5916", "label": "spaceflight"},
+    {"qid": "Q17444909", "label": "astronomical object type"},
+    {"qid": "Q5", "label": "human"},
+    {"qid": "Q82794", "label": "geographic region"} 
+  ],
+  "relations": [
+    {"pid": "P65", "label": "site of astronomical discovery", "domain": "Q3863", "range": "Q62832"},
+    {"pid": "P196", "label": "minor planet group", "domain": "Q3863", "range": "Q17444909"},
+    {"pid": "P59", "label": "constellation", "domain": "Q2488", "range": "Q8928"},
+    {"pid": "P450", "label": "astronaut mission", "domain": "Q5", "range": "Q5916"},
+    {"pid": "P622", "label": "spacecraft docking/undocking date", "domain": "Q40218", "range": ""},
+    {"pid": "P3015", "label": "backup or reserve team or crew", "domain": "Q5916", "range": "Q5"},
+    {"pid": "P1158", "label": "location of landing", "domain": "Q40218", "range": "Q82794"}
+  ]
+}
+
+

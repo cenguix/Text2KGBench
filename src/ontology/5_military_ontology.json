@@ -1,0 +1,31 @@
+{
+  "title": "Military Ontology", 
+  "id": "ont_5_military",
+  "concepts": [
+    {"qid": "Q4189293", "label": "rank"},  
+    {"qid": "Q56019", "label": "military rank"},
+    {"qid": "Q1184840", "label": "military vehicle"},
+   {"qid": "Q176799", "label": "military unit"}, 
+    {"qid": "Q5", "label": "human"}, 
+    {"qid": "Q6256", "label": "country"},
+    {"qid": "Q16861376", "label": "military casualty classification"}, 
+    {"qid": "Q17149090", "label": "armed organization"},
+   {"qid": "Q2008856", "label": "command"}, 
+    {"qid": "Q2772772", "label": "military museum"},
+    {"qid": "Q43229", "label": "organization"},
+    {"qid": "Q47064", "label": "military personnel"},
+    {"qid": "Q18643213", "label": "military equipment"} 
+  ],
+  "relations": [
+    {"pid": "P410", "label": "military rank", "domain": "Q5", "range": "Q56019"}, 
+    {"pid": "P241", "label": "military branch", "domain": "Q5", "range": "Q176799"}, 
+    {"pid": "P1347", "label": "military casualty classification ", "domain": "Q5", "range": "Q16861376"}, 
+    {"pid": "P287", "label": "designed by", "domain": "Q18643213", "range": "Q43229"},
+    {"pid": "P287", "label": "designed by", "domain": "Q1184840", "range": "Q43229"},
+    {"pid": "P4791", "label": "commanded by", "domain": "Q2008856", "range": "Q5"}, 
+    {"pid": "P3730", "label": "next higher rank", "domain": "Q56019", "range": "Q4189293"},
+    {"pid": "P3461", "label": "designated as terrorist by", "domain": "Q17149090", "range": "Q6256"},
+    {"pid": "P1654", "label": "wing configuration", "domain": "Q11436", "range": ""}
+    ]
+}
+

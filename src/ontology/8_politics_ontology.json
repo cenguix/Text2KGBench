@@ -1,0 +1,39 @@
+{
+  "title": "Politics Ontology",
+  "id": "ont_8_politics",
+  "concepts": [
+    {"qid": "Q7188", "label": "government"},
+    {"qid": "Q4164871", "label": "position"},
+    {"qid": "Q48352", "label": "head of state"},
+    {"qid": "Q2285706", "label": "head of government"},
+      {"qid": "Q7278", "label": "political party"},
+    {"qid": "Q40231", "label": "Public election"},
+      {"qid": "Q7275", "label": "state"},
+    {"qid": "Q5", "label": "human"},
+    {"qid": "Q28819924", "label": "political alignment"},
+    {"qid": "Q43229", "label": "organization"},
+    {"qid": "Q30461", "label": "president"},
+     {"qid": "Q6256", "label": "country"},
+     {"qid": "Q12909644", "label": "political ideology"}
+    
+  ],
+"relations": [
+    {"pid": "P35", "label": "head of state", "domain": "Q6256", "range": "Q5"},
+    {"pid": "P6", "label": "head of government", "domain": "Q6256", "range": "Q5"},
+    {"pid": "P39", "label": "position held", "domain": "Q5", "range": "Q30461"},
+    {"pid": "P463", "label": "Member of", "domain": "Q5", "range": "Q43229"},
+    {"pid": "P1387", "label": "political alignment", "domain": "Q7278", "range": "Q28819924"},
+    {"pid": "P102", "label": "member of political party", "domain": "Q5", "range": "Q7278"},
+    {"pid": "P2715", "label": "elected in", "domain": "Q5", "range": "Q40231"},
+    {"pid": "P3602", "label": "candidacy in election", "domain": "Q5", "range": "Q40231"},
+    {"pid": "P1142", "label": "political ideology", "domain": "Q7278", "range": "Q12909644"}
+  ]
+}
+
+
+
+
+
+
+
+

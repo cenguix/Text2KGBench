@@ -1,0 +1,41 @@
+{
+"title": "Nature Ontology",
+"id": "ont_9_nature",
+"concepts": [
+{"qid": "Q15091377", "label": "cycling race"},
+{"qid": "Q618123", "label": "geographical feature"},
+{"qid": "Q131681", "label": "reservoir"}, 
+{"qid": "Q52105", "label": "Habitat"},
+{"qid": "Q12323", "label": "dam"},
+{"qid": "Q166620", "label": "drainage basin"}, 
+{"qid": "Q46831", "label": "mountain range"},
+{"qid": "Q8502", "label": "mountain"},
+{"qid": "Q16521", "label": "taxon"},
+{"qid": "Q355304", "label": "watercourse"},
+{"qid": "Q82673", "label": "conservation status"},  
+{"qid": "Q15324", "label": "body of water"}, 
+{"qid": "Q5", "label": "human"}, 
+ {"qid": "Q1040689", "label": "synonym"} 
+], 
+"relations": [
+{"pid": "P171", "label": "parent taxon", "domain": "Q16521", "range": "Q16521"},
+{"pid": "P4552", "label": "mountain range", "domain": "Q8502", "range": "Q46831"},
+{"pid": "P3137", "label": "parent peak", "domain": "Q8502", "range": "Q8502"},
+{"pid": "P1843", "label": "taxon common name", "domain": "Q7432", "range": ""},
+{"pid": "P974", "label": "tributary", "domain": "Q355304", "range": "Q355304"},
+{"pid": "P885", "label": "origin of the watercourse", "domain": "Q355304", "range": "Q15324"},
+{"pid": "P403", "label": "mouth of the watercourse", "domain": "Q355304", "range": "Q355304"},
+{"pid": "P141", "label": "IUCN conservation status", "domain": "Q16521", "range": "Q82673"},
+{"pid": "P1420", "label": "taxon synonym", "domain": "Q16521", "range": "Q1040689"},
+{"pid": "P4661", "label": "reservoir created", "domain": "Q12323", "range": "Q131681"},
+{"pid": "P4614", "label": "drainage basin", "domain": "Q355304", "range": "Q166620"},
+{"pid": "P4320", "label": "mountains classification ", "domain": "Q15091377", "range": "Q5"},
+{"pid": "P2974", "label": "Habitat", "domain": "Q16521", "range": "Q15324"}
+]
+}
+
+
+
+
+
+
