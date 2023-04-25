@@ -1,0 +1,31 @@
+{
+"title": "Culture Ontology",
+"id": "ont_10_culture",
+"concepts": [
+{"qid": "Q5", "label": "human"},
+{"qid": "Q11042", "label": "culture"},
+{"qid": "Q735", "label": "art"},
+{"qid": "Q34770", "label": "language"},
+{"qid": "Q618123", "label": "geographical feature"},
+{"qid": "Q309", "label": "history"},
+{"qid": "Q9174", "label": "religion"},
+{"qid": "Q251777", "label": "custom"},
+{"qid": "Q82821", "label": "tradition"},
+{"qid": "Q2434238", "label": "heritage"},
+{"qid": "Q1778821", "label": "cuisine"},
+{"qid": "Q11639", "label": "dance"},
+{"qid": "Q41710", "label": "ethnic group"}, 
+{"qid": "Q8242", "label": "literature"},
+{"qid": "Q132241", "label": "festival"}
+],
+"relations": [
+{"pid": "P172", "label": "ethnic group", "domain": "Q5", "range": "Q41710"},
+{"pid": "P611", "label": "religious order", "domain": "Q9174", "range": "Q9174"},
+{"pid": "P1412", "label": "languages spoken, written or signed", "domain": "Q5", "range": "Q34770"},
+{"pid": "P571", "label": "inception", "domain": "Q8242", "range": ""},
+{"pid": "P580", "label": "start time", "domain": "Q132241", "range": ""},
+{"pid": "P825", "label": "dedicated to", "domain": "Q735", "range": "Q5"},
+{"pid": "P4185", "label": "iconographic symbol", "domain": "Q5", "range": ""},
+{"pid": "P2341", "label": "indigenous to", "domain": "Q11639", "range": ""}
+]
+}

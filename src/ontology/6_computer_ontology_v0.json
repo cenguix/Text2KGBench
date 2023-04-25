@@ -1,0 +1,31 @@
+{
+  "title": "Computer Ontology",
+  "id": "ont_6_computer",
+  "concepts": [
+    {"qid": "Q68", "label": "computer"},
+    {"qid": "Q7397", "label": "software"},
+    {"qid": "Q3966", "label": "computer hardware"},
+    {"qid": "Q9143", "label": "programming language"},
+    {"qid": "Q8513", "label": "database"},
+    {"qid": "Q1301371", "label": "computer network"},
+    {"qid": "Q189210", "label": "web application"},
+    {"qid": "Q41455", "label": "computer science"},
+    {"qid": "Q8366", "label": "algorithm"},
+    {"qid": "Q166142", "label": "application"},
+    {"qid": "Q215627", "label": "person"},  
+    {"qid": "Q5", "label": "human"},
+    {"qid": "Q55990535", "label": "computer model"},
+    {"qid": "Q1709010", "label": "software engineer"},
+    {"pid": "Q9135", "label": "operating system"} 
+  ],
+  "relations": [
+    {"pid": "P178", "label": "developer", "domain": "Q7397", "range": "Q4830453"},
+    {"pid": "P170", "label": "creator", "domain": "Q166142", "range": "Q5"},
+    {"pid": "P400", "label": "platform", "domain": "Q7397", "range": "Q68"},
+    {"pid": "P306", "label": "operating system", "domain": "Q55990535", "range": "Q9135"}
+  ]
+}
+
+
+
+
