@@ -121,30 +121,23 @@ if __name__ == "__main__":
     prompts = []
     prompts_json = []
     ont_files = glob.glob(path + '/*.json')
-    #temp solution for testing
-    ont_files = ['ontology/1_movie_ontology.json', 'ontology/2_music_ontology.json', 'ontology/3_sport_ontology.json', 'ontology/4_book_ontology.json', 'ontology/5_military_ontology.json',
-     'ontology/6_computer_ontology.json', 'ontology/7_space_ontology.json', 'ontology/8_politics_ontology.json', 'ontology/9_nature_ontology.json', 'ontology/10_culture_ontology.json' ]
     print(ont_files)
-
+    exit(0)
     i=0
     for ont_src_file in ont_files:
-        #ont_src_file = ont_src_file.replace("\\","/")
-
         i=i+1
         ont = get_ontology_string(ont_src_file)
-        print(ont)
+        print()
         ontology = load_json(ont_src_file) # loads the ontology movie, music, sports, etc.
-        print(len(ontology))
 
         onto_id = "ont_" + str(i) + "_" + ont + "_test_" + str(i) # this field is used for the output json prompt file
 
         # the test source file respective to the ontology
         path = "data/ont_" + str(i) + "_" + ont
-        print(path)
-
         test_src = glob.glob(path + '/*test*.jsonl')
-        test_src = test_src[0].replace("\\","/")
         print(test_src)
+        exit(0)
+        test_src = test_src[0].replace("\\","/")
 
         test_sentences = load_jsonl(test_src)
 
