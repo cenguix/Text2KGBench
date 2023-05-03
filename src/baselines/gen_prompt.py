@@ -117,7 +117,7 @@ def get_ontology_string(ont_src_file):
 if __name__ == "__main__":
 
     # the ontology source file should iterate over all of them movie ontology, music ontology, etc.
-    path="ontology"
+    path= "../../data/ontology"
     prompts = []
     prompts_json = []
     ont_files = glob.glob(path + '/*.json')

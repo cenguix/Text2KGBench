@@ -1,4 +1,5 @@
 import json
+import re
 import glob
 from nltk.stem import PorterStemmer
 from nltk.tokenize import word_tokenize
@@ -7,6 +8,7 @@ import nltk
 nltk.download('punkt')
 
 warnings.filterwarnings('ignore')  # "error", "ignore", "always", "default", "module" or "once"
+
 
 def get_ontology_concepts(ontology):
     ont_concepts = ""
@@ -107,11 +109,11 @@ def calculate_precision_recall_f1(llm_triples, ground_triples):
     # preprocess llm triples
     llm_triples = get_llm_triple_processed(llm_triples)
     #print("INSIDE ======>0 llm triples: ", llm_triples)
-    llm_triples = {tuple(triple) for triple in llm_triples}
+    llm_triples = {normalized_triple_string(triple) for triple in llm_triples}
 
     ground_triples = get_ground_triple_processed(ground_triples)
     #print("INSIDE ===>>> 1 ground triples: ", ground_triples)
-    ground_triples = {tuple(triple) for triple in ground_triples}
+    ground_triples = {normalized_triple_string(triple) for triple in ground_triples}
     #print("INSIDE ===>>> 2 TUPLE ground triples: ", ground_triples)
     ground_triples = set(ground_triples)
     #print("@@@SET ground triples: ", ground_triples)
@@ -155,6 +157,7 @@ def get_llm_triple_processed(triples):
 
     return llm_triples
 
+
 def get_ground_triple_processed(ground_triples):
     triples_converted = []
 
@@ -191,14 +194,17 @@ def get_ground_triple_processed(ground_triples):
     return triples_converted
 
 
-def get_ontology_conformance(ont_str, triples, i):
-    # ont_1_movie
-    start = ont_str.find('_')
-    start = ont_str.find('_', start + 1)
-    ont = ont_str[start + 1:]
-    ont_file = 'src/ontology/' + str(i) + '_' + ont + '_ontology.json'
-    ontology = load_json(ont_file)
+def normalized_triple_string(triple):
+    # remove spaces and make lower case
+    sub_label = re.sub(r"(_|\s+)", '', triple[0]).lower()
+    rel_label = re.sub(r"(_|\s+)", '', triple[1]).lower()
+    obj_label = re.sub(r"(_|\s+)", '', triple[2]).lower()
+    # concatenate them
+    tr_key = f"{sub_label}{rel_label}{obj_label}"
+    return tr_key
 
+
+def get_ontology_conformance(ontology, triples):
     num_rels_conformant = 0
     num_rel_hallucinations = 0
 
@@ -221,6 +227,7 @@ def get_ontology_conformance(ont_str, triples, i):
 
     return ont_conformance, num_rel_hallucinations
 
+
 def remove_leading_under_score_space(triple, i): # remove leading underscore and space
 
     if triple[i].startswith("_"):
@@ -229,7 +236,6 @@ def remove_leading_under_score_space(triple, i): # remove leading underscore and
         triple[i] = triple[1].replace(" ", "")
 
     return triple
-
 
 
 def get_ont_rels(ontology):
@@ -250,22 +256,11 @@ def get_ont_rels(ontology):
     return ont_rels
 
 
-def get_ontology_hallucinations(test_sentence_id, ont_str, triples, i):
-    # the test source file respective to the ontology
-    path = "src/data/" + ont_str + "/" + ont_str + "_test.jsonl"
-    #print(path)
+def get_ontology_hallucinations(test_sentence_id, test_sentence, triples, i):
 
     # test_src = glob.glob(path + '/*test*.jsonl')
     # test_src = test_src[0].replace("\\", "/")
     # print(test_src)
-
-    test_sentences = load_jsonl(path)
-
-    # by default we only use the first sentence in the test set but we should iterate over all of them (there are > 800)
-    for test_sentence in test_sentences:
-        if test_sentence['id'] == test_sentence_id:
-            test_sentence = test_sentence['sent']  # get the required sentence
-            break
 
     test_before = test_sentence
     test_sentence = get_stemmed_sentence(test_sentence)
@@ -314,35 +309,55 @@ def get_stemmed_sentence(test_sentence):
 if __name__ == "__main__":
 
     ps = PorterStemmer()
-    path = 'src/ont_'
-    #ont_response_files = glob.glob(path + '*llm_responses.jsonl')
-    ont_response_files = ['src/ont_1_movie_llm_responses_v2.jsonl', 'src/ont_2_music_llm_responses_v2.jsonl', 'src/ont_3_sport_llm_responses_v2.jsonl',
-     'src/ont_4_book_llm_responses_v2.jsonl', 'src/ont_5_military_llm_responses_v2.jsonl', 'src/ont_6_computer_llm_responses_v2.jsonl', 'src/ont_7_space_llm_responses_v2.jsonl',
-     'src/ont_8_politics_llm_responses_v2.jsonl', 'src/ont_9_nature_llm_responses_v2.jsonl', 'src/ont_10_culture_llm_responses_v2.jsonl']
+    #TODO load these from a config file or from command line
+    evaluation_input_params = [
+        [
+            '../../data/ground_truth/ont_1_movie_ground_truth_v1.jsonl',
+            '../../data/baselines/vicuna_13B/llm_responses/ont_1_movie_llm_responses_v2.jsonl',
+            '../../data/ontology/1_movie_ontology.json',
+            '../../data/baselines/vicuna_13B/eval/ont_1_movie_llm_stats.jsonl'
+        ]
+    ]
+        # 'src/ont_2_music_llm_responses_v2.jsonl',
+        # 'src/ont_3_sport_llm_responses_v2.jsonl',
+        # 'src/ont_4_book_llm_responses_v2.jsonl',
+        # 'src/ont_5_military_llm_responses_v2.jsonl',
+        # 'src/ont_6_computer_llm_responses_v2.jsonl',
+        # 'src/ont_7_space_llm_responses_v2.jsonl',
+        # 'src/ont_8_politics_llm_responses_v2.jsonl',
+        # 'src/ont_9_nature_llm_responses_v2.jsonl',
+        # 'src/ont_10_culture_llm_responses_v2.jsonl']
+
     prompts = []
     prompts_json = []
 
     i = 0
 
-    print(ont_response_files)
-    #ground_triples = [{"sub": "Bleach : Hell Verse", "rel": "director", "obj": "Noriyuki Abe"}, {"sub": "Carmen Portal", "rel": "military rank", "obj": "General of infantry"}]
-    #ground_triples = get_ground_triple_processed(ground_triples)
-    #print(ground_triples)
-    #exit(0)
-    for ont_response_file in ont_response_files:  # iterate through all the llm ontology response files
+    for input_params in evaluation_input_params:  # iterate through all the llm ontology response files
         i = i + 1
+
+        ground_truth_file = input_params[0]
+        llm_response_file = input_params[1]
+        ontology_file = input_params[2]
+        output_file = input_params[3]
+        onto_id = ontology_file.split("/")[-1].replace("_ontology.json", "")
 
         #ont_response_file = ont_response_file.replace("\\", "/")
         #print(f"1. ont_response_file == {ont_response_file}")
-        ont_response_str = get_test_ontology_string(ont_response_file, i)
-        ont_str = get_ontology_string(ont_response_str)
+        # ont_response_str = get_test_ontology_string(ont_response_file, i)
+        # ont_str = get_ontology_string(ont_response_str)
 
         #print(f"1.1 ont_str == {ont_str}")
 
         #print(f"2. ont_response_str=={ont_response_str}")
-        ont_responses = load_jsonl(ont_response_file)
+        ont_responses = load_jsonl(llm_response_file)
+        ontology = load_json(ontology_file)
+        ont_ground_truth = load_jsonl(ground_truth_file)
+        test_id_to_sent = {gt['id']: gt['sent'] for gt in ont_ground_truth}
+
         x = 0
         stats_json = []
+        total_p, total_r, total_f1, total_ont_conf, total_sh, total_rh, total_oh = 0, 0, 0, 0, 0, 0, 0
         for ont_response in ont_responses:  # iterate through all the response entries in the response file
             # ont_response = get_ont_response_entry(ont_response_str, ont_responses)
             #print(f"3. Ont_response== {ont_response}")
@@ -352,21 +367,25 @@ if __name__ == "__main__":
             if len(triples) == 0:
                 continue
 
-            ont_conformance, ont_rel_hallucinations = get_ontology_conformance(ont_str, triples, i)
+            ont_conformance, ont_rel_hallucinations = get_ontology_conformance(ontology, triples)
+            total_ont_conf += ont_conformance
+            total_rh += ont_rel_hallucinations
             print(f"ont_conformance= {ont_conformance}, ont_rel_hallucinations= {ont_rel_hallucinations}")
             ont_response_id = ont_response['id']
-            ont_subj_hallucinations, ont_obj_hallucinations = get_ontology_hallucinations(ont_response_id, ont_str,triples, i)
+            sent = test_id_to_sent[ont_response_id]
+            ont_subj_hallucinations, ont_obj_hallucinations = get_ontology_hallucinations(ont_response_id, sent,triples, i)
+            total_sh += ont_rel_hallucinations
+            total_oh += ont_rel_hallucinations
             print(f"ont_subj_hallucinations= {ont_subj_hallucinations}, ont_obj_hallucinations= {ont_obj_hallucinations}")
 
             #print(f"3.3 triples = {triples}")
 
-            ont_ground_file = get_ground_truth_file(ont_response_str)
-            path = 'src/data/ground_truth/' + ont_ground_file
-            ont_ground_files = glob.glob(path + '*_ground_truth_v1.jsonl')
-            ont_ground_file = ont_ground_files[0].replace("\\", "/")
-            #print(f"4. ont_ground_file= {ont_ground_file}")
-            ont_ground_truth_file = load_jsonl(ont_ground_file)
-            ground_truth_entry = get_ground_truth_entry(ont_response_id, ont_ground_truth_file)
+            # ont_ground_file = get_ground_truth_file(ont_response_str)
+            # path = 'src/data/ground_truth/' + ont_ground_file
+            # ont_ground_files = glob.glob(path + '*_ground_truth_v1.jsonl')
+            # ont_ground_file = ont_ground_files[0].replace("\\", "/")
+            # #print(f"4. ont_ground_file= {ont_ground_file}")
+            ground_truth_entry = get_ground_truth_entry(ont_response_id, ont_ground_truth)
             #print(f"5. ground_truth_entry= {ground_truth_entry}")
 
             ground_truth_id = ground_truth_entry['id']
@@ -377,6 +396,9 @@ if __name__ == "__main__":
             #precision, recall, f1 = get_precision_recall_f1(triples, ground_triples)
 
             precision, recall, f1 = calculate_precision_recall_f1(triples, ground_triples)
+            total_p += precision
+            total_r += recall
+            total_f1 += f1
             print(f"precision: {precision}, recall: {recall}, f1: {f1}")
             '''
             x=x+1
@@ -399,15 +421,25 @@ if __name__ == "__main__":
 
             stats_json.append(my_dict)
         #exit(0)
-        print(f"=====>>>> len(stats_json == {len(stats_json)}")
+        print(f"=====>>>> len(stats_json) == {len(stats_json)}")
+        print(f"tf: {total_p}")
 
-        for elem in stats_json:
-            # ont_1_movie_prompts.json
-            path = "src/" + ont_str + '_llm_stats.jsonl'
+        avg_metrics = {}
+        avg_metrics['id'] = onto_id
+        avg_metrics['P'] = (total_p / len(ont_ground_truth))
+        avg_metrics['R'] = total_r / len(ont_ground_truth)
+        avg_metrics['F1'] = total_f1 / len(ont_ground_truth)
+        avg_metrics['Ont_Conf'] = total_ont_conf / len(ont_ground_truth)
+        avg_metrics['Ont_Subj_Halluci'] = total_sh / len(ont_ground_truth)
+        avg_metrics['Ont_Rel_Halluci'] = total_rh / len(ont_ground_truth)
+        avg_metrics['Ont_Obj_Halluci'] = total_oh / len(ont_ground_truth)
 
-            with open(path, 'a+', encoding='utf-8') as f:
-                json.dump(elem, f)
-                f.write('\n')
+        with open(output_file, "w") as output_file:
+            for elem in stats_json:
+                output_file.write(f"{json.dumps(elem)}\n")
+
+        with open('../../data/baselines/vicuna_13B/eval/ont_llm_avg_stats.jsonl', 'a+') as output_file:
+            output_file.write(f"{json.dumps(avg_metrics)}\n")
 
         stats_json = []
         #exit(0)
