@@ -1,0 +1,10 @@
+{"id": "ont_1_movie", "P": 0.2, "R": 0.23, "F1": 0.17, "Ont_Conf": 0.83, "Ont_Subj_Halluci": 0.23, "Ont_Rel_Halluci": 0.09, "Ont_Obj_Halluci": 0.49}
+{"id": "ont_2_music", "P": 0.26, "R": 0.29, "F1": 0.23, "Ont_Conf": 0.84, "Ont_Subj_Halluci": 0.21, "Ont_Rel_Halluci": 0.08, "Ont_Obj_Halluci": 0.42}
+{"id": "ont_3_sport", "P": 0.41, "R": 0.48, "F1": 0.39, "Ont_Conf": 0.76, "Ont_Subj_Halluci": 0.15, "Ont_Rel_Halluci": 0.14, "Ont_Obj_Halluci": 0.25}
+{"id": "ont_4_book", "P": 0.26, "R": 0.26, "F1": 0.22, "Ont_Conf": 0.84, "Ont_Subj_Halluci": 0.13, "Ont_Rel_Halluci": 0.08, "Ont_Obj_Halluci": 0.38}
+{"id": "ont_5_military", "P": 0.13, "R": 0.18, "F1": 0.13, "Ont_Conf": 0.8, "Ont_Subj_Halluci": 0.19, "Ont_Rel_Halluci": 0.17, "Ont_Obj_Halluci": 0.34}
+{"id": "ont_6_computer", "P": 0.23, "R": 0.3, "F1": 0.24, "Ont_Conf": 0.78, "Ont_Subj_Halluci": 0.02, "Ont_Rel_Halluci": 0.16, "Ont_Obj_Halluci": 0.39}
+{"id": "ont_7_space", "P": 0.5, "R": 0.62, "F1": 0.51, "Ont_Conf": 0.88, "Ont_Subj_Halluci": 0.11, "Ont_Rel_Halluci": 0.08, "Ont_Obj_Halluci": 0.21}
+{"id": "ont_8_politics", "P": 0.3, "R": 0.32, "F1": 0.3, "Ont_Conf": 0.96, "Ont_Subj_Halluci": 0.11, "Ont_Rel_Halluci": 0.03, "Ont_Obj_Halluci": 0.31}
+{"id": "ont_9_nature", "P": 0.17, "R": 0.26, "F1": 0.18, "Ont_Conf": 0.64, "Ont_Subj_Halluci": 0.09, "Ont_Rel_Halluci": 0.03, "Ont_Obj_Halluci": 0.28}
+{"id": "ont_10_culture", "P": 0.41, "R": 0.47, "F1": 0.42, "Ont_Conf": 0.57, "Ont_Subj_Halluci": 0.08, "Ont_Rel_Halluci": 0.35, "Ont_Obj_Halluci": 0.6}
