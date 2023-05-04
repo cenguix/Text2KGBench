@@ -101,10 +101,10 @@ def get_subject_object_hallucinations(ps, ontology, test_sentence, triples):
 
         if normalized_stemmed_sentence.find(normalized_stemmed_subject) == -1:
             num_subj_hallucinations += 1
-            print(f"sub: {normalized_stemmed_sentence} - {normalized_stemmed_subject}")
+            #print(f"sub: {normalized_stemmed_sentence} - {normalized_stemmed_subject}")
         if normalized_stemmed_sentence.find(normalized_stemmed_object) == -1:
             num_obj_hallucinations += 1
-            print(f"obj: {normalized_stemmed_sentence} - {normalized_stemmed_object}")
+            #print(f"obj: {normalized_stemmed_sentence} - {normalized_stemmed_object}")
 
     subj_hallucination = num_subj_hallucinations / len(triples)
     obj_hallucination = num_obj_hallucinations / len(triples)
