@@ -4,6 +4,8 @@ import os
 import json
 import re
 from typing import List, Dict, Set, Tuple
+from nltk.tokenize import word_tokenize
+from nltk.stem import PorterStemmer
 
 def read_jsonl(jsonl_path: str, is_json: bool = True) -> List:
     data = []
@@ -57,7 +59,7 @@ def normalize_triple(sub_label, rel_label, obj_label):
     return tr_key
 
 
-def calculate_precision_recall_f1(gold: Set, pred: Set) -> List[float]:
+def calculate_precision_recall_f1(gold: Set, pred: Set) -> (float, float, float):
     if len(pred) == 0:
         return 0, 0, 0
     p = len(gold.intersection(pred)) / len(pred)
@@ -69,10 +71,52 @@ def calculate_precision_recall_f1(gold: Set, pred: Set) -> List[float]:
     return p, r, f1
 
 
+def get_ontology_conformance(ontology: Dict, triples: List) -> (float, float):
+    if len(triples) == 0:
+        return 1, 0
+    ont_rels = [rel['label'].replace(" ", "_") for rel in ontology['relations']]
+    num_rels_conformant = len([tr for tr in triples if tr[1] in ont_rels])
+    ont_conformance = num_rels_conformant / len(triples)
+    rel_hallucination = 1 - ont_conformance
+    return ont_conformance, rel_hallucination
+
+
+def clean_entity_string(ps, entity: str):
+    stemmed_entity = "".join([ps.stem(word) for word in word_tokenize(entity)])
+    normalized_stemmed_entity = re.sub(r"(_|\s+)", '', stemmed_entity).lower()
+    return normalized_stemmed_entity.replace("01januari", "")
+
+
+def get_subject_object_hallucinations(ps, test_sentence, triples):
+    if len(triples) == 0:
+        return 0, 0
+    stemmed_sentence = "".join([ps.stem(word) for word in word_tokenize(test_sentence)])
+    normalized_stemmed_sentence = re.sub(r"(_|\s+)", '', stemmed_sentence).lower()
+
+    num_subj_hallucinations, num_obj_hallucinations = 0, 0
+    for triple in triples:
+        normalized_stemmed_subject = clean_entity_string(ps, triple[0])
+        normalized_stemmed_object = clean_entity_string(ps, triple[2])
+
+        if normalized_stemmed_sentence.find(normalized_stemmed_subject) == -1:
+            num_subj_hallucinations += 1
+            print(f"sub: {normalized_stemmed_sentence} - {normalized_stemmed_subject}")
+        if normalized_stemmed_sentence.find(normalized_stemmed_object) == -1:
+            num_obj_hallucinations += 1
+            print(f"obj: {normalized_stemmed_sentence} - {normalized_stemmed_object}")
+
+    subj_hallucination = num_subj_hallucinations / len(triples)
+    obj_hallucination = num_obj_hallucinations / len(triples)
+    return subj_hallucination, obj_hallucination
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--eval_config_path', type=str, required=True)
     args = parser.parse_args()
+
+    # stemmer for stemming words before checking for hallucinations
+    ps = PorterStemmer()
 
     # load the files needed for evaluation from a user provided config file, it contains the system generated
     # output, the ground truth files, path to ontology file, and the path to store the evaluation output.
@@ -83,12 +127,14 @@ def main():
 
     # evaluate the output of each of the ontologies
     for onto in eval_inputs['onto_list']:
-        t_p, t_r, t_f1 = 0, 0, 0
-        selected_t_p, selected_t_r, selected_t_f1 = 0, 0, 0
+        t_p, t_r, t_f1, t_onto_conf, t_rel_halluc, t_sub_halluc, t_obj_halluc = 0, 0, 0, 0, 0, 0, 0
+        sel_t_p, sel_t_r, sel_t_f1, sel_t_onto_conf, sel_t_rel_halluc, sel_t_sub_halluc, sel_t_obj_halluc = \
+            0, 0, 0, 0, 0, 0, 0
         eval_metrics_list = list()
         onto_id = onto['id']
         system_output = convert_to_dict(read_jsonl(onto['sys']))
         ground_truth = convert_to_dict(read_jsonl(onto['gt']))
+        ontology = read_json(onto['onto'])
         selected_ids = read_jsonl(onto['selected_ids'], is_json=False)
 
         # iterate through each element in the ground truth and evaluate the system output
@@ -114,7 +160,13 @@ def main():
 
                 # compare the system output with ground truth triples and calculate precision, recall, f1
                 precision, recall, f1 = calculate_precision_recall_f1(normalized_gt_triples, normalized_system_triples)
+
+                ont_conformance, rel_hallucination = get_ontology_conformance(ontology, system_triples)
+                subj_hallucination, obj_hallucination = get_subject_object_hallucinations(ps, sentence, system_triples)
+
                 eval_metrics = {"id": sent_id, "precision": precision, "recall": recall, "f1": f1,
+                                "onto_conf": ont_conformance, "rel_halluc": rel_hallucination,
+                                "sub_halluc": subj_hallucination, "obj_halluc": obj_hallucination,
                                 "llm_triples": system_triples, "filtered_llm_triples": filtered_system_triples,
                                 "gt_triples": gt_triples, "sent": sentence}
                 eval_metrics_list.append(eval_metrics)
@@ -123,24 +175,41 @@ def main():
                 t_p += precision
                 t_r += recall
                 t_f1 += f1
+                t_onto_conf += ont_conformance
+                t_rel_halluc += rel_hallucination
+                t_sub_halluc += subj_hallucination
+                t_obj_halluc += obj_hallucination
 
                 # aggregate precision, recall, f1 for later averaging for selected ids
                 if sent_id in selected_ids:
-                    selected_t_p += precision
-                    selected_t_r += recall
-                    selected_t_f1 += f1
+                    sel_t_p += precision
+                    sel_t_r += recall
+                    sel_t_f1 += f1
+                    sel_t_onto_conf += ont_conformance
+                    sel_t_rel_halluc += rel_hallucination
+                    sel_t_sub_halluc += subj_hallucination
+                    sel_t_obj_halluc += obj_hallucination
 
         save_jsonl(eval_metrics_list, onto['output'])
         total_test_cases = len(ground_truth)
         total_selected_test_cases = len(selected_ids)
         average_metrics = {"onto": onto_id, "type": "all_test_cases", "avg_precision": t_p/total_test_cases,
-                           "avg_recall": t_r/total_test_cases, "avg_f1": t_f1/total_test_cases}
+                           "avg_recall": t_r/total_test_cases, "avg_f1": t_f1/total_test_cases,
+                           "avg_onto_conf": t_onto_conf/total_test_cases,
+                           "avg_rel_halluc": t_rel_halluc/total_test_cases,
+                           "avg_sub_halluc": t_sub_halluc/total_test_cases,
+                           "avg_obj_halluc": t_obj_halluc/total_test_cases
+                           }
         append_jsonl(average_metrics, eval_inputs['avg_out_file'])
         if total_selected_test_cases > 0:
             selected_average_metrics = {"onto": onto_id, "type": "selected_test_cases",
-                                        "avg_precision": selected_t_p /total_selected_test_cases,
-                                        "avg_recall": selected_t_r/total_selected_test_cases,
-                                        "avg_f1": selected_t_f1/total_selected_test_cases}
+                                        "avg_precision": sel_t_p /total_selected_test_cases,
+                                        "avg_recall": sel_t_r/total_selected_test_cases,
+                                        "avg_f1": sel_t_f1/total_selected_test_cases,
+                                        "avg_onto_conf": sel_t_onto_conf / total_selected_test_cases,
+                                        "avg_rel_halluc": sel_t_rel_halluc / total_selected_test_cases,
+                                        "avg_sub_halluc": sel_t_sub_halluc / total_selected_test_cases,
+                                        "avg_obj_halluc": sel_t_obj_halluc / total_selected_test_cases}
             append_jsonl(selected_average_metrics, eval_inputs['avg_out_file'])
 
 
