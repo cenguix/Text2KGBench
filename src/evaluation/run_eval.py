@@ -87,9 +87,10 @@ def clean_entity_string(ps, entity: str):
     return normalized_stemmed_entity.replace("01januari", "")
 
 
-def get_subject_object_hallucinations(ps, test_sentence, triples):
+def get_subject_object_hallucinations(ps, ontology, test_sentence, triples):
     if len(triples) == 0:
         return 0, 0
+    test_sentence += " ".join([c["label"] for c in ontology['concepts']])
     stemmed_sentence = "".join([ps.stem(word) for word in word_tokenize(test_sentence)])
     normalized_stemmed_sentence = re.sub(r"(_|\s+)", '', stemmed_sentence).lower()
 
@@ -162,7 +163,8 @@ def main():
                 precision, recall, f1 = calculate_precision_recall_f1(normalized_gt_triples, normalized_system_triples)
 
                 ont_conformance, rel_hallucination = get_ontology_conformance(ontology, system_triples)
-                subj_hallucination, obj_hallucination = get_subject_object_hallucinations(ps, sentence, system_triples)
+                subj_hallucination, obj_hallucination = get_subject_object_hallucinations(ps, ontology, sentence,
+                                                                                          system_triples)
 
                 eval_metrics = {"id": sent_id, "precision": precision, "recall": recall, "f1": f1,
                                 "onto_conf": ont_conformance, "rel_halluc": rel_hallucination,
