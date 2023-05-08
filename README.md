@@ -1,7 +1,9 @@
-# Benchmark for Ontology Driven Knowledge Graph Generation from Text
-Repository for ISWC 2023 Resource Track submission for Ontology Driven Knowledge Graph Generation from Text.
+# Text2KG: A Benchmark for Ontology Driven Knowledge Graph Generation from Text
+[![Code License](https://img.shields.io/badge/Code%20License-Apache_2.0-green.svg)](LICENSE)
+[![Data License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/release/python-390/)
 
-
+This is the repository for ISWC 2023 Resource Track submission for Ontology Driven Knowledge Graph Generation from Text.
 
 
 The structure of the repo is as following.
