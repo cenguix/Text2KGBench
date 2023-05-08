@@ -1,0 +1,394 @@
+{
+ "ont_7_company_test_1": [
+  "ont_7_company_train_78",
+  "ont_7_company_train_22",
+  "ont_7_company_train_90",
+  "ont_7_company_train_27",
+  "ont_7_company_train_23"
+ ],
+ "ont_7_company_test_2": [
+  "ont_7_company_train_78",
+  "ont_7_company_train_22",
+  "ont_7_company_train_27",
+  "ont_7_company_train_90",
+  "ont_7_company_train_23"
+ ],
+ "ont_7_company_test_3": [
+  "ont_7_company_train_56",
+  "ont_7_company_train_97",
+  "ont_7_company_train_27",
+  "ont_7_company_train_22",
+  "ont_7_company_train_23"
+ ],
+ "ont_7_company_test_4": [
+  "ont_7_company_train_22",
+  "ont_7_company_train_23",
+  "ont_7_company_train_27",
+  "ont_7_company_train_93",
+  "ont_7_company_train_25"
+ ],
+ "ont_7_company_test_5": [
+  "ont_7_company_train_7",
+  "ont_7_company_train_2",
+  "ont_7_company_train_96",
+  "ont_7_company_train_73",
+  "ont_7_company_train_62"
+ ],
+ "ont_7_company_test_6": [
+  "ont_7_company_train_2",
+  "ont_7_company_train_7",
+  "ont_7_company_train_40",
+  "ont_7_company_train_95",
+  "ont_7_company_train_96"
+ ],
+ "ont_7_company_test_7": [
+  "ont_7_company_train_7",
+  "ont_7_company_train_74",
+  "ont_7_company_train_1",
+  "ont_7_company_train_2",
+  "ont_7_company_train_73"
+ ],
+ "ont_7_company_test_8": [
+  "ont_7_company_train_2",
+  "ont_7_company_train_7",
+  "ont_7_company_train_64",
+  "ont_7_company_train_56",
+  "ont_7_company_train_48"
+ ],
+ "ont_7_company_test_9": [
+  "ont_7_company_train_81",
+  "ont_7_company_train_85",
+  "ont_7_company_train_80",
+  "ont_7_company_train_63",
+  "ont_7_company_train_7"
+ ],
+ "ont_7_company_test_10": [
+  "ont_7_company_train_95",
+  "ont_7_company_train_96",
+  "ont_7_company_train_73",
+  "ont_7_company_train_62",
+  "ont_7_company_train_41"
+ ],
+ "ont_7_company_test_11": [
+  "ont_7_company_train_23",
+  "ont_7_company_train_22",
+  "ont_7_company_train_27",
+  "ont_7_company_train_93",
+  "ont_7_company_train_25"
+ ],
+ "ont_7_company_test_12": [
+  "ont_7_company_train_78",
+  "ont_7_company_train_22",
+  "ont_7_company_train_23",
+  "ont_7_company_train_27",
+  "ont_7_company_train_56"
+ ],
+ "ont_7_company_test_13": [
+  "ont_7_company_train_66",
+  "ont_7_company_train_54",
+  "ont_7_company_train_4",
+  "ont_7_company_train_3",
+  "ont_7_company_train_48"
+ ],
+ "ont_7_company_test_14": [
+  "ont_7_company_train_7",
+  "ont_7_company_train_41",
+  "ont_7_company_train_37",
+  "ont_7_company_train_36",
+  "ont_7_company_train_44"
+ ],
+ "ont_7_company_test_15": [
+  "ont_7_company_train_66",
+  "ont_7_company_train_74",
+  "ont_7_company_train_1",
+  "ont_7_company_train_7",
+  "ont_7_company_train_50"
+ ],
+ "ont_7_company_test_16": [
+  "ont_7_company_train_66",
+  "ont_7_company_train_54",
+  "ont_7_company_train_74",
+  "ont_7_company_train_44",
+  "ont_7_company_train_7"
+ ],
+ "ont_7_company_test_17": [
+  "ont_7_company_train_1",
+  "ont_7_company_train_74",
+  "ont_7_company_train_7",
+  "ont_7_company_train_44",
+  "ont_7_company_train_50"
+ ],
+ "ont_7_company_test_18": [
+  "ont_7_company_train_74",
+  "ont_7_company_train_1",
+  "ont_7_company_train_7",
+  "ont_7_company_train_37",
+  "ont_7_company_train_44"
+ ],
+ "ont_7_company_test_19": [
+  "ont_7_company_train_4",
+  "ont_7_company_train_66",
+  "ont_7_company_train_48",
+  "ont_7_company_train_5",
+  "ont_7_company_train_10"
+ ],
+ "ont_7_company_test_20": [
+  "ont_7_company_train_5",
+  "ont_7_company_train_50",
+  "ont_7_company_train_29",
+  "ont_7_company_train_51",
+  "ont_7_company_train_4"
+ ],
+ "ont_7_company_test_21": [
+  "ont_7_company_train_43",
+  "ont_7_company_train_7",
+  "ont_7_company_train_91",
+  "ont_7_company_train_41",
+  "ont_7_company_train_5"
+ ],
+ "ont_7_company_test_22": [
+  "ont_7_company_train_7",
+  "ont_7_company_train_36",
+  "ont_7_company_train_37",
+  "ont_7_company_train_2",
+  "ont_7_company_train_62"
+ ],
+ "ont_7_company_test_23": [
+  "ont_7_company_train_7",
+  "ont_7_company_train_2",
+  "ont_7_company_train_91",
+  "ont_7_company_train_12",
+  "ont_7_company_train_5"
+ ],
+ "ont_7_company_test_24": [
+  "ont_7_company_train_2",
+  "ont_7_company_train_12",
+  "ont_7_company_train_7",
+  "ont_7_company_train_91",
+  "ont_7_company_train_11"
+ ],
+ "ont_7_company_test_25": [
+  "ont_7_company_train_51",
+  "ont_7_company_train_17",
+  "ont_7_company_train_9",
+  "ont_7_company_train_45",
+  "ont_7_company_train_44"
+ ],
+ "ont_7_company_test_26": [
+  "ont_7_company_train_29",
+  "ont_7_company_train_17",
+  "ont_7_company_train_51",
+  "ont_7_company_train_90",
+  "ont_7_company_train_64"
+ ],
+ "ont_7_company_test_27": [
+  "ont_7_company_train_7",
+  "ont_7_company_train_91",
+  "ont_7_company_train_5",
+  "ont_7_company_train_11",
+  "ont_7_company_train_48"
+ ],
+ "ont_7_company_test_28": [
+  "ont_7_company_train_41",
+  "ont_7_company_train_36",
+  "ont_7_company_train_81",
+  "ont_7_company_train_80",
+  "ont_7_company_train_63"
+ ],
+ "ont_7_company_test_29": [
+  "ont_7_company_train_36",
+  "ont_7_company_train_62",
+  "ont_7_company_train_41",
+  "ont_7_company_train_43",
+  "ont_7_company_train_63"
+ ],
+ "ont_7_company_test_30": [
+  "ont_7_company_train_36",
+  "ont_7_company_train_41",
+  "ont_7_company_train_43",
+  "ont_7_company_train_62",
+  "ont_7_company_train_63"
+ ],
+ "ont_7_company_test_31": [
+  "ont_7_company_train_36",
+  "ont_7_company_train_41",
+  "ont_7_company_train_63",
+  "ont_7_company_train_62",
+  "ont_7_company_train_43"
+ ],
+ "ont_7_company_test_32": [
+  "ont_7_company_train_7",
+  "ont_7_company_train_2",
+  "ont_7_company_train_12",
+  "ont_7_company_train_85",
+  "ont_7_company_train_91"
+ ],
+ "ont_7_company_test_33": [
+  "ont_7_company_train_22",
+  "ont_7_company_train_23",
+  "ont_7_company_train_27",
+  "ont_7_company_train_90",
+  "ont_7_company_train_29"
+ ],
+ "ont_7_company_test_34": [
+  "ont_7_company_train_41",
+  "ont_7_company_train_96",
+  "ont_7_company_train_73",
+  "ont_7_company_train_7",
+  "ont_7_company_train_62"
+ ],
+ "ont_7_company_test_35": [
+  "ont_7_company_train_78",
+  "ont_7_company_train_2",
+  "ont_7_company_train_7",
+  "ont_7_company_train_64",
+  "ont_7_company_train_45"
+ ],
+ "ont_7_company_test_36": [
+  "ont_7_company_train_23",
+  "ont_7_company_train_93",
+  "ont_7_company_train_25",
+  "ont_7_company_train_27",
+  "ont_7_company_train_22"
+ ],
+ "ont_7_company_test_37": [
+  "ont_7_company_train_93",
+  "ont_7_company_train_27",
+  "ont_7_company_train_22",
+  "ont_7_company_train_72",
+  "ont_7_company_train_56"
+ ],
+ "ont_7_company_test_38": [
+  "ont_7_company_train_66",
+  "ont_7_company_train_93",
+  "ont_7_company_train_56",
+  "ont_7_company_train_27",
+  "ont_7_company_train_4"
+ ],
+ "ont_7_company_test_39": [
+  "ont_7_company_train_1",
+  "ont_7_company_train_7",
+  "ont_7_company_train_74",
+  "ont_7_company_train_44",
+  "ont_7_company_train_37"
+ ],
+ "ont_7_company_test_40": [
+  "ont_7_company_train_78",
+  "ont_7_company_train_22",
+  "ont_7_company_train_27",
+  "ont_7_company_train_23",
+  "ont_7_company_train_90"
+ ],
+ "ont_7_company_test_41": [
+  "ont_7_company_train_85",
+  "ont_7_company_train_41",
+  "ont_7_company_train_36",
+  "ont_7_company_train_95",
+  "ont_7_company_train_7"
+ ],
+ "ont_7_company_test_42": [
+  "ont_7_company_train_2",
+  "ont_7_company_train_12",
+  "ont_7_company_train_91",
+  "ont_7_company_train_7",
+  "ont_7_company_train_43"
+ ],
+ "ont_7_company_test_43": [
+  "ont_7_company_train_52",
+  "ont_7_company_train_93",
+  "ont_7_company_train_83",
+  "ont_7_company_train_56",
+  "ont_7_company_train_72"
+ ],
+ "ont_7_company_test_44": [
+  "ont_7_company_train_17",
+  "ont_7_company_train_45",
+  "ont_7_company_train_97",
+  "ont_7_company_train_50",
+  "ont_7_company_train_74"
+ ],
+ "ont_7_company_test_45": [
+  "ont_7_company_train_2",
+  "ont_7_company_train_7",
+  "ont_7_company_train_40",
+  "ont_7_company_train_96",
+  "ont_7_company_train_95"
+ ],
+ "ont_7_company_test_46": [
+  "ont_7_company_train_78",
+  "ont_7_company_train_22",
+  "ont_7_company_train_23",
+  "ont_7_company_train_27",
+  "ont_7_company_train_93"
+ ],
+ "ont_7_company_test_47": [
+  "ont_7_company_train_66",
+  "ont_7_company_train_10",
+  "ont_7_company_train_17",
+  "ont_7_company_train_4",
+  "ont_7_company_train_1"
+ ],
+ "ont_7_company_test_48": [
+  "ont_7_company_train_25",
+  "ont_7_company_train_27",
+  "ont_7_company_train_72",
+  "ont_7_company_train_93",
+  "ont_7_company_train_56"
+ ],
+ "ont_7_company_test_49": [
+  "ont_7_company_train_2",
+  "ont_7_company_train_66",
+  "ont_7_company_train_48",
+  "ont_7_company_train_41",
+  "ont_7_company_train_13"
+ ],
+ "ont_7_company_test_50": [
+  "ont_7_company_train_2",
+  "ont_7_company_train_48",
+  "ont_7_company_train_7",
+  "ont_7_company_train_91",
+  "ont_7_company_train_41"
+ ],
+ "ont_7_company_test_51": [
+  "ont_7_company_train_36",
+  "ont_7_company_train_2",
+  "ont_7_company_train_43",
+  "ont_7_company_train_91",
+  "ont_7_company_train_12"
+ ],
+ "ont_7_company_test_52": [
+  "ont_7_company_train_66",
+  "ont_7_company_train_5",
+  "ont_7_company_train_19",
+  "ont_7_company_train_35",
+  "ont_7_company_train_11"
+ ],
+ "ont_7_company_test_53": [
+  "ont_7_company_train_22",
+  "ont_7_company_train_23",
+  "ont_7_company_train_90",
+  "ont_7_company_train_29",
+  "ont_7_company_train_27"
+ ],
+ "ont_7_company_test_54": [
+  "ont_7_company_train_41",
+  "ont_7_company_train_7",
+  "ont_7_company_train_48",
+  "ont_7_company_train_44",
+  "ont_7_company_train_66"
+ ],
+ "ont_7_company_test_55": [
+  "ont_7_company_train_66",
+  "ont_7_company_train_48",
+  "ont_7_company_train_3",
+  "ont_7_company_train_4",
+  "ont_7_company_train_41"
+ ],
+ "ont_7_company_test_56": [
+  "ont_7_company_train_41",
+  "ont_7_company_train_36",
+  "ont_7_company_train_7",
+  "ont_7_company_train_62",
+  "ont_7_company_train_2"
+ ]
+}

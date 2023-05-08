@@ -1,0 +1,506 @@
+{
+ "ont_8_celestialbody_test_1": [
+  "ont_8_celestialbody_train_7",
+  "ont_8_celestialbody_train_89",
+  "ont_8_celestialbody_train_24",
+  "ont_8_celestialbody_train_73",
+  "ont_8_celestialbody_train_88"
+ ],
+ "ont_8_celestialbody_test_2": [
+  "ont_8_celestialbody_train_24",
+  "ont_8_celestialbody_train_62",
+  "ont_8_celestialbody_train_84",
+  "ont_8_celestialbody_train_85",
+  "ont_8_celestialbody_train_68"
+ ],
+ "ont_8_celestialbody_test_3": [
+  "ont_8_celestialbody_train_81",
+  "ont_8_celestialbody_train_82",
+  "ont_8_celestialbody_train_64",
+  "ont_8_celestialbody_train_71",
+  "ont_8_celestialbody_train_65"
+ ],
+ "ont_8_celestialbody_test_4": [
+  "ont_8_celestialbody_train_65",
+  "ont_8_celestialbody_train_82",
+  "ont_8_celestialbody_train_71",
+  "ont_8_celestialbody_train_66",
+  "ont_8_celestialbody_train_67"
+ ],
+ "ont_8_celestialbody_test_5": [
+  "ont_8_celestialbody_train_65",
+  "ont_8_celestialbody_train_66",
+  "ont_8_celestialbody_train_82",
+  "ont_8_celestialbody_train_71",
+  "ont_8_celestialbody_train_86"
+ ],
+ "ont_8_celestialbody_test_6": [
+  "ont_8_celestialbody_train_67",
+  "ont_8_celestialbody_train_82",
+  "ont_8_celestialbody_train_72",
+  "ont_8_celestialbody_train_65",
+  "ont_8_celestialbody_train_118"
+ ],
+ "ont_8_celestialbody_test_7": [
+  "ont_8_celestialbody_train_7",
+  "ont_8_celestialbody_train_11",
+  "ont_8_celestialbody_train_115",
+  "ont_8_celestialbody_train_99",
+  "ont_8_celestialbody_train_13"
+ ],
+ "ont_8_celestialbody_test_8": [
+  "ont_8_celestialbody_train_7",
+  "ont_8_celestialbody_train_74",
+  "ont_8_celestialbody_train_13",
+  "ont_8_celestialbody_train_115",
+  "ont_8_celestialbody_train_112"
+ ],
+ "ont_8_celestialbody_test_9": [
+  "ont_8_celestialbody_train_7",
+  "ont_8_celestialbody_train_11",
+  "ont_8_celestialbody_train_13",
+  "ont_8_celestialbody_train_93",
+  "ont_8_celestialbody_train_112"
+ ],
+ "ont_8_celestialbody_test_10": [
+  "ont_8_celestialbody_train_7",
+  "ont_8_celestialbody_train_93",
+  "ont_8_celestialbody_train_110",
+  "ont_8_celestialbody_train_112",
+  "ont_8_celestialbody_train_13"
+ ],
+ "ont_8_celestialbody_test_11": [
+  "ont_8_celestialbody_train_9",
+  "ont_8_celestialbody_train_7",
+  "ont_8_celestialbody_train_112",
+  "ont_8_celestialbody_train_36",
+  "ont_8_celestialbody_train_12"
+ ],
+ "ont_8_celestialbody_test_12": [
+  "ont_8_celestialbody_train_24",
+  "ont_8_celestialbody_train_84",
+  "ont_8_celestialbody_train_62",
+  "ont_8_celestialbody_train_7",
+  "ont_8_celestialbody_train_85"
+ ],
+ "ont_8_celestialbody_test_13": [
+  "ont_8_celestialbody_train_39",
+  "ont_8_celestialbody_train_27",
+  "ont_8_celestialbody_train_37",
+  "ont_8_celestialbody_train_29",
+  "ont_8_celestialbody_train_40"
+ ],
+ "ont_8_celestialbody_test_14": [
+  "ont_8_celestialbody_train_39",
+  "ont_8_celestialbody_train_40",
+  "ont_8_celestialbody_train_37",
+  "ont_8_celestialbody_train_29",
+  "ont_8_celestialbody_train_38"
+ ],
+ "ont_8_celestialbody_test_15": [
+  "ont_8_celestialbody_train_90",
+  "ont_8_celestialbody_train_39",
+  "ont_8_celestialbody_train_37",
+  "ont_8_celestialbody_train_40",
+  "ont_8_celestialbody_train_107"
+ ],
+ "ont_8_celestialbody_test_16": [
+  "ont_8_celestialbody_train_27",
+  "ont_8_celestialbody_train_26",
+  "ont_8_celestialbody_train_37",
+  "ont_8_celestialbody_train_38",
+  "ont_8_celestialbody_train_25"
+ ],
+ "ont_8_celestialbody_test_17": [
+  "ont_8_celestialbody_train_27",
+  "ont_8_celestialbody_train_43",
+  "ont_8_celestialbody_train_25",
+  "ont_8_celestialbody_train_26",
+  "ont_8_celestialbody_train_37"
+ ],
+ "ont_8_celestialbody_test_18": [
+  "ont_8_celestialbody_train_39",
+  "ont_8_celestialbody_train_40",
+  "ont_8_celestialbody_train_29",
+  "ont_8_celestialbody_train_38",
+  "ont_8_celestialbody_train_37"
+ ],
+ "ont_8_celestialbody_test_19": [
+  "ont_8_celestialbody_train_90",
+  "ont_8_celestialbody_train_107",
+  "ont_8_celestialbody_train_39",
+  "ont_8_celestialbody_train_40",
+  "ont_8_celestialbody_train_43"
+ ],
+ "ont_8_celestialbody_test_20": [
+  "ont_8_celestialbody_train_107",
+  "ont_8_celestialbody_train_40",
+  "ont_8_celestialbody_train_37",
+  "ont_8_celestialbody_train_39",
+  "ont_8_celestialbody_train_52"
+ ],
+ "ont_8_celestialbody_test_21": [
+  "ont_8_celestialbody_train_93",
+  "ont_8_celestialbody_train_91",
+  "ont_8_celestialbody_train_92",
+  "ont_8_celestialbody_train_65",
+  "ont_8_celestialbody_train_95"
+ ],
+ "ont_8_celestialbody_test_22": [
+  "ont_8_celestialbody_train_89",
+  "ont_8_celestialbody_train_62",
+  "ont_8_celestialbody_train_59",
+  "ont_8_celestialbody_train_98",
+  "ont_8_celestialbody_train_61"
+ ],
+ "ont_8_celestialbody_test_23": [
+  "ont_8_celestialbody_train_92",
+  "ont_8_celestialbody_train_91",
+  "ont_8_celestialbody_train_95",
+  "ont_8_celestialbody_train_118",
+  "ont_8_celestialbody_train_94"
+ ],
+ "ont_8_celestialbody_test_24": [
+  "ont_8_celestialbody_train_92",
+  "ont_8_celestialbody_train_91",
+  "ont_8_celestialbody_train_94",
+  "ont_8_celestialbody_train_90",
+  "ont_8_celestialbody_train_95"
+ ],
+ "ont_8_celestialbody_test_25": [
+  "ont_8_celestialbody_train_92",
+  "ont_8_celestialbody_train_91",
+  "ont_8_celestialbody_train_13",
+  "ont_8_celestialbody_train_58",
+  "ont_8_celestialbody_train_63"
+ ],
+ "ont_8_celestialbody_test_26": [
+  "ont_8_celestialbody_train_92",
+  "ont_8_celestialbody_train_91",
+  "ont_8_celestialbody_train_94",
+  "ont_8_celestialbody_train_13",
+  "ont_8_celestialbody_train_69"
+ ],
+ "ont_8_celestialbody_test_27": [
+  "ont_8_celestialbody_train_92",
+  "ont_8_celestialbody_train_91",
+  "ont_8_celestialbody_train_58",
+  "ont_8_celestialbody_train_63",
+  "ont_8_celestialbody_train_69"
+ ],
+ "ont_8_celestialbody_test_28": [
+  "ont_8_celestialbody_train_92",
+  "ont_8_celestialbody_train_91",
+  "ont_8_celestialbody_train_95",
+  "ont_8_celestialbody_train_94",
+  "ont_8_celestialbody_train_93"
+ ],
+ "ont_8_celestialbody_test_29": [
+  "ont_8_celestialbody_train_74",
+  "ont_8_celestialbody_train_68",
+  "ont_8_celestialbody_train_114",
+  "ont_8_celestialbody_train_73",
+  "ont_8_celestialbody_train_62"
+ ],
+ "ont_8_celestialbody_test_30": [
+  "ont_8_celestialbody_train_90",
+  "ont_8_celestialbody_train_10",
+  "ont_8_celestialbody_train_92",
+  "ont_8_celestialbody_train_14",
+  "ont_8_celestialbody_train_91"
+ ],
+ "ont_8_celestialbody_test_31": [
+  "ont_8_celestialbody_train_81",
+  "ont_8_celestialbody_train_70",
+  "ont_8_celestialbody_train_71",
+  "ont_8_celestialbody_train_64",
+  "ont_8_celestialbody_train_66"
+ ],
+ "ont_8_celestialbody_test_32": [
+  "ont_8_celestialbody_train_35",
+  "ont_8_celestialbody_train_71",
+  "ont_8_celestialbody_train_66",
+  "ont_8_celestialbody_train_65",
+  "ont_8_celestialbody_train_82"
+ ],
+ "ont_8_celestialbody_test_33": [
+  "ont_8_celestialbody_train_73",
+  "ont_8_celestialbody_train_115",
+  "ont_8_celestialbody_train_62",
+  "ont_8_celestialbody_train_74",
+  "ont_8_celestialbody_train_84"
+ ],
+ "ont_8_celestialbody_test_34": [
+  "ont_8_celestialbody_train_74",
+  "ont_8_celestialbody_train_114",
+  "ont_8_celestialbody_train_85",
+  "ont_8_celestialbody_train_119",
+  "ont_8_celestialbody_train_120"
+ ],
+ "ont_8_celestialbody_test_35": [
+  "ont_8_celestialbody_train_25",
+  "ont_8_celestialbody_train_97",
+  "ont_8_celestialbody_train_50",
+  "ont_8_celestialbody_train_30",
+  "ont_8_celestialbody_train_107"
+ ],
+ "ont_8_celestialbody_test_36": [
+  "ont_8_celestialbody_train_97",
+  "ont_8_celestialbody_train_107",
+  "ont_8_celestialbody_train_106",
+  "ont_8_celestialbody_train_99",
+  "ont_8_celestialbody_train_108"
+ ],
+ "ont_8_celestialbody_test_37": [
+  "ont_8_celestialbody_train_99",
+  "ont_8_celestialbody_train_105",
+  "ont_8_celestialbody_train_96",
+  "ont_8_celestialbody_train_101",
+  "ont_8_celestialbody_train_103"
+ ],
+ "ont_8_celestialbody_test_38": [
+  "ont_8_celestialbody_train_109",
+  "ont_8_celestialbody_train_101",
+  "ont_8_celestialbody_train_99",
+  "ont_8_celestialbody_train_98",
+  "ont_8_celestialbody_train_100"
+ ],
+ "ont_8_celestialbody_test_39": [
+  "ont_8_celestialbody_train_102",
+  "ont_8_celestialbody_train_101",
+  "ont_8_celestialbody_train_98",
+  "ont_8_celestialbody_train_100",
+  "ont_8_celestialbody_train_109"
+ ],
+ "ont_8_celestialbody_test_40": [
+  "ont_8_celestialbody_train_109",
+  "ont_8_celestialbody_train_101",
+  "ont_8_celestialbody_train_98",
+  "ont_8_celestialbody_train_107",
+  "ont_8_celestialbody_train_100"
+ ],
+ "ont_8_celestialbody_test_41": [
+  "ont_8_celestialbody_train_100",
+  "ont_8_celestialbody_train_98",
+  "ont_8_celestialbody_train_97",
+  "ont_8_celestialbody_train_101",
+  "ont_8_celestialbody_train_102"
+ ],
+ "ont_8_celestialbody_test_42": [
+  "ont_8_celestialbody_train_99",
+  "ont_8_celestialbody_train_105",
+  "ont_8_celestialbody_train_107",
+  "ont_8_celestialbody_train_96",
+  "ont_8_celestialbody_train_106"
+ ],
+ "ont_8_celestialbody_test_43": [
+  "ont_8_celestialbody_train_103",
+  "ont_8_celestialbody_train_104",
+  "ont_8_celestialbody_train_108",
+  "ont_8_celestialbody_train_107",
+  "ont_8_celestialbody_train_98"
+ ],
+ "ont_8_celestialbody_test_44": [
+  "ont_8_celestialbody_train_98",
+  "ont_8_celestialbody_train_109",
+  "ont_8_celestialbody_train_101",
+  "ont_8_celestialbody_train_100",
+  "ont_8_celestialbody_train_102"
+ ],
+ "ont_8_celestialbody_test_45": [
+  "ont_8_celestialbody_train_97",
+  "ont_8_celestialbody_train_107",
+  "ont_8_celestialbody_train_108",
+  "ont_8_celestialbody_train_104",
+  "ont_8_celestialbody_train_106"
+ ],
+ "ont_8_celestialbody_test_46": [
+  "ont_8_celestialbody_train_108",
+  "ont_8_celestialbody_train_107",
+  "ont_8_celestialbody_train_97",
+  "ont_8_celestialbody_train_100",
+  "ont_8_celestialbody_train_99"
+ ],
+ "ont_8_celestialbody_test_47": [
+  "ont_8_celestialbody_train_53",
+  "ont_8_celestialbody_train_106",
+  "ont_8_celestialbody_train_97",
+  "ont_8_celestialbody_train_117",
+  "ont_8_celestialbody_train_107"
+ ],
+ "ont_8_celestialbody_test_48": [
+  "ont_8_celestialbody_train_101",
+  "ont_8_celestialbody_train_98",
+  "ont_8_celestialbody_train_109",
+  "ont_8_celestialbody_train_107",
+  "ont_8_celestialbody_train_97"
+ ],
+ "ont_8_celestialbody_test_49": [
+  "ont_8_celestialbody_train_109",
+  "ont_8_celestialbody_train_100",
+  "ont_8_celestialbody_train_101",
+  "ont_8_celestialbody_train_102",
+  "ont_8_celestialbody_train_98"
+ ],
+ "ont_8_celestialbody_test_50": [
+  "ont_8_celestialbody_train_109",
+  "ont_8_celestialbody_train_100",
+  "ont_8_celestialbody_train_101",
+  "ont_8_celestialbody_train_98",
+  "ont_8_celestialbody_train_102"
+ ],
+ "ont_8_celestialbody_test_51": [
+  "ont_8_celestialbody_train_103",
+  "ont_8_celestialbody_train_99",
+  "ont_8_celestialbody_train_109",
+  "ont_8_celestialbody_train_107",
+  "ont_8_celestialbody_train_101"
+ ],
+ "ont_8_celestialbody_test_52": [
+  "ont_8_celestialbody_train_107",
+  "ont_8_celestialbody_train_99",
+  "ont_8_celestialbody_train_106",
+  "ont_8_celestialbody_train_97",
+  "ont_8_celestialbody_train_108"
+ ],
+ "ont_8_celestialbody_test_53": [
+  "ont_8_celestialbody_train_107",
+  "ont_8_celestialbody_train_106",
+  "ont_8_celestialbody_train_97",
+  "ont_8_celestialbody_train_108",
+  "ont_8_celestialbody_train_100"
+ ],
+ "ont_8_celestialbody_test_54": [
+  "ont_8_celestialbody_train_98",
+  "ont_8_celestialbody_train_102",
+  "ont_8_celestialbody_train_101",
+  "ont_8_celestialbody_train_100",
+  "ont_8_celestialbody_train_109"
+ ],
+ "ont_8_celestialbody_test_55": [
+  "ont_8_celestialbody_train_108",
+  "ont_8_celestialbody_train_100",
+  "ont_8_celestialbody_train_107",
+  "ont_8_celestialbody_train_97",
+  "ont_8_celestialbody_train_109"
+ ],
+ "ont_8_celestialbody_test_56": [
+  "ont_8_celestialbody_train_97",
+  "ont_8_celestialbody_train_107",
+  "ont_8_celestialbody_train_104",
+  "ont_8_celestialbody_train_98",
+  "ont_8_celestialbody_train_108"
+ ],
+ "ont_8_celestialbody_test_57": [
+  "ont_8_celestialbody_train_107",
+  "ont_8_celestialbody_train_108",
+  "ont_8_celestialbody_train_100",
+  "ont_8_celestialbody_train_97",
+  "ont_8_celestialbody_train_99"
+ ],
+ "ont_8_celestialbody_test_58": [
+  "ont_8_celestialbody_train_109",
+  "ont_8_celestialbody_train_101",
+  "ont_8_celestialbody_train_98",
+  "ont_8_celestialbody_train_107",
+  "ont_8_celestialbody_train_97"
+ ],
+ "ont_8_celestialbody_test_59": [
+  "ont_8_celestialbody_train_109",
+  "ont_8_celestialbody_train_98",
+  "ont_8_celestialbody_train_100",
+  "ont_8_celestialbody_train_101",
+  "ont_8_celestialbody_train_103"
+ ],
+ "ont_8_celestialbody_test_60": [
+  "ont_8_celestialbody_train_102",
+  "ont_8_celestialbody_train_96",
+  "ont_8_celestialbody_train_6",
+  "ont_8_celestialbody_train_104",
+  "ont_8_celestialbody_train_105"
+ ],
+ "ont_8_celestialbody_test_61": [
+  "ont_8_celestialbody_train_109",
+  "ont_8_celestialbody_train_100",
+  "ont_8_celestialbody_train_101",
+  "ont_8_celestialbody_train_98",
+  "ont_8_celestialbody_train_107"
+ ],
+ "ont_8_celestialbody_test_62": [
+  "ont_8_celestialbody_train_109",
+  "ont_8_celestialbody_train_101",
+  "ont_8_celestialbody_train_100",
+  "ont_8_celestialbody_train_99",
+  "ont_8_celestialbody_train_107"
+ ],
+ "ont_8_celestialbody_test_63": [
+  "ont_8_celestialbody_train_109",
+  "ont_8_celestialbody_train_101",
+  "ont_8_celestialbody_train_98",
+  "ont_8_celestialbody_train_100",
+  "ont_8_celestialbody_train_103"
+ ],
+ "ont_8_celestialbody_test_64": [
+  "ont_8_celestialbody_train_107",
+  "ont_8_celestialbody_train_108",
+  "ont_8_celestialbody_train_103",
+  "ont_8_celestialbody_train_106",
+  "ont_8_celestialbody_train_99"
+ ],
+ "ont_8_celestialbody_test_65": [
+  "ont_8_celestialbody_train_101",
+  "ont_8_celestialbody_train_99",
+  "ont_8_celestialbody_train_107",
+  "ont_8_celestialbody_train_103",
+  "ont_8_celestialbody_train_106"
+ ],
+ "ont_8_celestialbody_test_66": [
+  "ont_8_celestialbody_train_98",
+  "ont_8_celestialbody_train_100",
+  "ont_8_celestialbody_train_109",
+  "ont_8_celestialbody_train_97",
+  "ont_8_celestialbody_train_108"
+ ],
+ "ont_8_celestialbody_test_67": [
+  "ont_8_celestialbody_train_98",
+  "ont_8_celestialbody_train_101",
+  "ont_8_celestialbody_train_102",
+  "ont_8_celestialbody_train_100",
+  "ont_8_celestialbody_train_109"
+ ],
+ "ont_8_celestialbody_test_68": [
+  "ont_8_celestialbody_train_101",
+  "ont_8_celestialbody_train_103",
+  "ont_8_celestialbody_train_99",
+  "ont_8_celestialbody_train_107",
+  "ont_8_celestialbody_train_98"
+ ],
+ "ont_8_celestialbody_test_69": [
+  "ont_8_celestialbody_train_108",
+  "ont_8_celestialbody_train_103",
+  "ont_8_celestialbody_train_109",
+  "ont_8_celestialbody_train_100",
+  "ont_8_celestialbody_train_107"
+ ],
+ "ont_8_celestialbody_test_70": [
+  "ont_8_celestialbody_train_7",
+  "ont_8_celestialbody_train_24",
+  "ont_8_celestialbody_train_89",
+  "ont_8_celestialbody_train_88",
+  "ont_8_celestialbody_train_16"
+ ],
+ "ont_8_celestialbody_test_71": [
+  "ont_8_celestialbody_train_39",
+  "ont_8_celestialbody_train_40",
+  "ont_8_celestialbody_train_37",
+  "ont_8_celestialbody_train_28",
+  "ont_8_celestialbody_train_29"
+ ],
+ "ont_8_celestialbody_test_72": [
+  "ont_8_celestialbody_train_82",
+  "ont_8_celestialbody_train_66",
+  "ont_8_celestialbody_train_71",
+  "ont_8_celestialbody_train_67",
+  "ont_8_celestialbody_train_35"
+ ]
+}

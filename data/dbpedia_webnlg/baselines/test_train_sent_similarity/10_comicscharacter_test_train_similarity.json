@@ -1,0 +1,254 @@
+{
+ "ont_10_comicscharacter_test_1": [
+  "ont_10_comicscharacter_train_2",
+  "ont_10_comicscharacter_train_66",
+  "ont_10_comicscharacter_train_24",
+  "ont_10_comicscharacter_train_27",
+  "ont_10_comicscharacter_train_25"
+ ],
+ "ont_10_comicscharacter_test_2": [
+  "ont_10_comicscharacter_train_2",
+  "ont_10_comicscharacter_train_32",
+  "ont_10_comicscharacter_train_23",
+  "ont_10_comicscharacter_train_28",
+  "ont_10_comicscharacter_train_25"
+ ],
+ "ont_10_comicscharacter_test_3": [
+  "ont_10_comicscharacter_train_2",
+  "ont_10_comicscharacter_train_27",
+  "ont_10_comicscharacter_train_66",
+  "ont_10_comicscharacter_train_24",
+  "ont_10_comicscharacter_train_25"
+ ],
+ "ont_10_comicscharacter_test_4": [
+  "ont_10_comicscharacter_train_22",
+  "ont_10_comicscharacter_train_21",
+  "ont_10_comicscharacter_train_24",
+  "ont_10_comicscharacter_train_23",
+  "ont_10_comicscharacter_train_66"
+ ],
+ "ont_10_comicscharacter_test_5": [
+  "ont_10_comicscharacter_train_21",
+  "ont_10_comicscharacter_train_66",
+  "ont_10_comicscharacter_train_23",
+  "ont_10_comicscharacter_train_22",
+  "ont_10_comicscharacter_train_2"
+ ],
+ "ont_10_comicscharacter_test_6": [
+  "ont_10_comicscharacter_train_2",
+  "ont_10_comicscharacter_train_20",
+  "ont_10_comicscharacter_train_24",
+  "ont_10_comicscharacter_train_28",
+  "ont_10_comicscharacter_train_23"
+ ],
+ "ont_10_comicscharacter_test_7": [
+  "ont_10_comicscharacter_train_24",
+  "ont_10_comicscharacter_train_66",
+  "ont_10_comicscharacter_train_20",
+  "ont_10_comicscharacter_train_2",
+  "ont_10_comicscharacter_train_21"
+ ],
+ "ont_10_comicscharacter_test_8": [
+  "ont_10_comicscharacter_train_21",
+  "ont_10_comicscharacter_train_22",
+  "ont_10_comicscharacter_train_32",
+  "ont_10_comicscharacter_train_2",
+  "ont_10_comicscharacter_train_24"
+ ],
+ "ont_10_comicscharacter_test_9": [
+  "ont_10_comicscharacter_train_24",
+  "ont_10_comicscharacter_train_20",
+  "ont_10_comicscharacter_train_2",
+  "ont_10_comicscharacter_train_25",
+  "ont_10_comicscharacter_train_66"
+ ],
+ "ont_10_comicscharacter_test_10": [
+  "ont_10_comicscharacter_train_32",
+  "ont_10_comicscharacter_train_24",
+  "ont_10_comicscharacter_train_66",
+  "ont_10_comicscharacter_train_27",
+  "ont_10_comicscharacter_train_25"
+ ],
+ "ont_10_comicscharacter_test_11": [
+  "ont_10_comicscharacter_train_32",
+  "ont_10_comicscharacter_train_7",
+  "ont_10_comicscharacter_train_31",
+  "ont_10_comicscharacter_train_66",
+  "ont_10_comicscharacter_train_25"
+ ],
+ "ont_10_comicscharacter_test_12": [
+  "ont_10_comicscharacter_train_32",
+  "ont_10_comicscharacter_train_66",
+  "ont_10_comicscharacter_train_24",
+  "ont_10_comicscharacter_train_28",
+  "ont_10_comicscharacter_train_25"
+ ],
+ "ont_10_comicscharacter_test_13": [
+  "ont_10_comicscharacter_train_29",
+  "ont_10_comicscharacter_train_26",
+  "ont_10_comicscharacter_train_30",
+  "ont_10_comicscharacter_train_28",
+  "ont_10_comicscharacter_train_23"
+ ],
+ "ont_10_comicscharacter_test_14": [
+  "ont_10_comicscharacter_train_29",
+  "ont_10_comicscharacter_train_28",
+  "ont_10_comicscharacter_train_26",
+  "ont_10_comicscharacter_train_23",
+  "ont_10_comicscharacter_train_44"
+ ],
+ "ont_10_comicscharacter_test_15": [
+  "ont_10_comicscharacter_train_20",
+  "ont_10_comicscharacter_train_1",
+  "ont_10_comicscharacter_train_21",
+  "ont_10_comicscharacter_train_66",
+  "ont_10_comicscharacter_train_23"
+ ],
+ "ont_10_comicscharacter_test_16": [
+  "ont_10_comicscharacter_train_20",
+  "ont_10_comicscharacter_train_21",
+  "ont_10_comicscharacter_train_23",
+  "ont_10_comicscharacter_train_1",
+  "ont_10_comicscharacter_train_30"
+ ],
+ "ont_10_comicscharacter_test_17": [
+  "ont_10_comicscharacter_train_21",
+  "ont_10_comicscharacter_train_23",
+  "ont_10_comicscharacter_train_22",
+  "ont_10_comicscharacter_train_26",
+  "ont_10_comicscharacter_train_30"
+ ],
+ "ont_10_comicscharacter_test_18": [
+  "ont_10_comicscharacter_train_29",
+  "ont_10_comicscharacter_train_26",
+  "ont_10_comicscharacter_train_30",
+  "ont_10_comicscharacter_train_23",
+  "ont_10_comicscharacter_train_28"
+ ],
+ "ont_10_comicscharacter_test_19": [
+  "ont_10_comicscharacter_train_29",
+  "ont_10_comicscharacter_train_26",
+  "ont_10_comicscharacter_train_23",
+  "ont_10_comicscharacter_train_30",
+  "ont_10_comicscharacter_train_32"
+ ],
+ "ont_10_comicscharacter_test_20": [
+  "ont_10_comicscharacter_train_29",
+  "ont_10_comicscharacter_train_26",
+  "ont_10_comicscharacter_train_30",
+  "ont_10_comicscharacter_train_28",
+  "ont_10_comicscharacter_train_31"
+ ],
+ "ont_10_comicscharacter_test_21": [
+  "ont_10_comicscharacter_train_23",
+  "ont_10_comicscharacter_train_30",
+  "ont_10_comicscharacter_train_29",
+  "ont_10_comicscharacter_train_28",
+  "ont_10_comicscharacter_train_21"
+ ],
+ "ont_10_comicscharacter_test_22": [
+  "ont_10_comicscharacter_train_21",
+  "ont_10_comicscharacter_train_23",
+  "ont_10_comicscharacter_train_20",
+  "ont_10_comicscharacter_train_22",
+  "ont_10_comicscharacter_train_2"
+ ],
+ "ont_10_comicscharacter_test_23": [
+  "ont_10_comicscharacter_train_24",
+  "ont_10_comicscharacter_train_66",
+  "ont_10_comicscharacter_train_2",
+  "ont_10_comicscharacter_train_28",
+  "ont_10_comicscharacter_train_25"
+ ],
+ "ont_10_comicscharacter_test_24": [
+  "ont_10_comicscharacter_train_24",
+  "ont_10_comicscharacter_train_66",
+  "ont_10_comicscharacter_train_27",
+  "ont_10_comicscharacter_train_25",
+  "ont_10_comicscharacter_train_23"
+ ],
+ "ont_10_comicscharacter_test_25": [
+  "ont_10_comicscharacter_train_2",
+  "ont_10_comicscharacter_train_25",
+  "ont_10_comicscharacter_train_3",
+  "ont_10_comicscharacter_train_23",
+  "ont_10_comicscharacter_train_66"
+ ],
+ "ont_10_comicscharacter_test_26": [
+  "ont_10_comicscharacter_train_22",
+  "ont_10_comicscharacter_train_21",
+  "ont_10_comicscharacter_train_28",
+  "ont_10_comicscharacter_train_32",
+  "ont_10_comicscharacter_train_23"
+ ],
+ "ont_10_comicscharacter_test_27": [
+  "ont_10_comicscharacter_train_22",
+  "ont_10_comicscharacter_train_21",
+  "ont_10_comicscharacter_train_25",
+  "ont_10_comicscharacter_train_20",
+  "ont_10_comicscharacter_train_24"
+ ],
+ "ont_10_comicscharacter_test_28": [
+  "ont_10_comicscharacter_train_21",
+  "ont_10_comicscharacter_train_22",
+  "ont_10_comicscharacter_train_20",
+  "ont_10_comicscharacter_train_28",
+  "ont_10_comicscharacter_train_25"
+ ],
+ "ont_10_comicscharacter_test_29": [
+  "ont_10_comicscharacter_train_1",
+  "ont_10_comicscharacter_train_21",
+  "ont_10_comicscharacter_train_22",
+  "ont_10_comicscharacter_train_20",
+  "ont_10_comicscharacter_train_66"
+ ],
+ "ont_10_comicscharacter_test_30": [
+  "ont_10_comicscharacter_train_21",
+  "ont_10_comicscharacter_train_22",
+  "ont_10_comicscharacter_train_66",
+  "ont_10_comicscharacter_train_24",
+  "ont_10_comicscharacter_train_7"
+ ],
+ "ont_10_comicscharacter_test_31": [
+  "ont_10_comicscharacter_train_29",
+  "ont_10_comicscharacter_train_26",
+  "ont_10_comicscharacter_train_30",
+  "ont_10_comicscharacter_train_23",
+  "ont_10_comicscharacter_train_28"
+ ],
+ "ont_10_comicscharacter_test_32": [
+  "ont_10_comicscharacter_train_21",
+  "ont_10_comicscharacter_train_22",
+  "ont_10_comicscharacter_train_2",
+  "ont_10_comicscharacter_train_32",
+  "ont_10_comicscharacter_train_20"
+ ],
+ "ont_10_comicscharacter_test_33": [
+  "ont_10_comicscharacter_train_20",
+  "ont_10_comicscharacter_train_1",
+  "ont_10_comicscharacter_train_21",
+  "ont_10_comicscharacter_train_23",
+  "ont_10_comicscharacter_train_66"
+ ],
+ "ont_10_comicscharacter_test_34": [
+  "ont_10_comicscharacter_train_23",
+  "ont_10_comicscharacter_train_20",
+  "ont_10_comicscharacter_train_28",
+  "ont_10_comicscharacter_train_30",
+  "ont_10_comicscharacter_train_26"
+ ],
+ "ont_10_comicscharacter_test_35": [
+  "ont_10_comicscharacter_train_24",
+  "ont_10_comicscharacter_train_23",
+  "ont_10_comicscharacter_train_28",
+  "ont_10_comicscharacter_train_66",
+  "ont_10_comicscharacter_train_27"
+ ],
+ "ont_10_comicscharacter_test_36": [
+  "ont_10_comicscharacter_train_24",
+  "ont_10_comicscharacter_train_28",
+  "ont_10_comicscharacter_train_23",
+  "ont_10_comicscharacter_train_66",
+  "ont_10_comicscharacter_train_27"
+ ]
+}

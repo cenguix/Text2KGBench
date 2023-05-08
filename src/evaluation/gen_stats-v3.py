@@ -312,7 +312,7 @@ if __name__ == "__main__":
     #TODO load these from a config file or from command line
     evaluation_input_params = [
         [
-            '../../data/ground_truth/ont_1_movie_ground_truth_v1.jsonl',
+            '../../data/ground_truth/ont_1_movie_ground_truth.jsonl',
             '../../data/baselines/vicuna_13B/llm_responses/ont_1_movie_llm_responses_v2.jsonl',
             '../../data/ontology/1_movie_ontology.json',
             '../../data/baselines/vicuna_13B/eval/ont_1_movie_llm_stats.jsonl'

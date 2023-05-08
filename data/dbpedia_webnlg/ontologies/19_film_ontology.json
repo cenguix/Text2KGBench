@@ -1,0 +1,344 @@
+{
+  "title": "Film Ontology",
+  "id": "ont_19_film",
+  "concepts": [
+    {
+      "qid": "Film",
+      "label": "Film"
+    },
+    {
+      "qid": "Channel",
+      "label": "Channel"
+    },
+    {
+      "qid": "Organisation",
+      "label": "Organisation"
+    },
+    {
+      "qid": "Company",
+      "label": "Company"
+    },
+    {
+      "qid": "Artist",
+      "label": "Artist"
+    },
+    {
+      "qid": "Type",
+      "label": "Type"
+    },
+    {
+      "qid": "Place",
+      "label": "Place"
+    },
+    {
+      "qid": "City",
+      "label": "City"
+    },
+    {
+      "qid": "Industry",
+      "label": "Industry"
+    },
+    {
+      "qid": "Occupation",
+      "label": "Occupation"
+    },
+    {
+      "qid": "Person",
+      "label": "Person"
+    },
+    {
+      "qid": "Country",
+      "label": "Country"
+    },
+    {
+      "qid": "Background",
+      "label": "Background"
+    },
+    {
+      "qid": "Service",
+      "label": "Service"
+    },
+    {
+      "qid": "Cinematography",
+      "label": "Cinematography"
+    },
+    {
+      "qid": "Language",
+      "label": "Language"
+    },
+    {
+      "qid": "Station",
+      "label": "Station"
+    },
+    {
+      "qid": "Club",
+      "label": "Club"
+    }
+  ],
+  "relations": [
+    {
+      "pid": "timeshiftChannel",
+      "label": "timeshiftChannel",
+      "domain": "Film",
+      "range": "Channel"
+    },
+    {
+      "pid": "director",
+      "label": "director",
+      "domain": "Film",
+      "range": "Person"
+    },
+    {
+      "pid": "imdbId",
+      "label": "imdbId",
+      "domain": "Film",
+      "range": "string"
+    },
+    {
+      "pid": "distributor",
+      "label": "distributor",
+      "domain": "Film",
+      "range": "Company"
+    },
+    {
+      "pid": "musicComposer",
+      "label": "musicComposer",
+      "domain": "Film",
+      "range": "Artist"
+    },
+    {
+      "pid": "type",
+      "label": "type",
+      "domain": "Film",
+      "range": "Type"
+    },
+    {
+      "pid": "deathDate",
+      "label": "deathDate",
+      "domain": "Artist",
+      "range": "Date"
+    },
+    {
+      "pid": "club",
+      "label": "club",
+      "domain": "Film",
+      "range": "Club"
+    },
+    {
+      "pid": "editing",
+      "label": "editing",
+      "domain": "Film",
+      "range": "Artist"
+    },
+    {
+      "pid": "releaseDate",
+      "label": "releaseDate",
+      "domain": "Film",
+      "range": "Date"
+    },
+    {
+      "pid": "child",
+      "label": "child",
+      "domain": "Artist",
+      "range": "Person"
+    },
+    {
+      "pid": "producer",
+      "label": "producer",
+      "domain": "Film",
+      "range": "Person"
+    },
+    {
+      "pid": "birthPlace",
+      "label": "birthPlace",
+      "domain": "Artist",
+      "range": "Place"
+    },
+    {
+      "pid": "headquarter",
+      "label": "headquarter",
+      "domain": "Company",
+      "range": "City"
+    },
+    {
+      "pid": "deathPlace",
+      "label": "deathPlace",
+      "domain": "Artist",
+      "range": "Place"
+    },
+    {
+      "pid": "location",
+      "label": "location",
+      "domain": "Company",
+      "range": "Place"
+    },
+    {
+      "pid": "budget",
+      "label": "budget",
+      "domain": "Film",
+      "range": "number"
+    },
+    {
+      "pid": "runtime",
+      "label": "runtime",
+      "domain": "Film",
+      "range": "number"
+    },
+    {
+      "pid": "owner",
+      "label": "owner",
+      "domain": "Company",
+      "range": "Person"
+    },
+    {
+      "pid": "starring",
+      "label": "starring",
+      "domain": "Film",
+      "range": "Artist"
+    },
+    {
+      "pid": "iso6392Code",
+      "label": "iso6392Code",
+      "domain": "City",
+      "range": "string"
+    },
+    {
+      "pid": "writer",
+      "label": "writer",
+      "domain": "WrittenWork",
+      "range": "Person"
+    },
+    {
+      "pid": "industry",
+      "label": "industry",
+      "domain": "Company",
+      "range": "Industry"
+    },
+    {
+      "pid": "activeYearsStartYear",
+      "label": "activeYearsStartYear",
+      "domain": "Artist",
+      "range": "Year"
+    },
+    {
+      "pid": "occupation",
+      "label": "occupation",
+      "domain": "Artist",
+      "range": "Occupation"
+    },
+    {
+      "pid": "sisterStation",
+      "label": "sisterStation",
+      "domain": "Film",
+      "range": "Station"
+    },
+    {
+      "pid": "spouse",
+      "label": "spouse",
+      "domain": "Artist",
+      "range": "Person"
+    },
+    {
+      "pid": "spokenIn",
+      "label": "spokenIn",
+      "domain": "Language",
+      "range": "Country"
+    },
+    {
+      "pid": "gross",
+      "label": "gross",
+      "domain": "Film",
+      "range": "number"
+    },
+    {
+      "pid": "formerName",
+      "label": "formerName",
+      "domain": "Artist",
+      "range": "string"
+    },
+    {
+      "pid": "birthYear",
+      "label": "birthYear",
+      "domain": "Artist",
+      "range": "Year"
+    },
+    {
+      "pid": "birthName",
+      "label": "birthName",
+      "domain": "Artist",
+      "range": "string"
+    },
+    {
+      "pid": "editor",
+      "label": "editor",
+      "domain": "Film",
+      "range": "Person"
+    },
+    {
+      "pid": "language",
+      "label": "language",
+      "domain": "Film",
+      "range": "Language"
+    },
+    {
+      "pid": "background",
+      "label": "background",
+      "domain": "Film",
+      "range": "Background"
+    },
+    {
+      "pid": "service",
+      "label": "service",
+      "domain": "Company",
+      "range": "Service"
+    },
+    {
+      "pid": "cinematography",
+      "label": "cinematography",
+      "domain": "Film",
+      "range": "Cinematography"
+    },
+    {
+      "pid": "deathYear",
+      "label": "deathYear",
+      "domain": "Artist",
+      "range": "Year"
+    },
+    {
+      "pid": "birthDate",
+      "label": "birthDate",
+      "domain": "Artist",
+      "range": "Date"
+    },
+    {
+      "pid": "keyPerson",
+      "label": "keyPerson",
+      "domain": "Organisation",
+      "range": "Person"
+    },
+    {
+      "pid": "foundedBy",
+      "label": "foundedBy",
+      "domain": "Organisation",
+      "range": "Person"
+    },
+    {
+      "pid": "iso6391Code",
+      "label": "iso6391Code",
+      "domain": "Country",
+      "range": "string"
+    },
+    {
+      "pid": "foundingYear",
+      "label": "foundingYear",
+      "domain": "Organisation",
+      "range": "Year"
+    },
+    {
+      "pid": "broadcastedBy",
+      "label": "broadcastedBy",
+      "domain": "Film",
+      "range": "Company"
+    }
+  ]
+}

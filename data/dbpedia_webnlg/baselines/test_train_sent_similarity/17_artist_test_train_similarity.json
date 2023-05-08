@@ -1,0 +1,590 @@
+{
+ "ont_17_artist_test_1": [
+  "ont_17_artist_train_173",
+  "ont_17_artist_train_263",
+  "ont_17_artist_train_279",
+  "ont_17_artist_train_18",
+  "ont_17_artist_train_267"
+ ],
+ "ont_17_artist_test_2": [
+  "ont_17_artist_train_267",
+  "ont_17_artist_train_263",
+  "ont_17_artist_train_173",
+  "ont_17_artist_train_18",
+  "ont_17_artist_train_6"
+ ],
+ "ont_17_artist_test_3": [
+  "ont_17_artist_train_267",
+  "ont_17_artist_train_263",
+  "ont_17_artist_train_173",
+  "ont_17_artist_train_18",
+  "ont_17_artist_train_223"
+ ],
+ "ont_17_artist_test_4": [
+  "ont_17_artist_train_263",
+  "ont_17_artist_train_173",
+  "ont_17_artist_train_85",
+  "ont_17_artist_train_88",
+  "ont_17_artist_train_279"
+ ],
+ "ont_17_artist_test_5": [
+  "ont_17_artist_train_173",
+  "ont_17_artist_train_263",
+  "ont_17_artist_train_279",
+  "ont_17_artist_train_18",
+  "ont_17_artist_train_1"
+ ],
+ "ont_17_artist_test_6": [
+  "ont_17_artist_train_263",
+  "ont_17_artist_train_173",
+  "ont_17_artist_train_279",
+  "ont_17_artist_train_181",
+  "ont_17_artist_train_194"
+ ],
+ "ont_17_artist_test_7": [
+  "ont_17_artist_train_168",
+  "ont_17_artist_train_18",
+  "ont_17_artist_train_6",
+  "ont_17_artist_train_14",
+  "ont_17_artist_train_263"
+ ],
+ "ont_17_artist_test_8": [
+  "ont_17_artist_train_263",
+  "ont_17_artist_train_173",
+  "ont_17_artist_train_279",
+  "ont_17_artist_train_194",
+  "ont_17_artist_train_285"
+ ],
+ "ont_17_artist_test_9": [
+  "ont_17_artist_train_263",
+  "ont_17_artist_train_173",
+  "ont_17_artist_train_279",
+  "ont_17_artist_train_194",
+  "ont_17_artist_train_177"
+ ],
+ "ont_17_artist_test_10": [
+  "ont_17_artist_train_85",
+  "ont_17_artist_train_88",
+  "ont_17_artist_train_86",
+  "ont_17_artist_train_84",
+  "ont_17_artist_train_14"
+ ],
+ "ont_17_artist_test_11": [
+  "ont_17_artist_train_85",
+  "ont_17_artist_train_14",
+  "ont_17_artist_train_18",
+  "ont_17_artist_train_88",
+  "ont_17_artist_train_173"
+ ],
+ "ont_17_artist_test_12": [
+  "ont_17_artist_train_267",
+  "ont_17_artist_train_223",
+  "ont_17_artist_train_276",
+  "ont_17_artist_train_273",
+  "ont_17_artist_train_184"
+ ],
+ "ont_17_artist_test_13": [
+  "ont_17_artist_train_263",
+  "ont_17_artist_train_18",
+  "ont_17_artist_train_14",
+  "ont_17_artist_train_173",
+  "ont_17_artist_train_267"
+ ],
+ "ont_17_artist_test_14": [
+  "ont_17_artist_train_14",
+  "ont_17_artist_train_263",
+  "ont_17_artist_train_267",
+  "ont_17_artist_train_18",
+  "ont_17_artist_train_173"
+ ],
+ "ont_17_artist_test_15": [
+  "ont_17_artist_train_64",
+  "ont_17_artist_train_66",
+  "ont_17_artist_train_62",
+  "ont_17_artist_train_65",
+  "ont_17_artist_train_61"
+ ],
+ "ont_17_artist_test_16": [
+  "ont_17_artist_train_26",
+  "ont_17_artist_train_208",
+  "ont_17_artist_train_27",
+  "ont_17_artist_train_198",
+  "ont_17_artist_train_31"
+ ],
+ "ont_17_artist_test_17": [
+  "ont_17_artist_train_139",
+  "ont_17_artist_train_145",
+  "ont_17_artist_train_141",
+  "ont_17_artist_train_67",
+  "ont_17_artist_train_127"
+ ],
+ "ont_17_artist_test_18": [
+  "ont_17_artist_train_243",
+  "ont_17_artist_train_258",
+  "ont_17_artist_train_238",
+  "ont_17_artist_train_249",
+  "ont_17_artist_train_98"
+ ],
+ "ont_17_artist_test_19": [
+  "ont_17_artist_train_165",
+  "ont_17_artist_train_93",
+  "ont_17_artist_train_94",
+  "ont_17_artist_train_187",
+  "ont_17_artist_train_92"
+ ],
+ "ont_17_artist_test_20": [
+  "ont_17_artist_train_96",
+  "ont_17_artist_train_165",
+  "ont_17_artist_train_93",
+  "ont_17_artist_train_187",
+  "ont_17_artist_train_94"
+ ],
+ "ont_17_artist_test_21": [
+  "ont_17_artist_train_64",
+  "ont_17_artist_train_67",
+  "ont_17_artist_train_126",
+  "ont_17_artist_train_127",
+  "ont_17_artist_train_289"
+ ],
+ "ont_17_artist_test_22": [
+  "ont_17_artist_train_62",
+  "ont_17_artist_train_67",
+  "ont_17_artist_train_52",
+  "ont_17_artist_train_214",
+  "ont_17_artist_train_54"
+ ],
+ "ont_17_artist_test_23": [
+  "ont_17_artist_train_2",
+  "ont_17_artist_train_129",
+  "ont_17_artist_train_135",
+  "ont_17_artist_train_168",
+  "ont_17_artist_train_127"
+ ],
+ "ont_17_artist_test_24": [
+  "ont_17_artist_train_129",
+  "ont_17_artist_train_126",
+  "ont_17_artist_train_298",
+  "ont_17_artist_train_127",
+  "ont_17_artist_train_139"
+ ],
+ "ont_17_artist_test_25": [
+  "ont_17_artist_train_168",
+  "ont_17_artist_train_2",
+  "ont_17_artist_train_129",
+  "ont_17_artist_train_4",
+  "ont_17_artist_train_128"
+ ],
+ "ont_17_artist_test_26": [
+  "ont_17_artist_train_279",
+  "ont_17_artist_train_168",
+  "ont_17_artist_train_271",
+  "ont_17_artist_train_263",
+  "ont_17_artist_train_173"
+ ],
+ "ont_17_artist_test_27": [
+  "ont_17_artist_train_126",
+  "ont_17_artist_train_127",
+  "ont_17_artist_train_121",
+  "ont_17_artist_train_298",
+  "ont_17_artist_train_129"
+ ],
+ "ont_17_artist_test_28": [
+  "ont_17_artist_train_168",
+  "ont_17_artist_train_129",
+  "ont_17_artist_train_1",
+  "ont_17_artist_train_45",
+  "ont_17_artist_train_5"
+ ],
+ "ont_17_artist_test_29": [
+  "ont_17_artist_train_168",
+  "ont_17_artist_train_279",
+  "ont_17_artist_train_263",
+  "ont_17_artist_train_173",
+  "ont_17_artist_train_129"
+ ],
+ "ont_17_artist_test_30": [
+  "ont_17_artist_train_127",
+  "ont_17_artist_train_126",
+  "ont_17_artist_train_121",
+  "ont_17_artist_train_298",
+  "ont_17_artist_train_122"
+ ],
+ "ont_17_artist_test_31": [
+  "ont_17_artist_train_129",
+  "ont_17_artist_train_290",
+  "ont_17_artist_train_128",
+  "ont_17_artist_train_68",
+  "ont_17_artist_train_130"
+ ],
+ "ont_17_artist_test_32": [
+  "ont_17_artist_train_129",
+  "ont_17_artist_train_290",
+  "ont_17_artist_train_130",
+  "ont_17_artist_train_68",
+  "ont_17_artist_train_128"
+ ],
+ "ont_17_artist_test_33": [
+  "ont_17_artist_train_129",
+  "ont_17_artist_train_290",
+  "ont_17_artist_train_126",
+  "ont_17_artist_train_130",
+  "ont_17_artist_train_127"
+ ],
+ "ont_17_artist_test_34": [
+  "ont_17_artist_train_129",
+  "ont_17_artist_train_121",
+  "ont_17_artist_train_126",
+  "ont_17_artist_train_298",
+  "ont_17_artist_train_130"
+ ],
+ "ont_17_artist_test_35": [
+  "ont_17_artist_train_121",
+  "ont_17_artist_train_298",
+  "ont_17_artist_train_122",
+  "ont_17_artist_train_126",
+  "ont_17_artist_train_127"
+ ],
+ "ont_17_artist_test_36": [
+  "ont_17_artist_train_263",
+  "ont_17_artist_train_173",
+  "ont_17_artist_train_267",
+  "ont_17_artist_train_18",
+  "ont_17_artist_train_279"
+ ],
+ "ont_17_artist_test_37": [
+  "ont_17_artist_train_121",
+  "ont_17_artist_train_298",
+  "ont_17_artist_train_123",
+  "ont_17_artist_train_122",
+  "ont_17_artist_train_127"
+ ],
+ "ont_17_artist_test_38": [
+  "ont_17_artist_train_96",
+  "ont_17_artist_train_165",
+  "ont_17_artist_train_94",
+  "ont_17_artist_train_207",
+  "ont_17_artist_train_93"
+ ],
+ "ont_17_artist_test_39": [
+  "ont_17_artist_train_66",
+  "ont_17_artist_train_65",
+  "ont_17_artist_train_39",
+  "ont_17_artist_train_139",
+  "ont_17_artist_train_287"
+ ],
+ "ont_17_artist_test_40": [
+  "ont_17_artist_train_66",
+  "ont_17_artist_train_65",
+  "ont_17_artist_train_146",
+  "ont_17_artist_train_64",
+  "ont_17_artist_train_287"
+ ],
+ "ont_17_artist_test_41": [
+  "ont_17_artist_train_66",
+  "ont_17_artist_train_65",
+  "ont_17_artist_train_64",
+  "ont_17_artist_train_39",
+  "ont_17_artist_train_139"
+ ],
+ "ont_17_artist_test_42": [
+  "ont_17_artist_train_66",
+  "ont_17_artist_train_139",
+  "ont_17_artist_train_64",
+  "ont_17_artist_train_65",
+  "ont_17_artist_train_146"
+ ],
+ "ont_17_artist_test_43": [
+  "ont_17_artist_train_65",
+  "ont_17_artist_train_66",
+  "ont_17_artist_train_64",
+  "ont_17_artist_train_139",
+  "ont_17_artist_train_39"
+ ],
+ "ont_17_artist_test_44": [
+  "ont_17_artist_train_66",
+  "ont_17_artist_train_65",
+  "ont_17_artist_train_64",
+  "ont_17_artist_train_139",
+  "ont_17_artist_train_146"
+ ],
+ "ont_17_artist_test_45": [
+  "ont_17_artist_train_176",
+  "ont_17_artist_train_168",
+  "ont_17_artist_train_267",
+  "ont_17_artist_train_280",
+  "ont_17_artist_train_157"
+ ],
+ "ont_17_artist_test_46": [
+  "ont_17_artist_train_5",
+  "ont_17_artist_train_88",
+  "ont_17_artist_train_85",
+  "ont_17_artist_train_274",
+  "ont_17_artist_train_176"
+ ],
+ "ont_17_artist_test_47": [
+  "ont_17_artist_train_88",
+  "ont_17_artist_train_85",
+  "ont_17_artist_train_5",
+  "ont_17_artist_train_86",
+  "ont_17_artist_train_84"
+ ],
+ "ont_17_artist_test_48": [
+  "ont_17_artist_train_139",
+  "ont_17_artist_train_136",
+  "ont_17_artist_train_138",
+  "ont_17_artist_train_137",
+  "ont_17_artist_train_131"
+ ],
+ "ont_17_artist_test_49": [
+  "ont_17_artist_train_139",
+  "ont_17_artist_train_136",
+  "ont_17_artist_train_138",
+  "ont_17_artist_train_137",
+  "ont_17_artist_train_131"
+ ],
+ "ont_17_artist_test_50": [
+  "ont_17_artist_train_139",
+  "ont_17_artist_train_137",
+  "ont_17_artist_train_138",
+  "ont_17_artist_train_136",
+  "ont_17_artist_train_131"
+ ],
+ "ont_17_artist_test_51": [
+  "ont_17_artist_train_139",
+  "ont_17_artist_train_136",
+  "ont_17_artist_train_138",
+  "ont_17_artist_train_137",
+  "ont_17_artist_train_131"
+ ],
+ "ont_17_artist_test_52": [
+  "ont_17_artist_train_138",
+  "ont_17_artist_train_139",
+  "ont_17_artist_train_136",
+  "ont_17_artist_train_131",
+  "ont_17_artist_train_134"
+ ],
+ "ont_17_artist_test_53": [
+  "ont_17_artist_train_137",
+  "ont_17_artist_train_139",
+  "ont_17_artist_train_138",
+  "ont_17_artist_train_136",
+  "ont_17_artist_train_131"
+ ],
+ "ont_17_artist_test_54": [
+  "ont_17_artist_train_280",
+  "ont_17_artist_train_168",
+  "ont_17_artist_train_4",
+  "ont_17_artist_train_159",
+  "ont_17_artist_train_167"
+ ],
+ "ont_17_artist_test_55": [
+  "ont_17_artist_train_280",
+  "ont_17_artist_train_159",
+  "ont_17_artist_train_4",
+  "ont_17_artist_train_168",
+  "ont_17_artist_train_151"
+ ],
+ "ont_17_artist_test_56": [
+  "ont_17_artist_train_280",
+  "ont_17_artist_train_159",
+  "ont_17_artist_train_150",
+  "ont_17_artist_train_301",
+  "ont_17_artist_train_157"
+ ],
+ "ont_17_artist_test_57": [
+  "ont_17_artist_train_280",
+  "ont_17_artist_train_2",
+  "ont_17_artist_train_79",
+  "ont_17_artist_train_157",
+  "ont_17_artist_train_151"
+ ],
+ "ont_17_artist_test_58": [
+  "ont_17_artist_train_258",
+  "ont_17_artist_train_243",
+  "ont_17_artist_train_249",
+  "ont_17_artist_train_238",
+  "ont_17_artist_train_233"
+ ],
+ "ont_17_artist_test_59": [
+  "ont_17_artist_train_187",
+  "ont_17_artist_train_243",
+  "ont_17_artist_train_238",
+  "ont_17_artist_train_258",
+  "ont_17_artist_train_93"
+ ],
+ "ont_17_artist_test_60": [
+  "ont_17_artist_train_90",
+  "ont_17_artist_train_94",
+  "ont_17_artist_train_186",
+  "ont_17_artist_train_207",
+  "ont_17_artist_train_242"
+ ],
+ "ont_17_artist_test_61": [
+  "ont_17_artist_train_139",
+  "ont_17_artist_train_138",
+  "ont_17_artist_train_136",
+  "ont_17_artist_train_151",
+  "ont_17_artist_train_159"
+ ],
+ "ont_17_artist_test_62": [
+  "ont_17_artist_train_139",
+  "ont_17_artist_train_138",
+  "ont_17_artist_train_136",
+  "ont_17_artist_train_137",
+  "ont_17_artist_train_6"
+ ],
+ "ont_17_artist_test_63": [
+  "ont_17_artist_train_139",
+  "ont_17_artist_train_136",
+  "ont_17_artist_train_138",
+  "ont_17_artist_train_137",
+  "ont_17_artist_train_6"
+ ],
+ "ont_17_artist_test_64": [
+  "ont_17_artist_train_34",
+  "ont_17_artist_train_129",
+  "ont_17_artist_train_128",
+  "ont_17_artist_train_290",
+  "ont_17_artist_train_147"
+ ],
+ "ont_17_artist_test_65": [
+  "ont_17_artist_train_290",
+  "ont_17_artist_train_68",
+  "ont_17_artist_train_128",
+  "ont_17_artist_train_130",
+  "ont_17_artist_train_129"
+ ],
+ "ont_17_artist_test_66": [
+  "ont_17_artist_train_129",
+  "ont_17_artist_train_128",
+  "ont_17_artist_train_130",
+  "ont_17_artist_train_290",
+  "ont_17_artist_train_68"
+ ],
+ "ont_17_artist_test_67": [
+  "ont_17_artist_train_168",
+  "ont_17_artist_train_279",
+  "ont_17_artist_train_263",
+  "ont_17_artist_train_129",
+  "ont_17_artist_train_173"
+ ],
+ "ont_17_artist_test_68": [
+  "ont_17_artist_train_66",
+  "ont_17_artist_train_168",
+  "ont_17_artist_train_65",
+  "ont_17_artist_train_129",
+  "ont_17_artist_train_273"
+ ],
+ "ont_17_artist_test_69": [
+  "ont_17_artist_train_98",
+  "ont_17_artist_train_207",
+  "ont_17_artist_train_187",
+  "ont_17_artist_train_96",
+  "ont_17_artist_train_265"
+ ],
+ "ont_17_artist_test_70": [
+  "ont_17_artist_train_98",
+  "ont_17_artist_train_94",
+  "ont_17_artist_train_207",
+  "ont_17_artist_train_96",
+  "ont_17_artist_train_91"
+ ],
+ "ont_17_artist_test_71": [
+  "ont_17_artist_train_187",
+  "ont_17_artist_train_98",
+  "ont_17_artist_train_207",
+  "ont_17_artist_train_97",
+  "ont_17_artist_train_272"
+ ],
+ "ont_17_artist_test_72": [
+  "ont_17_artist_train_186",
+  "ont_17_artist_train_90",
+  "ont_17_artist_train_94",
+  "ont_17_artist_train_208",
+  "ont_17_artist_train_207"
+ ],
+ "ont_17_artist_test_73": [
+  "ont_17_artist_train_98",
+  "ont_17_artist_train_96",
+  "ont_17_artist_train_187",
+  "ont_17_artist_train_94",
+  "ont_17_artist_train_272"
+ ],
+ "ont_17_artist_test_74": [
+  "ont_17_artist_train_94",
+  "ont_17_artist_train_96",
+  "ont_17_artist_train_207",
+  "ont_17_artist_train_98",
+  "ont_17_artist_train_91"
+ ],
+ "ont_17_artist_test_75": [
+  "ont_17_artist_train_96",
+  "ont_17_artist_train_187",
+  "ont_17_artist_train_94",
+  "ont_17_artist_train_272",
+  "ont_17_artist_train_165"
+ ],
+ "ont_17_artist_test_76": [
+  "ont_17_artist_train_8",
+  "ont_17_artist_train_135",
+  "ont_17_artist_train_180",
+  "ont_17_artist_train_235",
+  "ont_17_artist_train_252"
+ ],
+ "ont_17_artist_test_77": [
+  "ont_17_artist_train_267",
+  "ont_17_artist_train_263",
+  "ont_17_artist_train_173",
+  "ont_17_artist_train_194",
+  "ont_17_artist_train_276"
+ ],
+ "ont_17_artist_test_78": [
+  "ont_17_artist_train_66",
+  "ont_17_artist_train_65",
+  "ont_17_artist_train_146",
+  "ont_17_artist_train_122",
+  "ont_17_artist_train_127"
+ ],
+ "ont_17_artist_test_79": [
+  "ont_17_artist_train_262",
+  "ont_17_artist_train_251",
+  "ont_17_artist_train_248",
+  "ont_17_artist_train_228",
+  "ont_17_artist_train_229"
+ ],
+ "ont_17_artist_test_80": [
+  "ont_17_artist_train_135",
+  "ont_17_artist_train_26",
+  "ont_17_artist_train_129",
+  "ont_17_artist_train_79",
+  "ont_17_artist_train_127"
+ ],
+ "ont_17_artist_test_81": [
+  "ont_17_artist_train_129",
+  "ont_17_artist_train_128",
+  "ont_17_artist_train_130",
+  "ont_17_artist_train_124",
+  "ont_17_artist_train_163"
+ ],
+ "ont_17_artist_test_82": [
+  "ont_17_artist_train_66",
+  "ont_17_artist_train_65",
+  "ont_17_artist_train_146",
+  "ont_17_artist_train_64",
+  "ont_17_artist_train_139"
+ ],
+ "ont_17_artist_test_83": [
+  "ont_17_artist_train_134",
+  "ont_17_artist_train_135",
+  "ont_17_artist_train_132",
+  "ont_17_artist_train_131",
+  "ont_17_artist_train_133"
+ ],
+ "ont_17_artist_test_84": [
+  "ont_17_artist_train_139",
+  "ont_17_artist_train_138",
+  "ont_17_artist_train_136",
+  "ont_17_artist_train_137",
+  "ont_17_artist_train_131"
+ ]
+}

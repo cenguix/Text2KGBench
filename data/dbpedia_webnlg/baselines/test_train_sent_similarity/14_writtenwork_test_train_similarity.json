@@ -1,0 +1,891 @@
+{
+ "ont_14_writtenwork_test_1": [
+  "ont_14_writtenwork_train_100",
+  "ont_14_writtenwork_train_80",
+  "ont_14_writtenwork_train_187",
+  "ont_14_writtenwork_train_66",
+  "ont_14_writtenwork_train_119"
+ ],
+ "ont_14_writtenwork_test_2": [
+  "ont_14_writtenwork_train_100",
+  "ont_14_writtenwork_train_104",
+  "ont_14_writtenwork_train_187",
+  "ont_14_writtenwork_train_101",
+  "ont_14_writtenwork_train_80"
+ ],
+ "ont_14_writtenwork_test_3": [
+  "ont_14_writtenwork_train_82",
+  "ont_14_writtenwork_train_80",
+  "ont_14_writtenwork_train_187",
+  "ont_14_writtenwork_train_68",
+  "ont_14_writtenwork_train_100"
+ ],
+ "ont_14_writtenwork_test_4": [
+  "ont_14_writtenwork_train_187",
+  "ont_14_writtenwork_train_80",
+  "ont_14_writtenwork_train_100",
+  "ont_14_writtenwork_train_82",
+  "ont_14_writtenwork_train_94"
+ ],
+ "ont_14_writtenwork_test_5": [
+  "ont_14_writtenwork_train_94",
+  "ont_14_writtenwork_train_92",
+  "ont_14_writtenwork_train_93",
+  "ont_14_writtenwork_train_100",
+  "ont_14_writtenwork_train_187"
+ ],
+ "ont_14_writtenwork_test_6": [
+  "ont_14_writtenwork_train_122",
+  "ont_14_writtenwork_train_121",
+  "ont_14_writtenwork_train_194",
+  "ont_14_writtenwork_train_119",
+  "ont_14_writtenwork_train_95"
+ ],
+ "ont_14_writtenwork_test_7": [
+  "ont_14_writtenwork_train_119",
+  "ont_14_writtenwork_train_121",
+  "ont_14_writtenwork_train_194",
+  "ont_14_writtenwork_train_93",
+  "ont_14_writtenwork_train_102"
+ ],
+ "ont_14_writtenwork_test_8": [
+  "ont_14_writtenwork_train_97",
+  "ont_14_writtenwork_train_96",
+  "ont_14_writtenwork_train_99",
+  "ont_14_writtenwork_train_98",
+  "ont_14_writtenwork_train_95"
+ ],
+ "ont_14_writtenwork_test_9": [
+  "ont_14_writtenwork_train_96",
+  "ont_14_writtenwork_train_92",
+  "ont_14_writtenwork_train_99",
+  "ont_14_writtenwork_train_97",
+  "ont_14_writtenwork_train_98"
+ ],
+ "ont_14_writtenwork_test_10": [
+  "ont_14_writtenwork_train_121",
+  "ont_14_writtenwork_train_119",
+  "ont_14_writtenwork_train_93",
+  "ont_14_writtenwork_train_190",
+  "ont_14_writtenwork_train_194"
+ ],
+ "ont_14_writtenwork_test_11": [
+  "ont_14_writtenwork_train_128",
+  "ont_14_writtenwork_train_97",
+  "ont_14_writtenwork_train_96",
+  "ont_14_writtenwork_train_99",
+  "ont_14_writtenwork_train_127"
+ ],
+ "ont_14_writtenwork_test_12": [
+  "ont_14_writtenwork_train_87",
+  "ont_14_writtenwork_train_68",
+  "ont_14_writtenwork_train_103",
+  "ont_14_writtenwork_train_101",
+  "ont_14_writtenwork_train_95"
+ ],
+ "ont_14_writtenwork_test_13": [
+  "ont_14_writtenwork_train_190",
+  "ont_14_writtenwork_train_68",
+  "ont_14_writtenwork_train_119",
+  "ont_14_writtenwork_train_87",
+  "ont_14_writtenwork_train_189"
+ ],
+ "ont_14_writtenwork_test_14": [
+  "ont_14_writtenwork_train_68",
+  "ont_14_writtenwork_train_126",
+  "ont_14_writtenwork_train_128",
+  "ont_14_writtenwork_train_127",
+  "ont_14_writtenwork_train_123"
+ ],
+ "ont_14_writtenwork_test_15": [
+  "ont_14_writtenwork_train_127",
+  "ont_14_writtenwork_train_128",
+  "ont_14_writtenwork_train_126",
+  "ont_14_writtenwork_train_125",
+  "ont_14_writtenwork_train_124"
+ ],
+ "ont_14_writtenwork_test_16": [
+  "ont_14_writtenwork_train_127",
+  "ont_14_writtenwork_train_128",
+  "ont_14_writtenwork_train_126",
+  "ont_14_writtenwork_train_124",
+  "ont_14_writtenwork_train_125"
+ ],
+ "ont_14_writtenwork_test_17": [
+  "ont_14_writtenwork_train_126",
+  "ont_14_writtenwork_train_68",
+  "ont_14_writtenwork_train_128",
+  "ont_14_writtenwork_train_127",
+  "ont_14_writtenwork_train_103"
+ ],
+ "ont_14_writtenwork_test_18": [
+  "ont_14_writtenwork_train_128",
+  "ont_14_writtenwork_train_126",
+  "ont_14_writtenwork_train_127",
+  "ont_14_writtenwork_train_107",
+  "ont_14_writtenwork_train_108"
+ ],
+ "ont_14_writtenwork_test_19": [
+  "ont_14_writtenwork_train_126",
+  "ont_14_writtenwork_train_127",
+  "ont_14_writtenwork_train_128",
+  "ont_14_writtenwork_train_119",
+  "ont_14_writtenwork_train_123"
+ ],
+ "ont_14_writtenwork_test_20": [
+  "ont_14_writtenwork_train_103",
+  "ont_14_writtenwork_train_101",
+  "ont_14_writtenwork_train_122",
+  "ont_14_writtenwork_train_108",
+  "ont_14_writtenwork_train_107"
+ ],
+ "ont_14_writtenwork_test_21": [
+  "ont_14_writtenwork_train_127",
+  "ont_14_writtenwork_train_126",
+  "ont_14_writtenwork_train_119",
+  "ont_14_writtenwork_train_123",
+  "ont_14_writtenwork_train_128"
+ ],
+ "ont_14_writtenwork_test_22": [
+  "ont_14_writtenwork_train_127",
+  "ont_14_writtenwork_train_126",
+  "ont_14_writtenwork_train_128",
+  "ont_14_writtenwork_train_124",
+  "ont_14_writtenwork_train_123"
+ ],
+ "ont_14_writtenwork_test_23": [
+  "ont_14_writtenwork_train_128",
+  "ont_14_writtenwork_train_127",
+  "ont_14_writtenwork_train_126",
+  "ont_14_writtenwork_train_124",
+  "ont_14_writtenwork_train_123"
+ ],
+ "ont_14_writtenwork_test_24": [
+  "ont_14_writtenwork_train_126",
+  "ont_14_writtenwork_train_119",
+  "ont_14_writtenwork_train_122",
+  "ont_14_writtenwork_train_103",
+  "ont_14_writtenwork_train_194"
+ ],
+ "ont_14_writtenwork_test_25": [
+  "ont_14_writtenwork_train_56",
+  "ont_14_writtenwork_train_58",
+  "ont_14_writtenwork_train_49",
+  "ont_14_writtenwork_train_185",
+  "ont_14_writtenwork_train_50"
+ ],
+ "ont_14_writtenwork_test_26": [
+  "ont_14_writtenwork_train_58",
+  "ont_14_writtenwork_train_49",
+  "ont_14_writtenwork_train_56",
+  "ont_14_writtenwork_train_73",
+  "ont_14_writtenwork_train_40"
+ ],
+ "ont_14_writtenwork_test_27": [
+  "ont_14_writtenwork_train_50",
+  "ont_14_writtenwork_train_49",
+  "ont_14_writtenwork_train_56",
+  "ont_14_writtenwork_train_88",
+  "ont_14_writtenwork_train_185"
+ ],
+ "ont_14_writtenwork_test_28": [
+  "ont_14_writtenwork_train_51",
+  "ont_14_writtenwork_train_58",
+  "ont_14_writtenwork_train_191",
+  "ont_14_writtenwork_train_50",
+  "ont_14_writtenwork_train_57"
+ ],
+ "ont_14_writtenwork_test_29": [
+  "ont_14_writtenwork_train_57",
+  "ont_14_writtenwork_train_58",
+  "ont_14_writtenwork_train_59",
+  "ont_14_writtenwork_train_56",
+  "ont_14_writtenwork_train_45"
+ ],
+ "ont_14_writtenwork_test_30": [
+  "ont_14_writtenwork_train_58",
+  "ont_14_writtenwork_train_56",
+  "ont_14_writtenwork_train_45",
+  "ont_14_writtenwork_train_57",
+  "ont_14_writtenwork_train_46"
+ ],
+ "ont_14_writtenwork_test_31": [
+  "ont_14_writtenwork_train_38",
+  "ont_14_writtenwork_train_39",
+  "ont_14_writtenwork_train_75",
+  "ont_14_writtenwork_train_77",
+  "ont_14_writtenwork_train_136"
+ ],
+ "ont_14_writtenwork_test_32": [
+  "ont_14_writtenwork_train_39",
+  "ont_14_writtenwork_train_75",
+  "ont_14_writtenwork_train_38",
+  "ont_14_writtenwork_train_26",
+  "ont_14_writtenwork_train_21"
+ ],
+ "ont_14_writtenwork_test_33": [
+  "ont_14_writtenwork_train_136",
+  "ont_14_writtenwork_train_135",
+  "ont_14_writtenwork_train_125",
+  "ont_14_writtenwork_train_127",
+  "ont_14_writtenwork_train_124"
+ ],
+ "ont_14_writtenwork_test_34": [
+  "ont_14_writtenwork_train_38",
+  "ont_14_writtenwork_train_135",
+  "ont_14_writtenwork_train_136",
+  "ont_14_writtenwork_train_124",
+  "ont_14_writtenwork_train_125"
+ ],
+ "ont_14_writtenwork_test_35": [
+  "ont_14_writtenwork_train_38",
+  "ont_14_writtenwork_train_39",
+  "ont_14_writtenwork_train_75",
+  "ont_14_writtenwork_train_77",
+  "ont_14_writtenwork_train_136"
+ ],
+ "ont_14_writtenwork_test_36": [
+  "ont_14_writtenwork_train_125",
+  "ont_14_writtenwork_train_127",
+  "ont_14_writtenwork_train_124",
+  "ont_14_writtenwork_train_128",
+  "ont_14_writtenwork_train_126"
+ ],
+ "ont_14_writtenwork_test_37": [
+  "ont_14_writtenwork_train_127",
+  "ont_14_writtenwork_train_135",
+  "ont_14_writtenwork_train_124",
+  "ont_14_writtenwork_train_136",
+  "ont_14_writtenwork_train_125"
+ ],
+ "ont_14_writtenwork_test_38": [
+  "ont_14_writtenwork_train_136",
+  "ont_14_writtenwork_train_125",
+  "ont_14_writtenwork_train_135",
+  "ont_14_writtenwork_train_127",
+  "ont_14_writtenwork_train_124"
+ ],
+ "ont_14_writtenwork_test_39": [
+  "ont_14_writtenwork_train_38",
+  "ont_14_writtenwork_train_136",
+  "ont_14_writtenwork_train_135",
+  "ont_14_writtenwork_train_124",
+  "ont_14_writtenwork_train_125"
+ ],
+ "ont_14_writtenwork_test_40": [
+  "ont_14_writtenwork_train_38",
+  "ont_14_writtenwork_train_39",
+  "ont_14_writtenwork_train_77",
+  "ont_14_writtenwork_train_75",
+  "ont_14_writtenwork_train_136"
+ ],
+ "ont_14_writtenwork_test_41": [
+  "ont_14_writtenwork_train_62",
+  "ont_14_writtenwork_train_61",
+  "ont_14_writtenwork_train_38",
+  "ont_14_writtenwork_train_39",
+  "ont_14_writtenwork_train_75"
+ ],
+ "ont_14_writtenwork_test_42": [
+  "ont_14_writtenwork_train_62",
+  "ont_14_writtenwork_train_38",
+  "ont_14_writtenwork_train_61",
+  "ont_14_writtenwork_train_75",
+  "ont_14_writtenwork_train_39"
+ ],
+ "ont_14_writtenwork_test_43": [
+  "ont_14_writtenwork_train_39",
+  "ont_14_writtenwork_train_38",
+  "ont_14_writtenwork_train_75",
+  "ont_14_writtenwork_train_62",
+  "ont_14_writtenwork_train_77"
+ ],
+ "ont_14_writtenwork_test_44": [
+  "ont_14_writtenwork_train_61",
+  "ont_14_writtenwork_train_62",
+  "ont_14_writtenwork_train_56",
+  "ont_14_writtenwork_train_73",
+  "ont_14_writtenwork_train_185"
+ ],
+ "ont_14_writtenwork_test_45": [
+  "ont_14_writtenwork_train_62",
+  "ont_14_writtenwork_train_61",
+  "ont_14_writtenwork_train_71",
+  "ont_14_writtenwork_train_191",
+  "ont_14_writtenwork_train_73"
+ ],
+ "ont_14_writtenwork_test_46": [
+  "ont_14_writtenwork_train_38",
+  "ont_14_writtenwork_train_65",
+  "ont_14_writtenwork_train_63",
+  "ont_14_writtenwork_train_64",
+  "ont_14_writtenwork_train_75"
+ ],
+ "ont_14_writtenwork_test_47": [
+  "ont_14_writtenwork_train_39",
+  "ont_14_writtenwork_train_75",
+  "ont_14_writtenwork_train_65",
+  "ont_14_writtenwork_train_26",
+  "ont_14_writtenwork_train_4"
+ ],
+ "ont_14_writtenwork_test_48": [
+  "ont_14_writtenwork_train_65",
+  "ont_14_writtenwork_train_63",
+  "ont_14_writtenwork_train_64",
+  "ont_14_writtenwork_train_38",
+  "ont_14_writtenwork_train_136"
+ ],
+ "ont_14_writtenwork_test_49": [
+  "ont_14_writtenwork_train_65",
+  "ont_14_writtenwork_train_64",
+  "ont_14_writtenwork_train_63",
+  "ont_14_writtenwork_train_58",
+  "ont_14_writtenwork_train_51"
+ ],
+ "ont_14_writtenwork_test_50": [
+  "ont_14_writtenwork_train_112",
+  "ont_14_writtenwork_train_8",
+  "ont_14_writtenwork_train_31",
+  "ont_14_writtenwork_train_10",
+  "ont_14_writtenwork_train_184"
+ ],
+ "ont_14_writtenwork_test_51": [
+  "ont_14_writtenwork_train_38",
+  "ont_14_writtenwork_train_39",
+  "ont_14_writtenwork_train_75",
+  "ont_14_writtenwork_train_77",
+  "ont_14_writtenwork_train_21"
+ ],
+ "ont_14_writtenwork_test_52": [
+  "ont_14_writtenwork_train_38",
+  "ont_14_writtenwork_train_39",
+  "ont_14_writtenwork_train_75",
+  "ont_14_writtenwork_train_77",
+  "ont_14_writtenwork_train_136"
+ ],
+ "ont_14_writtenwork_test_53": [
+  "ont_14_writtenwork_train_38",
+  "ont_14_writtenwork_train_39",
+  "ont_14_writtenwork_train_75",
+  "ont_14_writtenwork_train_77",
+  "ont_14_writtenwork_train_31"
+ ],
+ "ont_14_writtenwork_test_54": [
+  "ont_14_writtenwork_train_38",
+  "ont_14_writtenwork_train_54",
+  "ont_14_writtenwork_train_39",
+  "ont_14_writtenwork_train_75",
+  "ont_14_writtenwork_train_77"
+ ],
+ "ont_14_writtenwork_test_55": [
+  "ont_14_writtenwork_train_183",
+  "ont_14_writtenwork_train_192",
+  "ont_14_writtenwork_train_50",
+  "ont_14_writtenwork_train_2",
+  "ont_14_writtenwork_train_61"
+ ],
+ "ont_14_writtenwork_test_56": [
+  "ont_14_writtenwork_train_185",
+  "ont_14_writtenwork_train_61",
+  "ont_14_writtenwork_train_73",
+  "ont_14_writtenwork_train_41",
+  "ont_14_writtenwork_train_49"
+ ],
+ "ont_14_writtenwork_test_57": [
+  "ont_14_writtenwork_train_73",
+  "ont_14_writtenwork_train_185",
+  "ont_14_writtenwork_train_44",
+  "ont_14_writtenwork_train_58",
+  "ont_14_writtenwork_train_41"
+ ],
+ "ont_14_writtenwork_test_58": [
+  "ont_14_writtenwork_train_3",
+  "ont_14_writtenwork_train_183",
+  "ont_14_writtenwork_train_56",
+  "ont_14_writtenwork_train_27",
+  "ont_14_writtenwork_train_185"
+ ],
+ "ont_14_writtenwork_test_59": [
+  "ont_14_writtenwork_train_183",
+  "ont_14_writtenwork_train_27",
+  "ont_14_writtenwork_train_28",
+  "ont_14_writtenwork_train_3",
+  "ont_14_writtenwork_train_6"
+ ],
+ "ont_14_writtenwork_test_60": [
+  "ont_14_writtenwork_train_183",
+  "ont_14_writtenwork_train_34",
+  "ont_14_writtenwork_train_27",
+  "ont_14_writtenwork_train_28",
+  "ont_14_writtenwork_train_3"
+ ],
+ "ont_14_writtenwork_test_61": [
+  "ont_14_writtenwork_train_8",
+  "ont_14_writtenwork_train_184",
+  "ont_14_writtenwork_train_10",
+  "ont_14_writtenwork_train_112",
+  "ont_14_writtenwork_train_31"
+ ],
+ "ont_14_writtenwork_test_62": [
+  "ont_14_writtenwork_train_39",
+  "ont_14_writtenwork_train_75",
+  "ont_14_writtenwork_train_38",
+  "ont_14_writtenwork_train_26",
+  "ont_14_writtenwork_train_77"
+ ],
+ "ont_14_writtenwork_test_63": [
+  "ont_14_writtenwork_train_39",
+  "ont_14_writtenwork_train_62",
+  "ont_14_writtenwork_train_61",
+  "ont_14_writtenwork_train_75",
+  "ont_14_writtenwork_train_38"
+ ],
+ "ont_14_writtenwork_test_64": [
+  "ont_14_writtenwork_train_39",
+  "ont_14_writtenwork_train_65",
+  "ont_14_writtenwork_train_75",
+  "ont_14_writtenwork_train_38",
+  "ont_14_writtenwork_train_63"
+ ],
+ "ont_14_writtenwork_test_65": [
+  "ont_14_writtenwork_train_99",
+  "ont_14_writtenwork_train_96",
+  "ont_14_writtenwork_train_98",
+  "ont_14_writtenwork_train_92",
+  "ont_14_writtenwork_train_97"
+ ],
+ "ont_14_writtenwork_test_66": [
+  "ont_14_writtenwork_train_33",
+  "ont_14_writtenwork_train_35",
+  "ont_14_writtenwork_train_28",
+  "ont_14_writtenwork_train_29",
+  "ont_14_writtenwork_train_21"
+ ],
+ "ont_14_writtenwork_test_67": [
+  "ont_14_writtenwork_train_33",
+  "ont_14_writtenwork_train_31",
+  "ont_14_writtenwork_train_21",
+  "ont_14_writtenwork_train_126",
+  "ont_14_writtenwork_train_128"
+ ],
+ "ont_14_writtenwork_test_68": [
+  "ont_14_writtenwork_train_38",
+  "ont_14_writtenwork_train_33",
+  "ont_14_writtenwork_train_35",
+  "ont_14_writtenwork_train_29",
+  "ont_14_writtenwork_train_28"
+ ],
+ "ont_14_writtenwork_test_69": [
+  "ont_14_writtenwork_train_38",
+  "ont_14_writtenwork_train_39",
+  "ont_14_writtenwork_train_40",
+  "ont_14_writtenwork_train_41",
+  "ont_14_writtenwork_train_43"
+ ],
+ "ont_14_writtenwork_test_70": [
+  "ont_14_writtenwork_train_62",
+  "ont_14_writtenwork_train_61",
+  "ont_14_writtenwork_train_123",
+  "ont_14_writtenwork_train_126",
+  "ont_14_writtenwork_train_124"
+ ],
+ "ont_14_writtenwork_test_71": [
+  "ont_14_writtenwork_train_38",
+  "ont_14_writtenwork_train_63",
+  "ont_14_writtenwork_train_65",
+  "ont_14_writtenwork_train_64",
+  "ont_14_writtenwork_train_136"
+ ],
+ "ont_14_writtenwork_test_72": [
+  "ont_14_writtenwork_train_38",
+  "ont_14_writtenwork_train_39",
+  "ont_14_writtenwork_train_36",
+  "ont_14_writtenwork_train_40",
+  "ont_14_writtenwork_train_43"
+ ],
+ "ont_14_writtenwork_test_73": [
+  "ont_14_writtenwork_train_38",
+  "ont_14_writtenwork_train_39",
+  "ont_14_writtenwork_train_40",
+  "ont_14_writtenwork_train_41",
+  "ont_14_writtenwork_train_43"
+ ],
+ "ont_14_writtenwork_test_74": [
+  "ont_14_writtenwork_train_63",
+  "ont_14_writtenwork_train_126",
+  "ont_14_writtenwork_train_65",
+  "ont_14_writtenwork_train_39",
+  "ont_14_writtenwork_train_136"
+ ],
+ "ont_14_writtenwork_test_75": [
+  "ont_14_writtenwork_train_38",
+  "ont_14_writtenwork_train_39",
+  "ont_14_writtenwork_train_41",
+  "ont_14_writtenwork_train_40",
+  "ont_14_writtenwork_train_36"
+ ],
+ "ont_14_writtenwork_test_76": [
+  "ont_14_writtenwork_train_39",
+  "ont_14_writtenwork_train_38",
+  "ont_14_writtenwork_train_75",
+  "ont_14_writtenwork_train_65",
+  "ont_14_writtenwork_train_63"
+ ],
+ "ont_14_writtenwork_test_77": [
+  "ont_14_writtenwork_train_65",
+  "ont_14_writtenwork_train_63",
+  "ont_14_writtenwork_train_64",
+  "ont_14_writtenwork_train_127",
+  "ont_14_writtenwork_train_126"
+ ],
+ "ont_14_writtenwork_test_78": [
+  "ont_14_writtenwork_train_65",
+  "ont_14_writtenwork_train_63",
+  "ont_14_writtenwork_train_64",
+  "ont_14_writtenwork_train_127",
+  "ont_14_writtenwork_train_135"
+ ],
+ "ont_14_writtenwork_test_79": [
+  "ont_14_writtenwork_train_39",
+  "ont_14_writtenwork_train_38",
+  "ont_14_writtenwork_train_75",
+  "ont_14_writtenwork_train_127",
+  "ont_14_writtenwork_train_126"
+ ],
+ "ont_14_writtenwork_test_80": [
+  "ont_14_writtenwork_train_39",
+  "ont_14_writtenwork_train_38",
+  "ont_14_writtenwork_train_40",
+  "ont_14_writtenwork_train_41",
+  "ont_14_writtenwork_train_36"
+ ],
+ "ont_14_writtenwork_test_81": [
+  "ont_14_writtenwork_train_62",
+  "ont_14_writtenwork_train_61",
+  "ont_14_writtenwork_train_126",
+  "ont_14_writtenwork_train_124",
+  "ont_14_writtenwork_train_128"
+ ],
+ "ont_14_writtenwork_test_82": [
+  "ont_14_writtenwork_train_39",
+  "ont_14_writtenwork_train_38",
+  "ont_14_writtenwork_train_75",
+  "ont_14_writtenwork_train_117",
+  "ont_14_writtenwork_train_77"
+ ],
+ "ont_14_writtenwork_test_83": [
+  "ont_14_writtenwork_train_62",
+  "ont_14_writtenwork_train_38",
+  "ont_14_writtenwork_train_75",
+  "ont_14_writtenwork_train_39",
+  "ont_14_writtenwork_train_61"
+ ],
+ "ont_14_writtenwork_test_84": [
+  "ont_14_writtenwork_train_39",
+  "ont_14_writtenwork_train_38",
+  "ont_14_writtenwork_train_40",
+  "ont_14_writtenwork_train_41",
+  "ont_14_writtenwork_train_36"
+ ],
+ "ont_14_writtenwork_test_85": [
+  "ont_14_writtenwork_train_127",
+  "ont_14_writtenwork_train_10",
+  "ont_14_writtenwork_train_39",
+  "ont_14_writtenwork_train_125",
+  "ont_14_writtenwork_train_31"
+ ],
+ "ont_14_writtenwork_test_86": [
+  "ont_14_writtenwork_train_38",
+  "ont_14_writtenwork_train_136",
+  "ont_14_writtenwork_train_124",
+  "ont_14_writtenwork_train_127",
+  "ont_14_writtenwork_train_10"
+ ],
+ "ont_14_writtenwork_test_87": [
+  "ont_14_writtenwork_train_38",
+  "ont_14_writtenwork_train_39",
+  "ont_14_writtenwork_train_41",
+  "ont_14_writtenwork_train_40",
+  "ont_14_writtenwork_train_36"
+ ],
+ "ont_14_writtenwork_test_88": [
+  "ont_14_writtenwork_train_38",
+  "ont_14_writtenwork_train_39",
+  "ont_14_writtenwork_train_41",
+  "ont_14_writtenwork_train_40",
+  "ont_14_writtenwork_train_36"
+ ],
+ "ont_14_writtenwork_test_89": [
+  "ont_14_writtenwork_train_38",
+  "ont_14_writtenwork_train_62",
+  "ont_14_writtenwork_train_61",
+  "ont_14_writtenwork_train_39",
+  "ont_14_writtenwork_train_75"
+ ],
+ "ont_14_writtenwork_test_90": [
+  "ont_14_writtenwork_train_38",
+  "ont_14_writtenwork_train_39",
+  "ont_14_writtenwork_train_65",
+  "ont_14_writtenwork_train_63",
+  "ont_14_writtenwork_train_75"
+ ],
+ "ont_14_writtenwork_test_91": [
+  "ont_14_writtenwork_train_38",
+  "ont_14_writtenwork_train_39",
+  "ont_14_writtenwork_train_75",
+  "ont_14_writtenwork_train_77",
+  "ont_14_writtenwork_train_21"
+ ],
+ "ont_14_writtenwork_test_92": [
+  "ont_14_writtenwork_train_38",
+  "ont_14_writtenwork_train_39",
+  "ont_14_writtenwork_train_75",
+  "ont_14_writtenwork_train_77",
+  "ont_14_writtenwork_train_21"
+ ],
+ "ont_14_writtenwork_test_93": [
+  "ont_14_writtenwork_train_39",
+  "ont_14_writtenwork_train_38",
+  "ont_14_writtenwork_train_75",
+  "ont_14_writtenwork_train_41",
+  "ont_14_writtenwork_train_36"
+ ],
+ "ont_14_writtenwork_test_94": [
+  "ont_14_writtenwork_train_38",
+  "ont_14_writtenwork_train_39",
+  "ont_14_writtenwork_train_54",
+  "ont_14_writtenwork_train_75",
+  "ont_14_writtenwork_train_77"
+ ],
+ "ont_14_writtenwork_test_95": [
+  "ont_14_writtenwork_train_28",
+  "ont_14_writtenwork_train_29",
+  "ont_14_writtenwork_train_31",
+  "ont_14_writtenwork_train_27",
+  "ont_14_writtenwork_train_34"
+ ],
+ "ont_14_writtenwork_test_96": [
+  "ont_14_writtenwork_train_31",
+  "ont_14_writtenwork_train_28",
+  "ont_14_writtenwork_train_29",
+  "ont_14_writtenwork_train_21",
+  "ont_14_writtenwork_train_8"
+ ],
+ "ont_14_writtenwork_test_97": [
+  "ont_14_writtenwork_train_28",
+  "ont_14_writtenwork_train_29",
+  "ont_14_writtenwork_train_33",
+  "ont_14_writtenwork_train_34",
+  "ont_14_writtenwork_train_27"
+ ],
+ "ont_14_writtenwork_test_98": [
+  "ont_14_writtenwork_train_38",
+  "ont_14_writtenwork_train_39",
+  "ont_14_writtenwork_train_41",
+  "ont_14_writtenwork_train_37",
+  "ont_14_writtenwork_train_43"
+ ],
+ "ont_14_writtenwork_test_99": [
+  "ont_14_writtenwork_train_62",
+  "ont_14_writtenwork_train_61",
+  "ont_14_writtenwork_train_124",
+  "ont_14_writtenwork_train_123",
+  "ont_14_writtenwork_train_126"
+ ],
+ "ont_14_writtenwork_test_100": [
+  "ont_14_writtenwork_train_62",
+  "ont_14_writtenwork_train_61",
+  "ont_14_writtenwork_train_38",
+  "ont_14_writtenwork_train_124",
+  "ont_14_writtenwork_train_123"
+ ],
+ "ont_14_writtenwork_test_101": [
+  "ont_14_writtenwork_train_65",
+  "ont_14_writtenwork_train_63",
+  "ont_14_writtenwork_train_64",
+  "ont_14_writtenwork_train_38",
+  "ont_14_writtenwork_train_136"
+ ],
+ "ont_14_writtenwork_test_102": [
+  "ont_14_writtenwork_train_38",
+  "ont_14_writtenwork_train_128",
+  "ont_14_writtenwork_train_135",
+  "ont_14_writtenwork_train_127",
+  "ont_14_writtenwork_train_125"
+ ],
+ "ont_14_writtenwork_test_103": [
+  "ont_14_writtenwork_train_62",
+  "ont_14_writtenwork_train_61",
+  "ont_14_writtenwork_train_124",
+  "ont_14_writtenwork_train_126",
+  "ont_14_writtenwork_train_123"
+ ],
+ "ont_14_writtenwork_test_104": [
+  "ont_14_writtenwork_train_38",
+  "ont_14_writtenwork_train_136",
+  "ont_14_writtenwork_train_43",
+  "ont_14_writtenwork_train_10",
+  "ont_14_writtenwork_train_18"
+ ],
+ "ont_14_writtenwork_test_105": [
+  "ont_14_writtenwork_train_31",
+  "ont_14_writtenwork_train_32",
+  "ont_14_writtenwork_train_28",
+  "ont_14_writtenwork_train_8",
+  "ont_14_writtenwork_train_29"
+ ],
+ "ont_14_writtenwork_test_106": [
+  "ont_14_writtenwork_train_28",
+  "ont_14_writtenwork_train_29",
+  "ont_14_writtenwork_train_33",
+  "ont_14_writtenwork_train_21",
+  "ont_14_writtenwork_train_35"
+ ],
+ "ont_14_writtenwork_test_107": [
+  "ont_14_writtenwork_train_38",
+  "ont_14_writtenwork_train_62",
+  "ont_14_writtenwork_train_61",
+  "ont_14_writtenwork_train_107",
+  "ont_14_writtenwork_train_128"
+ ],
+ "ont_14_writtenwork_test_108": [
+  "ont_14_writtenwork_train_38",
+  "ont_14_writtenwork_train_63",
+  "ont_14_writtenwork_train_65",
+  "ont_14_writtenwork_train_64",
+  "ont_14_writtenwork_train_136"
+ ],
+ "ont_14_writtenwork_test_109": [
+  "ont_14_writtenwork_train_62",
+  "ont_14_writtenwork_train_61",
+  "ont_14_writtenwork_train_124",
+  "ont_14_writtenwork_train_126",
+  "ont_14_writtenwork_train_107"
+ ],
+ "ont_14_writtenwork_test_110": [
+  "ont_14_writtenwork_train_28",
+  "ont_14_writtenwork_train_30",
+  "ont_14_writtenwork_train_34",
+  "ont_14_writtenwork_train_29",
+  "ont_14_writtenwork_train_27"
+ ],
+ "ont_14_writtenwork_test_111": [
+  "ont_14_writtenwork_train_27",
+  "ont_14_writtenwork_train_28",
+  "ont_14_writtenwork_train_29",
+  "ont_14_writtenwork_train_34",
+  "ont_14_writtenwork_train_3"
+ ],
+ "ont_14_writtenwork_test_112": [
+  "ont_14_writtenwork_train_28",
+  "ont_14_writtenwork_train_34",
+  "ont_14_writtenwork_train_30",
+  "ont_14_writtenwork_train_35",
+  "ont_14_writtenwork_train_29"
+ ],
+ "ont_14_writtenwork_test_113": [
+  "ont_14_writtenwork_train_193",
+  "ont_14_writtenwork_train_102",
+  "ont_14_writtenwork_train_194",
+  "ont_14_writtenwork_train_100",
+  "ont_14_writtenwork_train_119"
+ ],
+ "ont_14_writtenwork_test_114": [
+  "ont_14_writtenwork_train_66",
+  "ont_14_writtenwork_train_83",
+  "ont_14_writtenwork_train_100",
+  "ont_14_writtenwork_train_193",
+  "ont_14_writtenwork_train_119"
+ ],
+ "ont_14_writtenwork_test_115": [
+  "ont_14_writtenwork_train_96",
+  "ont_14_writtenwork_train_97",
+  "ont_14_writtenwork_train_92",
+  "ont_14_writtenwork_train_99",
+  "ont_14_writtenwork_train_95"
+ ],
+ "ont_14_writtenwork_test_116": [
+  "ont_14_writtenwork_train_127",
+  "ont_14_writtenwork_train_126",
+  "ont_14_writtenwork_train_124",
+  "ont_14_writtenwork_train_128",
+  "ont_14_writtenwork_train_123"
+ ],
+ "ont_14_writtenwork_test_117": [
+  "ont_14_writtenwork_train_87",
+  "ont_14_writtenwork_train_68",
+  "ont_14_writtenwork_train_119",
+  "ont_14_writtenwork_train_84",
+  "ont_14_writtenwork_train_194"
+ ],
+ "ont_14_writtenwork_test_118": [
+  "ont_14_writtenwork_train_55",
+  "ont_14_writtenwork_train_135",
+  "ont_14_writtenwork_train_52",
+  "ont_14_writtenwork_train_57",
+  "ont_14_writtenwork_train_60"
+ ],
+ "ont_14_writtenwork_test_119": [
+  "ont_14_writtenwork_train_124",
+  "ont_14_writtenwork_train_125",
+  "ont_14_writtenwork_train_136",
+  "ont_14_writtenwork_train_127",
+  "ont_14_writtenwork_train_123"
+ ],
+ "ont_14_writtenwork_test_120": [
+  "ont_14_writtenwork_train_125",
+  "ont_14_writtenwork_train_127",
+  "ont_14_writtenwork_train_124",
+  "ont_14_writtenwork_train_126",
+  "ont_14_writtenwork_train_128"
+ ],
+ "ont_14_writtenwork_test_121": [
+  "ont_14_writtenwork_train_62",
+  "ont_14_writtenwork_train_61",
+  "ont_14_writtenwork_train_71",
+  "ont_14_writtenwork_train_100",
+  "ont_14_writtenwork_train_44"
+ ],
+ "ont_14_writtenwork_test_122": [
+  "ont_14_writtenwork_train_62",
+  "ont_14_writtenwork_train_61",
+  "ont_14_writtenwork_train_192",
+  "ont_14_writtenwork_train_71",
+  "ont_14_writtenwork_train_183"
+ ],
+ "ont_14_writtenwork_test_123": [
+  "ont_14_writtenwork_train_64",
+  "ont_14_writtenwork_train_65",
+  "ont_14_writtenwork_train_63",
+  "ont_14_writtenwork_train_73",
+  "ont_14_writtenwork_train_19"
+ ],
+ "ont_14_writtenwork_test_124": [
+  "ont_14_writtenwork_train_65",
+  "ont_14_writtenwork_train_63",
+  "ont_14_writtenwork_train_64",
+  "ont_14_writtenwork_train_1",
+  "ont_14_writtenwork_train_56"
+ ],
+ "ont_14_writtenwork_test_125": [
+  "ont_14_writtenwork_train_96",
+  "ont_14_writtenwork_train_97",
+  "ont_14_writtenwork_train_99",
+  "ont_14_writtenwork_train_92",
+  "ont_14_writtenwork_train_98"
+ ],
+ "ont_14_writtenwork_test_126": [
+  "ont_14_writtenwork_train_39",
+  "ont_14_writtenwork_train_38",
+  "ont_14_writtenwork_train_41",
+  "ont_14_writtenwork_train_40",
+  "ont_14_writtenwork_train_36"
+ ],
+ "ont_14_writtenwork_test_127": [
+  "ont_14_writtenwork_train_38",
+  "ont_14_writtenwork_train_39",
+  "ont_14_writtenwork_train_75",
+  "ont_14_writtenwork_train_77",
+  "ont_14_writtenwork_train_21"
+ ]
+}

@@ -148,7 +148,7 @@ if __name__ == "__main__":
             test_sentence = test_sentence['sent'] # used later in prepare_prompt
 
             # the test similar source file generated with sbert might include movie ontology, music ontology, etc.
-            path = 'baselines/sbert_example_similarity/ont_' + str(i) + '_' + ont + '_'
+            path = 'baselines/train_test_sentence_similarity/ont_' + str(i) + '_' + ont + '_'
 
             test_similar_src = glob.glob(path + '*similarity.json')
             if test_similar_src == []:
@@ -156,7 +156,7 @@ if __name__ == "__main__":
                 break
 
             test_similar_src = test_similar_src[0].replace("\\","/")
-            #test_similar_src = "baselines/sbert_example_similarity/ont_1_movie_test_train_similarity.json"
+            #test_similar_src = "baselines/train_test_sentence_similarity/ont_1_movie_test_train_similarity.json"
             test_similar = load_json(test_similar_src)
 
             # get the similar sentences from the test similar source file

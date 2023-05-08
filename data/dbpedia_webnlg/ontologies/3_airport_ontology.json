@@ -1,0 +1,298 @@
+{
+  "title": "Airport Ontology",
+  "id": "ont_3_airport",
+  "concepts": [
+    {
+      "qid": "Airport",
+      "label": "Airport"
+    },
+    {
+      "qid": "Aircraft",
+      "label": "Aircraft"
+    },
+    {
+      "qid": "RunwaySurfaceType",
+      "label": "RunwaySurfaceType"
+    },
+    {
+      "qid": "Airport",
+      "label": "Airport"
+    },
+    {
+      "qid": "County",
+      "label": "County"
+    },
+    {
+      "qid": "City",
+      "label": "City"
+    },
+    {
+      "qid": "Demonym",
+      "label": "Demonym"
+    },
+    {
+      "qid": "Place",
+      "label": "Place"
+    },
+    {
+      "qid": "Battle",
+      "label": "Battle"
+    },
+    {
+      "qid": "Country",
+      "label": "Country"
+    },
+    {
+      "qid": "Division",
+      "label": "Division"
+    },
+    {
+      "qid": "Language",
+      "label": "Language"
+    },
+    {
+      "qid": "Party",
+      "label": "Party"
+    },
+    {
+      "qid": "Class",
+      "label": "Class"
+    }
+  ],
+  "relations": [
+    {
+      "pid": "aircraftFighter",
+      "label": "aircraftFighter",
+      "domain": "Airport",
+      "range": "Aircraft"
+    },
+    {
+      "pid": "aircraftHelicopter",
+      "label": "aircraftHelicopter",
+      "domain": "Airport",
+      "range": "Aircraft"
+    },
+    {
+      "pid": "runwayName",
+      "label": "runwayName",
+      "domain": "Airport",
+      "range": "string"
+    },
+    {
+      "pid": "areaCode",
+      "label": "areaCode",
+      "domain": "Airport",
+      "range": "string"
+    },
+    {
+      "pid": "3rdRunwaySurfaceType",
+      "label": "3rdRunwaySurfaceType",
+      "domain": "Airport",
+      "range": "RunwaySurfaceType"
+    },
+    {
+      "pid": "hubAirport",
+      "label": "hubAirport",
+      "domain": "Airport",
+      "range": "Airport"
+    },
+    {
+      "pid": "elevationAboveTheSeaLevelInMetres",
+      "label": "elevationAboveTheSeaLevelInMetres",
+      "domain": "Airport",
+      "range": "number"
+    },
+    {
+      "pid": "ceremonialCounty",
+      "label": "ceremonialCounty",
+      "domain": "Airport",
+      "range": "County"
+    },
+    {
+      "pid": "capital",
+      "label": "capital",
+      "domain": "Airport",
+      "range": "City"
+    },
+    {
+      "pid": "runwaySurfaceType",
+      "label": "runwaySurfaceType",
+      "domain": "Airport",
+      "range": "RunwaySurfaceType"
+    },
+    {
+      "pid": "headquarter",
+      "label": "headquarter",
+      "domain": "Airport",
+      "range": "City"
+    },
+    {
+      "pid": "demonym",
+      "label": "demonym",
+      "domain": "Airport",
+      "range": "Demonym"
+    },
+    {
+      "pid": "postalCode",
+      "label": "postalCode",
+      "domain": "Airport",
+      "range": "string"
+    },
+    {
+      "pid": "location",
+      "label": "location",
+      "domain": "Airport",
+      "range": "Place"
+    },
+    {
+      "pid": "owner",
+      "label": "owner",
+      "domain": "Airport",
+      "range": "Organisation"
+    },
+    {
+      "pid": "regionServed",
+      "label": "regionServed",
+      "domain": "Airport",
+      "range": "Place"
+    },
+    {
+      "pid": "transportAircraft",
+      "label": "transportAircraft",
+      "domain": "Airport",
+      "range": "Aircraft"
+    },
+    {
+      "pid": "order",
+      "label": "order",
+      "domain": "Airport",
+      "range": "number"
+    },
+    {
+      "pid": "leaderTitle",
+      "label": "leaderTitle",
+      "domain": "Airport",
+      "range": "string"
+    },
+    {
+      "pid": "battle",
+      "label": "battle",
+      "domain": "Airport",
+      "range": "Battle"
+    },
+    {
+      "pid": "cityServed",
+      "label": "cityServed",
+      "domain": "Airport",
+      "range": "City"
+    },
+    {
+      "pid": "leader",
+      "label": "leader",
+      "domain": "Airport",
+      "range": "Person"
+    },
+    {
+      "pid": "city",
+      "label": "city",
+      "domain": "Airport",
+      "range": "City"
+    },
+    {
+      "pid": "isPartOf",
+      "label": "isPartOf",
+      "domain": "Airport",
+      "range": "Airport"
+    },
+    {
+      "pid": "icaoLocationIdentifier",
+      "label": "icaoLocationIdentifier",
+      "domain": "Airport",
+      "range": "string"
+    },
+    {
+      "pid": "elevationAboveTheSeaLevel",
+      "label": "elevationAboveTheSeaLevel",
+      "domain": "Airport",
+      "range": "number"
+    },
+    {
+      "pid": "2ndRunwaySurfaceType",
+      "label": "2ndRunwaySurfaceType",
+      "domain": "Airport",
+      "range": "RunwaySurfaceType"
+    },
+    {
+      "pid": "country",
+      "label": "country",
+      "domain": "Airport",
+      "range": "Country"
+    },
+    {
+      "pid": "division",
+      "label": "division",
+      "domain": "Airport",
+      "range": "Division"
+    },
+    {
+      "pid": "largestCity",
+      "label": "largestCity",
+      "domain": "Airport",
+      "range": "City"
+    },
+    {
+      "pid": "language",
+      "label": "language",
+      "domain": "Airport",
+      "range": "Language"
+    },
+    {
+      "pid": "runwayLength",
+      "label": "runwayLength",
+      "domain": "Airport",
+      "range": "number"
+    },
+    {
+      "pid": "operatingOrganisation",
+      "label": "operatingOrganisation",
+      "domain": "Airport",
+      "range": "Organisation"
+    },
+    {
+      "pid": "leaderParty",
+      "label": "leaderParty",
+      "domain": "Airport",
+      "range": "Party"
+    },
+    {
+      "pid": "foundedBy",
+      "label": "foundedBy",
+      "domain": "Airport",
+      "range": "Person"
+    },
+    {
+      "pid": "class",
+      "label": "class",
+      "domain": "Airport",
+      "range": "Class"
+    },
+    {
+      "pid": "1stRunwaySurfaceType",
+      "label": "1stRunwaySurfaceType",
+      "domain": "Airport",
+      "range": "1stRunwaySurfaceType"
+    },
+    {
+      "pid": "foundingYear",
+      "label": "foundingYear",
+      "domain": "Airport",
+      "range": "Year"
+    },
+    {
+      "pid": "officialLanguage",
+      "label": "officialLanguage",
+      "domain": "Airport",
+      "range": "Language"
+    }
+  ]
+}
