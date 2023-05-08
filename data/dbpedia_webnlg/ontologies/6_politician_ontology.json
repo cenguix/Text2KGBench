@@ -1,0 +1,324 @@
+{
+  "title": "Politician Ontology",
+  "id": "ont_6_politician",
+  "concepts": [
+    {
+      "qid": "Politician",
+      "label": "Politician"
+    },
+    {
+      "qid": "Commander",
+      "label": "Commander"
+    },
+    {
+      "qid": "Organisation",
+      "label": "Organisation"
+    },
+    {
+      "qid": "Monarch",
+      "label": "Monarch"
+    },
+    {
+      "qid": "Party",
+      "label": "Party"
+    },
+    {
+      "qid": "Office",
+      "label": "Office"
+    },
+    {
+      "qid": "Country",
+      "label": "Country"
+    },
+    {
+      "qid": "Religion",
+      "label": "Religion"
+    },
+    {
+      "qid": "Currency",
+      "label": "Currency"
+    },
+    {
+      "qid": "Profession",
+      "label": "Profession"
+    },
+    {
+      "qid": "Battle",
+      "label": "Battle"
+    },
+    {
+      "qid": "EthnicGroup",
+      "label": "EthnicGroup"
+    },
+    {
+      "qid": "MilitaryConflict",
+      "label": "MilitaryConflict"
+    },
+    {
+      "qid": "School",
+      "label": "School"
+    },
+    {
+      "qid": "City",
+      "label": "City"
+    },
+    {
+      "qid": "State",
+      "label": "State"
+    },
+    {
+      "qid": "Language",
+      "label": "Language"
+    },
+    {
+      "qid": "Award",
+      "label": "Award"
+    },
+    {
+      "qid": "Year",
+      "label": "Year"
+    }
+  ],
+  "relations": [
+    {
+      "pid": "governingBody",
+      "label": "governingBody",
+      "domain": "Politician",
+      "range": "Organisation"
+    },
+    {
+      "pid": "activeYearsEndDate",
+      "label": "activeYearsEndDate",
+      "domain": "Politician",
+      "range": "Date"
+    },
+    {
+      "pid": "commander",
+      "label": "commander",
+      "domain": "Politician",
+      "range": "Commander"
+    },
+    {
+      "pid": "deathDate",
+      "label": "deathDate",
+      "domain": "Politician",
+      "range": "Date"
+    },
+    {
+      "pid": "inOfficeWhileMonarch",
+      "label": "inOfficeWhileMonarch",
+      "domain": "Politician",
+      "range": "Monarch"
+    },
+    {
+      "pid": "party",
+      "label": "party",
+      "domain": "Politician",
+      "range": "Party"
+    },
+    {
+      "pid": "residence",
+      "label": "residence",
+      "domain": "Politician",
+      "range": "Place"
+    },
+    {
+      "pid": "office",
+      "label": "office",
+      "domain": "Politician",
+      "range": "Office"
+    },
+    {
+      "pid": "activeYearsStartDate",
+      "label": "activeYearsStartDate",
+      "domain": "Politician",
+      "range": "Date"
+    },
+    {
+      "pid": "predecessor",
+      "label": "predecessor",
+      "domain": "Politician",
+      "range": "Politician"
+    },
+    {
+      "pid": "birthPlace",
+      "label": "birthPlace",
+      "domain": "Politician",
+      "range": "Place"
+    },
+    {
+      "pid": "nationality",
+      "label": "nationality",
+      "domain": "Politician",
+      "range": "Country"
+    },
+    {
+      "pid": "deathPlace",
+      "label": "deathPlace",
+      "domain": "Politician",
+      "range": "Place"
+    },
+    {
+      "pid": "religion",
+      "label": "religion",
+      "domain": "Politician",
+      "range": "Religion"
+    },
+    {
+      "pid": "affiliation",
+      "label": "affiliation",
+      "domain": "Politician",
+      "range": "Organisation"
+    },
+    {
+      "pid": "currency",
+      "label": "currency",
+      "domain": "Country",
+      "range": "Currency"
+    },
+    {
+      "pid": "profession",
+      "label": "profession",
+      "domain": "Politician",
+      "range": "Profession"
+    },
+    {
+      "pid": "battle",
+      "label": "battle",
+      "domain": "Politician",
+      "range": "Battle"
+    },
+    {
+      "pid": "ethnicGroup",
+      "label": "ethnicGroup",
+      "domain": "Politician",
+      "range": "EthnicGroup"
+    },
+    {
+      "pid": "leader",
+      "label": "leader",
+      "domain": "Party",
+      "range": "Politician"
+    },
+    {
+      "pid": "place",
+      "label": "place",
+      "domain": "Politician",
+      "range": "Place"
+    },
+    {
+      "pid": "region",
+      "label": "region",
+      "domain": "Politician",
+      "range": "Place"
+    },
+    {
+      "pid": "hasDeputy",
+      "label": "hasDeputy",
+      "domain": "Politician",
+      "range": "Politician"
+    },
+    {
+      "pid": "inOfficeWhilePrimeMinister",
+      "label": "inOfficeWhilePrimeMinister",
+      "domain": "Politician",
+      "range": "Politician"
+    },
+    {
+      "pid": "inOfficeWhileGovernor",
+      "label": "inOfficeWhileGovernor",
+      "domain": "Politician",
+      "range": "Politician"
+    },
+    {
+      "pid": "successor",
+      "label": "successor",
+      "domain": "Politician",
+      "range": "Politician"
+    },
+    {
+      "pid": "inOfficeWhileVicePresident",
+      "label": "inOfficeWhileVicePresident",
+      "domain": "Politician",
+      "range": "Politician"
+    },
+    {
+      "pid": "inOfficeWhilePresident",
+      "label": "inOfficeWhilePresident",
+      "domain": "Politician",
+      "range": "Politician"
+    },
+    {
+      "pid": "spouse",
+      "label": "spouse",
+      "domain": "Politician",
+      "range": "Person"
+    },
+    {
+      "pid": "isPartOfMilitaryConflict",
+      "label": "isPartOfMilitaryConflict",
+      "domain": "Battle",
+      "range": "MilitaryConflict"
+    },
+    {
+      "pid": "almaMater",
+      "label": "almaMater",
+      "domain": "Politician",
+      "range": "School"
+    },
+    {
+      "pid": "country",
+      "label": "country",
+      "domain": "Politician",
+      "range": "Country"
+    },
+    {
+      "pid": "largestCity",
+      "label": "largestCity",
+      "domain": "Country",
+      "range": "City"
+    },
+    {
+      "pid": "birthYear",
+      "label": "birthYear",
+      "domain": "Politician",
+      "range": "Year"
+    },
+    {
+      "pid": "state",
+      "label": "state",
+      "domain": "Politician",
+      "range": "State"
+    },
+    {
+      "pid": "language",
+      "label": "language",
+      "domain": "Politician",
+      "range": "Language"
+    },
+    {
+      "pid": "militaryBranch",
+      "label": "militaryBranch",
+      "domain": "Politician",
+      "range": "Organisation"
+    },
+    {
+      "pid": "award",
+      "label": "award",
+      "domain": "Politician",
+      "range": "Award"
+    },
+    {
+      "pid": "deathYear",
+      "label": "deathYear",
+      "domain": "Politician",
+      "range": "Year"
+    },
+    {
+      "pid": "birthDate",
+      "label": "birthDate",
+      "domain": "Politician",
+      "range": "Date"
+    }
+  ]
+}

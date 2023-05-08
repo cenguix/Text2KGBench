@@ -1,0 +1,772 @@
+{
+ "ont_15_sportsteam_test_1": [
+  "ont_15_sportsteam_train_72",
+  "ont_15_sportsteam_train_121",
+  "ont_15_sportsteam_train_68",
+  "ont_15_sportsteam_train_13",
+  "ont_15_sportsteam_train_50"
+ ],
+ "ont_15_sportsteam_test_2": [
+  "ont_15_sportsteam_train_72",
+  "ont_15_sportsteam_train_112",
+  "ont_15_sportsteam_train_121",
+  "ont_15_sportsteam_train_71",
+  "ont_15_sportsteam_train_49"
+ ],
+ "ont_15_sportsteam_test_3": [
+  "ont_15_sportsteam_train_106",
+  "ont_15_sportsteam_train_3",
+  "ont_15_sportsteam_train_105",
+  "ont_15_sportsteam_train_74",
+  "ont_15_sportsteam_train_80"
+ ],
+ "ont_15_sportsteam_test_4": [
+  "ont_15_sportsteam_train_105",
+  "ont_15_sportsteam_train_108",
+  "ont_15_sportsteam_train_106",
+  "ont_15_sportsteam_train_107",
+  "ont_15_sportsteam_train_4"
+ ],
+ "ont_15_sportsteam_test_5": [
+  "ont_15_sportsteam_train_106",
+  "ont_15_sportsteam_train_79",
+  "ont_15_sportsteam_train_75",
+  "ont_15_sportsteam_train_77",
+  "ont_15_sportsteam_train_81"
+ ],
+ "ont_15_sportsteam_test_6": [
+  "ont_15_sportsteam_train_105",
+  "ont_15_sportsteam_train_108",
+  "ont_15_sportsteam_train_107",
+  "ont_15_sportsteam_train_106",
+  "ont_15_sportsteam_train_3"
+ ],
+ "ont_15_sportsteam_test_7": [
+  "ont_15_sportsteam_train_107",
+  "ont_15_sportsteam_train_108",
+  "ont_15_sportsteam_train_106",
+  "ont_15_sportsteam_train_105",
+  "ont_15_sportsteam_train_3"
+ ],
+ "ont_15_sportsteam_test_8": [
+  "ont_15_sportsteam_train_108",
+  "ont_15_sportsteam_train_107",
+  "ont_15_sportsteam_train_105",
+  "ont_15_sportsteam_train_106",
+  "ont_15_sportsteam_train_4"
+ ],
+ "ont_15_sportsteam_test_9": [
+  "ont_15_sportsteam_train_108",
+  "ont_15_sportsteam_train_4",
+  "ont_15_sportsteam_train_107",
+  "ont_15_sportsteam_train_105",
+  "ont_15_sportsteam_train_106"
+ ],
+ "ont_15_sportsteam_test_10": [
+  "ont_15_sportsteam_train_5",
+  "ont_15_sportsteam_train_105",
+  "ont_15_sportsteam_train_107",
+  "ont_15_sportsteam_train_108",
+  "ont_15_sportsteam_train_106"
+ ],
+ "ont_15_sportsteam_test_11": [
+  "ont_15_sportsteam_train_108",
+  "ont_15_sportsteam_train_4",
+  "ont_15_sportsteam_train_107",
+  "ont_15_sportsteam_train_105",
+  "ont_15_sportsteam_train_106"
+ ],
+ "ont_15_sportsteam_test_12": [
+  "ont_15_sportsteam_train_108",
+  "ont_15_sportsteam_train_105",
+  "ont_15_sportsteam_train_107",
+  "ont_15_sportsteam_train_76",
+  "ont_15_sportsteam_train_5"
+ ],
+ "ont_15_sportsteam_test_13": [
+  "ont_15_sportsteam_train_51",
+  "ont_15_sportsteam_train_53",
+  "ont_15_sportsteam_train_66",
+  "ont_15_sportsteam_train_52",
+  "ont_15_sportsteam_train_55"
+ ],
+ "ont_15_sportsteam_test_14": [
+  "ont_15_sportsteam_train_66",
+  "ont_15_sportsteam_train_65",
+  "ont_15_sportsteam_train_55",
+  "ont_15_sportsteam_train_51",
+  "ont_15_sportsteam_train_72"
+ ],
+ "ont_15_sportsteam_test_15": [
+  "ont_15_sportsteam_train_65",
+  "ont_15_sportsteam_train_66",
+  "ont_15_sportsteam_train_49",
+  "ont_15_sportsteam_train_35",
+  "ont_15_sportsteam_train_68"
+ ],
+ "ont_15_sportsteam_test_16": [
+  "ont_15_sportsteam_train_101",
+  "ont_15_sportsteam_train_18",
+  "ont_15_sportsteam_train_60",
+  "ont_15_sportsteam_train_17",
+  "ont_15_sportsteam_train_59"
+ ],
+ "ont_15_sportsteam_test_17": [
+  "ont_15_sportsteam_train_18",
+  "ont_15_sportsteam_train_56",
+  "ont_15_sportsteam_train_11",
+  "ont_15_sportsteam_train_17",
+  "ont_15_sportsteam_train_60"
+ ],
+ "ont_15_sportsteam_test_18": [
+  "ont_15_sportsteam_train_18",
+  "ont_15_sportsteam_train_56",
+  "ont_15_sportsteam_train_11",
+  "ont_15_sportsteam_train_17",
+  "ont_15_sportsteam_train_60"
+ ],
+ "ont_15_sportsteam_test_19": [
+  "ont_15_sportsteam_train_59",
+  "ont_15_sportsteam_train_60",
+  "ont_15_sportsteam_train_102",
+  "ont_15_sportsteam_train_57",
+  "ont_15_sportsteam_train_101"
+ ],
+ "ont_15_sportsteam_test_20": [
+  "ont_15_sportsteam_train_56",
+  "ont_15_sportsteam_train_18",
+  "ont_15_sportsteam_train_11",
+  "ont_15_sportsteam_train_79",
+  "ont_15_sportsteam_train_64"
+ ],
+ "ont_15_sportsteam_test_21": [
+  "ont_15_sportsteam_train_101",
+  "ont_15_sportsteam_train_60",
+  "ont_15_sportsteam_train_113",
+  "ont_15_sportsteam_train_102",
+  "ont_15_sportsteam_train_18"
+ ],
+ "ont_15_sportsteam_test_22": [
+  "ont_15_sportsteam_train_18",
+  "ont_15_sportsteam_train_56",
+  "ont_15_sportsteam_train_17",
+  "ont_15_sportsteam_train_60",
+  "ont_15_sportsteam_train_11"
+ ],
+ "ont_15_sportsteam_test_23": [
+  "ont_15_sportsteam_train_11",
+  "ont_15_sportsteam_train_18",
+  "ont_15_sportsteam_train_106",
+  "ont_15_sportsteam_train_56",
+  "ont_15_sportsteam_train_79"
+ ],
+ "ont_15_sportsteam_test_24": [
+  "ont_15_sportsteam_train_66",
+  "ont_15_sportsteam_train_65",
+  "ont_15_sportsteam_train_55",
+  "ont_15_sportsteam_train_51",
+  "ont_15_sportsteam_train_52"
+ ],
+ "ont_15_sportsteam_test_25": [
+  "ont_15_sportsteam_train_37",
+  "ont_15_sportsteam_train_38",
+  "ont_15_sportsteam_train_70",
+  "ont_15_sportsteam_train_67",
+  "ont_15_sportsteam_train_68"
+ ],
+ "ont_15_sportsteam_test_26": [
+  "ont_15_sportsteam_train_38",
+  "ont_15_sportsteam_train_37",
+  "ont_15_sportsteam_train_14",
+  "ont_15_sportsteam_train_55",
+  "ont_15_sportsteam_train_66"
+ ],
+ "ont_15_sportsteam_test_27": [
+  "ont_15_sportsteam_train_38",
+  "ont_15_sportsteam_train_37",
+  "ont_15_sportsteam_train_14",
+  "ont_15_sportsteam_train_67",
+  "ont_15_sportsteam_train_66"
+ ],
+ "ont_15_sportsteam_test_28": [
+  "ont_15_sportsteam_train_116",
+  "ont_15_sportsteam_train_45",
+  "ont_15_sportsteam_train_40",
+  "ont_15_sportsteam_train_44",
+  "ont_15_sportsteam_train_81"
+ ],
+ "ont_15_sportsteam_test_29": [
+  "ont_15_sportsteam_train_37",
+  "ont_15_sportsteam_train_38",
+  "ont_15_sportsteam_train_67",
+  "ont_15_sportsteam_train_66",
+  "ont_15_sportsteam_train_68"
+ ],
+ "ont_15_sportsteam_test_30": [
+  "ont_15_sportsteam_train_38",
+  "ont_15_sportsteam_train_37",
+  "ont_15_sportsteam_train_55",
+  "ont_15_sportsteam_train_68",
+  "ont_15_sportsteam_train_13"
+ ],
+ "ont_15_sportsteam_test_31": [
+  "ont_15_sportsteam_train_14",
+  "ont_15_sportsteam_train_51",
+  "ont_15_sportsteam_train_66",
+  "ont_15_sportsteam_train_13",
+  "ont_15_sportsteam_train_52"
+ ],
+ "ont_15_sportsteam_test_32": [
+  "ont_15_sportsteam_train_14",
+  "ont_15_sportsteam_train_66",
+  "ont_15_sportsteam_train_55",
+  "ont_15_sportsteam_train_65",
+  "ont_15_sportsteam_train_51"
+ ],
+ "ont_15_sportsteam_test_33": [
+  "ont_15_sportsteam_train_28",
+  "ont_15_sportsteam_train_27",
+  "ont_15_sportsteam_train_29",
+  "ont_15_sportsteam_train_33",
+  "ont_15_sportsteam_train_36"
+ ],
+ "ont_15_sportsteam_test_34": [
+  "ont_15_sportsteam_train_29",
+  "ont_15_sportsteam_train_36",
+  "ont_15_sportsteam_train_28",
+  "ont_15_sportsteam_train_27",
+  "ont_15_sportsteam_train_33"
+ ],
+ "ont_15_sportsteam_test_35": [
+  "ont_15_sportsteam_train_29",
+  "ont_15_sportsteam_train_35",
+  "ont_15_sportsteam_train_36",
+  "ont_15_sportsteam_train_28",
+  "ont_15_sportsteam_train_27"
+ ],
+ "ont_15_sportsteam_test_36": [
+  "ont_15_sportsteam_train_68",
+  "ont_15_sportsteam_train_35",
+  "ont_15_sportsteam_train_36",
+  "ont_15_sportsteam_train_55",
+  "ont_15_sportsteam_train_67"
+ ],
+ "ont_15_sportsteam_test_37": [
+  "ont_15_sportsteam_train_123",
+  "ont_15_sportsteam_train_67",
+  "ont_15_sportsteam_train_124",
+  "ont_15_sportsteam_train_81",
+  "ont_15_sportsteam_train_82"
+ ],
+ "ont_15_sportsteam_test_38": [
+  "ont_15_sportsteam_train_67",
+  "ont_15_sportsteam_train_123",
+  "ont_15_sportsteam_train_82",
+  "ont_15_sportsteam_train_68",
+  "ont_15_sportsteam_train_76"
+ ],
+ "ont_15_sportsteam_test_39": [
+  "ont_15_sportsteam_train_123",
+  "ont_15_sportsteam_train_67",
+  "ont_15_sportsteam_train_82",
+  "ont_15_sportsteam_train_76",
+  "ont_15_sportsteam_train_81"
+ ],
+ "ont_15_sportsteam_test_40": [
+  "ont_15_sportsteam_train_123",
+  "ont_15_sportsteam_train_67",
+  "ont_15_sportsteam_train_82",
+  "ont_15_sportsteam_train_36",
+  "ont_15_sportsteam_train_68"
+ ],
+ "ont_15_sportsteam_test_41": [
+  "ont_15_sportsteam_train_123",
+  "ont_15_sportsteam_train_67",
+  "ont_15_sportsteam_train_81",
+  "ont_15_sportsteam_train_76",
+  "ont_15_sportsteam_train_124"
+ ],
+ "ont_15_sportsteam_test_42": [
+  "ont_15_sportsteam_train_67",
+  "ont_15_sportsteam_train_68",
+  "ont_15_sportsteam_train_72",
+  "ont_15_sportsteam_train_66",
+  "ont_15_sportsteam_train_65"
+ ],
+ "ont_15_sportsteam_test_43": [
+  "ont_15_sportsteam_train_67",
+  "ont_15_sportsteam_train_68",
+  "ont_15_sportsteam_train_72",
+  "ont_15_sportsteam_train_66",
+  "ont_15_sportsteam_train_35"
+ ],
+ "ont_15_sportsteam_test_44": [
+  "ont_15_sportsteam_train_9",
+  "ont_15_sportsteam_train_10",
+  "ont_15_sportsteam_train_6",
+  "ont_15_sportsteam_train_82",
+  "ont_15_sportsteam_train_7"
+ ],
+ "ont_15_sportsteam_test_45": [
+  "ont_15_sportsteam_train_9",
+  "ont_15_sportsteam_train_10",
+  "ont_15_sportsteam_train_6",
+  "ont_15_sportsteam_train_111",
+  "ont_15_sportsteam_train_104"
+ ],
+ "ont_15_sportsteam_test_46": [
+  "ont_15_sportsteam_train_71",
+  "ont_15_sportsteam_train_70",
+  "ont_15_sportsteam_train_8",
+  "ont_15_sportsteam_train_65",
+  "ont_15_sportsteam_train_72"
+ ],
+ "ont_15_sportsteam_test_47": [
+  "ont_15_sportsteam_train_9",
+  "ont_15_sportsteam_train_10",
+  "ont_15_sportsteam_train_6",
+  "ont_15_sportsteam_train_82",
+  "ont_15_sportsteam_train_35"
+ ],
+ "ont_15_sportsteam_test_48": [
+  "ont_15_sportsteam_train_10",
+  "ont_15_sportsteam_train_9",
+  "ont_15_sportsteam_train_6",
+  "ont_15_sportsteam_train_111",
+  "ont_15_sportsteam_train_82"
+ ],
+ "ont_15_sportsteam_test_49": [
+  "ont_15_sportsteam_train_121",
+  "ont_15_sportsteam_train_72",
+  "ont_15_sportsteam_train_69",
+  "ont_15_sportsteam_train_50",
+  "ont_15_sportsteam_train_65"
+ ],
+ "ont_15_sportsteam_test_50": [
+  "ont_15_sportsteam_train_65",
+  "ont_15_sportsteam_train_121",
+  "ont_15_sportsteam_train_72",
+  "ont_15_sportsteam_train_71",
+  "ont_15_sportsteam_train_69"
+ ],
+ "ont_15_sportsteam_test_51": [
+  "ont_15_sportsteam_train_121",
+  "ont_15_sportsteam_train_72",
+  "ont_15_sportsteam_train_69",
+  "ont_15_sportsteam_train_65",
+  "ont_15_sportsteam_train_70"
+ ],
+ "ont_15_sportsteam_test_52": [
+  "ont_15_sportsteam_train_72",
+  "ont_15_sportsteam_train_121",
+  "ont_15_sportsteam_train_69",
+  "ont_15_sportsteam_train_66",
+  "ont_15_sportsteam_train_71"
+ ],
+ "ont_15_sportsteam_test_53": [
+  "ont_15_sportsteam_train_121",
+  "ont_15_sportsteam_train_72",
+  "ont_15_sportsteam_train_69",
+  "ont_15_sportsteam_train_66",
+  "ont_15_sportsteam_train_70"
+ ],
+ "ont_15_sportsteam_test_54": [
+  "ont_15_sportsteam_train_57",
+  "ont_15_sportsteam_train_113",
+  "ont_15_sportsteam_train_102",
+  "ont_15_sportsteam_train_104",
+  "ont_15_sportsteam_train_62"
+ ],
+ "ont_15_sportsteam_test_55": [
+  "ont_15_sportsteam_train_11",
+  "ont_15_sportsteam_train_106",
+  "ont_15_sportsteam_train_101",
+  "ont_15_sportsteam_train_63",
+  "ont_15_sportsteam_train_64"
+ ],
+ "ont_15_sportsteam_test_56": [
+  "ont_15_sportsteam_train_111",
+  "ont_15_sportsteam_train_109",
+  "ont_15_sportsteam_train_110",
+  "ont_15_sportsteam_train_6",
+  "ont_15_sportsteam_train_9"
+ ],
+ "ont_15_sportsteam_test_57": [
+  "ont_15_sportsteam_train_111",
+  "ont_15_sportsteam_train_110",
+  "ont_15_sportsteam_train_94",
+  "ont_15_sportsteam_train_109",
+  "ont_15_sportsteam_train_92"
+ ],
+ "ont_15_sportsteam_test_58": [
+  "ont_15_sportsteam_train_111",
+  "ont_15_sportsteam_train_110",
+  "ont_15_sportsteam_train_9",
+  "ont_15_sportsteam_train_109",
+  "ont_15_sportsteam_train_10"
+ ],
+ "ont_15_sportsteam_test_59": [
+  "ont_15_sportsteam_train_10",
+  "ont_15_sportsteam_train_9",
+  "ont_15_sportsteam_train_6",
+  "ont_15_sportsteam_train_8",
+  "ont_15_sportsteam_train_110"
+ ],
+ "ont_15_sportsteam_test_60": [
+  "ont_15_sportsteam_train_71",
+  "ont_15_sportsteam_train_124",
+  "ont_15_sportsteam_train_121",
+  "ont_15_sportsteam_train_112",
+  "ont_15_sportsteam_train_72"
+ ],
+ "ont_15_sportsteam_test_61": [
+  "ont_15_sportsteam_train_71",
+  "ont_15_sportsteam_train_124",
+  "ont_15_sportsteam_train_112",
+  "ont_15_sportsteam_train_7",
+  "ont_15_sportsteam_train_121"
+ ],
+ "ont_15_sportsteam_test_62": [
+  "ont_15_sportsteam_train_72",
+  "ont_15_sportsteam_train_71",
+  "ont_15_sportsteam_train_121",
+  "ont_15_sportsteam_train_55",
+  "ont_15_sportsteam_train_70"
+ ],
+ "ont_15_sportsteam_test_63": [
+  "ont_15_sportsteam_train_10",
+  "ont_15_sportsteam_train_6",
+  "ont_15_sportsteam_train_9",
+  "ont_15_sportsteam_train_109",
+  "ont_15_sportsteam_train_111"
+ ],
+ "ont_15_sportsteam_test_64": [
+  "ont_15_sportsteam_train_55",
+  "ont_15_sportsteam_train_14",
+  "ont_15_sportsteam_train_72",
+  "ont_15_sportsteam_train_121",
+  "ont_15_sportsteam_train_71"
+ ],
+ "ont_15_sportsteam_test_65": [
+  "ont_15_sportsteam_train_10",
+  "ont_15_sportsteam_train_6",
+  "ont_15_sportsteam_train_9",
+  "ont_15_sportsteam_train_65",
+  "ont_15_sportsteam_train_110"
+ ],
+ "ont_15_sportsteam_test_66": [
+  "ont_15_sportsteam_train_9",
+  "ont_15_sportsteam_train_10",
+  "ont_15_sportsteam_train_6",
+  "ont_15_sportsteam_train_7",
+  "ont_15_sportsteam_train_8"
+ ],
+ "ont_15_sportsteam_test_67": [
+  "ont_15_sportsteam_train_71",
+  "ont_15_sportsteam_train_121",
+  "ont_15_sportsteam_train_72",
+  "ont_15_sportsteam_train_69",
+  "ont_15_sportsteam_train_70"
+ ],
+ "ont_15_sportsteam_test_68": [
+  "ont_15_sportsteam_train_65",
+  "ont_15_sportsteam_train_71",
+  "ont_15_sportsteam_train_10",
+  "ont_15_sportsteam_train_121",
+  "ont_15_sportsteam_train_72"
+ ],
+ "ont_15_sportsteam_test_69": [
+  "ont_15_sportsteam_train_71",
+  "ont_15_sportsteam_train_8",
+  "ont_15_sportsteam_train_112",
+  "ont_15_sportsteam_train_7",
+  "ont_15_sportsteam_train_55"
+ ],
+ "ont_15_sportsteam_test_70": [
+  "ont_15_sportsteam_train_121",
+  "ont_15_sportsteam_train_71",
+  "ont_15_sportsteam_train_72",
+  "ont_15_sportsteam_train_70",
+  "ont_15_sportsteam_train_69"
+ ],
+ "ont_15_sportsteam_test_71": [
+  "ont_15_sportsteam_train_71",
+  "ont_15_sportsteam_train_14",
+  "ont_15_sportsteam_train_13",
+  "ont_15_sportsteam_train_112",
+  "ont_15_sportsteam_train_7"
+ ],
+ "ont_15_sportsteam_test_72": [
+  "ont_15_sportsteam_train_10",
+  "ont_15_sportsteam_train_111",
+  "ont_15_sportsteam_train_6",
+  "ont_15_sportsteam_train_9",
+  "ont_15_sportsteam_train_109"
+ ],
+ "ont_15_sportsteam_test_73": [
+  "ont_15_sportsteam_train_121",
+  "ont_15_sportsteam_train_72",
+  "ont_15_sportsteam_train_69",
+  "ont_15_sportsteam_train_71",
+  "ont_15_sportsteam_train_70"
+ ],
+ "ont_15_sportsteam_test_74": [
+  "ont_15_sportsteam_train_71",
+  "ont_15_sportsteam_train_65",
+  "ont_15_sportsteam_train_8",
+  "ont_15_sportsteam_train_55",
+  "ont_15_sportsteam_train_70"
+ ],
+ "ont_15_sportsteam_test_75": [
+  "ont_15_sportsteam_train_10",
+  "ont_15_sportsteam_train_9",
+  "ont_15_sportsteam_train_6",
+  "ont_15_sportsteam_train_36",
+  "ont_15_sportsteam_train_35"
+ ],
+ "ont_15_sportsteam_test_76": [
+  "ont_15_sportsteam_train_10",
+  "ont_15_sportsteam_train_9",
+  "ont_15_sportsteam_train_6",
+  "ont_15_sportsteam_train_111",
+  "ont_15_sportsteam_train_124"
+ ],
+ "ont_15_sportsteam_test_77": [
+  "ont_15_sportsteam_train_10",
+  "ont_15_sportsteam_train_9",
+  "ont_15_sportsteam_train_6",
+  "ont_15_sportsteam_train_8",
+  "ont_15_sportsteam_train_7"
+ ],
+ "ont_15_sportsteam_test_78": [
+  "ont_15_sportsteam_train_72",
+  "ont_15_sportsteam_train_121",
+  "ont_15_sportsteam_train_71",
+  "ont_15_sportsteam_train_69",
+  "ont_15_sportsteam_train_70"
+ ],
+ "ont_15_sportsteam_test_79": [
+  "ont_15_sportsteam_train_71",
+  "ont_15_sportsteam_train_72",
+  "ont_15_sportsteam_train_65",
+  "ont_15_sportsteam_train_70",
+  "ont_15_sportsteam_train_7"
+ ],
+ "ont_15_sportsteam_test_80": [
+  "ont_15_sportsteam_train_14",
+  "ont_15_sportsteam_train_10",
+  "ont_15_sportsteam_train_109",
+  "ont_15_sportsteam_train_123",
+  "ont_15_sportsteam_train_6"
+ ],
+ "ont_15_sportsteam_test_81": [
+  "ont_15_sportsteam_train_71",
+  "ont_15_sportsteam_train_65",
+  "ont_15_sportsteam_train_10",
+  "ont_15_sportsteam_train_72",
+  "ont_15_sportsteam_train_112"
+ ],
+ "ont_15_sportsteam_test_82": [
+  "ont_15_sportsteam_train_72",
+  "ont_15_sportsteam_train_71",
+  "ont_15_sportsteam_train_70",
+  "ont_15_sportsteam_train_121",
+  "ont_15_sportsteam_train_7"
+ ],
+ "ont_15_sportsteam_test_83": [
+  "ont_15_sportsteam_train_71",
+  "ont_15_sportsteam_train_14",
+  "ont_15_sportsteam_train_72",
+  "ont_15_sportsteam_train_121",
+  "ont_15_sportsteam_train_55"
+ ],
+ "ont_15_sportsteam_test_84": [
+  "ont_15_sportsteam_train_71",
+  "ont_15_sportsteam_train_72",
+  "ont_15_sportsteam_train_121",
+  "ont_15_sportsteam_train_69",
+  "ont_15_sportsteam_train_70"
+ ],
+ "ont_15_sportsteam_test_85": [
+  "ont_15_sportsteam_train_121",
+  "ont_15_sportsteam_train_72",
+  "ont_15_sportsteam_train_7",
+  "ont_15_sportsteam_train_71",
+  "ont_15_sportsteam_train_8"
+ ],
+ "ont_15_sportsteam_test_86": [
+  "ont_15_sportsteam_train_72",
+  "ont_15_sportsteam_train_71",
+  "ont_15_sportsteam_train_121",
+  "ont_15_sportsteam_train_69",
+  "ont_15_sportsteam_train_70"
+ ],
+ "ont_15_sportsteam_test_87": [
+  "ont_15_sportsteam_train_71",
+  "ont_15_sportsteam_train_70",
+  "ont_15_sportsteam_train_55",
+  "ont_15_sportsteam_train_72",
+  "ont_15_sportsteam_train_121"
+ ],
+ "ont_15_sportsteam_test_88": [
+  "ont_15_sportsteam_train_72",
+  "ont_15_sportsteam_train_121",
+  "ont_15_sportsteam_train_69",
+  "ont_15_sportsteam_train_71",
+  "ont_15_sportsteam_train_14"
+ ],
+ "ont_15_sportsteam_test_89": [
+  "ont_15_sportsteam_train_10",
+  "ont_15_sportsteam_train_9",
+  "ont_15_sportsteam_train_6",
+  "ont_15_sportsteam_train_65",
+  "ont_15_sportsteam_train_36"
+ ],
+ "ont_15_sportsteam_test_90": [
+  "ont_15_sportsteam_train_71",
+  "ont_15_sportsteam_train_124",
+  "ont_15_sportsteam_train_112",
+  "ont_15_sportsteam_train_55",
+  "ont_15_sportsteam_train_8"
+ ],
+ "ont_15_sportsteam_test_91": [
+  "ont_15_sportsteam_train_65",
+  "ont_15_sportsteam_train_121",
+  "ont_15_sportsteam_train_72",
+  "ont_15_sportsteam_train_71",
+  "ont_15_sportsteam_train_55"
+ ],
+ "ont_15_sportsteam_test_92": [
+  "ont_15_sportsteam_train_71",
+  "ont_15_sportsteam_train_8",
+  "ont_15_sportsteam_train_70",
+  "ont_15_sportsteam_train_65",
+  "ont_15_sportsteam_train_55"
+ ],
+ "ont_15_sportsteam_test_93": [
+  "ont_15_sportsteam_train_9",
+  "ont_15_sportsteam_train_10",
+  "ont_15_sportsteam_train_6",
+  "ont_15_sportsteam_train_7",
+  "ont_15_sportsteam_train_8"
+ ],
+ "ont_15_sportsteam_test_94": [
+  "ont_15_sportsteam_train_71",
+  "ont_15_sportsteam_train_70",
+  "ont_15_sportsteam_train_121",
+  "ont_15_sportsteam_train_72",
+  "ont_15_sportsteam_train_69"
+ ],
+ "ont_15_sportsteam_test_95": [
+  "ont_15_sportsteam_train_71",
+  "ont_15_sportsteam_train_112",
+  "ont_15_sportsteam_train_70",
+  "ont_15_sportsteam_train_7",
+  "ont_15_sportsteam_train_72"
+ ],
+ "ont_15_sportsteam_test_96": [
+  "ont_15_sportsteam_train_71",
+  "ont_15_sportsteam_train_8",
+  "ont_15_sportsteam_train_7",
+  "ont_15_sportsteam_train_55",
+  "ont_15_sportsteam_train_112"
+ ],
+ "ont_15_sportsteam_test_97": [
+  "ont_15_sportsteam_train_65",
+  "ont_15_sportsteam_train_14",
+  "ont_15_sportsteam_train_110",
+  "ont_15_sportsteam_train_10",
+  "ont_15_sportsteam_train_71"
+ ],
+ "ont_15_sportsteam_test_98": [
+  "ont_15_sportsteam_train_9",
+  "ont_15_sportsteam_train_10",
+  "ont_15_sportsteam_train_6",
+  "ont_15_sportsteam_train_7",
+  "ont_15_sportsteam_train_8"
+ ],
+ "ont_15_sportsteam_test_99": [
+  "ont_15_sportsteam_train_10",
+  "ont_15_sportsteam_train_14",
+  "ont_15_sportsteam_train_65",
+  "ont_15_sportsteam_train_110",
+  "ont_15_sportsteam_train_123"
+ ],
+ "ont_15_sportsteam_test_100": [
+  "ont_15_sportsteam_train_9",
+  "ont_15_sportsteam_train_10",
+  "ont_15_sportsteam_train_6",
+  "ont_15_sportsteam_train_8",
+  "ont_15_sportsteam_train_110"
+ ],
+ "ont_15_sportsteam_test_101": [
+  "ont_15_sportsteam_train_10",
+  "ont_15_sportsteam_train_9",
+  "ont_15_sportsteam_train_6",
+  "ont_15_sportsteam_train_8",
+  "ont_15_sportsteam_train_110"
+ ],
+ "ont_15_sportsteam_test_102": [
+  "ont_15_sportsteam_train_9",
+  "ont_15_sportsteam_train_10",
+  "ont_15_sportsteam_train_6",
+  "ont_15_sportsteam_train_35",
+  "ont_15_sportsteam_train_36"
+ ],
+ "ont_15_sportsteam_test_103": [
+  "ont_15_sportsteam_train_66",
+  "ont_15_sportsteam_train_65",
+  "ont_15_sportsteam_train_55",
+  "ont_15_sportsteam_train_51",
+  "ont_15_sportsteam_train_52"
+ ],
+ "ont_15_sportsteam_test_104": [
+  "ont_15_sportsteam_train_38",
+  "ont_15_sportsteam_train_37",
+  "ont_15_sportsteam_train_14",
+  "ont_15_sportsteam_train_67",
+  "ont_15_sportsteam_train_66"
+ ],
+ "ont_15_sportsteam_test_105": [
+  "ont_15_sportsteam_train_14",
+  "ont_15_sportsteam_train_52",
+  "ont_15_sportsteam_train_51",
+  "ont_15_sportsteam_train_66",
+  "ont_15_sportsteam_train_55"
+ ],
+ "ont_15_sportsteam_test_106": [
+  "ont_15_sportsteam_train_36",
+  "ont_15_sportsteam_train_35",
+  "ont_15_sportsteam_train_55",
+  "ont_15_sportsteam_train_28",
+  "ont_15_sportsteam_train_27"
+ ],
+ "ont_15_sportsteam_test_107": [
+  "ont_15_sportsteam_train_68",
+  "ont_15_sportsteam_train_67",
+  "ont_15_sportsteam_train_35",
+  "ont_15_sportsteam_train_72",
+  "ont_15_sportsteam_train_65"
+ ],
+ "ont_15_sportsteam_test_108": [
+  "ont_15_sportsteam_train_6",
+  "ont_15_sportsteam_train_10",
+  "ont_15_sportsteam_train_9",
+  "ont_15_sportsteam_train_111",
+  "ont_15_sportsteam_train_110"
+ ],
+ "ont_15_sportsteam_test_109": [
+  "ont_15_sportsteam_train_6",
+  "ont_15_sportsteam_train_10",
+  "ont_15_sportsteam_train_9",
+  "ont_15_sportsteam_train_111",
+  "ont_15_sportsteam_train_109"
+ ],
+ "ont_15_sportsteam_test_110": [
+  "ont_15_sportsteam_train_33",
+  "ont_15_sportsteam_train_29",
+  "ont_15_sportsteam_train_28",
+  "ont_15_sportsteam_train_27",
+  "ont_15_sportsteam_train_36"
+ ]
+}

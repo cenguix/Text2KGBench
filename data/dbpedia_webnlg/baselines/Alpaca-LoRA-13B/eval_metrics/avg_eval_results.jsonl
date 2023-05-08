@@ -1,0 +1,1 @@
+{"onto": "1_university", "type": "all_test_cases", "avg_precision": "0.29", "avg_recall": "0.16", "avg_f1": "0.20", "avg_onto_conf": "0.89", "avg_sub_halluc": "0.13", "avg_rel_halluc": "0.11", "avg_obj_halluc": "0.26"}

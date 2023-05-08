@@ -1,0 +1,292 @@
+{
+  "title": "Building Ontology",
+  "id": "ont_4_building",
+  "concepts": [
+    {
+      "qid": "Building",
+      "label": "Building"
+    },
+    {
+      "qid": "Organisation",
+      "label": "Organisation"
+    },
+    {
+      "qid": "Tenant",
+      "label": "Tenant"
+    },
+    {
+      "qid": "Architecture",
+      "label": "Architecture"
+    },
+    {
+      "qid": "City",
+      "label": "City"
+    },
+    {
+      "qid": "Person",
+      "label": "Person"
+    },
+    {
+      "qid": "Demonym",
+      "label": "Demonym"
+    },
+    {
+      "qid": "Place",
+      "label": "Place"
+    },
+    {
+      "qid": "Currency",
+      "label": "Currency"
+    },
+    {
+      "qid": "ArchitecturalStyle",
+      "label": "ArchitecturalStyle"
+    },
+    {
+      "qid": "EthnicGroup",
+      "label": "EthnicGroup"
+    },
+    {
+      "qid": "Country",
+      "label": "Country"
+    },
+    {
+      "qid": "Language",
+      "label": "Language"
+    },
+    {
+      "qid": "State",
+      "label": "State"
+    }
+  ],
+  "relations": [
+    {
+      "pid": "governingBody",
+      "label": "governingBody",
+      "domain": "Building",
+      "range": "Organisation"
+    },
+    {
+      "pid": "currentTenants",
+      "label": "currentTenants",
+      "domain": "Building",
+      "range": "Tenant"
+    },
+    {
+      "pid": "completionDate",
+      "label": "completionDate",
+      "domain": "Building",
+      "range": "Date"
+    },
+    {
+      "pid": "architecture",
+      "label": "architecture",
+      "domain": "Building",
+      "range": "Architecture"
+    },
+    {
+      "pid": "capital",
+      "label": "capital",
+      "domain": "Building",
+      "range": "City"
+    },
+    {
+      "pid": "chancellor",
+      "label": "chancellor",
+      "domain": "Building",
+      "range": "Person"
+    },
+    {
+      "pid": "demonym",
+      "label": "demonym",
+      "domain": "Building",
+      "range": "Demonym"
+    },
+    {
+      "pid": "birthPlace",
+      "label": "birthPlace",
+      "domain": "Building",
+      "range": "Place"
+    },
+    {
+      "pid": "floorArea",
+      "label": "floorArea",
+      "domain": "Building",
+      "range": "number"
+    },
+    {
+      "pid": "deathPlace",
+      "label": "deathPlace",
+      "domain": "Building",
+      "range": "Place"
+    },
+    {
+      "pid": "location",
+      "label": "location",
+      "domain": "Building",
+      "range": "Place"
+    },
+    {
+      "pid": "owner",
+      "label": "owner",
+      "domain": "Building",
+      "range": "Person"
+    },
+    {
+      "pid": "currency",
+      "label": "currency",
+      "domain": "Building",
+      "range": "Currency"
+    },
+    {
+      "pid": "tenant",
+      "label": "tenant",
+      "domain": "Building",
+      "range": "Tenant"
+    },
+    {
+      "pid": "origin",
+      "label": "origin",
+      "domain": "Building",
+      "range": "Place"
+    },
+    {
+      "pid": "architecturalStyle",
+      "label": "architecturalStyle",
+      "domain": "Building",
+      "range": "ArchitecturalStyle"
+    },
+    {
+      "pid": "leaderTitle",
+      "label": "leaderTitle",
+      "domain": "Person",
+      "range": "string"
+    },
+    {
+      "pid": "cost",
+      "label": "cost",
+      "domain": "Building",
+      "range": "number"
+    },
+    {
+      "pid": "buildingStartDate",
+      "label": "buildingStartDate",
+      "domain": "Building",
+      "range": "Date"
+    },
+    {
+      "pid": "ethnicGroup",
+      "label": "ethnicGroup",
+      "domain": "Building",
+      "range": "ethnicGroup"
+    },
+    {
+      "pid": "addedToTheNationalRegisterOfHistoricPlaces",
+      "label": "addedToTheNationalRegisterOfHistoricPlaces",
+      "domain": "Building",
+      "range": "Country"
+    },
+    {
+      "pid": "leader",
+      "label": "leader",
+      "domain": "Building",
+      "range": "Person"
+    },
+    {
+      "pid": "isPartOf",
+      "label": "isPartOf",
+      "domain": "Building",
+      "range": "Organisation"
+    },
+    {
+      "pid": "region",
+      "label": "region",
+      "domain": "Building",
+      "range": "Place"
+    },
+    {
+      "pid": "yearOfConstruction",
+      "label": "yearOfConstruction",
+      "domain": "Building",
+      "range": "Year"
+    },
+    {
+      "pid": "architect",
+      "label": "architect",
+      "domain": "Building",
+      "range": "Person"
+    },
+    {
+      "pid": "inaugurationDate",
+      "label": "inaugurationDate",
+      "domain": "Building",
+      "range": "Date"
+    },
+    {
+      "pid": "foundationPlace",
+      "label": "foundationPlace",
+      "domain": "Building",
+      "range": "Place"
+    },
+    {
+      "pid": "bedCount",
+      "label": "bedCount",
+      "domain": "Building",
+      "range": "number"
+    },
+    {
+      "pid": "country",
+      "label": "country",
+      "domain": "Building",
+      "range": "Country"
+    },
+    {
+      "pid": "height",
+      "label": "height",
+      "domain": "Building",
+      "range": "number"
+    },
+    {
+      "pid": "floorCount",
+      "label": "floorCount",
+      "domain": "Building",
+      "range": "number"
+    },
+    {
+      "pid": "language",
+      "label": "language",
+      "domain": "Building",
+      "range": "Language"
+    },
+    {
+      "pid": "state",
+      "label": "state",
+      "domain": "Building",
+      "range": "State"
+    },
+    {
+      "pid": "keyPerson",
+      "label": "keyPerson",
+      "domain": "Building",
+      "range": "Person"
+    },
+    {
+      "pid": "significantBuilding",
+      "label": "significantBuilding",
+      "domain": "Building",
+      "range": "Building"
+    },
+    {
+      "pid": "address",
+      "label": "address",
+      "domain": "Building",
+      "range": "string"
+    },
+    {
+      "pid": "NationalRegisterOfHistoricPlacesReferenceNumber",
+      "label": "NationalRegisterOfHistoricPlacesReferenceNumber",
+      "domain": "Building",
+      "range": "string"
+    }
+  ]
+}

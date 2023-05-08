@@ -1,0 +1,312 @@
+{
+  "title": "WrittenWork Ontology",
+  "id": "ont_14_writtenwork",
+  "concepts": [
+    {
+      "qid": "WrittenWork",
+      "label": "WrittenWork"
+    },
+    {
+      "qid": "Genre",
+      "label": "Genre"
+    },
+    {
+      "qid": "Country",
+      "label": "Country"
+    },
+    {
+      "qid": "City",
+      "label": "City"
+    },
+    {
+      "qid": "MediaType",
+      "label": "MediaType"
+    },
+    {
+      "qid": "Company",
+      "label": "Company"
+    },
+    {
+      "qid": "Person",
+      "label": "Person"
+    },
+    {
+      "qid": "Place",
+      "label": "Place"
+    },
+    {
+      "qid": "Organisation",
+      "label": "Organisation"
+    },
+    {
+      "qid": "AcademicDiscipline",
+      "label": "AcademicDiscipline"
+    }
+  ],
+  "relations": [
+    {
+      "pid": "numberOfPages",
+      "label": "numberOfPages",
+      "domain": "WrittenWork",
+      "range": "number"
+    },
+    {
+      "pid": "genre",
+      "label": "genre",
+      "domain": "WrittenWork",
+      "range": "Genre"
+    },
+    {
+      "pid": "capital",
+      "label": "capital",
+      "domain": "Country",
+      "range": "City"
+    },
+    {
+      "pid": "mediaType",
+      "label": "mediaType",
+      "domain": "WrittenWork",
+      "range": "MediaType"
+    },
+    {
+      "pid": "parentCompany",
+      "label": "parentCompany",
+      "domain": "Company",
+      "range": "Company"
+    },
+    {
+      "pid": "residence",
+      "label": "residence",
+      "domain": "Person",
+      "range": "City"
+    },
+    {
+      "pid": "releaseDate",
+      "label": "releaseDate",
+      "domain": "WrittenWork",
+      "range": "Date"
+    },
+    {
+      "pid": "headquarter",
+      "label": "headquarter",
+      "domain": "Company",
+      "range": "City"
+    },
+    {
+      "pid": "birthPlace",
+      "label": "birthPlace",
+      "domain": "Person",
+      "range": "Place"
+    },
+    {
+      "pid": "impactFactor",
+      "label": "impactFactor",
+      "domain": "WrittenWork",
+      "range": "number"
+    },
+    {
+      "pid": "issnNumber",
+      "label": "issnNumber",
+      "domain": "WrittenWork",
+      "range": "number"
+    },
+    {
+      "pid": "isbnNumber",
+      "label": "isbnNumber",
+      "domain": "WrittenWork",
+      "range": "number"
+    },
+    {
+      "pid": "nationality",
+      "label": "nationality",
+      "domain": "Person",
+      "range": "Country"
+    },
+    {
+      "pid": "abbreviation",
+      "label": "abbreviation",
+      "domain": "WrittenWork",
+      "range": "string"
+    },
+    {
+      "pid": "regionServed",
+      "label": "regionServed",
+      "domain": "WrittenWork",
+      "range": "Place"
+    },
+    {
+      "pid": "affiliation",
+      "label": "affiliation",
+      "domain": "Person",
+      "range": "Organisation"
+    },
+    {
+      "pid": "oclcNumber",
+      "label": "oclcNumber",
+      "domain": "WrittenWork",
+      "range": "number"
+    },
+    {
+      "pid": "literaryGenre",
+      "label": "literaryGenre",
+      "domain": "WrittenWork",
+      "range": "Genre"
+    },
+    {
+      "pid": "libraryofCongressClassification",
+      "label": "libraryofCongressClassification",
+      "domain": "WrittenWork",
+      "range": "string"
+    },
+    {
+      "pid": "leaderTitle",
+      "label": "leaderTitle",
+      "domain": "Country",
+      "range": "string"
+    },
+    {
+      "pid": "academicDiscipline",
+      "label": "academicDiscipline",
+      "domain": "WrittenWork",
+      "range": "AcademicDiscipline"
+    },
+    {
+      "pid": "ethnicGroup",
+      "label": "ethnicGroup",
+      "domain": "Country",
+      "range": "EthnicGroup"
+    },
+    {
+      "pid": "firstPublicationYear",
+      "label": "firstPublicationYear",
+      "domain": "WrittenWork",
+      "range": "Year"
+    },
+    {
+      "pid": "author",
+      "label": "author",
+      "domain": "WrittenWork",
+      "range": "Person"
+    },
+    {
+      "pid": "leader",
+      "label": "leader",
+      "domain": "Country",
+      "range": "Person"
+    },
+    {
+      "pid": "city",
+      "label": "city",
+      "domain": "Company",
+      "range": "City"
+    },
+    {
+      "pid": "notableWork",
+      "label": "notableWork",
+      "domain": "Person",
+      "range": "WrittenWork"
+    },
+    {
+      "pid": "followedBy",
+      "label": "followedBy",
+      "domain": "WrittenWork",
+      "range": "WrittenWork"
+    },
+    {
+      "pid": "president",
+      "label": "president",
+      "domain": "Country",
+      "range": "Person"
+    },
+    {
+      "pid": "precededBy",
+      "label": "precededBy",
+      "domain": "WrittenWork",
+      "range": "WrittenWork"
+    },
+    {
+      "pid": "doctoralAdvisor",
+      "label": "doctoralAdvisor",
+      "domain": "Person",
+      "range": "Person"
+    },
+    {
+      "pid": "frequency",
+      "label": "frequency",
+      "domain": "WrittenWork",
+      "range": "number"
+    },
+    {
+      "pid": "spokenIn",
+      "label": "spokenIn",
+      "domain": "Language",
+      "range": "Country"
+    },
+    {
+      "pid": "almaMater",
+      "label": "almaMater",
+      "domain": "Person",
+      "range": "School"
+    },
+    {
+      "pid": "country",
+      "label": "country",
+      "domain": "WrittenWork",
+      "range": "Country"
+    },
+    {
+      "pid": "publisher",
+      "label": "publisher",
+      "domain": "WrittenWork",
+      "range": "Company"
+    },
+    {
+      "pid": "editor",
+      "label": "editor",
+      "domain": "WrittenWork",
+      "range": "Person"
+    },
+    {
+      "pid": "LCCN_number",
+      "label": "LCCN_number",
+      "domain": "WrittenWork",
+      "range": "number"
+    },
+    {
+      "pid": "language",
+      "label": "language",
+      "domain": "WrittenWork",
+      "range": "Language"
+    },
+    {
+      "pid": "codenCode",
+      "label": "codenCode",
+      "domain": "WrittenWork",
+      "range": "string"
+    },
+    {
+      "pid": "state",
+      "label": "state",
+      "domain": "City",
+      "range": "State"
+    },
+    {
+      "pid": "birthDate",
+      "label": "birthDate",
+      "domain": "Person",
+      "range": "Date"
+    },
+    {
+      "pid": "founder",
+      "label": "founder",
+      "domain": "Company",
+      "range": "Person"
+    },
+    {
+      "pid": "influencedBy",
+      "label": "influencedBy",
+      "domain": "Person",
+      "range": "Person"
+    }
+  ]
+}

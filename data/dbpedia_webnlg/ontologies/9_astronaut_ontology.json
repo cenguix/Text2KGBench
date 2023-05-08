@@ -1,0 +1,300 @@
+{
+  "title": "Astronaut Ontology",
+  "id": "ont_9_astronaut",
+  "concepts": [
+    {
+      "qid": "Astronaut",
+      "label": "Astronaut"
+    },
+    {
+      "qid": "Mission",
+      "label": "Mission"
+    },
+    {
+      "qid": "Commander",
+      "label": "Commander"
+    },
+    {
+      "qid": "Mascot",
+      "label": "Mascot"
+    },
+    {
+      "qid": "PartsType",
+      "label": "PartsType"
+    },
+    {
+      "qid": "Place",
+      "label": "Place"
+    },
+    {
+      "qid": "Country",
+      "label": "Country"
+    },
+    {
+      "qid": "Place",
+      "label": "Place"
+    },
+    {
+      "qid": "Organisation",
+      "label": "Organisation"
+    },
+    {
+      "qid": "Person",
+      "label": "Person"
+    },
+    {
+      "qid": "School",
+      "label": "School"
+    },
+    {
+      "qid": "Gemstone",
+      "label": "Gemstone"
+    },
+    {
+      "qid": "Award",
+      "label": "Award"
+    },
+    {
+      "qid": "Bird",
+      "label": "Bird"
+    },
+    {
+      "qid": "Fossil",
+      "label": "Fossil"
+    },
+    {
+      "qid": "State",
+      "label": "State"
+    }
+  ],
+  "relations": [
+    {
+      "pid": "part",
+      "label": "part",
+      "domain": "Astronaut",
+      "range": "Mission"
+    },
+    {
+      "pid": "title",
+      "label": "title",
+      "domain": "Astronaut",
+      "range": "string"
+    },
+    {
+      "pid": "commander",
+      "label": "commander",
+      "domain": "Astronaut",
+      "range": "Commander"
+    },
+    {
+      "pid": "deathDate",
+      "label": "deathDate",
+      "domain": "Astronaut",
+      "range": "Date"
+    },
+    {
+      "pid": "servedAsChiefOfTheAstronautOfficeIn",
+      "label": "servedAsChiefOfTheAstronautOfficeIn",
+      "domain": "Astronaut",
+      "range": "Mission"
+    },
+    {
+      "pid": "timeInSpace",
+      "label": "timeInSpace",
+      "domain": "Astronaut",
+      "range": "number"
+    },
+    {
+      "pid": "mascot",
+      "label": "mascot",
+      "domain": "Astronaut",
+      "range": "Mascot"
+    },
+    {
+      "pid": "partsType",
+      "label": "partsType",
+      "domain": "Astronaut",
+      "range": "PartsType"
+    },
+    {
+      "pid": "alternativeName",
+      "label": "alternativeName",
+      "domain": "Astronaut",
+      "range": "string"
+    },
+    {
+      "pid": "birthPlace",
+      "label": "birthPlace",
+      "domain": "Astronaut",
+      "range": "Place"
+    },
+    {
+      "pid": "nationality",
+      "label": "nationality",
+      "domain": "Astronaut",
+      "range": "Country"
+    },
+    {
+      "pid": "deathPlace",
+      "label": "deathPlace",
+      "domain": "Astronaut",
+      "range": "Place"
+    },
+    {
+      "pid": "mission",
+      "label": "mission",
+      "domain": "Astronaut",
+      "range": "Mission"
+    },
+    {
+      "pid": "higher",
+      "label": "higher",
+      "domain": "Astronaut",
+      "range": "number"
+    },
+    {
+      "pid": "representative",
+      "label": "representative",
+      "domain": "Astronaut",
+      "range": "representative"
+    },
+    {
+      "pid": "affiliation",
+      "label": "affiliation",
+      "domain": "Astronaut",
+      "range": "Organisation"
+    },
+    {
+      "pid": "crewMembers",
+      "label": "crewMembers",
+      "domain": "Mission",
+      "range": "Astronaut"
+    },
+    {
+      "pid": "senators",
+      "label": "senators",
+      "domain": "State",
+      "range": "Person"
+    },
+    {
+      "pid": "fossil",
+      "label": "fossil",
+      "domain": "Astronaut",
+      "range": "Fossil"
+    },
+    {
+      "pid": "leader",
+      "label": "leader",
+      "domain": "Astronaut",
+      "range": "leader"
+    },
+    {
+      "pid": "status",
+      "label": "status",
+      "domain": "Mission",
+      "range": "string"
+    },
+    {
+      "pid": "isPartOf",
+      "label": "isPartOf",
+      "domain": "Astronaut",
+      "range": "Astronaut"
+    },
+    {
+      "pid": "president",
+      "label": "president",
+      "domain": "Country",
+      "range": "Person"
+    },
+    {
+      "pid": "bird",
+      "label": "bird",
+      "domain": "Astronaut",
+      "range": "Bird"
+    },
+    {
+      "pid": "occupation",
+      "label": "occupation",
+      "domain": "Astronaut",
+      "range": "occupation"
+    },
+    {
+      "pid": "backupPilot",
+      "label": "backupPilot",
+      "domain": "Mission",
+      "range": "Astronaut"
+    },
+    {
+      "pid": "almaMater",
+      "label": "almaMater",
+      "domain": "Person",
+      "range": "School"
+    },
+    {
+      "pid": "gemstone",
+      "label": "gemstone",
+      "domain": "Astronaut",
+      "range": "Gemstone"
+    },
+    {
+      "pid": "awards",
+      "label": "awards",
+      "domain": "Astronaut",
+      "range": "Award"
+    },
+    {
+      "pid": "award",
+      "label": "award",
+      "domain": "Astronaut",
+      "range": "Award"
+    },
+    {
+      "pid": "selectedByNasa",
+      "label": "selectedByNasa",
+      "domain": "Astronaut",
+      "range": "string"
+    },
+    {
+      "pid": "cosparId",
+      "label": "cosparId",
+      "domain": "Astronaut",
+      "range": "string"
+    },
+    {
+      "pid": "birthDate",
+      "label": "birthDate",
+      "domain": "Astronaut",
+      "range": "Date"
+    },
+    {
+      "pid": "operator",
+      "label": "operator",
+      "domain": "Mission",
+      "range": "Astronaut"
+    },
+    {
+      "pid": "ribbonAward",
+      "label": "ribbonAward",
+      "domain": "Astronaut",
+      "range": "Award"
+    },
+    {
+      "pid": "dateOfRetirement",
+      "label": "dateOfRetirement",
+      "domain": "Astronaut",
+      "range": "Date"
+    },
+    {
+      "pid": "utcOffset",
+      "label": "utcOffset",
+      "domain": "Astronaut",
+      "range": "number"
+    },
+    {
+      "pid": "competeIn",
+      "label": "competeIn",
+      "domain": "Astronaut",
+      "range": "Date"
+    }
+  ]
+}

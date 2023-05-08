@@ -1,0 +1,344 @@
+{
+  "title": "University Ontology",
+  "id": "ont_1_university",
+  "concepts": [
+    {
+      "qid": "University",
+      "label": "University"
+    },
+    {
+      "qid": "Person",
+      "label": "Person"
+    },
+    {
+      "qid": "Sport",
+      "label": "Sport"
+    },
+    {
+      "qid": "City",
+      "label": "City"
+    },
+    {
+      "qid": "Religion",
+      "label": "Religion"
+    },
+    {
+      "qid": "Colour",
+      "label": "Colour"
+    },
+    {
+      "qid": "Organization",
+      "label": "Organization"
+    },      
+    {
+      "qid": "State",
+      "label": "State"
+    },
+    {
+      "qid": "Country",
+      "label": "Country"
+    }, 
+    {
+      "qid": "Campus",
+      "label": "Campus"
+    },    
+    {
+      "qid": "EthnicGroup",
+      "label": "EthnicGroup"
+    },    
+    {
+      "qid": "River",
+      "label": "River"
+    },    
+    {
+      "qid": "Anthem",
+      "label": "Anthem"
+    },    
+    {
+      "qid": "Saint",
+      "label": "Saint"
+    }, 
+    {
+      "qid": "Place",
+      "label": "Place"
+    }  
+  ],
+  "relations": [
+    {
+      "pid": "director",
+      "label": "director",
+      "domain": "University",
+      "range": "Person"
+    },
+    {
+      "pid": "sportsOffered",
+      "label": "sportsOffered",
+      "domain": "University",
+      "range": "Sport"
+    },
+    {
+      "pid": "latinName",
+      "label": "latinName",
+      "domain": "University",
+      "range": "string"
+    },
+    {
+      "pid": "hasToItsWest",
+      "label": "hasToItsWest",
+      "domain": "University",
+      "range": "Place"
+    },
+    {
+      "pid": "numberOfPostgraduateStudents",
+      "label": "numberOfPostgraduateStudents",
+      "domain": "University",
+      "range": "number"
+    },
+    {
+      "pid": "established",
+      "label": "established",
+      "domain": "University",
+      "range": "date"
+    },
+    {
+      "pid": "capital",
+      "label": "capital",
+      "domain": "University",
+      "range": "City"
+    },
+    {
+      "pid": "headquarter",
+      "label": "headquarter",
+      "domain": "University",
+      "range": "City"
+    },
+    {
+      "pid": "hasToItsNortheast",
+      "label": "hasToItsNortheast",
+      "domain": "University",
+      "range": "Place"
+    },
+    {
+      "pid": "religion",
+      "label": "religion",
+      "domain": "University",
+      "range": "Religion"
+    },
+    {
+      "pid": "postalCode",
+      "label": "postalCode",
+      "domain": "University",
+      "range": "string"
+    },
+    {
+      "pid": "motto",
+      "label": "motto",
+      "domain": "University",
+      "range": "string"
+    },
+    {
+      "pid": "wasGivenTheTechnicalCampusStatusBy",
+      "label": "wasGivenTheTechnicalCampusStatusBy",
+      "domain": "University",
+      "range": "Organization"
+    },
+    {
+      "pid": "location",
+      "label": "location",
+      "domain": "University",
+      "range": "Place"
+    },
+    {
+      "pid": "hasToItsNorthwest",
+      "label": "hasToItsNorthwest",
+      "domain": "University",
+      "range": "Place"
+    },
+    {
+      "pid": "patronSaint",
+      "label": "patronSaint",
+      "domain": "University",
+      "range": "Saint"
+    },
+    {
+      "pid": "numberOfStudents",
+      "label": "numberOfStudents",
+      "domain": "University",
+      "range": "number"
+    },
+    {
+      "pid": "affiliation",
+      "label": "affiliation",
+      "domain": "University",
+      "range": "University"
+    },
+    {
+      "pid": "anthem",
+      "label": "anthem",
+      "domain": "University",
+      "range": "Anthem"
+    },
+    {
+      "pid": "nickname",
+      "label": "nickname",
+      "domain": "University",
+      "range": "string"
+    },
+    {
+      "pid": "river",
+      "label": "river",
+      "domain": "University",
+      "range": "River"
+    },
+    {
+      "pid": "numberOfUndergraduateStudents",
+      "label": "numberOfUndergraduateStudents",
+      "domain": "University",
+      "range": "number"
+    },
+    {
+      "pid": "leaderTitle",
+      "label": "leaderTitle",
+      "domain": "University",
+      "range": "string"
+    },
+    {
+      "pid": "staff",
+      "label": "staff",
+      "domain": "University",
+      "range": ""
+    },
+    {
+      "pid": "ethnicGroup",
+      "label": "ethnicGroup",
+      "domain": "University",
+      "range": "EthnicGroup"
+    },
+    {
+      "pid": "legislature",
+      "label": "legislature",
+      "domain": "University",
+      "range": "Country"
+    },
+    {
+      "pid": "city",
+      "label": "city",
+      "domain": "University",
+      "range": "City"
+    },
+    {
+      "pid": "leader",
+      "label": "leader",
+      "domain": "University",
+      "range": "Person"
+    },
+    {
+      "pid": "isPartOf",
+      "label": "isPartOf",
+      "domain": "University",
+      "range": "University"
+    },
+    {
+      "pid": "longName",
+      "label": "longName",
+      "domain": "University",
+      "range": "string"
+    },
+    {
+      "pid": "academicStaffSize",
+      "label": "academicStaffSize",
+      "domain": "University",
+      "range": "number"
+    },
+    {
+      "pid": "president",
+      "label": "president",
+      "domain": "University",
+      "range": "Person"
+    },
+    {
+      "pid": "rector",
+      "label": "rector",
+      "domain": "University",
+      "range": "Person"
+    },
+    {
+      "pid": "outlookRanking",
+      "label": "outlookRanking",
+      "domain": "University",
+      "range": "number"
+    },
+    {
+      "pid": "neighboringMunicipality",
+      "label": "neighboringMunicipality",
+      "domain": "University",
+      "range": "City"
+    },
+    {
+      "pid": "elevationAboveTheSeaLevel",
+      "label": "elevationAboveTheSeaLevel",
+      "domain": "University",
+      "range": "number"
+    },
+    {
+      "pid": "campus",
+      "label": "campus",
+      "domain": "University",
+      "range": "Campus"
+    },
+    {
+      "pid": "dean",
+      "label": "dean",
+      "domain": "University",
+      "range": "Person"
+    },
+    {
+      "pid": "country",
+      "label": "country",
+      "domain": "University",
+      "range": "Country"
+    },
+    {
+      "pid": "largestCity",
+      "label": "largestCity",
+      "domain": "University",
+      "range": "City"
+    },
+    {
+      "pid": "governmentType",
+      "label": "governmentType",
+      "domain": "University",
+      "range": "Organization"
+    },
+    {
+      "pid": "state",
+      "label": "state",
+      "domain": "University",
+      "range": "State"
+    },
+    {
+      "pid": "sportGoverningBody",
+      "label": "sportGoverningBody",
+      "domain": "University",
+      "range": "Organization"
+    },
+    {
+      "pid": "officialSchoolColour",
+      "label": "officialSchoolColour",
+      "domain": "University",
+      "range": "Colour"
+    },
+    {
+      "pid": "founder",
+      "label": "founder",
+      "domain": "University",
+      "range": "Person"
+    },
+    {
+      "pid": "numberOfDoctoralStudents",
+      "label": "numberOfDoctoralStudents",
+      "domain": "University",
+      "range": "number"
+    }
+  ]
+}

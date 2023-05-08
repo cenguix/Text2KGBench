@@ -1,17 +1,6 @@
 import json
 import glob
-
-'''
-def get_llm_response(prompt: str) -> str:
-    data = { "model": "vicuna-13b", "messages": [{"role": "user", "content": prompt}] }
-    headers = {'Content-Type': 'application/json'}
-    response = requests.post(url=completion_url, headers=headers, data=json.dumps(data))
-    return response.json()['choices'][0]['message']['content']
-
-def parse_llm_response(response: str) -> List[Triple]:
-    # TODO return triples in the form of "subject, relation, object"
-    pass
-'''
+from typing import List
 
 def get_ontology_concepts(ontology):
     ont_concepts = ""
@@ -32,14 +21,14 @@ def get_range(ontology, ont_range):
 def get_ontology_relations(ontology):
 
     ont_rels = ""
+    onto_rel_strings = list()
     for onto in ontology['relations']:
         ont_rel = onto['label']
         ont_rel = ont_rel.replace(" ", "_")
-
         ont_dom = onto['domain']
         ont_range = onto['range']
         ont_domain = get_domain(ontology, ont_dom)
-        ont_range = get_range(ontology, ont_range)
+        #ont_range = get_range(ontology, ont_range)
 
         if ont_rel == None:
             continue
@@ -47,6 +36,8 @@ def get_ontology_relations(ontology):
             ont_domain = ""
         if ont_range == None:
             ont_range = ""
+
+        onto_rel_strings.append(f"{ont_rel} ({ont_domain},{ont_range})\n")
 
         ont_rels += ont_rel + "(" + ont_domain + "," + ont_range + "), "
 
@@ -56,13 +47,13 @@ def get_ontology_relations(ontology):
 #def prepare_prompt(ontology: dict, test_sentence: str, train_sent: str, example_sentences: list[str]) -> str:
 def prepare_prompt(ontology: dict, test_sentence: str, train_sent: str) -> str:
 
-    prompt_fixed = '''
-Given the following ontology and sentences, please extract the triples from the sentence according to the relations in the ontology. In the output, only include the triples in the given output format.
+    prompt_fixed = '''Given the following ontology and sentences, please extract the triples from the sentence according 
+    to the relations in the ontology. In the output, only include the triples in the given output format. \n
 '''
 
     ## TODO generate the prompt
     prompt = prompt_fixed
-    prompt += 'CONTEXT:\n'
+    prompt += 'CONTEXT:\n\n'
     prompt += 'Ontology Concepts: '
     ont_concepts = get_ontology_concepts(ontology)
     prompt += ont_concepts
@@ -86,6 +77,11 @@ def load_jsonl(src_file):
     data = [json.loads(line) for line in open(src_file, 'r', encoding='utf-8')]
     return data
 
+def save_jsonl(data: List, jsonl_path: str):
+    with open(jsonl_path, "w") as out_file:
+        for item in data:
+            out_file.write(f"{json.dumps(item)}\n")
+
 def get_similar_sentences(test_sentence_id, test_similar):
     for sim in test_similar:
         if sim == test_sentence_id:
@@ -98,8 +94,9 @@ def get_train_sentence(simil_sent_id, train_sentences):
 
 def get_example_prompt(train_sent):
     example_prompt = "\n\nExample Sentence: " + train_sent['sent']
-    train_sent['rel_label'] = train_sent['rel_label'].replace(" ", "_")
-    example_prompt += "\nExample Output: " + train_sent['rel_label'] + "(" + train_sent['sub_label'] + "," + train_sent['obj_label'] + ")"
+    triples = [[tr['sub'].replace("_", " "), tr['rel'].replace("_", " "), tr['obj'].replace("_", " ")] for tr in train_sent['triples']]
+    example_prompt += "\nExample Output:\n"
+    example_prompt += "\n".join([f"{tr[1]}({tr[0]}, {tr[2]})" for tr in triples])
     return example_prompt
 
 def get_test_prompt(test_sentence):
@@ -116,67 +113,39 @@ def get_ontology_string(ont_src_file):
 
 if __name__ == "__main__":
 
-    # the ontology source file should iterate over all of them movie ontology, music ontology, etc.
-    path= "../../data/ontology"
+    prompt_gen_config = load_json("dbpedia_webnlg_prompt_gen_config.json")
     prompts = []
     prompts_json = []
-    ont_files = glob.glob(path + '/*.json')
-    #temp solution for testing
-    ont_files = ['ontology/1_movie_ontology.json', 'ontology/2_music_ontology.json', 'ontology/3_sport_ontology.json', 'ontology/4_book_ontology.json', 'ontology/5_military_ontology.json',
-     'ontology/6_computer_ontology.json', 'ontology/7_space_ontology.json', 'ontology/8_politics_ontology.json', 'ontology/9_nature_ontology.json', 'ontology/10_culture_ontology.json' ]
-    print(ont_files)
+    onto_list = prompt_gen_config["onto_list"]
 
     i=0
-    for ont_src_file in ont_files:
+    for onto in onto_list:
         #ont_src_file = ont_src_file.replace("\\","/")
 
-        i=i+1
-        ont = get_ontology_string(ont_src_file)
-        print(ont)
-        ontology = load_json(ont_src_file) # loads the ontology movie, music, sports, etc.
+        ontology_file = prompt_gen_config["path_patterns"]["onto"].replace("$$onto$$", onto)
+        ontology = load_json(ontology_file) # loads the ontology
         print(len(ontology))
 
-        onto_id = "ont_" + str(i) + "_" + ont + "_test_" + str(i) # this field is used for the output json prompt file
+        test_file = prompt_gen_config["path_patterns"]["test"].replace("$$onto$$", onto)
+        test_sentences = load_jsonl(test_file)
 
-        # the test source file respective to the ontology
-        path = "data/ont_" + str(i) + "_" + ont
-        print(path)
+        train_file = prompt_gen_config["path_patterns"]["train"].replace("$$onto$$", onto)
+        train_sentences = load_jsonl(train_file)
 
-        test_src = glob.glob(path + '/*test*.jsonl')
-        test_src = test_src[0].replace("\\","/")
-        print(test_src)
 
-        test_sentences = load_jsonl(test_src)
+        test_train_similarity_file = prompt_gen_config["path_patterns"]["sent_sim"].replace("$$onto$$", onto)
+        test_train_similarity = load_json(test_train_similarity_file)
 
-        #by default we only use the first sentence in the test set but we should iterate over all of them (there are > 800)
+        # iterate through all test sentences while generating prompts
         for test_sentence in test_sentences:
             test_sentence_id = test_sentence['id']
-
             test_sentence = test_sentence['sent'] # used later in prepare_prompt
 
-            # the test similar source file generated with sbert might include movie ontology, music ontology, etc.
-            path = 'baselines/sbert_example_similarity/ont_' + str(i) + '_' + ont + '_'
-
-            test_similar_src = glob.glob(path + '*similarity.json')
-            if test_similar_src == []:
-                print("No more ontologies to process.")
-                break
-
-            test_similar_src = test_similar_src[0].replace("\\","/")
-            #test_similar_src = "baselines/sbert_example_similarity/ont_1_movie_test_train_similarity.json"
-            test_similar = load_json(test_similar_src)
-
             # get the similar sentences from the test similar source file
-            similar_sents = get_similar_sentences(test_sentence_id, test_similar)
+            similar_sents = get_similar_sentences(test_sentence_id, test_train_similarity)
             # we retrieve by default the first similar sentence from the list of similar sentences
             simil_sent_id = similar_sents[0]
 
-            # we retrieve the train sentence from the train source file
-            path = "data/ont_" + str(i) + "_" + ont + '/ont_' + str(i) + '_' + ont + '_'
-
-            train_src = glob.glob(path + '*train.jsonl')
-            train_src = train_src[0].replace("\\", "/")
-            train_sentences = load_jsonl(train_src)
             # we get the train sentence from the train sentences list and from there we process each field sub_label, obj_label, rel_label
             train_sent = get_train_sentence(simil_sent_id, train_sentences)
 
@@ -189,13 +158,7 @@ if __name__ == "__main__":
             my_dict['prompt'] = prompt
             prompts_json.append(my_dict)
 
-        #print(len(prompts_json))
-
-        for elem in prompts_json:
-            #ont_1_movie_prompts.json
-            path = 'ont_' + str(i) +  '_' + ont + '_prompts.json'
-            with open(path, 'a+', encoding='utf-8' ) as f:
-                json.dump(elem, f)
-                f.write('\n')
+        output_path = prompt_gen_config["path_patterns"]["prompt"].replace("$$onto$$", onto)
+        save_jsonl(prompts_json, output_path)
 
         prompts_json = []

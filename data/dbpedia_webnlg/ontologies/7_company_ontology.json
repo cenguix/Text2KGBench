@@ -1,0 +1,216 @@
+{
+  "title": "Company Ontology",
+  "id": "ont_7_company",
+  "concepts": [
+    {
+      "qid": "Company",
+      "label": "Company"
+    },
+    {
+      "qid": "CompanyType",
+      "label": "CompanyType"
+    },
+    {
+      "qid": "Country",
+      "label": "Country"
+    },
+    {
+      "qid": "City",
+      "label": "City"
+    },
+    {
+      "qid": "Product",
+      "label": "Product"
+    },
+    {
+      "qid": "Place",
+      "label": "Place"
+    },
+    {
+      "qid": "EthnicGroup",
+      "label": "EthnicGroup"
+    },
+    {
+      "qid": "Industry",
+      "label": "Industry"
+    },
+    {
+      "qid": "Service",
+      "label": "Service"
+    },
+    {
+      "qid": "Person",
+      "label": "Person"
+    }
+  ],
+  "relations": [
+    {
+      "pid": "revenue",
+      "label": "revenue",
+      "domain": "Company",
+      "range": "number"
+    },
+    {
+      "pid": "netIncome",
+      "label": "netIncome",
+      "domain": "Company",
+      "range": "number"
+    },
+    {
+      "pid": "type",
+      "label": "type",
+      "domain": "Company",
+      "range": "CompanyType"
+    },
+    {
+      "pid": "capital",
+      "label": "capital",
+      "domain": "Country",
+      "range": "City"
+    },
+    {
+      "pid": "parentCompany",
+      "label": "parentCompany",
+      "domain": "Company",
+      "range": "Company"
+    },
+    {
+      "pid": "product",
+      "label": "product",
+      "domain": "Company",
+      "range": "Product"
+    },
+    {
+      "pid": "operatingIncome",
+      "label": "operatingIncome",
+      "domain": "Company",
+      "range": "number"
+    },
+    {
+      "pid": "numberOfLocations",
+      "label": "numberOfLocations",
+      "domain": "Company",
+      "range": "number"
+    },
+    {
+      "pid": "foundingDate",
+      "label": "foundingDate",
+      "domain": "Company",
+      "range": "Date"
+    },
+    {
+      "pid": "location",
+      "label": "location",
+      "domain": "Company",
+      "range": "Place"
+    },
+    {
+      "pid": "numberOfEmployees",
+      "label": "numberOfEmployees",
+      "domain": "Company",
+      "range": "number"
+    },
+    {
+      "pid": "regionServed",
+      "label": "regionServed",
+      "domain": "Company",
+      "range": "Place"
+    },
+    {
+      "pid": "subsidiary",
+      "label": "subsidiary",
+      "domain": "Company",
+      "range": "Company"
+    },
+    {
+      "pid": "leaderTitle",
+      "label": "leaderTitle",
+      "domain": "Person",
+      "range": "string"
+    },
+    {
+      "pid": "ethnicGroup",
+      "label": "ethnicGroup",
+      "domain": "Company",
+      "range": "EthnicGroup"
+    },
+    {
+      "pid": "city",
+      "label": "city",
+      "domain": "Company",
+      "range": "City"
+    },
+    {
+      "pid": "industry",
+      "label": "industry",
+      "domain": "Company",
+      "range": "Industry"
+    },
+    {
+      "pid": "longName",
+      "label": "longName",
+      "domain": "Company",
+      "range": "string"
+    },
+    {
+      "pid": "isPartOf",
+      "label": "isPartOf",
+      "domain": "Company",
+      "range": "Company"
+    },
+    {
+      "pid": "areaTotal",
+      "label": "areaTotal",
+      "domain": "Place",
+      "range": "number"
+    },
+    {
+      "pid": "leader",
+      "label": "leader",
+      "domain": "Company",
+      "range": "Person"
+    },
+    {
+      "pid": "elevationAboveTheSeaLevel",
+      "label": "elevationAboveTheSeaLevel",
+      "domain": "Place",
+      "range": "number"
+    },
+    {
+      "pid": "foundationPlace",
+      "label": "foundationPlace",
+      "domain": "Company",
+      "range": "Place"
+    },
+    {
+      "pid": "country",
+      "label": "country",
+      "domain": "Company",
+      "range": "Country"
+    },
+    {
+      "pid": "populationTotal",
+      "label": "populationTotal",
+      "domain": "Company",
+      "range": "number"
+    },
+    {
+      "pid": "service",
+      "label": "service",
+      "domain": "Company",
+      "range": "Service"
+    },
+    {
+      "pid": "leaderParty",
+      "label": "leaderParty",
+      "domain": "Person",
+      "range": "Party"
+    },
+    {
+      "pid": "keyPerson",
+      "label": "keyPerson",
+      "domain": "Company",
+      "range": "Person"
+    }
+  ]
+}

@@ -1,0 +1,499 @@
+{
+ "ont_1_university_test_1": [
+  "ont_1_university_train_45",
+  "ont_1_university_train_16",
+  "ont_1_university_train_14",
+  "ont_1_university_train_26",
+  "ont_1_university_train_70"
+ ],
+ "ont_1_university_test_2": [
+  "ont_1_university_train_14",
+  "ont_1_university_train_26",
+  "ont_1_university_train_70",
+  "ont_1_university_train_45",
+  "ont_1_university_train_75"
+ ],
+ "ont_1_university_test_3": [
+  "ont_1_university_train_84",
+  "ont_1_university_train_1",
+  "ont_1_university_train_2",
+  "ont_1_university_train_20",
+  "ont_1_university_train_4"
+ ],
+ "ont_1_university_test_4": [
+  "ont_1_university_train_15",
+  "ont_1_university_train_21",
+  "ont_1_university_train_28",
+  "ont_1_university_train_17",
+  "ont_1_university_train_82"
+ ],
+ "ont_1_university_test_5": [
+  "ont_1_university_train_45",
+  "ont_1_university_train_14",
+  "ont_1_university_train_70",
+  "ont_1_university_train_71",
+  "ont_1_university_train_51"
+ ],
+ "ont_1_university_test_6": [
+  "ont_1_university_train_14",
+  "ont_1_university_train_16",
+  "ont_1_university_train_5",
+  "ont_1_university_train_18",
+  "ont_1_university_train_8"
+ ],
+ "ont_1_university_test_7": [
+  "ont_1_university_train_29",
+  "ont_1_university_train_4",
+  "ont_1_university_train_84",
+  "ont_1_university_train_15",
+  "ont_1_university_train_19"
+ ],
+ "ont_1_university_test_8": [
+  "ont_1_university_train_29",
+  "ont_1_university_train_4",
+  "ont_1_university_train_84",
+  "ont_1_university_train_33",
+  "ont_1_university_train_15"
+ ],
+ "ont_1_university_test_9": [
+  "ont_1_university_train_29",
+  "ont_1_university_train_4",
+  "ont_1_university_train_15",
+  "ont_1_university_train_17",
+  "ont_1_university_train_84"
+ ],
+ "ont_1_university_test_10": [
+  "ont_1_university_train_29",
+  "ont_1_university_train_4",
+  "ont_1_university_train_17",
+  "ont_1_university_train_84",
+  "ont_1_university_train_15"
+ ],
+ "ont_1_university_test_11": [
+  "ont_1_university_train_15",
+  "ont_1_university_train_17",
+  "ont_1_university_train_14",
+  "ont_1_university_train_4",
+  "ont_1_university_train_23"
+ ],
+ "ont_1_university_test_12": [
+  "ont_1_university_train_14",
+  "ont_1_university_train_17",
+  "ont_1_university_train_16",
+  "ont_1_university_train_82",
+  "ont_1_university_train_26"
+ ],
+ "ont_1_university_test_13": [
+  "ont_1_university_train_29",
+  "ont_1_university_train_4",
+  "ont_1_university_train_84",
+  "ont_1_university_train_15",
+  "ont_1_university_train_17"
+ ],
+ "ont_1_university_test_14": [
+  "ont_1_university_train_17",
+  "ont_1_university_train_14",
+  "ont_1_university_train_16",
+  "ont_1_university_train_26",
+  "ont_1_university_train_82"
+ ],
+ "ont_1_university_test_15": [
+  "ont_1_university_train_84",
+  "ont_1_university_train_13",
+  "ont_1_university_train_1",
+  "ont_1_university_train_14",
+  "ont_1_university_train_4"
+ ],
+ "ont_1_university_test_16": [
+  "ont_1_university_train_82",
+  "ont_1_university_train_17",
+  "ont_1_university_train_15",
+  "ont_1_university_train_13",
+  "ont_1_university_train_16"
+ ],
+ "ont_1_university_test_17": [
+  "ont_1_university_train_29",
+  "ont_1_university_train_15",
+  "ont_1_university_train_16",
+  "ont_1_university_train_14",
+  "ont_1_university_train_17"
+ ],
+ "ont_1_university_test_18": [
+  "ont_1_university_train_84",
+  "ont_1_university_train_33",
+  "ont_1_university_train_29",
+  "ont_1_university_train_3",
+  "ont_1_university_train_4"
+ ],
+ "ont_1_university_test_19": [
+  "ont_1_university_train_15",
+  "ont_1_university_train_23",
+  "ont_1_university_train_84",
+  "ont_1_university_train_83",
+  "ont_1_university_train_3"
+ ],
+ "ont_1_university_test_20": [
+  "ont_1_university_train_15",
+  "ont_1_university_train_28",
+  "ont_1_university_train_17",
+  "ont_1_university_train_16",
+  "ont_1_university_train_29"
+ ],
+ "ont_1_university_test_21": [
+  "ont_1_university_train_14",
+  "ont_1_university_train_45",
+  "ont_1_university_train_70",
+  "ont_1_university_train_36",
+  "ont_1_university_train_51"
+ ],
+ "ont_1_university_test_22": [
+  "ont_1_university_train_31",
+  "ont_1_university_train_35",
+  "ont_1_university_train_15",
+  "ont_1_university_train_29",
+  "ont_1_university_train_2"
+ ],
+ "ont_1_university_test_23": [
+  "ont_1_university_train_3",
+  "ont_1_university_train_84",
+  "ont_1_university_train_29",
+  "ont_1_university_train_4",
+  "ont_1_university_train_33"
+ ],
+ "ont_1_university_test_24": [
+  "ont_1_university_train_60",
+  "ont_1_university_train_70",
+  "ont_1_university_train_17",
+  "ont_1_university_train_66",
+  "ont_1_university_train_75"
+ ],
+ "ont_1_university_test_25": [
+  "ont_1_university_train_83",
+  "ont_1_university_train_4",
+  "ont_1_university_train_14",
+  "ont_1_university_train_84",
+  "ont_1_university_train_23"
+ ],
+ "ont_1_university_test_26": [
+  "ont_1_university_train_15",
+  "ont_1_university_train_17",
+  "ont_1_university_train_82",
+  "ont_1_university_train_60",
+  "ont_1_university_train_13"
+ ],
+ "ont_1_university_test_27": [
+  "ont_1_university_train_82",
+  "ont_1_university_train_49",
+  "ont_1_university_train_17",
+  "ont_1_university_train_16",
+  "ont_1_university_train_60"
+ ],
+ "ont_1_university_test_28": [
+  "ont_1_university_train_3",
+  "ont_1_university_train_4",
+  "ont_1_university_train_83",
+  "ont_1_university_train_15",
+  "ont_1_university_train_29"
+ ],
+ "ont_1_university_test_29": [
+  "ont_1_university_train_14",
+  "ont_1_university_train_13",
+  "ont_1_university_train_84",
+  "ont_1_university_train_18",
+  "ont_1_university_train_8"
+ ],
+ "ont_1_university_test_30": [
+  "ont_1_university_train_15",
+  "ont_1_university_train_17",
+  "ont_1_university_train_13",
+  "ont_1_university_train_21",
+  "ont_1_university_train_14"
+ ],
+ "ont_1_university_test_31": [
+  "ont_1_university_train_83",
+  "ont_1_university_train_15",
+  "ont_1_university_train_4",
+  "ont_1_university_train_3",
+  "ont_1_university_train_24"
+ ],
+ "ont_1_university_test_32": [
+  "ont_1_university_train_84",
+  "ont_1_university_train_15",
+  "ont_1_university_train_14",
+  "ont_1_university_train_17",
+  "ont_1_university_train_13"
+ ],
+ "ont_1_university_test_33": [
+  "ont_1_university_train_84",
+  "ont_1_university_train_15",
+  "ont_1_university_train_14",
+  "ont_1_university_train_17",
+  "ont_1_university_train_23"
+ ],
+ "ont_1_university_test_34": [
+  "ont_1_university_train_84",
+  "ont_1_university_train_4",
+  "ont_1_university_train_29",
+  "ont_1_university_train_33",
+  "ont_1_university_train_1"
+ ],
+ "ont_1_university_test_35": [
+  "ont_1_university_train_15",
+  "ont_1_university_train_17",
+  "ont_1_university_train_14",
+  "ont_1_university_train_13",
+  "ont_1_university_train_21"
+ ],
+ "ont_1_university_test_36": [
+  "ont_1_university_train_84",
+  "ont_1_university_train_4",
+  "ont_1_university_train_29",
+  "ont_1_university_train_23",
+  "ont_1_university_train_1"
+ ],
+ "ont_1_university_test_37": [
+  "ont_1_university_train_17",
+  "ont_1_university_train_15",
+  "ont_1_university_train_29",
+  "ont_1_university_train_14",
+  "ont_1_university_train_16"
+ ],
+ "ont_1_university_test_38": [
+  "ont_1_university_train_15",
+  "ont_1_university_train_84",
+  "ont_1_university_train_29",
+  "ont_1_university_train_4",
+  "ont_1_university_train_17"
+ ],
+ "ont_1_university_test_39": [
+  "ont_1_university_train_15",
+  "ont_1_university_train_14",
+  "ont_1_university_train_17",
+  "ont_1_university_train_84",
+  "ont_1_university_train_29"
+ ],
+ "ont_1_university_test_40": [
+  "ont_1_university_train_15",
+  "ont_1_university_train_84",
+  "ont_1_university_train_17",
+  "ont_1_university_train_14",
+  "ont_1_university_train_23"
+ ],
+ "ont_1_university_test_41": [
+  "ont_1_university_train_17",
+  "ont_1_university_train_14",
+  "ont_1_university_train_15",
+  "ont_1_university_train_82",
+  "ont_1_university_train_16"
+ ],
+ "ont_1_university_test_42": [
+  "ont_1_university_train_29",
+  "ont_1_university_train_4",
+  "ont_1_university_train_15",
+  "ont_1_university_train_17",
+  "ont_1_university_train_84"
+ ],
+ "ont_1_university_test_43": [
+  "ont_1_university_train_14",
+  "ont_1_university_train_16",
+  "ont_1_university_train_5",
+  "ont_1_university_train_17",
+  "ont_1_university_train_18"
+ ],
+ "ont_1_university_test_44": [
+  "ont_1_university_train_4",
+  "ont_1_university_train_83",
+  "ont_1_university_train_84",
+  "ont_1_university_train_3",
+  "ont_1_university_train_14"
+ ],
+ "ont_1_university_test_45": [
+  "ont_1_university_train_14",
+  "ont_1_university_train_16",
+  "ont_1_university_train_5",
+  "ont_1_university_train_45",
+  "ont_1_university_train_71"
+ ],
+ "ont_1_university_test_46": [
+  "ont_1_university_train_66",
+  "ont_1_university_train_46",
+  "ont_1_university_train_50",
+  "ont_1_university_train_60",
+  "ont_1_university_train_70"
+ ],
+ "ont_1_university_test_47": [
+  "ont_1_university_train_29",
+  "ont_1_university_train_4",
+  "ont_1_university_train_15",
+  "ont_1_university_train_84",
+  "ont_1_university_train_23"
+ ],
+ "ont_1_university_test_48": [
+  "ont_1_university_train_15",
+  "ont_1_university_train_4",
+  "ont_1_university_train_17",
+  "ont_1_university_train_23",
+  "ont_1_university_train_29"
+ ],
+ "ont_1_university_test_49": [
+  "ont_1_university_train_15",
+  "ont_1_university_train_17",
+  "ont_1_university_train_84",
+  "ont_1_university_train_21",
+  "ont_1_university_train_13"
+ ],
+ "ont_1_university_test_50": [
+  "ont_1_university_train_17",
+  "ont_1_university_train_15",
+  "ont_1_university_train_82",
+  "ont_1_university_train_16",
+  "ont_1_university_train_13"
+ ],
+ "ont_1_university_test_51": [
+  "ont_1_university_train_29",
+  "ont_1_university_train_17",
+  "ont_1_university_train_15",
+  "ont_1_university_train_23",
+  "ont_1_university_train_84"
+ ],
+ "ont_1_university_test_52": [
+  "ont_1_university_train_15",
+  "ont_1_university_train_13",
+  "ont_1_university_train_17",
+  "ont_1_university_train_21",
+  "ont_1_university_train_14"
+ ],
+ "ont_1_university_test_53": [
+  "ont_1_university_train_17",
+  "ont_1_university_train_29",
+  "ont_1_university_train_15",
+  "ont_1_university_train_82",
+  "ont_1_university_train_14"
+ ],
+ "ont_1_university_test_54": [
+  "ont_1_university_train_84",
+  "ont_1_university_train_14",
+  "ont_1_university_train_4",
+  "ont_1_university_train_29",
+  "ont_1_university_train_13"
+ ],
+ "ont_1_university_test_55": [
+  "ont_1_university_train_15",
+  "ont_1_university_train_14",
+  "ont_1_university_train_84",
+  "ont_1_university_train_4",
+  "ont_1_university_train_17"
+ ],
+ "ont_1_university_test_56": [
+  "ont_1_university_train_84",
+  "ont_1_university_train_14",
+  "ont_1_university_train_17",
+  "ont_1_university_train_29",
+  "ont_1_university_train_15"
+ ],
+ "ont_1_university_test_57": [
+  "ont_1_university_train_23",
+  "ont_1_university_train_84",
+  "ont_1_university_train_29",
+  "ont_1_university_train_15",
+  "ont_1_university_train_22"
+ ],
+ "ont_1_university_test_58": [
+  "ont_1_university_train_14",
+  "ont_1_university_train_84",
+  "ont_1_university_train_4",
+  "ont_1_university_train_83",
+  "ont_1_university_train_15"
+ ],
+ "ont_1_university_test_59": [
+  "ont_1_university_train_15",
+  "ont_1_university_train_17",
+  "ont_1_university_train_14",
+  "ont_1_university_train_84",
+  "ont_1_university_train_13"
+ ],
+ "ont_1_university_test_60": [
+  "ont_1_university_train_15",
+  "ont_1_university_train_84",
+  "ont_1_university_train_17",
+  "ont_1_university_train_29",
+  "ont_1_university_train_23"
+ ],
+ "ont_1_university_test_61": [
+  "ont_1_university_train_14",
+  "ont_1_university_train_17",
+  "ont_1_university_train_15",
+  "ont_1_university_train_60",
+  "ont_1_university_train_82"
+ ],
+ "ont_1_university_test_62": [
+  "ont_1_university_train_15",
+  "ont_1_university_train_14",
+  "ont_1_university_train_17",
+  "ont_1_university_train_84",
+  "ont_1_university_train_13"
+ ],
+ "ont_1_university_test_63": [
+  "ont_1_university_train_16",
+  "ont_1_university_train_17",
+  "ont_1_university_train_84",
+  "ont_1_university_train_15",
+  "ont_1_university_train_82"
+ ],
+ "ont_1_university_test_64": [
+  "ont_1_university_train_29",
+  "ont_1_university_train_4",
+  "ont_1_university_train_84",
+  "ont_1_university_train_14",
+  "ont_1_university_train_33"
+ ],
+ "ont_1_university_test_65": [
+  "ont_1_university_train_17",
+  "ont_1_university_train_60",
+  "ont_1_university_train_14",
+  "ont_1_university_train_50",
+  "ont_1_university_train_16"
+ ],
+ "ont_1_university_test_66": [
+  "ont_1_university_train_15",
+  "ont_1_university_train_21",
+  "ont_1_university_train_84",
+  "ont_1_university_train_14",
+  "ont_1_university_train_29"
+ ],
+ "ont_1_university_test_67": [
+  "ont_1_university_train_84",
+  "ont_1_university_train_83",
+  "ont_1_university_train_4",
+  "ont_1_university_train_14",
+  "ont_1_university_train_3"
+ ],
+ "ont_1_university_test_68": [
+  "ont_1_university_train_17",
+  "ont_1_university_train_15",
+  "ont_1_university_train_16",
+  "ont_1_university_train_29",
+  "ont_1_university_train_84"
+ ],
+ "ont_1_university_test_69": [
+  "ont_1_university_train_83",
+  "ont_1_university_train_15",
+  "ont_1_university_train_17",
+  "ont_1_university_train_24",
+  "ont_1_university_train_23"
+ ],
+ "ont_1_university_test_70": [
+  "ont_1_university_train_13",
+  "ont_1_university_train_14",
+  "ont_1_university_train_17",
+  "ont_1_university_train_8",
+  "ont_1_university_train_15"
+ ],
+ "ont_1_university_test_71": [
+  "ont_1_university_train_84",
+  "ont_1_university_train_15",
+  "ont_1_university_train_60",
+  "ont_1_university_train_17",
+  "ont_1_university_train_49"
+ ]
+}

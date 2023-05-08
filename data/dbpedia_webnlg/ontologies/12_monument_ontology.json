@@ -1,0 +1,220 @@
+{
+  "title": "Monument Ontology",
+  "id": "ont_12_monument",
+  "concepts": [
+    {
+      "qid": "Monument",
+      "label": "Monument"
+    },
+    {
+      "qid": "Place",
+      "label": "Place"
+    },
+    {
+      "qid": "City",
+      "label": "City"
+    },
+    {
+      "qid": "Country",
+      "label": "Country"
+    },
+    {
+      "qid": "Person",
+      "label": "Person"
+    },
+    {
+      "qid": "Religion",
+      "label": "Religion"
+    },
+    {
+      "qid": "Material",
+      "label": "Material"
+    },
+    {
+      "qid": "Municipality",
+      "label": "Municipality"
+    },
+    {
+      "qid": "Currency",
+      "label": "Currency"
+    },
+    {
+      "qid": "EthnicGroup",
+      "label": "EthnicGroup"
+    },
+    {
+      "qid": "State",
+      "label": "State"
+    },
+    {
+      "qid": "Language",
+      "label": "Language"
+    },
+    {
+      "qid": "Category",
+      "label": "Category"
+    },
+    {
+      "qid": "Organisation",
+      "label": "Organisation"
+    }
+  ],
+  "relations": [
+    {
+      "pid": "hasToItsSoutheast",
+      "label": "hasToItsSoutheast",
+      "domain": "Monument",
+      "range": "Place"
+    },
+    {
+      "pid": "hasToItsWest",
+      "label": "hasToItsWest",
+      "domain": "Monument",
+      "range": "Place"
+    },
+    {
+      "pid": "established",
+      "label": "established",
+      "domain": "Monument",
+      "range": "Date"
+    },
+    {
+      "pid": "capital",
+      "label": "capital",
+      "domain": "Country",
+      "range": "City"
+    },
+    {
+      "pid": "designer",
+      "label": "designer",
+      "domain": "Monument",
+      "range": "Person"
+    },
+    {
+      "pid": "hasToItsNorth",
+      "label": "hasToItsNorth",
+      "domain": "Monument",
+      "range": "Place"
+    },
+    {
+      "pid": "hasToItsSouthwest",
+      "label": "hasToItsSouthwest",
+      "domain": "Monument",
+      "range": "Place"
+    },
+    {
+      "pid": "religion",
+      "label": "religion",
+      "domain": "Monument",
+      "range": "Religion"
+    },
+    {
+      "pid": "material",
+      "label": "material",
+      "domain": "Monument",
+      "range": "Material"
+    },
+    {
+      "pid": "location",
+      "label": "location",
+      "domain": "Monument",
+      "range": "Place"
+    },
+    {
+      "pid": "municipality",
+      "label": "municipality",
+      "domain": "Monument",
+      "range": "Municipality"
+    },
+    {
+      "pid": "currency",
+      "label": "currency",
+      "domain": "Country",
+      "range": "Currency"
+    },
+    {
+      "pid": "leaderTitle",
+      "label": "leaderTitle",
+      "domain": "Country",
+      "range": "string"
+    },
+    {
+      "pid": "dedicatedTo",
+      "label": "dedicatedTo",
+      "domain": "Monument",
+      "range": "Person"
+    },
+    {
+      "pid": "ethnicGroup",
+      "label": "ethnicGroup",
+      "domain": "Country",
+      "range": "EthnicGroup"
+    },
+    {
+      "pid": "leader",
+      "label": "leader",
+      "domain": "Country",
+      "range": "Person"
+    },
+    {
+      "pid": "district",
+      "label": "district",
+      "domain": "Country",
+      "range": "Place"
+    },
+    {
+      "pid": "inaugurationDate",
+      "label": "inaugurationDate",
+      "domain": "Monument",
+      "range": "Date"
+    },
+    {
+      "pid": "country",
+      "label": "country",
+      "domain": "Monument",
+      "range": "Country"
+    },
+    {
+      "pid": "largestCity",
+      "label": "largestCity",
+      "domain": "Country",
+      "range": "City"
+    },
+    {
+      "pid": "state",
+      "label": "state",
+      "domain": "Monument",
+      "range": "State"
+    },
+    {
+      "pid": "language",
+      "label": "language",
+      "domain": "Country",
+      "range": "Language"
+    },
+    {
+      "pid": "category",
+      "label": "category",
+      "domain": "Monument",
+      "range": "Category"
+    },
+    {
+      "pid": "nativeName",
+      "label": "nativeName",
+      "domain": "Monument",
+      "range": "string"
+    },
+    {
+      "pid": "nearestCity",
+      "label": "nearestCity",
+      "domain": "Monument",
+      "range": "City"
+    },
+    {
+      "pid": "owningOrganisation",
+      "label": "owningOrganisation",
+      "domain": "Monument",
+      "range": "Organisation"
+    }
+  ]
+}

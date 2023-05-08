@@ -1,0 +1,478 @@
+{
+ "ont_9_astronaut_test_1": [
+  "ont_9_astronaut_train_32",
+  "ont_9_astronaut_train_2",
+  "ont_9_astronaut_train_80",
+  "ont_9_astronaut_train_36",
+  "ont_9_astronaut_train_84"
+ ],
+ "ont_9_astronaut_test_2": [
+  "ont_9_astronaut_train_2",
+  "ont_9_astronaut_train_5",
+  "ont_9_astronaut_train_80",
+  "ont_9_astronaut_train_32",
+  "ont_9_astronaut_train_84"
+ ],
+ "ont_9_astronaut_test_3": [
+  "ont_9_astronaut_train_2",
+  "ont_9_astronaut_train_32",
+  "ont_9_astronaut_train_5",
+  "ont_9_astronaut_train_84",
+  "ont_9_astronaut_train_36"
+ ],
+ "ont_9_astronaut_test_4": [
+  "ont_9_astronaut_train_37",
+  "ont_9_astronaut_train_7",
+  "ont_9_astronaut_train_27",
+  "ont_9_astronaut_train_28",
+  "ont_9_astronaut_train_80"
+ ],
+ "ont_9_astronaut_test_5": [
+  "ont_9_astronaut_train_2",
+  "ont_9_astronaut_train_7",
+  "ont_9_astronaut_train_4",
+  "ont_9_astronaut_train_28",
+  "ont_9_astronaut_train_37"
+ ],
+ "ont_9_astronaut_test_6": [
+  "ont_9_astronaut_train_20",
+  "ont_9_astronaut_train_21",
+  "ont_9_astronaut_train_40",
+  "ont_9_astronaut_train_37",
+  "ont_9_astronaut_train_25"
+ ],
+ "ont_9_astronaut_test_7": [
+  "ont_9_astronaut_train_7",
+  "ont_9_astronaut_train_80",
+  "ont_9_astronaut_train_83",
+  "ont_9_astronaut_train_37",
+  "ont_9_astronaut_train_4"
+ ],
+ "ont_9_astronaut_test_8": [
+  "ont_9_astronaut_train_20",
+  "ont_9_astronaut_train_4",
+  "ont_9_astronaut_train_12",
+  "ont_9_astronaut_train_6",
+  "ont_9_astronaut_train_9"
+ ],
+ "ont_9_astronaut_test_9": [
+  "ont_9_astronaut_train_11",
+  "ont_9_astronaut_train_3",
+  "ont_9_astronaut_train_7",
+  "ont_9_astronaut_train_10",
+  "ont_9_astronaut_train_1"
+ ],
+ "ont_9_astronaut_test_10": [
+  "ont_9_astronaut_train_7",
+  "ont_9_astronaut_train_10",
+  "ont_9_astronaut_train_12",
+  "ont_9_astronaut_train_3",
+  "ont_9_astronaut_train_83"
+ ],
+ "ont_9_astronaut_test_11": [
+  "ont_9_astronaut_train_65",
+  "ont_9_astronaut_train_71",
+  "ont_9_astronaut_train_51",
+  "ont_9_astronaut_train_79",
+  "ont_9_astronaut_train_56"
+ ],
+ "ont_9_astronaut_test_12": [
+  "ont_9_astronaut_train_6",
+  "ont_9_astronaut_train_8",
+  "ont_9_astronaut_train_5",
+  "ont_9_astronaut_train_12",
+  "ont_9_astronaut_train_9"
+ ],
+ "ont_9_astronaut_test_13": [
+  "ont_9_astronaut_train_80",
+  "ont_9_astronaut_train_15",
+  "ont_9_astronaut_train_84",
+  "ont_9_astronaut_train_86",
+  "ont_9_astronaut_train_37"
+ ],
+ "ont_9_astronaut_test_14": [
+  "ont_9_astronaut_train_2",
+  "ont_9_astronaut_train_5",
+  "ont_9_astronaut_train_36",
+  "ont_9_astronaut_train_32",
+  "ont_9_astronaut_train_84"
+ ],
+ "ont_9_astronaut_test_15": [
+  "ont_9_astronaut_train_2",
+  "ont_9_astronaut_train_6",
+  "ont_9_astronaut_train_41",
+  "ont_9_astronaut_train_5",
+  "ont_9_astronaut_train_9"
+ ],
+ "ont_9_astronaut_test_16": [
+  "ont_9_astronaut_train_5",
+  "ont_9_astronaut_train_2",
+  "ont_9_astronaut_train_6",
+  "ont_9_astronaut_train_36",
+  "ont_9_astronaut_train_12"
+ ],
+ "ont_9_astronaut_test_17": [
+  "ont_9_astronaut_train_2",
+  "ont_9_astronaut_train_5",
+  "ont_9_astronaut_train_12",
+  "ont_9_astronaut_train_1",
+  "ont_9_astronaut_train_6"
+ ],
+ "ont_9_astronaut_test_18": [
+  "ont_9_astronaut_train_5",
+  "ont_9_astronaut_train_6",
+  "ont_9_astronaut_train_2",
+  "ont_9_astronaut_train_8",
+  "ont_9_astronaut_train_1"
+ ],
+ "ont_9_astronaut_test_19": [
+  "ont_9_astronaut_train_40",
+  "ont_9_astronaut_train_6",
+  "ont_9_astronaut_train_41",
+  "ont_9_astronaut_train_38",
+  "ont_9_astronaut_train_51"
+ ],
+ "ont_9_astronaut_test_20": [
+  "ont_9_astronaut_train_6",
+  "ont_9_astronaut_train_8",
+  "ont_9_astronaut_train_9",
+  "ont_9_astronaut_train_5",
+  "ont_9_astronaut_train_2"
+ ],
+ "ont_9_astronaut_test_21": [
+  "ont_9_astronaut_train_41",
+  "ont_9_astronaut_train_20",
+  "ont_9_astronaut_train_40",
+  "ont_9_astronaut_train_72",
+  "ont_9_astronaut_train_25"
+ ],
+ "ont_9_astronaut_test_22": [
+  "ont_9_astronaut_train_6",
+  "ont_9_astronaut_train_5",
+  "ont_9_astronaut_train_8",
+  "ont_9_astronaut_train_2",
+  "ont_9_astronaut_train_9"
+ ],
+ "ont_9_astronaut_test_23": [
+  "ont_9_astronaut_train_6",
+  "ont_9_astronaut_train_8",
+  "ont_9_astronaut_train_40",
+  "ont_9_astronaut_train_12",
+  "ont_9_astronaut_train_81"
+ ],
+ "ont_9_astronaut_test_24": [
+  "ont_9_astronaut_train_29",
+  "ont_9_astronaut_train_31",
+  "ont_9_astronaut_train_20",
+  "ont_9_astronaut_train_36",
+  "ont_9_astronaut_train_30"
+ ],
+ "ont_9_astronaut_test_25": [
+  "ont_9_astronaut_train_3",
+  "ont_9_astronaut_train_2",
+  "ont_9_astronaut_train_86",
+  "ont_9_astronaut_train_7",
+  "ont_9_astronaut_train_29"
+ ],
+ "ont_9_astronaut_test_26": [
+  "ont_9_astronaut_train_7",
+  "ont_9_astronaut_train_3",
+  "ont_9_astronaut_train_37",
+  "ont_9_astronaut_train_10",
+  "ont_9_astronaut_train_86"
+ ],
+ "ont_9_astronaut_test_27": [
+  "ont_9_astronaut_train_7",
+  "ont_9_astronaut_train_10",
+  "ont_9_astronaut_train_3",
+  "ont_9_astronaut_train_12",
+  "ont_9_astronaut_train_23"
+ ],
+ "ont_9_astronaut_test_28": [
+  "ont_9_astronaut_train_2",
+  "ont_9_astronaut_train_80",
+  "ont_9_astronaut_train_84",
+  "ont_9_astronaut_train_32",
+  "ont_9_astronaut_train_15"
+ ],
+ "ont_9_astronaut_test_29": [
+  "ont_9_astronaut_train_80",
+  "ont_9_astronaut_train_3",
+  "ont_9_astronaut_train_2",
+  "ont_9_astronaut_train_15",
+  "ont_9_astronaut_train_86"
+ ],
+ "ont_9_astronaut_test_30": [
+  "ont_9_astronaut_train_80",
+  "ont_9_astronaut_train_84",
+  "ont_9_astronaut_train_7",
+  "ont_9_astronaut_train_37",
+  "ont_9_astronaut_train_10"
+ ],
+ "ont_9_astronaut_test_31": [
+  "ont_9_astronaut_train_37",
+  "ont_9_astronaut_train_3",
+  "ont_9_astronaut_train_7",
+  "ont_9_astronaut_train_24",
+  "ont_9_astronaut_train_86"
+ ],
+ "ont_9_astronaut_test_32": [
+  "ont_9_astronaut_train_37",
+  "ont_9_astronaut_train_2",
+  "ont_9_astronaut_train_86",
+  "ont_9_astronaut_train_7",
+  "ont_9_astronaut_train_28"
+ ],
+ "ont_9_astronaut_test_33": [
+  "ont_9_astronaut_train_10",
+  "ont_9_astronaut_train_24",
+  "ont_9_astronaut_train_7",
+  "ont_9_astronaut_train_18",
+  "ont_9_astronaut_train_19"
+ ],
+ "ont_9_astronaut_test_34": [
+  "ont_9_astronaut_train_37",
+  "ont_9_astronaut_train_2",
+  "ont_9_astronaut_train_7",
+  "ont_9_astronaut_train_4",
+  "ont_9_astronaut_train_28"
+ ],
+ "ont_9_astronaut_test_35": [
+  "ont_9_astronaut_train_40",
+  "ont_9_astronaut_train_20",
+  "ont_9_astronaut_train_7",
+  "ont_9_astronaut_train_2",
+  "ont_9_astronaut_train_39"
+ ],
+ "ont_9_astronaut_test_36": [
+  "ont_9_astronaut_train_29",
+  "ont_9_astronaut_train_30",
+  "ont_9_astronaut_train_3",
+  "ont_9_astronaut_train_31",
+  "ont_9_astronaut_train_40"
+ ],
+ "ont_9_astronaut_test_37": [
+  "ont_9_astronaut_train_37",
+  "ont_9_astronaut_train_86",
+  "ont_9_astronaut_train_2",
+  "ont_9_astronaut_train_28",
+  "ont_9_astronaut_train_80"
+ ],
+ "ont_9_astronaut_test_38": [
+  "ont_9_astronaut_train_2",
+  "ont_9_astronaut_train_80",
+  "ont_9_astronaut_train_7",
+  "ont_9_astronaut_train_84",
+  "ont_9_astronaut_train_37"
+ ],
+ "ont_9_astronaut_test_39": [
+  "ont_9_astronaut_train_7",
+  "ont_9_astronaut_train_83",
+  "ont_9_astronaut_train_80",
+  "ont_9_astronaut_train_24",
+  "ont_9_astronaut_train_37"
+ ],
+ "ont_9_astronaut_test_40": [
+  "ont_9_astronaut_train_2",
+  "ont_9_astronaut_train_80",
+  "ont_9_astronaut_train_84",
+  "ont_9_astronaut_train_32",
+  "ont_9_astronaut_train_7"
+ ],
+ "ont_9_astronaut_test_41": [
+  "ont_9_astronaut_train_2",
+  "ont_9_astronaut_train_28",
+  "ont_9_astronaut_train_45",
+  "ont_9_astronaut_train_4",
+  "ont_9_astronaut_train_37"
+ ],
+ "ont_9_astronaut_test_42": [
+  "ont_9_astronaut_train_31",
+  "ont_9_astronaut_train_40",
+  "ont_9_astronaut_train_33",
+  "ont_9_astronaut_train_29",
+  "ont_9_astronaut_train_20"
+ ],
+ "ont_9_astronaut_test_43": [
+  "ont_9_astronaut_train_2",
+  "ont_9_astronaut_train_80",
+  "ont_9_astronaut_train_84",
+  "ont_9_astronaut_train_5",
+  "ont_9_astronaut_train_32"
+ ],
+ "ont_9_astronaut_test_44": [
+  "ont_9_astronaut_train_7",
+  "ont_9_astronaut_train_3",
+  "ont_9_astronaut_train_83",
+  "ont_9_astronaut_train_37",
+  "ont_9_astronaut_train_10"
+ ],
+ "ont_9_astronaut_test_45": [
+  "ont_9_astronaut_train_80",
+  "ont_9_astronaut_train_84",
+  "ont_9_astronaut_train_15",
+  "ont_9_astronaut_train_24",
+  "ont_9_astronaut_train_37"
+ ],
+ "ont_9_astronaut_test_46": [
+  "ont_9_astronaut_train_2",
+  "ont_9_astronaut_train_32",
+  "ont_9_astronaut_train_80",
+  "ont_9_astronaut_train_84",
+  "ont_9_astronaut_train_37"
+ ],
+ "ont_9_astronaut_test_47": [
+  "ont_9_astronaut_train_2",
+  "ont_9_astronaut_train_80",
+  "ont_9_astronaut_train_7",
+  "ont_9_astronaut_train_84",
+  "ont_9_astronaut_train_37"
+ ],
+ "ont_9_astronaut_test_48": [
+  "ont_9_astronaut_train_7",
+  "ont_9_astronaut_train_10",
+  "ont_9_astronaut_train_37",
+  "ont_9_astronaut_train_3",
+  "ont_9_astronaut_train_24"
+ ],
+ "ont_9_astronaut_test_49": [
+  "ont_9_astronaut_train_24",
+  "ont_9_astronaut_train_37",
+  "ont_9_astronaut_train_10",
+  "ont_9_astronaut_train_7",
+  "ont_9_astronaut_train_28"
+ ],
+ "ont_9_astronaut_test_50": [
+  "ont_9_astronaut_train_80",
+  "ont_9_astronaut_train_2",
+  "ont_9_astronaut_train_84",
+  "ont_9_astronaut_train_32",
+  "ont_9_astronaut_train_24"
+ ],
+ "ont_9_astronaut_test_51": [
+  "ont_9_astronaut_train_2",
+  "ont_9_astronaut_train_4",
+  "ont_9_astronaut_train_9",
+  "ont_9_astronaut_train_28",
+  "ont_9_astronaut_train_3"
+ ],
+ "ont_9_astronaut_test_52": [
+  "ont_9_astronaut_train_37",
+  "ont_9_astronaut_train_2",
+  "ont_9_astronaut_train_7",
+  "ont_9_astronaut_train_4",
+  "ont_9_astronaut_train_28"
+ ],
+ "ont_9_astronaut_test_53": [
+  "ont_9_astronaut_train_40",
+  "ont_9_astronaut_train_20",
+  "ont_9_astronaut_train_31",
+  "ont_9_astronaut_train_33",
+  "ont_9_astronaut_train_21"
+ ],
+ "ont_9_astronaut_test_54": [
+  "ont_9_astronaut_train_4",
+  "ont_9_astronaut_train_3",
+  "ont_9_astronaut_train_7",
+  "ont_9_astronaut_train_29",
+  "ont_9_astronaut_train_20"
+ ],
+ "ont_9_astronaut_test_55": [
+  "ont_9_astronaut_train_80",
+  "ont_9_astronaut_train_84",
+  "ont_9_astronaut_train_5",
+  "ont_9_astronaut_train_36",
+  "ont_9_astronaut_train_2"
+ ],
+ "ont_9_astronaut_test_56": [
+  "ont_9_astronaut_train_37",
+  "ont_9_astronaut_train_86",
+  "ont_9_astronaut_train_2",
+  "ont_9_astronaut_train_7",
+  "ont_9_astronaut_train_10"
+ ],
+ "ont_9_astronaut_test_57": [
+  "ont_9_astronaut_train_2",
+  "ont_9_astronaut_train_37",
+  "ont_9_astronaut_train_7",
+  "ont_9_astronaut_train_3",
+  "ont_9_astronaut_train_86"
+ ],
+ "ont_9_astronaut_test_58": [
+  "ont_9_astronaut_train_2",
+  "ont_9_astronaut_train_80",
+  "ont_9_astronaut_train_32",
+  "ont_9_astronaut_train_84",
+  "ont_9_astronaut_train_7"
+ ],
+ "ont_9_astronaut_test_59": [
+  "ont_9_astronaut_train_2",
+  "ont_9_astronaut_train_32",
+  "ont_9_astronaut_train_5",
+  "ont_9_astronaut_train_80",
+  "ont_9_astronaut_train_36"
+ ],
+ "ont_9_astronaut_test_60": [
+  "ont_9_astronaut_train_7",
+  "ont_9_astronaut_train_37",
+  "ont_9_astronaut_train_10",
+  "ont_9_astronaut_train_2",
+  "ont_9_astronaut_train_24"
+ ],
+ "ont_9_astronaut_test_61": [
+  "ont_9_astronaut_train_24",
+  "ont_9_astronaut_train_84",
+  "ont_9_astronaut_train_7",
+  "ont_9_astronaut_train_80",
+  "ont_9_astronaut_train_10"
+ ],
+ "ont_9_astronaut_test_62": [
+  "ont_9_astronaut_train_86",
+  "ont_9_astronaut_train_37",
+  "ont_9_astronaut_train_15",
+  "ont_9_astronaut_train_80",
+  "ont_9_astronaut_train_2"
+ ],
+ "ont_9_astronaut_test_63": [
+  "ont_9_astronaut_train_7",
+  "ont_9_astronaut_train_10",
+  "ont_9_astronaut_train_37",
+  "ont_9_astronaut_train_2",
+  "ont_9_astronaut_train_24"
+ ],
+ "ont_9_astronaut_test_64": [
+  "ont_9_astronaut_train_40",
+  "ont_9_astronaut_train_7",
+  "ont_9_astronaut_train_37",
+  "ont_9_astronaut_train_20",
+  "ont_9_astronaut_train_33"
+ ],
+ "ont_9_astronaut_test_65": [
+  "ont_9_astronaut_train_2",
+  "ont_9_astronaut_train_83",
+  "ont_9_astronaut_train_86",
+  "ont_9_astronaut_train_28",
+  "ont_9_astronaut_train_40"
+ ],
+ "ont_9_astronaut_test_66": [
+  "ont_9_astronaut_train_80",
+  "ont_9_astronaut_train_2",
+  "ont_9_astronaut_train_45",
+  "ont_9_astronaut_train_28",
+  "ont_9_astronaut_train_24"
+ ],
+ "ont_9_astronaut_test_67": [
+  "ont_9_astronaut_train_4",
+  "ont_9_astronaut_train_32",
+  "ont_9_astronaut_train_37",
+  "ont_9_astronaut_train_36",
+  "ont_9_astronaut_train_51"
+ ],
+ "ont_9_astronaut_test_68": [
+  "ont_9_astronaut_train_2",
+  "ont_9_astronaut_train_9",
+  "ont_9_astronaut_train_5",
+  "ont_9_astronaut_train_30",
+  "ont_9_astronaut_train_12"
+ ]
+}

@@ -136,7 +136,10 @@ def main():
         system_output = convert_to_dict(read_jsonl(onto['sys']))
         ground_truth = convert_to_dict(read_jsonl(onto['gt']))
         ontology = read_json(onto['onto'])
-        selected_ids = read_jsonl(onto['selected_ids'], is_json=False)
+        if 'selected_ids' in onto:
+            selected_ids = read_jsonl(onto['selected_ids'], is_json=False)
+        else:
+            selected_ids = []
 
         # iterate through each element in the ground truth and evaluate the system output
         for sent_id in list(ground_truth.keys()):
@@ -165,6 +168,8 @@ def main():
                 ont_conformance, rel_hallucination = get_ontology_conformance(ontology, system_triples)
                 subj_hallucination, obj_hallucination = get_subject_object_hallucinations(ps, ontology, sentence,
                                                                                           system_triples)
+                if  f1 < 1  and len(filtered_system_triples) > 0 and subj_hallucination == 0 and obj_hallucination == 0:
+                    print(f"sent: {sentence}\nf1: {f1}\nsys:{filtered_system_triples}\nground:{gt_triples}\n\n")
 
                 eval_metrics = {"id": sent_id, "precision": precision, "recall": recall, "f1": f1,
                                 "onto_conf": ont_conformance, "rel_halluc": rel_hallucination,
@@ -195,23 +200,25 @@ def main():
         save_jsonl(eval_metrics_list, onto['output'])
         total_test_cases = len(ground_truth)
         total_selected_test_cases = len(selected_ids)
-        average_metrics = {"onto": onto_id, "type": "all_test_cases", "avg_precision": t_p/total_test_cases,
-                           "avg_recall": t_r/total_test_cases, "avg_f1": t_f1/total_test_cases,
-                           "avg_onto_conf": t_onto_conf/total_test_cases,
-                           "avg_rel_halluc": t_rel_halluc/total_test_cases,
-                           "avg_sub_halluc": t_sub_halluc/total_test_cases,
-                           "avg_obj_halluc": t_obj_halluc/total_test_cases
+        average_metrics = {"onto": onto_id, "type": "all_test_cases",
+                           "avg_precision": f"{t_p/total_test_cases:.2f}",
+                           "avg_recall": f"{t_r/total_test_cases:.2f}",
+                           "avg_f1": f"{t_f1/total_test_cases:.2f}",
+                           "avg_onto_conf": f"{t_onto_conf/total_test_cases:.2f}",
+                           "avg_sub_halluc": f"{t_sub_halluc/total_test_cases:.2f}",
+                           "avg_rel_halluc": f"{t_rel_halluc / total_test_cases:.2f}",
+                           "avg_obj_halluc": f"{t_obj_halluc/total_test_cases:.2f}"
                            }
         append_jsonl(average_metrics, eval_inputs['avg_out_file'])
         if total_selected_test_cases > 0:
             selected_average_metrics = {"onto": onto_id, "type": "selected_test_cases",
-                                        "avg_precision": sel_t_p /total_selected_test_cases,
-                                        "avg_recall": sel_t_r/total_selected_test_cases,
-                                        "avg_f1": sel_t_f1/total_selected_test_cases,
-                                        "avg_onto_conf": sel_t_onto_conf / total_selected_test_cases,
-                                        "avg_rel_halluc": sel_t_rel_halluc / total_selected_test_cases,
-                                        "avg_sub_halluc": sel_t_sub_halluc / total_selected_test_cases,
-                                        "avg_obj_halluc": sel_t_obj_halluc / total_selected_test_cases}
+                                        "avg_precision": f"{sel_t_p /total_selected_test_cases:.2f}",
+                                        "avg_recall": f"{sel_t_r/total_selected_test_cases:.2f}",
+                                        "avg_f1": f"{sel_t_f1/total_selected_test_cases:.2f}",
+                                        "avg_onto_conf": f"{sel_t_onto_conf / total_selected_test_cases:.2f}",
+                                        "avg_sub_halluc": f"{sel_t_sub_halluc / total_selected_test_cases:.2f}",
+                                        "avg_rel_halluc": f"{sel_t_rel_halluc / total_selected_test_cases:.2f}",
+                                        "avg_obj_halluc": f"{sel_t_obj_halluc / total_selected_test_cases:.2f}"}
             append_jsonl(selected_average_metrics, eval_inputs['avg_out_file'])
 
 
