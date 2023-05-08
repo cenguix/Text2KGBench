@@ -40,6 +40,20 @@ The structure of the repo is as following.
           - `Alpaca-LoRA-13B` data related to the Alpaca-LoRA model
             - `llm_responses` raw LLM responses and extracte triples 
             - `eval_metrics` ontology-level and aggregated evaluation results
-           - `Vicuna-13B` data related to the Alpaca-LoRA model
-            - `llm_responses` raw LLM responses and extracte triples 
-            - `eval_metrics` ontology-level and aggregated evaluation results           
+          - `Vicuna-13B` data related to the Alpaca-LoRA model
+          - `llm_responses` raw LLM responses and extracte triples 
+          - `eval_metrics` ontology-level and aggregated evaluation results     
+
+This benchmark contains data derived from TekGen corpus (part of  the KELM corpus) [1] released under CC BY-SA 2.0 license
+and WebNLG 3.0 corpus [2] released under CC BY-NC-SA 4.0 license.
+
+
+[1] Oshin Agarwal, Heming Ge, Siamak Shakeri, and Rami Al-Rfou. 2021. Knowledge Graph Based Synthetic Corpus Generation 
+for Knowledge-Enhanced Language Model Pre-training. In Proceedings of the 2021 Conference of the North American Chapter 
+of the Association for Computational Linguistics: Human Language Technologies, pages 3554–3565, Online. 
+Association for Computational Linguistics.
+
+[2] Claire Gardent, Anastasia Shimorina, Shashi Narayan, and Laura Perez-Beltrachini. 2017. Creating Training Corpora 
+for NLG Micro-Planners. In Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics 
+(Volume 1: Long Papers), pages 179–188, Vancouver, Canada. Association for Computational Linguistics.
+
