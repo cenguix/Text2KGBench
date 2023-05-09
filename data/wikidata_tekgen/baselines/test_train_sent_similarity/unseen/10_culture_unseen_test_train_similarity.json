@@ -1,0 +1,58 @@
+{
+ "ont_10_culture_unseen_test_1": [
+  "ont_10_culture_train_81",
+  "ont_10_culture_train_25",
+  "ont_10_culture_train_72",
+  "ont_10_culture_train_38",
+  "ont_10_culture_train_40"
+ ],
+ "ont_10_culture_unseen_test_2": [
+  "ont_10_culture_train_93",
+  "ont_10_culture_train_98",
+  "ont_10_culture_train_60",
+  "ont_10_culture_train_87",
+  "ont_10_culture_train_63"
+ ],
+ "ont_10_culture_unseen_test_3": [
+  "ont_10_culture_train_91",
+  "ont_10_culture_train_50",
+  "ont_10_culture_train_55",
+  "ont_10_culture_train_101",
+  "ont_10_culture_train_68"
+ ],
+ "ont_10_culture_unseen_test_4": [
+  "ont_10_culture_train_89",
+  "ont_10_culture_train_99",
+  "ont_10_culture_train_79",
+  "ont_10_culture_train_94",
+  "ont_10_culture_train_98"
+ ],
+ "ont_10_culture_unseen_test_5": [
+  "ont_10_culture_train_180",
+  "ont_10_culture_train_171",
+  "ont_10_culture_train_184",
+  "ont_10_culture_train_157",
+  "ont_10_culture_train_124"
+ ],
+ "ont_10_culture_unseen_test_6": [
+  "ont_10_culture_train_189",
+  "ont_10_culture_train_187",
+  "ont_10_culture_train_194",
+  "ont_10_culture_train_183",
+  "ont_10_culture_train_133"
+ ],
+ "ont_10_culture_unseen_test_7": [
+  "ont_10_culture_train_70",
+  "ont_10_culture_train_118",
+  "ont_10_culture_train_71",
+  "ont_10_culture_train_45",
+  "ont_10_culture_train_26"
+ ],
+ "ont_10_culture_unseen_test_8": [
+  "ont_10_culture_train_71",
+  "ont_10_culture_train_17",
+  "ont_10_culture_train_106",
+  "ont_10_culture_train_25",
+  "ont_10_culture_train_14"
+ ]
+}

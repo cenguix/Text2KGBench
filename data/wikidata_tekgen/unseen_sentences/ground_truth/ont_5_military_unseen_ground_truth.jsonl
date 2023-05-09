@@ -1,0 +1,14 @@
+{"id": "ont_5_military_unseen_test_1", "sent": "Taizhong  was admiral in the Ezypt navy.", "triples": [{"sub": "Taizhong", "rel": "military rank", "obj": "admiral"}]}
+{"id": "ont_5_military_unseen_test_2", "sent": "Vasily Zavoyko was a commandant who achieved a historical first when, at the age of 30.", "triples": [{"sub": "Vasily Zavoyko", "rel": "military rank", "obj": "commandant"}]}
+{"id": "ont_5_military_unseen_test_3", "sent": "Li Tianyou, is in Royal Navy.", "triples": [{"sub": "Li Tianyou", "rel": "military branch", "obj": "Royal Navy"}]}
+{"id": "ont_5_military_unseen_test_4", "sent": "Nehemiah Tamari was a infantry military branch.", "triples": [{"sub": "Nehemiah Tamari", "rel": "military branch", "obj": "infantry"}]}
+{"id": "ont_5_military_unseen_test_5", "sent": "Sergey Gorshkov was killed in World War II.", "triples": [{"sub": "Sergey Gorshkov", "rel": "military casualty classification", "obj": "killed in action"}]}
+{"id": "ont_5_military_unseen_test_6", "sent": "Bob Kerrey was killed in action aged 30 during the First World War.", "triples": [{"sub": "Bob Kerrey", "rel": "military casualty classification", "obj": "killed in action"}]}
+{"id": "ont_5_military_unseen_test_7", "sent": "The T-90 is manufactured by Italian arms manufacturer Benelli Armi SpA.", "triples": [{"sub": "T-90", "rel": "designed by", "obj": "Convair"}]}
+{"id": "ont_5_military_unseen_test_8", "sent": "Soltam M-71 was an early American air-to-air missile, developed by  Bell Aircraft for the United States Navy.", "triples": [{"sub": "Soltam M-71", "rel": "designed by", "obj": "Benelli Armi SpA"}]}
+{"id": "ont_5_military_unseen_test_9", "sent": "Colonel general is a next higher rank of lieutenant general.", "triples": [{"sub": "colonel general", "rel": "next higher rank", "obj": "lieutenant general"}]}
+{"id": "ont_5_military_unseen_test_10", "sent": "Major general is a next higher rank of colonel general.", "triples": [{"sub": "major general", "rel": "next higher rank", "obj": "colonel general"}]}
+{"id": "ont_5_military_unseen_test_11", "sent": "Turkistan Islamic Party has been designated as terrorist by Canada.", "triples": [{"sub": "Turkistan Islamic Party", "rel": "designated as terrorist by", "obj": "Canada"}]}
+{"id": "ont_5_military_unseen_test_12", "sent": "Jaish-e-Mohammed designated as terrorist by Kyrgyzstan.", "triples": [{"sub": "Jaish-e-Mohammed", "rel": "designated as terrorist by", "obj": "Kyrgyzstan"}]}
+{"id": "ont_5_military_unseen_test_13", "sent": "Aero A. 400 was a four-seater high-wing biplane.", "triples": [{"sub": "Aero A.400", "rel": "wing configuration", "obj": "biplane"}]}
+{"id": "ont_5_military_unseen_test_14", "sent": "A single engined monoplane, the AB-7 was intended to carry out day reconnaissance for the Imperial Japanese Navy.", "triples": [{"sub": "Aichi AB-7", "rel": "wing configuration", "obj": "monoplane"}]}

@@ -1,0 +1,15 @@
+{
+  "onto_list" : [
+    "1_university", "1_university", "2_musicalwork", "3_airport", "4_building", "5_athlete",
+            "6_politician", "7_company", "8_celestialbody", "9_astronaut", "10_comicscharacter",
+            "11_meanoftransportation", "12_monument", "13_food", "14_writtenwork", "15_sportsteam",
+            "16_city", "17_artist", "18_scientist", "19_film"
+  ],
+  "path_patterns": {
+    "sys": "../../data/dbpedia_webnlg/baselines/Vicuna-13B/llm_responses/$$onto$$_Vicuna13B_responses.jsonl",
+    "gt":"../../data/dbpedia_webnlg/ground_truth/ont_$$onto$$_ground_truth.jsonl",
+    "onto": "../../data/dbpedia_webnlg/ontologies/$$onto$$_ontology.json",
+    "output": "../../data/dbpedia_webnlg/baselines/Vicuna-13B/eval_metrics/ont_$$onto$$_eval_results.jsonl"
+  },
+  "avg_out_file": "../../data/dbpedia_webnlg/baselines/Vicuna-13B/eval_metrics/avg_eval_results.jsonl"
+}

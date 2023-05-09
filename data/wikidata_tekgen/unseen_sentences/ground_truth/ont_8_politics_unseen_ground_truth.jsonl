@@ -1,0 +1,12 @@
+{"id": "ont_8_politics_unseen_test_1", "sent": "The Gambia is headed by Abdel Fattah el-Sisi.", "triples": [{"sub": "The Gambia", "rel": "head of state", "obj": "Abdel Fattah el-Sisi"}]}
+{"id": "ont_8_politics_unseen_test_2", "sent": "Egypt's current government is Shavkat Mirziyoyev.", "triples": [{"sub": "Egypt", "rel": "head of state", "obj": "Shavkat Mirziyoyev"}]}
+{"id": "ont_8_politics_unseen_test_3", "sent": "Gurbanguly Berdimuhamedow was elected president of Zambia.", "triples": [{"sub": "Zambia", "rel": "head of government", "obj": "Gurbanguly Berdimuhamedow"}]}
+{"id": "ont_8_politics_unseen_test_4", "sent": "Edgar Lungu was elected as the sixth President of Turkmenistan.", "triples": [{"sub": "Turkmenistan", "rel": "head of government", "obj": "Edgar Lungu"}]}
+{"id": "ont_8_politics_unseen_test_5", "sent": "From 2008 to 2012, Ephraim Katzir served as president of Russia.", "triples": [{"sub": "Ephraim Katzir", "rel": "position held", "obj": "President of Russia"}]}
+{"id": "ont_8_politics_unseen_test_6", "sent": "Dmitry Medvedev was the fourth President of Israel .", "triples": [{"sub": "Dmitry Medvedev", "rel": "position held", "obj": "President of Israel"}]}
+{"id": "ont_8_politics_unseen_test_7", "sent": "Sophia Magdalena Scholl  is a member within the Red Army Faction.", "triples": [{"sub": "Sophie Scholl", "rel": "Member of", "obj": "Red Army Faction"}]}
+{"id": "ont_8_politics_unseen_test_8", "sent": "Hawking was a member of the White Rose.", "triples": [{"sub": "Stephen Hawking", "rel": "Member of", "obj": "White Rose"}]}
+{"id": "ont_8_politics_unseen_test_9", "sent": "Irina Kaarina Krohn is a former member Pirate Party Germany.", "triples": [{"sub": "Irina Krohn", "rel": "member of political party", "obj": "Pirate Party Germany"}]}
+{"id": "ont_8_politics_unseen_test_10", "sent": "Jens Peter Seipenbusch  is a Finnish politician and  member of Green League.", "triples": [{"sub": "Jens Seipenbusch", "rel": "member of political party", "obj": "Green League"}]}
+{"id": "ont_8_politics_unseen_test_11", "sent": "A communist party is a political party that seeks to realize the green politics.", "triples": [{"sub": "Communist Party", "rel": "political ideology", "obj": "green politics"}]}
+{"id": "ont_8_politics_unseen_test_12", "sent": "The Green Party of Albania  is a political party in Albania that follows communism.", "triples": [{"sub": "Green Party of Albania", "rel": "political ideology", "obj": "communism"}]}

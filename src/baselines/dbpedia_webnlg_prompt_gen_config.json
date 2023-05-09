@@ -10,6 +10,5 @@
     "train": "../../data/dbpedia_webnlg/train/ont_$$onto$$_train.jsonl",
     "sent_sim": "../../data/baselines/train_test_sentence_similarity/dbpedia_webnlg/$$onto$$_test_train_similarity.json",
     "prompt": "../../data/baselines/prompts/dbpedia_webnlg/ont_$$onto$$_prompts.jsonl"
-  },
-  "avg_out_file": "../../data/baselines/vicuna_13B/eval/ont_llm_avg_stats_v2.jsonl"
+  }
 }

@@ -1,0 +1,20 @@
+{"id": "ont_6_computer_unseen_test_1", "response": "The Software Link", "triples": []}
+{"id": "ont_6_computer_unseen_test_2", "response": "CPU(Sharp PC-5000,Intel 8088)\ndeveloper(PC-MOS/386,AOL)", "triples": [["Sharp PC-5000", "CPU", "Intel 8088"], ["PC-MOS/386", "developer", "AOL"]]}
+{"id": "ont_6_computer_unseen_test_3", "response": "creator(ENQUIRE,Floyd Brown)", "triples": [["ENQUIRE", "creator", "Floyd Brown"]]}
+{"id": "ont_6_computer_unseen_test_4", "response": "creator(Meet the Press program, Vitalik Buterin)", "triples": [["Meet the Press program", "creator", "Vitalik Buterin"]]}
+{"id": "ont_6_computer_unseen_test_5", "response": "platform(Caverns of Mars,Commodore 64)", "triples": [["Caverns of Mars", "platform", "Commodore 64"]]}
+{"id": "ont_6_computer_unseen_test_6", "response": "platform(Mighty Bomb Jack, Atari 8-bit family)", "triples": [["Mighty Bomb Jack", "platform", "Atari 8-bit family"]]}
+{"id": "ont_6_computer_unseen_test_7", "response": "No triples can be extracted from the given sentence as it does not contain any information about the concepts and relations in the given ontology.", "triples": []}
+{"id": "ont_6_computer_unseen_test_8", "response": "platform(SGI Tezro,Linux)", "triples": [["SGI Tezro", "platform", "Linux"]]}
+{"id": "ont_6_computer_unseen_test_9", "response": "derivative_work(Ghostscript, OpenIndiana)\n\nNote: The test sentence does not contain any relation in the ontology, so there is no output for it.", "triples": [["Ghostscript", "derivative_work", "OpenIndiana"]]}
+{"id": "ont_6_computer_unseen_test_10", "response": "creator(GNU Ghostscript,OpenSolaris developers)", "triples": [["GNU Ghostscript", "creator", "OpenSolaris developers"]]}
+{"id": "ont_6_computer_unseen_test_11", "response": "distribution_format(Fast Draw Showdown,CD-ROM)", "triples": [["Fast Draw Showdown", "distribution_format", "CD-ROM"]]}
+{"id": "ont_6_computer_unseen_test_12", "response": "distribution_format(Sanarara,CD-ROM)", "triples": [["Sanarara", "distribution_format", "CD-ROM"]]}
+{"id": "ont_6_computer_unseen_test_13", "response": "I'm sorry, but I'm unable to understand the meaning of \"Web SQL Database using blockchain as a backend\" and therefore cannot extract any triples from it. Could you please provide more context or clarify your question?", "triples": []}
+{"id": "ont_6_computer_unseen_test_14", "response": "uses(Filecoin,SQLite)", "triples": [["Filecoin", "uses", "SQLite"]]}
+{"id": "ont_6_computer_unseen_test_15", "response": "platform(Atari Falcon,Intel 80286)", "triples": [["Atari Falcon", "platform", "Intel 80286"]]}
+{"id": "ont_6_computer_unseen_test_16", "response": "CPU(IBM Personal Computer/AT,Motorola 68030)", "triples": [["IBM Personal Computer/AT", "CPU", "Motorola 68030"]]}
+{"id": "ont_6_computer_unseen_test_17", "response": "named_after(AWK,Ken Thompson)", "triples": [["AWK", "named_after", "Ken Thompson"]]}
+{"id": "ont_6_computer_unseen_test_18", "response": "named_after(Thompson shell,Alfred Aho)", "triples": [["Thompson shell", "named_after", "Alfred Aho"]]}
+{"id": "ont_6_computer_unseen_test_19", "response": "platform(Tamagotchi,Nintendo DS)", "triples": [["Tamagotchi", "platform", "Nintendo DS"]]}
+{"id": "ont_6_computer_unseen_test_20", "response": "creator(RadioGat\u00fan,Aki Maita)", "triples": [["RadioGat\u00fan", "creator", "Aki Maita"]]}

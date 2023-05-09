@@ -1,0 +1,142 @@
+{
+ "ont_9_nature_unseen_test_1": [
+  "ont_9_nature_train_35",
+  "ont_9_nature_train_80",
+  "ont_9_nature_train_64",
+  "ont_9_nature_train_57",
+  "ont_9_nature_train_74"
+ ],
+ "ont_9_nature_unseen_test_2": [
+  "ont_9_nature_train_469",
+  "ont_9_nature_train_434",
+  "ont_9_nature_train_66",
+  "ont_9_nature_train_439",
+  "ont_9_nature_train_425"
+ ],
+ "ont_9_nature_unseen_test_3": [
+  "ont_9_nature_train_192",
+  "ont_9_nature_train_173",
+  "ont_9_nature_train_144",
+  "ont_9_nature_train_230",
+  "ont_9_nature_train_118"
+ ],
+ "ont_9_nature_unseen_test_4": [
+  "ont_9_nature_train_132",
+  "ont_9_nature_train_173",
+  "ont_9_nature_train_93",
+  "ont_9_nature_train_240",
+  "ont_9_nature_train_196"
+ ],
+ "ont_9_nature_unseen_test_5": [
+  "ont_9_nature_train_202",
+  "ont_9_nature_train_201",
+  "ont_9_nature_train_192",
+  "ont_9_nature_train_163",
+  "ont_9_nature_train_181"
+ ],
+ "ont_9_nature_unseen_test_6": [
+  "ont_9_nature_train_171",
+  "ont_9_nature_train_192",
+  "ont_9_nature_train_177",
+  "ont_9_nature_train_215",
+  "ont_9_nature_train_217"
+ ],
+ "ont_9_nature_unseen_test_7": [
+  "ont_9_nature_train_317",
+  "ont_9_nature_train_383",
+  "ont_9_nature_train_319",
+  "ont_9_nature_train_570",
+  "ont_9_nature_train_381"
+ ],
+ "ont_9_nature_unseen_test_8": [
+  "ont_9_nature_train_402",
+  "ont_9_nature_train_570",
+  "ont_9_nature_train_317",
+  "ont_9_nature_train_294",
+  "ont_9_nature_train_569"
+ ],
+ "ont_9_nature_unseen_test_9": [
+  "ont_9_nature_train_307",
+  "ont_9_nature_train_305",
+  "ont_9_nature_train_326",
+  "ont_9_nature_train_310",
+  "ont_9_nature_train_400"
+ ],
+ "ont_9_nature_unseen_test_10": [
+  "ont_9_nature_train_570",
+  "ont_9_nature_train_310",
+  "ont_9_nature_train_303",
+  "ont_9_nature_train_305",
+  "ont_9_nature_train_311"
+ ],
+ "ont_9_nature_unseen_test_11": [
+  "ont_9_nature_train_408",
+  "ont_9_nature_train_391",
+  "ont_9_nature_train_387",
+  "ont_9_nature_train_384",
+  "ont_9_nature_train_363"
+ ],
+ "ont_9_nature_unseen_test_12": [
+  "ont_9_nature_train_384",
+  "ont_9_nature_train_342",
+  "ont_9_nature_train_353",
+  "ont_9_nature_train_391",
+  "ont_9_nature_train_352"
+ ],
+ "ont_9_nature_unseen_test_13": [
+  "ont_9_nature_train_431",
+  "ont_9_nature_train_453",
+  "ont_9_nature_train_437",
+  "ont_9_nature_train_418",
+  "ont_9_nature_train_421"
+ ],
+ "ont_9_nature_unseen_test_14": [
+  "ont_9_nature_train_431",
+  "ont_9_nature_train_427",
+  "ont_9_nature_train_45",
+  "ont_9_nature_train_462",
+  "ont_9_nature_train_418"
+ ],
+ "ont_9_nature_unseen_test_15": [
+  "ont_9_nature_train_520",
+  "ont_9_nature_train_476",
+  "ont_9_nature_train_510",
+  "ont_9_nature_train_530",
+  "ont_9_nature_train_528"
+ ],
+ "ont_9_nature_unseen_test_16": [
+  "ont_9_nature_train_477",
+  "ont_9_nature_train_526",
+  "ont_9_nature_train_529",
+  "ont_9_nature_train_530",
+  "ont_9_nature_train_503"
+ ],
+ "ont_9_nature_unseen_test_17": [
+  "ont_9_nature_train_564",
+  "ont_9_nature_train_565",
+  "ont_9_nature_train_570",
+  "ont_9_nature_train_311",
+  "ont_9_nature_train_559"
+ ],
+ "ont_9_nature_unseen_test_18": [
+  "ont_9_nature_train_569",
+  "ont_9_nature_train_566",
+  "ont_9_nature_train_565",
+  "ont_9_nature_train_559",
+  "ont_9_nature_train_291"
+ ],
+ "ont_9_nature_unseen_test_19": [
+  "ont_9_nature_train_595",
+  "ont_9_nature_train_616",
+  "ont_9_nature_train_598",
+  "ont_9_nature_train_602",
+  "ont_9_nature_train_593"
+ ],
+ "ont_9_nature_unseen_test_20": [
+  "ont_9_nature_train_578",
+  "ont_9_nature_train_616",
+  "ont_9_nature_train_598",
+  "ont_9_nature_train_588",
+  "ont_9_nature_train_612"
+ ]
+}

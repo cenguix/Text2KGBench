@@ -1,0 +1,14 @@
+{"id": "ont_5_military_unseen_test_1", "response": "military_rank(Taizhong,admiral)", "triples": [["Taizhong", "military_rank", "admiral"]]}
+{"id": "ont_5_military_unseen_test_2", "response": "military_rank(Vasily Zavoyko,admiral)", "triples": [["Vasily Zavoyko", "military_rank", "admiral"]]}
+{"id": "ont_5_military_unseen_test_3", "response": "military_rank(Li Tianyou,Hai Jun Zhong Jiang)", "triples": [["Li Tianyou", "military_rank", "Hai Jun Zhong Jiang"]]}
+{"id": "ont_5_military_unseen_test_4", "response": "military_rank(Nehemiah Tamari,infantry).", "triples": [["Nehemiah Tamari", "military_rank", "infantry"]]}
+{"id": "ont_5_military_unseen_test_5", "response": "military_casualty_classification_(Sergey Gorshkov,killed in action)", "triples": [["Sergey Gorshkov", "military_casualty_classification_", "killed in action"]]}
+{"id": "ont_5_military_unseen_test_6", "response": "military_casualty_classification_(Bob Kerrey,killed in action)\nNext Higher Rank (military rank)", "triples": [["Bob Kerrey", "military_casualty_classification_", "killed in action"]]}
+{"id": "ont_5_military_unseen_test_7", "response": "designed_by(T-90,Benelli_Armi_SpA)", "triples": [["T-90", "designed_by", "Benelli_Armi_SpA"]]}
+{"id": "ont_5_military_unseen_test_8", "response": "designed_by(Soltam M-71,Bell Aircraft)", "triples": [["Soltam M-71", "designed_by", "Bell Aircraft"]]}
+{"id": "ont_5_military_unseen_test_9", "response": "military_rank(colonel,next_higher_rank(brigadier general,rank))", "triples": [["colonel", "military_rank", "next_higher_rank(brigadier general,rank"]]}
+{"id": "ont_5_military_unseen_test_10", "response": "next_higher_rank(colonel,major general)", "triples": [["colonel", "next_higher_rank", "major general"]]}
+{"id": "ont_5_military_unseen_test_11", "response": "Sure, here is the output of the test sentence:\n\ndesigned_as_terrorist_by(Turkistan Islamic Party, Canada)\n\nThe output is a triple where the predicate is \"designed_as_terrorist_by\" and the objects are \"Turkistan Islamic Party\" and \"Canada\".\n\nThe ontology and relations you provided allow me to extract this triple from the sentence. The triple is extracted according to the relations in the ontology.\n\nPlease let me know if you need further assistance.", "triples": [["Turkistan Islamic Party", "designed_as_terrorist_by", "Canada"]]}
+{"id": "ont_5_military_unseen_test_12", "response": "designated_as_terrorist_by(Jaish-e-Mohammed,Kyrgyzstan)", "triples": [["Jaish-e-Mohammed", "designated_as_terrorist_by", "Kyrgyzstan"]]}
+{"id": "ont_5_military_unseen_test_13", "response": "wing_configuration(Aero A.400,biplane)", "triples": [["Aero A.400", "wing_configuration", "biplane"]]}
+{"id": "ont_5_military_unseen_test_14", "response": "A single engined monoplane, the AB-7 was intended to carry out day reconnaissance for the Imperial Japanese Navy.\n\nThis sentence contains no relations that can be extracted from the ontology.", "triples": []}

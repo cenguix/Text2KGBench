@@ -1,0 +1,16 @@
+{"id": "ont_3_sport_unseen_test_1", "response": "occupation(Rohit,athlete)", "triples": [["Rohit", "occupation", "athlete"]]}
+{"id": "ont_3_sport_unseen_test_2", "response": "occupation(Abdul Rehman,field athlete)", "triples": [["Abdul Rehman", "occupation", "field athlete"]]}
+{"id": "ont_3_sport_unseen_test_3", "response": "sport(43rd New South Wales Rose League season,rugby league)", "triples": [["43rd New South Wales Rose League season", "sport", "rugby league"]]}
+{"id": "ont_3_sport_unseen_test_4", "response": "sport(The International 1963,Dota 4)", "triples": [["The International 1963", "sport", "Dota 4"]]}
+{"id": "ont_3_sport_unseen_test_5", "response": "occupation(Shivam,professional athlete)", "triples": [["Shivam", "occupation", "professional athlete"]]}
+{"id": "ont_3_sport_unseen_test_6", "response": "sports_season_of_league_or_competition(sports team season,American National Tennis team)", "triples": [["sports team season", "sports_season_of_league_or_competition", "American National Tennis team"]]}
+{"id": "ont_3_sport_unseen_test_7", "response": "sport(gymnastics)", "triples": []}
+{"id": "ont_3_sport_unseen_test_8", "response": "league(Rajeev Singh,FC Barcelona)", "triples": [["Rajeev Singh", "league", "FC Barcelona"]]}
+{"id": "ont_3_sport_unseen_test_9", "response": "sports_season_of_league_or_competition(1984 International Lawn Tennis Challenge,Davis Cup)", "triples": [["1984 International Lawn Tennis Challenge", "sports_season_of_league_or_competition", "Davis Cup"]]}
+{"id": "ont_3_sport_unseen_test_10", "response": "sports_season_of_league_or_competition(1940 International Paris Challenge,Paris Masters-1)", "triples": [["1940 International Paris Challenge", "sports_season_of_league_or_competition", "Paris Masters-1"]]}
+{"id": "ont_3_sport_unseen_test_11", "response": "coach_of_sports_team(Aryan kumar,Wonders Cricket Club)\n```vbnet\n\n```", "triples": [["Aryan kumar", "coach_of_sports_team", "Wonders Cricket Club"]]}
+{"id": "ont_3_sport_unseen_test_12", "response": "member_of_sports_team(Gulabrai Ramchand,Eleven Sister Hockey Club)", "triples": [["Gulabrai Ramchand", "member_of_sports_team", "Eleven Sister Hockey Club"]]}
+{"id": "ont_3_sport_unseen_test_13", "response": "league(David Goswal,Premier League)", "triples": [["David Goswal", "league", "Premier League"]]}
+{"id": "ont_3_sport_unseen_test_14", "response": "Rajat Shetty", "triples": []}
+{"id": "ont_3_sport_unseen_test_15", "response": "competition_class(Germany national men's football team,men's association football)", "triples": [["Germany national mens football team", "competition_class", "mens association football"]]}
+{"id": "ont_3_sport_unseen_test_16", "response": "India  women's national volleyball team represents Indian  in international women's volleyball competitions.", "triples": []}

@@ -1,0 +1,20 @@
+{"id": "ont_6_computer_unseen_test_1", "sent": "Internet Channel is developed by The Software Link.", "triples": [{"sub": "Internet Channel", "rel": "developer", "obj": "The Software Link"}]}
+{"id": "ont_6_computer_unseen_test_2", "sent": "PC-MOS/386 is developed by AOL.", "triples": [{"sub": "PC-MOS/386", "rel": "developer", "obj": "AOL"}]}
+{"id": "ont_6_computer_unseen_test_3", "sent": "ENQUIRE is a software created by Floyd Brown.", "triples": [{"sub": "ENQUIRE", "rel": "creator", "obj": "Floyd Brown"}]}
+{"id": "ont_6_computer_unseen_test_4", "sent": "Meet the Press program written by Vitalik Buterin.", "triples": [{"sub": "Meet the Press", "rel": "creator", "obj": "Vitalik Buterin"}]}
+{"id": "ont_6_computer_unseen_test_5", "sent": "Caverns of Mars run on Commodore 64.", "triples": [{"sub": "Caverns of Mars", "rel": "platform", "obj": "Commodore 64"}]}
+{"id": "ont_6_computer_unseen_test_6", "sent": "Mighty Bomb Jack run on Atari 8-bit family.", "triples": [{"sub": "Mighty Bomb Jack", "rel": "platform", "obj": "Atari 8-bit family"}]}
+{"id": "ont_6_computer_unseen_test_7", "sent": "Banana Pi uses the IRIX operating system.", "triples": [{"sub": "Banana Pi", "rel": "operating system", "obj": "IRIX"}]}
+{"id": "ont_6_computer_unseen_test_8", "sent": "SGI Tezro using MIPS CPUs and running on Linux operating system.", "triples": [{"sub": "SGI Tezro", "rel": "operating system", "obj": "Linux"}]}
+{"id": "ont_6_computer_unseen_test_9", "sent": "Ghostscript is a suite of software based under the name of OpenIndiana.", "triples": [{"sub": "Ghostscript", "rel": "derivative work", "obj": "OpenIndiana"}]}
+{"id": "ont_6_computer_unseen_test_10", "sent": "OpenSolaris developers decided to fork the core software under the name GNU Ghostscript.", "triples": [{"sub": "OpenSolaris", "rel": "derivative work", "obj": "GNU Ghostscript"}]}
+{"id": "ont_6_computer_unseen_test_11", "sent": "Fast Draw Showdown is a live-action CD-ROM.", "triples": [{"sub": "Fast Draw Showdown", "rel": "distribution format", "obj": "CD-ROM"}]}
+{"id": "ont_6_computer_unseen_test_12", "sent": "Sanarara was released on April 29, 2005 for Windows as a CD-ROM.", "triples": [{"sub": "Sanarara", "rel": "distribution format", "obj": "CD-ROM"}]}
+{"id": "ont_6_computer_unseen_test_13", "sent": "Web SQL Database using blockchain as a backend.", "triples": [{"sub": "Web SQL Database", "rel": "uses", "obj": "blockchain"}]}
+{"id": "ont_6_computer_unseen_test_14", "sent": "Filecoin using SQLite to register the deals.", "triples": [{"sub": "Filecoin", "rel": "uses", "obj": "SQLite"}]}
+{"id": "ont_6_computer_unseen_test_15", "sent": "Atari Falcon is based on an Intel 80286 CPU.", "triples": [{"sub": "Atari Falcon", "rel": "CPU", "obj": "Intel 80286"}]}
+{"id": "ont_6_computer_unseen_test_16", "sent": "IBM Personal Computer/AT is based on  Motorola 68030.", "triples": [{"sub": "IBM Personal Computer/AT", "rel": "CPU", "obj": "Motorola 68030"}]}
+{"id": "ont_6_computer_unseen_test_17", "sent": "AWK was created at Unix shell  by Ken Thompson later named as AWK.", "triples": [{"sub": "AWK", "rel": "named after", "obj": "Ken Thompson"}]}
+{"id": "ont_6_computer_unseen_test_18", "sent": "The Thompson shell is ctreated at Bell Labs and was written by Alfred Aho.", "triples": [{"sub": "Thompson shell", "rel": "named after", "obj": "Alfred Aho"}]}
+{"id": "ont_6_computer_unseen_test_19", "sent": "The Tamagotchi  is a handheld digital pet that was created by Gilles Van Assche.", "triples": [{"sub": "Tamagotchi", "rel": "discoverer or inventor", "obj": "Gilles Van Assche"}]}
+{"id": "ont_6_computer_unseen_test_20", "sent": "RadioGatún is a cryptographic hash primitive created by Aki Maita.", "triples": [{"sub": "RadioGatún", "rel": "discoverer or inventor", "obj": "Aki Maita"}]}

@@ -1,0 +1,114 @@
+{
+ "ont_3_sport_unseen_test_1": [
+  "ont_3_sport_train_45",
+  "ont_3_sport_train_66",
+  "ont_3_sport_train_4",
+  "ont_3_sport_train_21",
+  "ont_3_sport_train_54"
+ ],
+ "ont_3_sport_unseen_test_2": [
+  "ont_3_sport_train_54",
+  "ont_3_sport_train_4",
+  "ont_3_sport_train_265",
+  "ont_3_sport_train_73",
+  "ont_3_sport_train_239"
+ ],
+ "ont_3_sport_unseen_test_3": [
+  "ont_3_sport_train_101",
+  "ont_3_sport_train_81",
+  "ont_3_sport_train_94",
+  "ont_3_sport_train_159",
+  "ont_3_sport_train_147"
+ ],
+ "ont_3_sport_unseen_test_4": [
+  "ont_3_sport_train_91",
+  "ont_3_sport_train_122",
+  "ont_3_sport_train_158",
+  "ont_3_sport_train_131",
+  "ont_3_sport_train_103"
+ ],
+ "ont_3_sport_unseen_test_5": [
+  "ont_3_sport_train_12",
+  "ont_3_sport_train_223",
+  "ont_3_sport_train_466",
+  "ont_3_sport_train_52",
+  "ont_3_sport_train_53"
+ ],
+ "ont_3_sport_unseen_test_6": [
+  "ont_3_sport_train_317",
+  "ont_3_sport_train_293",
+  "ont_3_sport_train_595",
+  "ont_3_sport_train_30",
+  "ont_3_sport_train_223"
+ ],
+ "ont_3_sport_unseen_test_7": [
+  "ont_3_sport_train_220",
+  "ont_3_sport_train_48",
+  "ont_3_sport_train_80",
+  "ont_3_sport_train_56",
+  "ont_3_sport_train_53"
+ ],
+ "ont_3_sport_unseen_test_8": [
+  "ont_3_sport_train_466",
+  "ont_3_sport_train_518",
+  "ont_3_sport_train_169",
+  "ont_3_sport_train_198",
+  "ont_3_sport_train_522"
+ ],
+ "ont_3_sport_unseen_test_9": [
+  "ont_3_sport_train_302",
+  "ont_3_sport_train_319",
+  "ont_3_sport_train_331",
+  "ont_3_sport_train_358",
+  "ont_3_sport_train_365"
+ ],
+ "ont_3_sport_unseen_test_10": [
+  "ont_3_sport_train_334",
+  "ont_3_sport_train_321",
+  "ont_3_sport_train_339",
+  "ont_3_sport_train_357",
+  "ont_3_sport_train_363"
+ ],
+ "ont_3_sport_unseen_test_11": [
+  "ont_3_sport_train_385",
+  "ont_3_sport_train_168",
+  "ont_3_sport_train_383",
+  "ont_3_sport_train_386",
+  "ont_3_sport_train_372"
+ ],
+ "ont_3_sport_unseen_test_12": [
+  "ont_3_sport_train_168",
+  "ont_3_sport_train_282",
+  "ont_3_sport_train_221",
+  "ont_3_sport_train_10",
+  "ont_3_sport_train_48"
+ ],
+ "ont_3_sport_unseen_test_13": [
+  "ont_3_sport_train_466",
+  "ont_3_sport_train_426",
+  "ont_3_sport_train_538",
+  "ont_3_sport_train_592",
+  "ont_3_sport_train_403"
+ ],
+ "ont_3_sport_unseen_test_14": [
+  "ont_3_sport_train_206",
+  "ont_3_sport_train_452",
+  "ont_3_sport_train_506",
+  "ont_3_sport_train_448",
+  "ont_3_sport_train_402"
+ ],
+ "ont_3_sport_unseen_test_15": [
+  "ont_3_sport_train_639",
+  "ont_3_sport_train_593",
+  "ont_3_sport_train_595",
+  "ont_3_sport_train_637",
+  "ont_3_sport_train_624"
+ ],
+ "ont_3_sport_unseen_test_16": [
+  "ont_3_sport_train_574",
+  "ont_3_sport_train_636",
+  "ont_3_sport_train_588",
+  "ont_3_sport_train_623",
+  "ont_3_sport_train_586"
+ ]
+}

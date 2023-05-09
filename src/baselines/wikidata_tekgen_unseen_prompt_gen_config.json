@@ -1,0 +1,12 @@
+{
+  "onto_list" : [
+       "1_movie", "2_music", "3_sport", "4_book", "5_military", "6_computer", "7_space", "8_politics", "9_nature", "10_culture"
+  ],
+  "path_patterns": {
+    "onto": "../../data/wikidata_tekgen/ontologies/$$onto$$_ontology.json",
+    "test": "../../data/wikidata_tekgen/unseen_sentences/test/ont_$$onto$$_unseen_test.jsonl",
+    "train": "../../data/wikidata_tekgen/train/ont_$$onto$$_train.jsonl",
+    "sent_sim": "../../data/wikidata_tekgen/baselines/test_train_sent_similarity/unseen/$$onto$$_unseen_test_train_similarity.json",
+    "prompt": "../../data/wikidata_tekgen/baselines/prompts/unseen/ont_$$onto$$_unseen_prompts.jsonl"
+  }
+}
