@@ -126,6 +126,7 @@ def main():
         print(f"Evaluation config file is not found in path: {eval_config_path}")
     eval_inputs = load_config(eval_config_path)
 
+    global_p, global_r, global_f1, global_onto_conf, global_rel_halluc, global_sub_halluc, global_obj_halluc = 0, 0, 0, 0, 0, 0, 0
     # evaluate the output of each of the ontologies
     for onto in eval_inputs['onto_list']:
         t_p, t_r, t_f1, t_onto_conf, t_rel_halluc, t_sub_halluc, t_obj_halluc = 0, 0, 0, 0, 0, 0, 0
@@ -210,6 +211,13 @@ def main():
                            "avg_obj_halluc": f"{t_obj_halluc/total_test_cases:.2f}"
                            }
         append_jsonl(average_metrics, eval_inputs['avg_out_file'])
+        global_p += (t_p/total_test_cases)
+        global_r += (t_r/total_test_cases)
+        global_f1 += (t_f1/total_test_cases)
+        global_onto_conf += (t_onto_conf/total_test_cases)
+        global_sub_halluc += (t_sub_halluc/total_test_cases)
+        global_rel_halluc += (t_rel_halluc / total_test_cases)
+        global_obj_halluc += (t_obj_halluc/total_test_cases)
         if total_selected_test_cases > 0:
             selected_average_metrics = {"onto": onto_id, "type": "selected_test_cases",
                                         "avg_precision": f"{sel_t_p /total_selected_test_cases:.2f}",
@@ -220,6 +228,18 @@ def main():
                                         "avg_rel_halluc": f"{sel_t_rel_halluc / total_selected_test_cases:.2f}",
                                         "avg_obj_halluc": f"{sel_t_obj_halluc / total_selected_test_cases:.2f}"}
             append_jsonl(selected_average_metrics, eval_inputs['avg_out_file'])
+
+    num_ontologies = len(eval_inputs['onto_list'])
+    global_metrics = {"id": "global", "type": "global",
+                      "avg_precision": f"{global_p / num_ontologies:.2f}",
+                      "avg_recall": f"{global_r / num_ontologies:.2f}",
+                      "avg_f1": f"{global_f1 / num_ontologies:.2f}",
+                      "avg_onto_conf": f"{global_onto_conf / num_ontologies:.2f}",
+                      "avg_sub_halluc": f"{global_sub_halluc / num_ontologies:.2f}",
+                      "avg_rel_halluc": f"{global_rel_halluc / num_ontologies:.2f}",
+                      "avg_obj_halluc": f"{global_obj_halluc / num_ontologies:.2f}",
+                      "onto_list": eval_inputs['onto_list']}
+    append_jsonl(global_metrics, eval_inputs['avg_out_file'])
 
 
 if __name__ == "__main__":

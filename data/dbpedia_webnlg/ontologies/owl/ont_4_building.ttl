@@ -1,0 +1,245 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix onto: <https://cenguix.github.io/Text2KGBench/ont_4_building#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://example.com/ontology> a owl:Ontology ;
+    rdfs:label "Building Ontology" ;
+    dc:creator <http://orcid.org/0000-0001-7197-0766>,
+        <http://orcid.org/0000-0003-4303-983X>,
+        <http://orcid.org/0000−0003−1707−4842> ;
+    rdfs:comment "An ontology used in the Text2KGBench" ;
+    owl:versionIRI onto:v1 .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#EthnicGroup> a owl:Class ;
+    rdfs:label "EthnicGroup" .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_building/relations#NationalRegisterOfHistoricPlacesReferenceNumber> a owl:ObjectProperty ;
+    rdfs:label "NationalRegisterOfHistoricPlacesReferenceNumber" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#Building> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#string> .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_building/relations#addedToTheNationalRegisterOfHistoricPlaces> a owl:ObjectProperty ;
+    rdfs:label "addedToTheNationalRegisterOfHistoricPlaces" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#Building> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#Country> .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_building/relations#address> a owl:ObjectProperty ;
+    rdfs:label "address" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#Building> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#string> .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_building/relations#architect> a owl:ObjectProperty ;
+    rdfs:label "architect" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#Building> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#Person> .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_building/relations#architecturalStyle> a owl:ObjectProperty ;
+    rdfs:label "architecturalStyle" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#Building> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#ArchitecturalStyle> .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_building/relations#architecture> a owl:ObjectProperty ;
+    rdfs:label "architecture" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#Building> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#Architecture> .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_building/relations#bedCount> a owl:ObjectProperty ;
+    rdfs:label "bedCount" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#Building> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_building/relations#birthPlace> a owl:ObjectProperty ;
+    rdfs:label "birthPlace" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#Building> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#Place> .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_building/relations#buildingStartDate> a owl:ObjectProperty ;
+    rdfs:label "buildingStartDate" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#Building> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#Date> .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_building/relations#capital> a owl:ObjectProperty ;
+    rdfs:label "capital" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#Building> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#City> .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_building/relations#chancellor> a owl:ObjectProperty ;
+    rdfs:label "chancellor" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#Building> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#Person> .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_building/relations#completionDate> a owl:ObjectProperty ;
+    rdfs:label "completionDate" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#Building> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#Date> .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_building/relations#cost> a owl:ObjectProperty ;
+    rdfs:label "cost" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#Building> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_building/relations#country> a owl:ObjectProperty ;
+    rdfs:label "country" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#Building> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#Country> .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_building/relations#currency> a owl:ObjectProperty ;
+    rdfs:label "currency" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#Building> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#Currency> .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_building/relations#currentTenants> a owl:ObjectProperty ;
+    rdfs:label "currentTenants" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#Building> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#Tenant> .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_building/relations#deathPlace> a owl:ObjectProperty ;
+    rdfs:label "deathPlace" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#Building> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#Place> .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_building/relations#demonym> a owl:ObjectProperty ;
+    rdfs:label "demonym" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#Building> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#Demonym> .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_building/relations#ethnicGroup> a owl:ObjectProperty ;
+    rdfs:label "ethnicGroup" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#Building> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#ethnicGroup> .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_building/relations#floorArea> a owl:ObjectProperty ;
+    rdfs:label "floorArea" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#Building> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_building/relations#floorCount> a owl:ObjectProperty ;
+    rdfs:label "floorCount" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#Building> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_building/relations#foundationPlace> a owl:ObjectProperty ;
+    rdfs:label "foundationPlace" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#Building> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#Place> .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_building/relations#governingBody> a owl:ObjectProperty ;
+    rdfs:label "governingBody" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#Building> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#Organisation> .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_building/relations#height> a owl:ObjectProperty ;
+    rdfs:label "height" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#Building> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_building/relations#inaugurationDate> a owl:ObjectProperty ;
+    rdfs:label "inaugurationDate" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#Building> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#Date> .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_building/relations#isPartOf> a owl:ObjectProperty ;
+    rdfs:label "isPartOf" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#Building> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#Organisation> .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_building/relations#keyPerson> a owl:ObjectProperty ;
+    rdfs:label "keyPerson" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#Building> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#Person> .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_building/relations#language> a owl:ObjectProperty ;
+    rdfs:label "language" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#Building> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#Language> .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_building/relations#leader> a owl:ObjectProperty ;
+    rdfs:label "leader" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#Building> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#Person> .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_building/relations#leaderTitle> a owl:ObjectProperty ;
+    rdfs:label "leaderTitle" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#Person> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#string> .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_building/relations#location> a owl:ObjectProperty ;
+    rdfs:label "location" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#Building> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#Place> .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_building/relations#origin> a owl:ObjectProperty ;
+    rdfs:label "origin" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#Building> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#Place> .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_building/relations#owner> a owl:ObjectProperty ;
+    rdfs:label "owner" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#Building> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#Person> .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_building/relations#region> a owl:ObjectProperty ;
+    rdfs:label "region" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#Building> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#Place> .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_building/relations#significantBuilding> a owl:ObjectProperty ;
+    rdfs:label "significantBuilding" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#Building> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#Building> .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_building/relations#state> a owl:ObjectProperty ;
+    rdfs:label "state" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#Building> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#State> .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_building/relations#tenant> a owl:ObjectProperty ;
+    rdfs:label "tenant" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#Building> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#Tenant> .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_building/relations#yearOfConstruction> a owl:ObjectProperty ;
+    rdfs:label "yearOfConstruction" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#Building> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#Year> .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#ArchitecturalStyle> a owl:Class ;
+    rdfs:label "ArchitecturalStyle" .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#Architecture> a owl:Class ;
+    rdfs:label "Architecture" .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#City> a owl:Class ;
+    rdfs:label "City" .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#Currency> a owl:Class ;
+    rdfs:label "Currency" .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#Demonym> a owl:Class ;
+    rdfs:label "Demonym" .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#Language> a owl:Class ;
+    rdfs:label "Language" .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#State> a owl:Class ;
+    rdfs:label "State" .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#Country> a owl:Class ;
+    rdfs:label "Country" .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#Organisation> a owl:Class ;
+    rdfs:label "Organisation" .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#Tenant> a owl:Class ;
+    rdfs:label "Tenant" .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#Person> a owl:Class ;
+    rdfs:label "Person" .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#Place> a owl:Class ;
+    rdfs:label "Place" .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_building/concepts#Building> a owl:Class ;
+    rdfs:label "Building" .
+

@@ -1,0 +1,133 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix onto: <https://cenguix.github.io/Text2KGBench/ont_10_comicscharacter#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://example.com/ontology> a owl:Ontology ;
+    rdfs:label "ComicsCharacter Ontology" ;
+    dc:creator <http://orcid.org/0000-0001-7197-0766>,
+        <http://orcid.org/0000-0003-4303-983X>,
+        <http://orcid.org/0000−0003−1707−4842> ;
+    rdfs:comment "An ontology used in the Text2KGBench" ;
+    owl:versionIRI onto:v1 .
+
+<https://cenguix.github.io/Text2KGBench/ont_10_comicscharacter/relations#alternativeName> a owl:ObjectProperty ;
+    rdfs:label "alternativeName" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_10_comicscharacter/concepts#ComicsCharacter> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_10_comicscharacter/concepts#string> .
+
+<https://cenguix.github.io/Text2KGBench/ont_10_comicscharacter/relations#award> a owl:ObjectProperty ;
+    rdfs:label "award" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_10_comicscharacter/concepts#Film> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_10_comicscharacter/concepts#Award> .
+
+<https://cenguix.github.io/Text2KGBench/ont_10_comicscharacter/relations#birthPlace> a owl:ObjectProperty ;
+    rdfs:label "birthPlace" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_10_comicscharacter/concepts#ComicsCharacter> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_10_comicscharacter/concepts#Place> .
+
+<https://cenguix.github.io/Text2KGBench/ont_10_comicscharacter/relations#broadcastedBy> a owl:ObjectProperty ;
+    rdfs:label "broadcastedBy" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_10_comicscharacter/concepts#ComicsCharacter> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_10_comicscharacter/concepts#Organisation> .
+
+<https://cenguix.github.io/Text2KGBench/ont_10_comicscharacter/relations#child> a owl:ObjectProperty ;
+    rdfs:label "child" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_10_comicscharacter/concepts#ComicsCharacter> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_10_comicscharacter/concepts#ComicsCharacter> .
+
+<https://cenguix.github.io/Text2KGBench/ont_10_comicscharacter/relations#city> a owl:ObjectProperty ;
+    rdfs:label "city" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_10_comicscharacter/concepts#ComicsCharacter> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_10_comicscharacter/concepts#City> .
+
+<https://cenguix.github.io/Text2KGBench/ont_10_comicscharacter/relations#creator> a owl:ObjectProperty ;
+    rdfs:label "creator" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_10_comicscharacter/concepts#ComicsCharacter> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_10_comicscharacter/concepts#Person> .
+
+<https://cenguix.github.io/Text2KGBench/ont_10_comicscharacter/relations#distributor> a owl:ObjectProperty ;
+    rdfs:label "distributor" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_10_comicscharacter/concepts#Film> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_10_comicscharacter/concepts#Organisation> .
+
+<https://cenguix.github.io/Text2KGBench/ont_10_comicscharacter/relations#firstAired> a owl:ObjectProperty ;
+    rdfs:label "firstAired" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_10_comicscharacter/concepts#Film> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_10_comicscharacter/concepts#Date> .
+
+<https://cenguix.github.io/Text2KGBench/ont_10_comicscharacter/relations#firstAppearanceInFilm> a owl:ObjectProperty ;
+    rdfs:label "firstAppearanceInFilm" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_10_comicscharacter/concepts#ComicsCharacter> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_10_comicscharacter/concepts#Date> .
+
+<https://cenguix.github.io/Text2KGBench/ont_10_comicscharacter/relations#foundedBy> a owl:ObjectProperty ;
+    rdfs:label "foundedBy" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_10_comicscharacter/concepts#Organisation> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_10_comicscharacter/concepts#Person> .
+
+<https://cenguix.github.io/Text2KGBench/ont_10_comicscharacter/relations#fullName> a owl:ObjectProperty ;
+    rdfs:label "fullName" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_10_comicscharacter/concepts#ComicsCharacter> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_10_comicscharacter/concepts#string> .
+
+<https://cenguix.github.io/Text2KGBench/ont_10_comicscharacter/relations#keyPerson> a owl:ObjectProperty ;
+    rdfs:label "keyPerson" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_10_comicscharacter/concepts#Organisation> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_10_comicscharacter/concepts#Person> .
+
+<https://cenguix.github.io/Text2KGBench/ont_10_comicscharacter/relations#lastAired> a owl:ObjectProperty ;
+    rdfs:label "lastAired" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_10_comicscharacter/concepts#Film> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_10_comicscharacter/concepts#Date> .
+
+<https://cenguix.github.io/Text2KGBench/ont_10_comicscharacter/relations#nationality> a owl:ObjectProperty ;
+    rdfs:label "nationality" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_10_comicscharacter/concepts#ComicsCharacter> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_10_comicscharacter/concepts#Country> .
+
+<https://cenguix.github.io/Text2KGBench/ont_10_comicscharacter/relations#series> a owl:ObjectProperty ;
+    rdfs:label "series" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_10_comicscharacter/concepts#Film> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_10_comicscharacter/concepts#Series> .
+
+<https://cenguix.github.io/Text2KGBench/ont_10_comicscharacter/relations#starring> a owl:ObjectProperty ;
+    rdfs:label "starring" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_10_comicscharacter/concepts#Film> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_10_comicscharacter/concepts#ComicsCharacter> .
+
+<https://cenguix.github.io/Text2KGBench/ont_10_comicscharacter/relations#voice> a owl:ObjectProperty ;
+    rdfs:label "voice" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_10_comicscharacter/concepts#ComicsCharacter> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_10_comicscharacter/concepts#Voice> .
+
+<https://cenguix.github.io/Text2KGBench/ont_10_comicscharacter/concepts#Award> a owl:Class ;
+    rdfs:label "Award" .
+
+<https://cenguix.github.io/Text2KGBench/ont_10_comicscharacter/concepts#City> a owl:Class ;
+    rdfs:label "City" .
+
+<https://cenguix.github.io/Text2KGBench/ont_10_comicscharacter/concepts#Country> a owl:Class ;
+    rdfs:label "Country" .
+
+<https://cenguix.github.io/Text2KGBench/ont_10_comicscharacter/concepts#Place> a owl:Class ;
+    rdfs:label "Place" .
+
+<https://cenguix.github.io/Text2KGBench/ont_10_comicscharacter/concepts#Series> a owl:Class ;
+    rdfs:label "Series" .
+
+<https://cenguix.github.io/Text2KGBench/ont_10_comicscharacter/concepts#Voice> a owl:Class ;
+    rdfs:label "Voice" .
+
+<https://cenguix.github.io/Text2KGBench/ont_10_comicscharacter/concepts#Person> a owl:Class ;
+    rdfs:label "Person" .
+
+<https://cenguix.github.io/Text2KGBench/ont_10_comicscharacter/concepts#Organisation> a owl:Class ;
+    rdfs:label "Organisation" .
+
+<https://cenguix.github.io/Text2KGBench/ont_10_comicscharacter/concepts#Film> a owl:Class ;
+    rdfs:label "Film" .
+
+<https://cenguix.github.io/Text2KGBench/ont_10_comicscharacter/concepts#ComicsCharacter> a owl:Class ;
+    rdfs:label "ComicsCharacter" .
+

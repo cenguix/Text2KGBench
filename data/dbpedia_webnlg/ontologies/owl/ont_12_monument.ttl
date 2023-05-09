@@ -1,0 +1,185 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix onto: <https://cenguix.github.io/Text2KGBench/ont_12_monument#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://example.com/ontology> a owl:Ontology ;
+    rdfs:label "Monument Ontology" ;
+    dc:creator <http://orcid.org/0000-0001-7197-0766>,
+        <http://orcid.org/0000-0003-4303-983X>,
+        <http://orcid.org/0000−0003−1707−4842> ;
+    rdfs:comment "An ontology used in the Text2KGBench" ;
+    owl:versionIRI onto:v1 .
+
+<https://cenguix.github.io/Text2KGBench/ont_12_monument/relations#capital> a owl:ObjectProperty ;
+    rdfs:label "capital" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_12_monument/concepts#Country> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_12_monument/concepts#City> .
+
+<https://cenguix.github.io/Text2KGBench/ont_12_monument/relations#category> a owl:ObjectProperty ;
+    rdfs:label "category" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_12_monument/concepts#Monument> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_12_monument/concepts#Category> .
+
+<https://cenguix.github.io/Text2KGBench/ont_12_monument/relations#country> a owl:ObjectProperty ;
+    rdfs:label "country" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_12_monument/concepts#Monument> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_12_monument/concepts#Country> .
+
+<https://cenguix.github.io/Text2KGBench/ont_12_monument/relations#currency> a owl:ObjectProperty ;
+    rdfs:label "currency" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_12_monument/concepts#Country> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_12_monument/concepts#Currency> .
+
+<https://cenguix.github.io/Text2KGBench/ont_12_monument/relations#dedicatedTo> a owl:ObjectProperty ;
+    rdfs:label "dedicatedTo" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_12_monument/concepts#Monument> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_12_monument/concepts#Person> .
+
+<https://cenguix.github.io/Text2KGBench/ont_12_monument/relations#designer> a owl:ObjectProperty ;
+    rdfs:label "designer" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_12_monument/concepts#Monument> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_12_monument/concepts#Person> .
+
+<https://cenguix.github.io/Text2KGBench/ont_12_monument/relations#district> a owl:ObjectProperty ;
+    rdfs:label "district" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_12_monument/concepts#Country> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_12_monument/concepts#Place> .
+
+<https://cenguix.github.io/Text2KGBench/ont_12_monument/relations#established> a owl:ObjectProperty ;
+    rdfs:label "established" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_12_monument/concepts#Monument> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_12_monument/concepts#Date> .
+
+<https://cenguix.github.io/Text2KGBench/ont_12_monument/relations#ethnicGroup> a owl:ObjectProperty ;
+    rdfs:label "ethnicGroup" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_12_monument/concepts#Country> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_12_monument/concepts#EthnicGroup> .
+
+<https://cenguix.github.io/Text2KGBench/ont_12_monument/relations#hasToItsNorth> a owl:ObjectProperty ;
+    rdfs:label "hasToItsNorth" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_12_monument/concepts#Monument> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_12_monument/concepts#Place> .
+
+<https://cenguix.github.io/Text2KGBench/ont_12_monument/relations#hasToItsSoutheast> a owl:ObjectProperty ;
+    rdfs:label "hasToItsSoutheast" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_12_monument/concepts#Monument> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_12_monument/concepts#Place> .
+
+<https://cenguix.github.io/Text2KGBench/ont_12_monument/relations#hasToItsSouthwest> a owl:ObjectProperty ;
+    rdfs:label "hasToItsSouthwest" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_12_monument/concepts#Monument> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_12_monument/concepts#Place> .
+
+<https://cenguix.github.io/Text2KGBench/ont_12_monument/relations#hasToItsWest> a owl:ObjectProperty ;
+    rdfs:label "hasToItsWest" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_12_monument/concepts#Monument> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_12_monument/concepts#Place> .
+
+<https://cenguix.github.io/Text2KGBench/ont_12_monument/relations#inaugurationDate> a owl:ObjectProperty ;
+    rdfs:label "inaugurationDate" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_12_monument/concepts#Monument> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_12_monument/concepts#Date> .
+
+<https://cenguix.github.io/Text2KGBench/ont_12_monument/relations#language> a owl:ObjectProperty ;
+    rdfs:label "language" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_12_monument/concepts#Country> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_12_monument/concepts#Language> .
+
+<https://cenguix.github.io/Text2KGBench/ont_12_monument/relations#largestCity> a owl:ObjectProperty ;
+    rdfs:label "largestCity" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_12_monument/concepts#Country> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_12_monument/concepts#City> .
+
+<https://cenguix.github.io/Text2KGBench/ont_12_monument/relations#leader> a owl:ObjectProperty ;
+    rdfs:label "leader" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_12_monument/concepts#Country> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_12_monument/concepts#Person> .
+
+<https://cenguix.github.io/Text2KGBench/ont_12_monument/relations#leaderTitle> a owl:ObjectProperty ;
+    rdfs:label "leaderTitle" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_12_monument/concepts#Country> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_12_monument/concepts#string> .
+
+<https://cenguix.github.io/Text2KGBench/ont_12_monument/relations#location> a owl:ObjectProperty ;
+    rdfs:label "location" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_12_monument/concepts#Monument> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_12_monument/concepts#Place> .
+
+<https://cenguix.github.io/Text2KGBench/ont_12_monument/relations#material> a owl:ObjectProperty ;
+    rdfs:label "material" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_12_monument/concepts#Monument> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_12_monument/concepts#Material> .
+
+<https://cenguix.github.io/Text2KGBench/ont_12_monument/relations#municipality> a owl:ObjectProperty ;
+    rdfs:label "municipality" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_12_monument/concepts#Monument> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_12_monument/concepts#Municipality> .
+
+<https://cenguix.github.io/Text2KGBench/ont_12_monument/relations#nativeName> a owl:ObjectProperty ;
+    rdfs:label "nativeName" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_12_monument/concepts#Monument> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_12_monument/concepts#string> .
+
+<https://cenguix.github.io/Text2KGBench/ont_12_monument/relations#nearestCity> a owl:ObjectProperty ;
+    rdfs:label "nearestCity" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_12_monument/concepts#Monument> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_12_monument/concepts#City> .
+
+<https://cenguix.github.io/Text2KGBench/ont_12_monument/relations#owningOrganisation> a owl:ObjectProperty ;
+    rdfs:label "owningOrganisation" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_12_monument/concepts#Monument> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_12_monument/concepts#Organisation> .
+
+<https://cenguix.github.io/Text2KGBench/ont_12_monument/relations#religion> a owl:ObjectProperty ;
+    rdfs:label "religion" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_12_monument/concepts#Monument> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_12_monument/concepts#Religion> .
+
+<https://cenguix.github.io/Text2KGBench/ont_12_monument/relations#state> a owl:ObjectProperty ;
+    rdfs:label "state" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_12_monument/concepts#Monument> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_12_monument/concepts#State> .
+
+<https://cenguix.github.io/Text2KGBench/ont_12_monument/concepts#Category> a owl:Class ;
+    rdfs:label "Category" .
+
+<https://cenguix.github.io/Text2KGBench/ont_12_monument/concepts#Currency> a owl:Class ;
+    rdfs:label "Currency" .
+
+<https://cenguix.github.io/Text2KGBench/ont_12_monument/concepts#EthnicGroup> a owl:Class ;
+    rdfs:label "EthnicGroup" .
+
+<https://cenguix.github.io/Text2KGBench/ont_12_monument/concepts#Language> a owl:Class ;
+    rdfs:label "Language" .
+
+<https://cenguix.github.io/Text2KGBench/ont_12_monument/concepts#Material> a owl:Class ;
+    rdfs:label "Material" .
+
+<https://cenguix.github.io/Text2KGBench/ont_12_monument/concepts#Municipality> a owl:Class ;
+    rdfs:label "Municipality" .
+
+<https://cenguix.github.io/Text2KGBench/ont_12_monument/concepts#Organisation> a owl:Class ;
+    rdfs:label "Organisation" .
+
+<https://cenguix.github.io/Text2KGBench/ont_12_monument/concepts#Religion> a owl:Class ;
+    rdfs:label "Religion" .
+
+<https://cenguix.github.io/Text2KGBench/ont_12_monument/concepts#State> a owl:Class ;
+    rdfs:label "State" .
+
+<https://cenguix.github.io/Text2KGBench/ont_12_monument/concepts#City> a owl:Class ;
+    rdfs:label "City" .
+
+<https://cenguix.github.io/Text2KGBench/ont_12_monument/concepts#Person> a owl:Class ;
+    rdfs:label "Person" .
+
+<https://cenguix.github.io/Text2KGBench/ont_12_monument/concepts#Place> a owl:Class ;
+    rdfs:label "Place" .
+
+<https://cenguix.github.io/Text2KGBench/ont_12_monument/concepts#Country> a owl:Class ;
+    rdfs:label "Country" .
+
+<https://cenguix.github.io/Text2KGBench/ont_12_monument/concepts#Monument> a owl:Class ;
+    rdfs:label "Monument" .
+

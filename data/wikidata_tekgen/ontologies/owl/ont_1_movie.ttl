@@ -1,0 +1,121 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix onto: <https://cenguix.github.io/Text2KGBench/ont_1_movie#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://example.com/ontology> a owl:Ontology ;
+    rdfs:label "Movie Ontology" ;
+    dc:creator <http://orcid.org/0000-0001-7197-0766>,
+        <http://orcid.org/0000-0003-4303-983X>,
+        <http://orcid.org/0000−0003−1707−4842> ;
+    rdfs:comment "An ontology used in the Text2KGBench" ;
+    owl:versionIRI onto:v1 .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_movie/concepts#Q104649845> a owl:Class ;
+    rdfs:label "film organization" .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_movie/concepts#Q201658> a owl:Class ;
+    rdfs:label "film genre" .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_movie/concepts#Q4220917> a owl:Class ;
+    rdfs:label "film award" .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_movie/relations#P136> a owl:ObjectProperty ;
+    rdfs:label "genre" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_1_movie/concepts#Q11424> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_1_movie/concepts#Q483394> .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_movie/relations#P1411> a owl:ObjectProperty ;
+    rdfs:label "nominated for" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_1_movie/concepts#Q11424> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_1_movie/concepts#Q618779> .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_movie/relations#P144> a owl:ObjectProperty ;
+    rdfs:label "based on" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_1_movie/concepts#Q11424> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_1_movie/concepts#Q47461344> .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_movie/relations#P161> a owl:ObjectProperty ;
+    rdfs:label "cast member" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_1_movie/concepts#Q11424> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_1_movie/concepts#Q5> .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_movie/relations#P166> a owl:ObjectProperty ;
+    rdfs:label "award received" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_1_movie/concepts#Q11424> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_1_movie/concepts#Q618779> .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_movie/relations#P2130> a owl:ObjectProperty ;
+    rdfs:label "cost" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_1_movie/concepts#Q11424> .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_movie/relations#P272> a owl:ObjectProperty ;
+    rdfs:label "production company" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_1_movie/concepts#Q11424> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_1_movie/concepts#Q1762059> .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_movie/relations#P495> a owl:ObjectProperty ;
+    rdfs:label "country of origin" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_1_movie/concepts#Q11424> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_1_movie/concepts#Q6256> .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_movie/relations#P57> a owl:ObjectProperty ;
+    rdfs:label "director" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_1_movie/concepts#Q11424> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_1_movie/concepts#Q5> .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_movie/relations#P577> a owl:ObjectProperty ;
+    rdfs:label "publication date" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_1_movie/concepts#Q11424> .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_movie/relations#P58> a owl:ObjectProperty ;
+    rdfs:label "screenwriter" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_1_movie/concepts#Q11424> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_1_movie/concepts#Q5> .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_movie/relations#P674> a owl:ObjectProperty ;
+    rdfs:label "characters" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_1_movie/concepts#Q11424> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_1_movie/concepts#Q15773347> .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_movie/relations#P840> a owl:ObjectProperty ;
+    rdfs:label "narrative location" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_1_movie/concepts#Q11424> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_1_movie/concepts#Q515> .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_movie/relations#P915> a owl:ObjectProperty ;
+    rdfs:label "filming location" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_1_movie/concepts#Q11424> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_1_movie/concepts#Q515> .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_movie/relations#P921> a owl:ObjectProperty ;
+    rdfs:label "main subject" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_1_movie/concepts#Q11424> .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_movie/concepts#Q15773347> a owl:Class ;
+    rdfs:label "film character" .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_movie/concepts#Q1762059> a owl:Class ;
+    rdfs:label "film production company" .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_movie/concepts#Q47461344> a owl:Class ;
+    rdfs:label "written work" .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_movie/concepts#Q483394> a owl:Class ;
+    rdfs:label "genre" .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_movie/concepts#Q6256> a owl:Class ;
+    rdfs:label "country" .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_movie/concepts#Q515> a owl:Class ;
+    rdfs:label "city" .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_movie/concepts#Q618779> a owl:Class ;
+    rdfs:label "award" .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_movie/concepts#Q5> a owl:Class ;
+    rdfs:label "human" .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_movie/concepts#Q11424> a owl:Class ;
+    rdfs:label "film" .
+

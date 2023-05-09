@@ -1,0 +1,270 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix onto: <https://cenguix.github.io/Text2KGBench/ont_6_politician#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://example.com/ontology> a owl:Ontology ;
+    rdfs:label "Politician Ontology" ;
+    dc:creator <http://orcid.org/0000-0001-7197-0766>,
+        <http://orcid.org/0000-0003-4303-983X>,
+        <http://orcid.org/0000−0003−1707−4842> ;
+    rdfs:comment "An ontology used in the Text2KGBench" ;
+    owl:versionIRI onto:v1 .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_politician/relations#activeYearsEndDate> a owl:ObjectProperty ;
+    rdfs:label "activeYearsEndDate" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Politician> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Date> .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_politician/relations#activeYearsStartDate> a owl:ObjectProperty ;
+    rdfs:label "activeYearsStartDate" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Politician> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Date> .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_politician/relations#affiliation> a owl:ObjectProperty ;
+    rdfs:label "affiliation" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Politician> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Organisation> .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_politician/relations#almaMater> a owl:ObjectProperty ;
+    rdfs:label "almaMater" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Politician> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#School> .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_politician/relations#award> a owl:ObjectProperty ;
+    rdfs:label "award" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Politician> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Award> .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_politician/relations#battle> a owl:ObjectProperty ;
+    rdfs:label "battle" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Politician> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Battle> .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_politician/relations#birthDate> a owl:ObjectProperty ;
+    rdfs:label "birthDate" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Politician> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Date> .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_politician/relations#birthPlace> a owl:ObjectProperty ;
+    rdfs:label "birthPlace" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Politician> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Place> .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_politician/relations#birthYear> a owl:ObjectProperty ;
+    rdfs:label "birthYear" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Politician> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Year> .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_politician/relations#commander> a owl:ObjectProperty ;
+    rdfs:label "commander" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Politician> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Commander> .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_politician/relations#country> a owl:ObjectProperty ;
+    rdfs:label "country" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Politician> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Country> .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_politician/relations#currency> a owl:ObjectProperty ;
+    rdfs:label "currency" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Country> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Currency> .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_politician/relations#deathDate> a owl:ObjectProperty ;
+    rdfs:label "deathDate" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Politician> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Date> .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_politician/relations#deathPlace> a owl:ObjectProperty ;
+    rdfs:label "deathPlace" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Politician> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Place> .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_politician/relations#deathYear> a owl:ObjectProperty ;
+    rdfs:label "deathYear" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Politician> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Year> .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_politician/relations#ethnicGroup> a owl:ObjectProperty ;
+    rdfs:label "ethnicGroup" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Politician> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#EthnicGroup> .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_politician/relations#governingBody> a owl:ObjectProperty ;
+    rdfs:label "governingBody" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Politician> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Organisation> .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_politician/relations#hasDeputy> a owl:ObjectProperty ;
+    rdfs:label "hasDeputy" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Politician> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Politician> .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_politician/relations#inOfficeWhileGovernor> a owl:ObjectProperty ;
+    rdfs:label "inOfficeWhileGovernor" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Politician> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Politician> .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_politician/relations#inOfficeWhileMonarch> a owl:ObjectProperty ;
+    rdfs:label "inOfficeWhileMonarch" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Politician> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Monarch> .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_politician/relations#inOfficeWhilePresident> a owl:ObjectProperty ;
+    rdfs:label "inOfficeWhilePresident" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Politician> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Politician> .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_politician/relations#inOfficeWhilePrimeMinister> a owl:ObjectProperty ;
+    rdfs:label "inOfficeWhilePrimeMinister" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Politician> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Politician> .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_politician/relations#inOfficeWhileVicePresident> a owl:ObjectProperty ;
+    rdfs:label "inOfficeWhileVicePresident" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Politician> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Politician> .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_politician/relations#isPartOfMilitaryConflict> a owl:ObjectProperty ;
+    rdfs:label "isPartOfMilitaryConflict" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Battle> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#MilitaryConflict> .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_politician/relations#language> a owl:ObjectProperty ;
+    rdfs:label "language" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Politician> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Language> .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_politician/relations#largestCity> a owl:ObjectProperty ;
+    rdfs:label "largestCity" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Country> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#City> .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_politician/relations#leader> a owl:ObjectProperty ;
+    rdfs:label "leader" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Party> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Politician> .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_politician/relations#militaryBranch> a owl:ObjectProperty ;
+    rdfs:label "militaryBranch" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Politician> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Organisation> .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_politician/relations#nationality> a owl:ObjectProperty ;
+    rdfs:label "nationality" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Politician> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Country> .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_politician/relations#office> a owl:ObjectProperty ;
+    rdfs:label "office" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Politician> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Office> .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_politician/relations#party> a owl:ObjectProperty ;
+    rdfs:label "party" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Politician> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Party> .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_politician/relations#place> a owl:ObjectProperty ;
+    rdfs:label "place" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Politician> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Place> .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_politician/relations#predecessor> a owl:ObjectProperty ;
+    rdfs:label "predecessor" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Politician> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Politician> .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_politician/relations#profession> a owl:ObjectProperty ;
+    rdfs:label "profession" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Politician> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Profession> .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_politician/relations#region> a owl:ObjectProperty ;
+    rdfs:label "region" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Politician> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Place> .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_politician/relations#religion> a owl:ObjectProperty ;
+    rdfs:label "religion" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Politician> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Religion> .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_politician/relations#residence> a owl:ObjectProperty ;
+    rdfs:label "residence" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Politician> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Place> .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_politician/relations#spouse> a owl:ObjectProperty ;
+    rdfs:label "spouse" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Politician> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Person> .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_politician/relations#state> a owl:ObjectProperty ;
+    rdfs:label "state" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Politician> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#State> .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_politician/relations#successor> a owl:ObjectProperty ;
+    rdfs:label "successor" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Politician> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Politician> .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Award> a owl:Class ;
+    rdfs:label "Award" .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#City> a owl:Class ;
+    rdfs:label "City" .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Commander> a owl:Class ;
+    rdfs:label "Commander" .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Currency> a owl:Class ;
+    rdfs:label "Currency" .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#EthnicGroup> a owl:Class ;
+    rdfs:label "EthnicGroup" .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Language> a owl:Class ;
+    rdfs:label "Language" .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#MilitaryConflict> a owl:Class ;
+    rdfs:label "MilitaryConflict" .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Monarch> a owl:Class ;
+    rdfs:label "Monarch" .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Office> a owl:Class ;
+    rdfs:label "Office" .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Profession> a owl:Class ;
+    rdfs:label "Profession" .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Religion> a owl:Class ;
+    rdfs:label "Religion" .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#School> a owl:Class ;
+    rdfs:label "School" .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#State> a owl:Class ;
+    rdfs:label "State" .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Battle> a owl:Class ;
+    rdfs:label "Battle" .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Party> a owl:Class ;
+    rdfs:label "Party" .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Year> a owl:Class ;
+    rdfs:label "Year" .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Organisation> a owl:Class ;
+    rdfs:label "Organisation" .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Country> a owl:Class ;
+    rdfs:label "Country" .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_politician/concepts#Politician> a owl:Class ;
+    rdfs:label "Politician" .
+

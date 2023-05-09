@@ -1,0 +1,10 @@
+{"id": "ont_7_space_unseen_test_1", "response": "site_of_astronomical_discovery(2197 Shanghai,Purple Mountain Observatory)", "triples": [["2197 Shanghai", "site_of_astronomical_discovery", "Purple Mountain Observatory"]]}
+{"id": "ont_7_space_unseen_test_2", "response": "site_of_astronomical_discovery(4949 Akasofu,Purple Mountain Observatory)", "triples": [["4949 Akasofu", "site_of_astronomical_discovery", "Purple Mountain Observatory"]]}
+{"id": "ont_7_space_unseen_test_3", "response": "minor_planet_group(1862 Apollo,Apollo asteroid)\nsite_of_astronomical_discovery(1862 Apollo,observatory)\nastronomical_object_type(1862 Apollo,asteroid)", "triples": [["1862 Apollo", "minor_planet_group", "Apollo asteroid"], ["1862 Apollo", "site_of_astronomical_discovery", "observatory"], ["1862 Apollo", "astronomical_object_type", "asteroid"]]}
+{"id": "ont_7_space_unseen_test_4", "response": "minor_planet_group(2012 TV,Apollo asteroid)", "triples": [["2012 TV", "minor_planet_group", "Apollo asteroid"]]}
+{"id": "ont_7_space_unseen_test_5", "response": "constellation(NGC 340, Ursa Major)", "triples": [["NGC 340", "constellation", "Ursa Major"]]}
+{"id": "ont_7_space_unseen_test_6", "response": "constellation(NGC 197,Ursa Major)", "triples": [["NGC 197", "constellation", "Ursa Major"]]}
+{"id": "ont_7_space_unseen_test_7", "response": "After Apollo 7, Harrison Schmitt retired as a captain from the U.S. Army as well as from NASA.", "triples": []}
+{"id": "ont_7_space_unseen_test_8", "response": "astronaut_mission(Wally Schirra,Apollo 17)", "triples": [["Wally Schirra", "astronaut_mission", "Apollo 17"]]}
+{"id": "ont_7_space_unseen_test_9", "response": "location_of_launch(Soyuz MS-01,Atlantic Ocean)", "triples": [["Soyuz MS-01", "location_of_launch", "Atlantic Ocean"]]}
+{"id": "ont_7_space_unseen_test_10", "response": "location_of_landing(Mercury-Atlas 6,Kazakhstan)\nAstronaut_mission(Neil Armstrong,Mercury-Atlas 6)", "triples": [["Mercury-Atlas 6", "location_of_landing", "Kazakhstan"], ["Neil Armstrong", "Astronaut_mission", "Mercury-Atlas 6"]]}

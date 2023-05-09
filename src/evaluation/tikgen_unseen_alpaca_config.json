@@ -1,0 +1,12 @@
+{
+  "onto_list" : [
+    "1_movie",  "2_music", "3_sport", "4_book", "5_military", "6_computer", "7_space", "8_politics", "9_nature", "10_culture"
+  ],
+  "path_patterns": {
+    "sys": "../../data/wikidata_tekgen/baselines/Alpaca-LoRA-13B/unseen/llm_responses/$$onto$$_unseen_Alpaca13B_responses.jsonl",
+    "gt":"../../data/wikidata_tekgen/unseen_sentences/ground_truth/ont_$$onto$$_unseen_ground_truth.jsonl",
+    "onto": "../../data/wikidata_tekgen/ontologies/$$onto$$_ontology.json",
+    "output": "../../data/wikidata_tekgen/baselines/Alpaca-LoRA-13B/unseen/eval_metrics/$$onto$$_eval_metrics.jsonl"
+  },
+  "avg_out_file": "../../data/wikidata_tekgen/baselines/Alpaca-LoRA-13B/unseen/eval_metrics/ont_llm_avg_eval_metrics.jsonl"
+}

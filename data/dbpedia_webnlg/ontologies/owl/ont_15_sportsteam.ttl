@@ -1,0 +1,175 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix onto: <https://cenguix.github.io/Text2KGBench/ont_15_sportsteam#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://example.com/ontology> a owl:Ontology ;
+    rdfs:label "SportsTeam Ontology" ;
+    dc:creator <http://orcid.org/0000-0001-7197-0766>,
+        <http://orcid.org/0000-0003-4303-983X>,
+        <http://orcid.org/0000−0003−1707−4842> ;
+    rdfs:comment "An ontology used in the Text2KGBench" ;
+    owl:versionIRI onto:v1 .
+
+<https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/relations#birthPlace> a owl:ObjectProperty ;
+    rdfs:label "birthPlace" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/concepts#Person> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/concepts#Place> .
+
+<https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/relations#capital> a owl:ObjectProperty ;
+    rdfs:label "capital" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/concepts#Country> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/concepts#City> .
+
+<https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/relations#chairmanTitle> a owl:ObjectProperty ;
+    rdfs:label "chairmanTitle" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/concepts#SportsTeam> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/concepts#string> .
+
+<https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/relations#champions> a owl:ObjectProperty ;
+    rdfs:label "champions" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/concepts#League> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/concepts#SportsTeam> .
+
+<https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/relations#city> a owl:ObjectProperty ;
+    rdfs:label "city" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/concepts#SportsTeam> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/concepts#City> .
+
+<https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/relations#club> a owl:ObjectProperty ;
+    rdfs:label "club" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/concepts#Athlete> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/concepts#SportsTeam> .
+
+<https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/relations#country> a owl:ObjectProperty ;
+    rdfs:label "country" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/concepts#City> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/concepts#Country> .
+
+<https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/relations#demonym> a owl:ObjectProperty ;
+    rdfs:label "demonym" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/concepts#Country> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/concepts#Demonym> .
+
+<https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/relations#fullName> a owl:ObjectProperty ;
+    rdfs:label "fullName" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/concepts#Athlete> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/concepts#string> .
+
+<https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/relations#ground> a owl:ObjectProperty ;
+    rdfs:label "ground" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/concepts#SportsTeam> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/concepts#Ground> .
+
+<https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/relations#isPartOf> a owl:ObjectProperty ;
+    rdfs:label "isPartOf" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/concepts#City> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/concepts#Country> .
+
+<https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/relations#language> a owl:ObjectProperty ;
+    rdfs:label "language" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/concepts#Country> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/concepts#Language> .
+
+<https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/relations#leader> a owl:ObjectProperty ;
+    rdfs:label "leader" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/concepts#Country> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/concepts#Person> .
+
+<https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/relations#league> a owl:ObjectProperty ;
+    rdfs:label "league" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/concepts#SportsTeam> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/concepts#League> .
+
+<https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/relations#location> a owl:ObjectProperty ;
+    rdfs:label "location" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/concepts#SportsTeam> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/concepts#Place> .
+
+<https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/relations#manager> a owl:ObjectProperty ;
+    rdfs:label "manager" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/concepts#SportsTeam> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/concepts#Person> .
+
+<https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/relations#mayor> a owl:ObjectProperty ;
+    rdfs:label "mayor" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/concepts#City> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/concepts#Person> .
+
+<https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/relations#nickname> a owl:ObjectProperty ;
+    rdfs:label "nickname" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/concepts#Person> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/concepts#string> .
+
+<https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/relations#numberOfMembers> a owl:ObjectProperty ;
+    rdfs:label "numberOfMembers" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/concepts#SportsTeam> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/relations#operator> a owl:ObjectProperty ;
+    rdfs:label "operator" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/concepts#SportsTeam> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/concepts#Company> .
+
+<https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/relations#owner> a owl:ObjectProperty ;
+    rdfs:label "owner" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/concepts#SportsTeam> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/concepts#Person> .
+
+<https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/relations#season> a owl:ObjectProperty ;
+    rdfs:label "season" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/concepts#SportsTeam> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/concepts#Season> .
+
+<https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/relations#state> a owl:ObjectProperty ;
+    rdfs:label "state" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/concepts#City> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/concepts#State> .
+
+<https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/relations#tenant> a owl:ObjectProperty ;
+    rdfs:label "tenant" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/concepts#SportsTeam> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/concepts#Tenant> .
+
+<https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/concepts#Company> a owl:Class ;
+    rdfs:label "Company" .
+
+<https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/concepts#Demonym> a owl:Class ;
+    rdfs:label "Demonym" .
+
+<https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/concepts#Ground> a owl:Class ;
+    rdfs:label "Ground" .
+
+<https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/concepts#Language> a owl:Class ;
+    rdfs:label "Language" .
+
+<https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/concepts#Season> a owl:Class ;
+    rdfs:label "Season" .
+
+<https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/concepts#State> a owl:Class ;
+    rdfs:label "State" .
+
+<https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/concepts#Tenant> a owl:Class ;
+    rdfs:label "Tenant" .
+
+<https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/concepts#Athlete> a owl:Class ;
+    rdfs:label "Athlete" .
+
+<https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/concepts#League> a owl:Class ;
+    rdfs:label "League" .
+
+<https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/concepts#Place> a owl:Class ;
+    rdfs:label "Place" .
+
+<https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/concepts#City> a owl:Class ;
+    rdfs:label "City" .
+
+<https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/concepts#Country> a owl:Class ;
+    rdfs:label "Country" .
+
+<https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/concepts#Person> a owl:Class ;
+    rdfs:label "Person" .
+
+<https://cenguix.github.io/Text2KGBench/ont_15_sportsteam/concepts#SportsTeam> a owl:Class ;
+    rdfs:label "SportsTeam" .
+

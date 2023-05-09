@@ -1,0 +1,97 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix onto: <https://cenguix.github.io/Text2KGBench/ont_8_politics#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://example.com/ontology> a owl:Ontology ;
+    rdfs:label "Politics Ontology" ;
+    dc:creator <http://orcid.org/0000-0001-7197-0766>,
+        <http://orcid.org/0000-0003-4303-983X>,
+        <http://orcid.org/0000−0003−1707−4842> ;
+    rdfs:comment "An ontology used in the Text2KGBench" ;
+    owl:versionIRI onto:v1 .
+
+<https://cenguix.github.io/Text2KGBench/ont_8_politics/concepts#Q2285706> a owl:Class ;
+    rdfs:label "head of government" .
+
+<https://cenguix.github.io/Text2KGBench/ont_8_politics/concepts#Q4164871> a owl:Class ;
+    rdfs:label "position" .
+
+<https://cenguix.github.io/Text2KGBench/ont_8_politics/concepts#Q48352> a owl:Class ;
+    rdfs:label "head of state" .
+
+<https://cenguix.github.io/Text2KGBench/ont_8_politics/concepts#Q7188> a owl:Class ;
+    rdfs:label "government" .
+
+<https://cenguix.github.io/Text2KGBench/ont_8_politics/concepts#Q7275> a owl:Class ;
+    rdfs:label "state" .
+
+<https://cenguix.github.io/Text2KGBench/ont_8_politics/relations#P102> a owl:ObjectProperty ;
+    rdfs:label "member of political party" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_8_politics/concepts#Q5> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_8_politics/concepts#Q7278> .
+
+<https://cenguix.github.io/Text2KGBench/ont_8_politics/relations#P1142> a owl:ObjectProperty ;
+    rdfs:label "political ideology" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_8_politics/concepts#Q7278> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_8_politics/concepts#Q12909644> .
+
+<https://cenguix.github.io/Text2KGBench/ont_8_politics/relations#P1387> a owl:ObjectProperty ;
+    rdfs:label "political alignment" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_8_politics/concepts#Q7278> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_8_politics/concepts#Q28819924> .
+
+<https://cenguix.github.io/Text2KGBench/ont_8_politics/relations#P2715> a owl:ObjectProperty ;
+    rdfs:label "elected in" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_8_politics/concepts#Q5> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_8_politics/concepts#Q40231> .
+
+<https://cenguix.github.io/Text2KGBench/ont_8_politics/relations#P35> a owl:ObjectProperty ;
+    rdfs:label "head of state" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_8_politics/concepts#Q6256> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_8_politics/concepts#Q5> .
+
+<https://cenguix.github.io/Text2KGBench/ont_8_politics/relations#P3602> a owl:ObjectProperty ;
+    rdfs:label "candidacy in election" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_8_politics/concepts#Q5> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_8_politics/concepts#Q40231> .
+
+<https://cenguix.github.io/Text2KGBench/ont_8_politics/relations#P39> a owl:ObjectProperty ;
+    rdfs:label "position held" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_8_politics/concepts#Q5> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_8_politics/concepts#Q30461> .
+
+<https://cenguix.github.io/Text2KGBench/ont_8_politics/relations#P463> a owl:ObjectProperty ;
+    rdfs:label "Member of" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_8_politics/concepts#Q5> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_8_politics/concepts#Q43229> .
+
+<https://cenguix.github.io/Text2KGBench/ont_8_politics/relations#P6> a owl:ObjectProperty ;
+    rdfs:label "head of government" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_8_politics/concepts#Q6256> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_8_politics/concepts#Q5> .
+
+<https://cenguix.github.io/Text2KGBench/ont_8_politics/concepts#Q12909644> a owl:Class ;
+    rdfs:label "political ideology" .
+
+<https://cenguix.github.io/Text2KGBench/ont_8_politics/concepts#Q28819924> a owl:Class ;
+    rdfs:label "political alignment" .
+
+<https://cenguix.github.io/Text2KGBench/ont_8_politics/concepts#Q30461> a owl:Class ;
+    rdfs:label "president" .
+
+<https://cenguix.github.io/Text2KGBench/ont_8_politics/concepts#Q43229> a owl:Class ;
+    rdfs:label "organization" .
+
+<https://cenguix.github.io/Text2KGBench/ont_8_politics/concepts#Q40231> a owl:Class ;
+    rdfs:label "Public election" .
+
+<https://cenguix.github.io/Text2KGBench/ont_8_politics/concepts#Q6256> a owl:Class ;
+    rdfs:label "country" .
+
+<https://cenguix.github.io/Text2KGBench/ont_8_politics/concepts#Q7278> a owl:Class ;
+    rdfs:label "political party" .
+
+<https://cenguix.github.io/Text2KGBench/ont_8_politics/concepts#Q5> a owl:Class ;
+    rdfs:label "human" .
+

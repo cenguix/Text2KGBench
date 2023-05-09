@@ -28,7 +28,7 @@ def get_ontology_relations(ontology):
         ont_dom = onto['domain']
         ont_range = onto['range']
         ont_domain = get_domain(ontology, ont_dom)
-        #ont_range = get_range(ontology, ont_range)
+        ont_range = get_range(ontology, ont_range)
 
         if ont_rel == None:
             continue
@@ -94,9 +94,8 @@ def get_train_sentence(simil_sent_id, train_sentences):
 
 def get_example_prompt(train_sent):
     example_prompt = "\n\nExample Sentence: " + train_sent['sent']
-    triples = [[tr['sub'].replace("_", " "), tr['rel'].replace("_", " "), tr['obj'].replace("_", " ")] for tr in train_sent['triples']]
-    example_prompt += "\nExample Output:\n"
-    example_prompt += "\n".join([f"{tr[1]}({tr[0]}, {tr[2]})" for tr in triples])
+    train_sent['rel_label'] = train_sent['rel_label'].replace(" ", "_")
+    example_prompt += "\nExample Output: " + train_sent['rel_label'] + "(" + train_sent['sub_label'] + "," + train_sent['obj_label'] + ")"
     return example_prompt
 
 def get_test_prompt(test_sentence):
@@ -113,7 +112,7 @@ def get_ontology_string(ont_src_file):
 
 if __name__ == "__main__":
 
-    prompt_gen_config = load_json("dbpedia_webnlg_prompt_gen_config.json")
+    prompt_gen_config = load_json("wikidata_tekgen_unseen_prompt_gen_config.json")
     prompts = []
     prompts_json = []
     onto_list = prompt_gen_config["onto_list"]

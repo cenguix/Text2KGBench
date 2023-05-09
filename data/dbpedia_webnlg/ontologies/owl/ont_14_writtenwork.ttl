@@ -1,0 +1,263 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix onto: <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://example.com/ontology> a owl:Ontology ;
+    rdfs:label "WrittenWork Ontology" ;
+    dc:creator <http://orcid.org/0000-0001-7197-0766>,
+        <http://orcid.org/0000-0003-4303-983X>,
+        <http://orcid.org/0000−0003−1707−4842> ;
+    rdfs:comment "An ontology used in the Text2KGBench" ;
+    owl:versionIRI onto:v1 .
+
+<https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/relations#LCCN_number> a owl:ObjectProperty ;
+    rdfs:label "LCCN_number" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#WrittenWork> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/relations#abbreviation> a owl:ObjectProperty ;
+    rdfs:label "abbreviation" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#WrittenWork> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#string> .
+
+<https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/relations#academicDiscipline> a owl:ObjectProperty ;
+    rdfs:label "academicDiscipline" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#WrittenWork> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#AcademicDiscipline> .
+
+<https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/relations#affiliation> a owl:ObjectProperty ;
+    rdfs:label "affiliation" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#Person> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#Organisation> .
+
+<https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/relations#almaMater> a owl:ObjectProperty ;
+    rdfs:label "almaMater" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#Person> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#School> .
+
+<https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/relations#author> a owl:ObjectProperty ;
+    rdfs:label "author" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#WrittenWork> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#Person> .
+
+<https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/relations#birthDate> a owl:ObjectProperty ;
+    rdfs:label "birthDate" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#Person> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#Date> .
+
+<https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/relations#birthPlace> a owl:ObjectProperty ;
+    rdfs:label "birthPlace" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#Person> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#Place> .
+
+<https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/relations#capital> a owl:ObjectProperty ;
+    rdfs:label "capital" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#Country> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#City> .
+
+<https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/relations#city> a owl:ObjectProperty ;
+    rdfs:label "city" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#Company> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#City> .
+
+<https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/relations#codenCode> a owl:ObjectProperty ;
+    rdfs:label "codenCode" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#WrittenWork> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#string> .
+
+<https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/relations#country> a owl:ObjectProperty ;
+    rdfs:label "country" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#WrittenWork> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#Country> .
+
+<https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/relations#doctoralAdvisor> a owl:ObjectProperty ;
+    rdfs:label "doctoralAdvisor" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#Person> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#Person> .
+
+<https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/relations#editor> a owl:ObjectProperty ;
+    rdfs:label "editor" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#WrittenWork> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#Person> .
+
+<https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/relations#ethnicGroup> a owl:ObjectProperty ;
+    rdfs:label "ethnicGroup" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#Country> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#EthnicGroup> .
+
+<https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/relations#firstPublicationYear> a owl:ObjectProperty ;
+    rdfs:label "firstPublicationYear" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#WrittenWork> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#Year> .
+
+<https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/relations#followedBy> a owl:ObjectProperty ;
+    rdfs:label "followedBy" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#WrittenWork> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#WrittenWork> .
+
+<https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/relations#founder> a owl:ObjectProperty ;
+    rdfs:label "founder" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#Company> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#Person> .
+
+<https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/relations#frequency> a owl:ObjectProperty ;
+    rdfs:label "frequency" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#WrittenWork> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/relations#genre> a owl:ObjectProperty ;
+    rdfs:label "genre" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#WrittenWork> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#Genre> .
+
+<https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/relations#headquarter> a owl:ObjectProperty ;
+    rdfs:label "headquarter" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#Company> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#City> .
+
+<https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/relations#impactFactor> a owl:ObjectProperty ;
+    rdfs:label "impactFactor" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#WrittenWork> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/relations#influencedBy> a owl:ObjectProperty ;
+    rdfs:label "influencedBy" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#Person> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#Person> .
+
+<https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/relations#isbnNumber> a owl:ObjectProperty ;
+    rdfs:label "isbnNumber" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#WrittenWork> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/relations#issnNumber> a owl:ObjectProperty ;
+    rdfs:label "issnNumber" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#WrittenWork> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/relations#language> a owl:ObjectProperty ;
+    rdfs:label "language" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#WrittenWork> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#Language> .
+
+<https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/relations#leader> a owl:ObjectProperty ;
+    rdfs:label "leader" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#Country> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#Person> .
+
+<https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/relations#leaderTitle> a owl:ObjectProperty ;
+    rdfs:label "leaderTitle" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#Country> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#string> .
+
+<https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/relations#libraryofCongressClassification> a owl:ObjectProperty ;
+    rdfs:label "libraryofCongressClassification" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#WrittenWork> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#string> .
+
+<https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/relations#literaryGenre> a owl:ObjectProperty ;
+    rdfs:label "literaryGenre" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#WrittenWork> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#Genre> .
+
+<https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/relations#mediaType> a owl:ObjectProperty ;
+    rdfs:label "mediaType" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#WrittenWork> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#MediaType> .
+
+<https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/relations#nationality> a owl:ObjectProperty ;
+    rdfs:label "nationality" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#Person> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#Country> .
+
+<https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/relations#notableWork> a owl:ObjectProperty ;
+    rdfs:label "notableWork" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#Person> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#WrittenWork> .
+
+<https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/relations#numberOfPages> a owl:ObjectProperty ;
+    rdfs:label "numberOfPages" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#WrittenWork> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/relations#oclcNumber> a owl:ObjectProperty ;
+    rdfs:label "oclcNumber" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#WrittenWork> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/relations#parentCompany> a owl:ObjectProperty ;
+    rdfs:label "parentCompany" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#Company> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#Company> .
+
+<https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/relations#precededBy> a owl:ObjectProperty ;
+    rdfs:label "precededBy" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#WrittenWork> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#WrittenWork> .
+
+<https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/relations#president> a owl:ObjectProperty ;
+    rdfs:label "president" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#Country> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#Person> .
+
+<https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/relations#publisher> a owl:ObjectProperty ;
+    rdfs:label "publisher" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#WrittenWork> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#Company> .
+
+<https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/relations#regionServed> a owl:ObjectProperty ;
+    rdfs:label "regionServed" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#WrittenWork> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#Place> .
+
+<https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/relations#releaseDate> a owl:ObjectProperty ;
+    rdfs:label "releaseDate" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#WrittenWork> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#Date> .
+
+<https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/relations#residence> a owl:ObjectProperty ;
+    rdfs:label "residence" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#Person> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#City> .
+
+<https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/relations#spokenIn> a owl:ObjectProperty ;
+    rdfs:label "spokenIn" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#Language> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#Country> .
+
+<https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/relations#state> a owl:ObjectProperty ;
+    rdfs:label "state" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#City> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#State> .
+
+<https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#AcademicDiscipline> a owl:Class ;
+    rdfs:label "AcademicDiscipline" .
+
+<https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#MediaType> a owl:Class ;
+    rdfs:label "MediaType" .
+
+<https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#Organisation> a owl:Class ;
+    rdfs:label "Organisation" .
+
+<https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#Genre> a owl:Class ;
+    rdfs:label "Genre" .
+
+<https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#Place> a owl:Class ;
+    rdfs:label "Place" .
+
+<https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#City> a owl:Class ;
+    rdfs:label "City" .
+
+<https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#Company> a owl:Class ;
+    rdfs:label "Company" .
+
+<https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#Country> a owl:Class ;
+    rdfs:label "Country" .
+
+<https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#Person> a owl:Class ;
+    rdfs:label "Person" .
+
+<https://cenguix.github.io/Text2KGBench/ont_14_writtenwork/concepts#WrittenWork> a owl:Class ;
+    rdfs:label "WrittenWork" .
+

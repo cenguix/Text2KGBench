@@ -1,0 +1,172 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix onto: <https://cenguix.github.io/Text2KGBench/ont_8_celestialbody#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://example.com/ontology> a owl:Ontology ;
+    rdfs:label "CelestialBody Ontology" ;
+    dc:creator <http://orcid.org/0000-0001-7197-0766>,
+        <http://orcid.org/0000-0003-4303-983X>,
+        <http://orcid.org/0000−0003−1707−4842> ;
+    rdfs:comment "An ontology used in the Text2KGBench" ;
+    owl:versionIRI onto:v1 .
+
+<https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/relations#absoluteMagnitude> a owl:ObjectProperty ;
+    rdfs:label "absoluteMagnitude" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/concepts#CelestialBody> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/relations#almaMater> a owl:ObjectProperty ;
+    rdfs:label "almaMater" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/concepts#Person> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/concepts#School> .
+
+<https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/relations#apoapsis> a owl:ObjectProperty ;
+    rdfs:label "apoapsis" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/concepts#CelestialBody> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/relations#averageSpeed> a owl:ObjectProperty ;
+    rdfs:label "averageSpeed" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/concepts#CelestialBody> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/relations#birthDate> a owl:ObjectProperty ;
+    rdfs:label "birthDate" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/concepts#Person> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/concepts#Date> .
+
+<https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/relations#birthPlace> a owl:ObjectProperty ;
+    rdfs:label "birthPlace" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/concepts#CelestialBody> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/concepts#Place> .
+
+<https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/relations#deathCause> a owl:ObjectProperty ;
+    rdfs:label "deathCause" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/concepts#CelestialBody> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/concepts#Cause> .
+
+<https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/relations#deathDate> a owl:ObjectProperty ;
+    rdfs:label "deathDate" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/concepts#CelestialBody> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/concepts#Date> .
+
+<https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/relations#deathPlace> a owl:ObjectProperty ;
+    rdfs:label "deathPlace" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/concepts#CelestialBody> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/concepts#Place> .
+
+<https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/relations#density> a owl:ObjectProperty ;
+    rdfs:label "density" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/concepts#CelestialBody> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/relations#discovered> a owl:ObjectProperty ;
+    rdfs:label "discovered" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/concepts#CelestialBody> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/concepts#Person> .
+
+<https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/relations#discoverer> a owl:ObjectProperty ;
+    rdfs:label "discoverer" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/concepts#CelestialBody> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/concepts#Person> .
+
+<https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/relations#doctoralStudent> a owl:ObjectProperty ;
+    rdfs:label "doctoralStudent" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/concepts#Person> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/concepts#Person> .
+
+<https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/relations#epoch> a owl:ObjectProperty ;
+    rdfs:label "epoch" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/concepts#CelestialBody> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/relations#escapeVelocity> a owl:ObjectProperty ;
+    rdfs:label "escapeVelocity" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/concepts#CelestialBody> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/relations#formerName> a owl:ObjectProperty ;
+    rdfs:label "formerName" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/concepts#CelestialBody> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/concepts#string> .
+
+<https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/relations#mass> a owl:ObjectProperty ;
+    rdfs:label "mass" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/concepts#CelestialBody> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/relations#maximumTemperature> a owl:ObjectProperty ;
+    rdfs:label "maximumTemperature" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/concepts#CelestialBody> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/relations#meanTemperature> a owl:ObjectProperty ;
+    rdfs:label "meanTemperature" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/concepts#CelestialBody> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/relations#minimumTemperature> a owl:ObjectProperty ;
+    rdfs:label "minimumTemperature" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/concepts#CelestialBody> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/relations#nationality> a owl:ObjectProperty ;
+    rdfs:label "nationality" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/concepts#Person> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/concepts#Country> .
+
+<https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/relations#orbitalPeriod> a owl:ObjectProperty ;
+    rdfs:label "orbitalPeriod" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/concepts#CelestialBody> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/relations#periapsis> a owl:ObjectProperty ;
+    rdfs:label "periapsis" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/concepts#CelestialBody> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/concepts#Periapsis> .
+
+<https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/relations#rotationPeriod> a owl:ObjectProperty ;
+    rdfs:label "rotationPeriod" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/concepts#CelestialBody> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/relations#stateOfOrigin> a owl:ObjectProperty ;
+    rdfs:label "stateOfOrigin" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/concepts#CelestialBody> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/concepts#State> .
+
+<https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/relations#surfaceArea> a owl:ObjectProperty ;
+    rdfs:label "surfaceArea" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/concepts#CelestialBody> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/relations#temperature> a owl:ObjectProperty ;
+    rdfs:label "temperature" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/concepts#CelestialBody> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/concepts#Cause> a owl:Class ;
+    rdfs:label "Cause" .
+
+<https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/concepts#Country> a owl:Class ;
+    rdfs:label "Country" .
+
+<https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/concepts#Periapsis> a owl:Class ;
+    rdfs:label "Periapsis" .
+
+<https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/concepts#School> a owl:Class ;
+    rdfs:label "School" .
+
+<https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/concepts#State> a owl:Class ;
+    rdfs:label "State" .
+
+<https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/concepts#Place> a owl:Class ;
+    rdfs:label "Place" .
+
+<https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/concepts#Person> a owl:Class ;
+    rdfs:label "Person" .
+
+<https://cenguix.github.io/Text2KGBench/ont_8_celestialbody/concepts#CelestialBody> a owl:Class ;
+    rdfs:label "CelestialBody" .
+

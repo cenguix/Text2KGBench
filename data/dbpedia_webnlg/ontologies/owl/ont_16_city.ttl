@@ -1,0 +1,161 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix onto: <https://cenguix.github.io/Text2KGBench/ont_16_city#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://example.com/ontology> a owl:Ontology ;
+    rdfs:label "City Ontology" ;
+    dc:creator <http://orcid.org/0000-0001-7197-0766>,
+        <http://orcid.org/0000-0003-4303-983X>,
+        <http://orcid.org/0000−0003−1707−4842> ;
+    rdfs:comment "An ontology used in the Text2KGBench" ;
+    owl:versionIRI onto:v1 .
+
+<https://cenguix.github.io/Text2KGBench/ont_16_city/relations#areaCode> a owl:ObjectProperty ;
+    rdfs:label "areaCode" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_16_city/concepts#City> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_16_city/concepts#string> .
+
+<https://cenguix.github.io/Text2KGBench/ont_16_city/relations#areaOfLand> a owl:ObjectProperty ;
+    rdfs:label "areaOfLand" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_16_city/concepts#City> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_16_city/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_16_city/relations#areaTotal> a owl:ObjectProperty ;
+    rdfs:label "areaTotal" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_16_city/concepts#City> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_16_city/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_16_city/relations#capital> a owl:ObjectProperty ;
+    rdfs:label "capital" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_16_city/concepts#Country> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_16_city/concepts#City> .
+
+<https://cenguix.github.io/Text2KGBench/ont_16_city/relations#country> a owl:ObjectProperty ;
+    rdfs:label "country" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_16_city/concepts#City> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_16_city/concepts#Country> .
+
+<https://cenguix.github.io/Text2KGBench/ont_16_city/relations#countySeat> a owl:ObjectProperty ;
+    rdfs:label "countySeat" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_16_city/concepts#City> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_16_city/concepts#County> .
+
+<https://cenguix.github.io/Text2KGBench/ont_16_city/relations#demonym> a owl:ObjectProperty ;
+    rdfs:label "demonym" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_16_city/concepts#Country> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_16_city/concepts#Demonym> .
+
+<https://cenguix.github.io/Text2KGBench/ont_16_city/relations#elevationAboveTheSeaLevel> a owl:ObjectProperty ;
+    rdfs:label "elevationAboveTheSeaLevel" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_16_city/concepts#City> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_16_city/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_16_city/relations#ethnicGroup> a owl:ObjectProperty ;
+    rdfs:label "ethnicGroup" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_16_city/concepts#City> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_16_city/concepts#EthnicGroup> .
+
+<https://cenguix.github.io/Text2KGBench/ont_16_city/relations#governmentType> a owl:ObjectProperty ;
+    rdfs:label "governmentType" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_16_city/concepts#City> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_16_city/concepts#GovernmentType> .
+
+<https://cenguix.github.io/Text2KGBench/ont_16_city/relations#isPartOf> a owl:ObjectProperty ;
+    rdfs:label "isPartOf" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_16_city/concepts#City> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_16_city/concepts#Country> .
+
+<https://cenguix.github.io/Text2KGBench/ont_16_city/relations#language> a owl:ObjectProperty ;
+    rdfs:label "language" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_16_city/concepts#City> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_16_city/concepts#Language> .
+
+<https://cenguix.github.io/Text2KGBench/ont_16_city/relations#largestCity> a owl:ObjectProperty ;
+    rdfs:label "largestCity" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_16_city/concepts#Country> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_16_city/concepts#City> .
+
+<https://cenguix.github.io/Text2KGBench/ont_16_city/relations#leader> a owl:ObjectProperty ;
+    rdfs:label "leader" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_16_city/concepts#City> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_16_city/concepts#Person> .
+
+<https://cenguix.github.io/Text2KGBench/ont_16_city/relations#leaderTitle> a owl:ObjectProperty ;
+    rdfs:label "leaderTitle" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_16_city/concepts#Country> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_16_city/concepts#string> .
+
+<https://cenguix.github.io/Text2KGBench/ont_16_city/relations#location> a owl:ObjectProperty ;
+    rdfs:label "location" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_16_city/concepts#City> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_16_city/concepts#Place> .
+
+<https://cenguix.github.io/Text2KGBench/ont_16_city/relations#populationDensity> a owl:ObjectProperty ;
+    rdfs:label "populationDensity" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_16_city/concepts#City> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_16_city/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_16_city/relations#populationMetro> a owl:ObjectProperty ;
+    rdfs:label "populationMetro" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_16_city/concepts#City> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_16_city/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_16_city/relations#postalCode> a owl:ObjectProperty ;
+    rdfs:label "postalCode" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_16_city/concepts#City> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_16_city/concepts#string> .
+
+<https://cenguix.github.io/Text2KGBench/ont_16_city/relations#state> a owl:ObjectProperty ;
+    rdfs:label "state" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_16_city/concepts#City> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_16_city/concepts#State> .
+
+<https://cenguix.github.io/Text2KGBench/ont_16_city/relations#timeZone> a owl:ObjectProperty ;
+    rdfs:label "timeZone" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_16_city/concepts#City> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_16_city/concepts#Timezone> .
+
+<https://cenguix.github.io/Text2KGBench/ont_16_city/relations#type> a owl:ObjectProperty ;
+    rdfs:label "type" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_16_city/concepts#City> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_16_city/concepts#CityType> .
+
+<https://cenguix.github.io/Text2KGBench/ont_16_city/relations#utcOffset> a owl:ObjectProperty ;
+    rdfs:label "utcOffset" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_16_city/concepts#City> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_16_city/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_16_city/concepts#CityType> a owl:Class ;
+    rdfs:label "CityType" .
+
+<https://cenguix.github.io/Text2KGBench/ont_16_city/concepts#County> a owl:Class ;
+    rdfs:label "County" .
+
+<https://cenguix.github.io/Text2KGBench/ont_16_city/concepts#Demonym> a owl:Class ;
+    rdfs:label "Demonym" .
+
+<https://cenguix.github.io/Text2KGBench/ont_16_city/concepts#EthnicGroup> a owl:Class ;
+    rdfs:label "EthnicGroup" .
+
+<https://cenguix.github.io/Text2KGBench/ont_16_city/concepts#GovernmentType> a owl:Class ;
+    rdfs:label "GovernmentType" .
+
+<https://cenguix.github.io/Text2KGBench/ont_16_city/concepts#Language> a owl:Class ;
+    rdfs:label "Language" .
+
+<https://cenguix.github.io/Text2KGBench/ont_16_city/concepts#Place> a owl:Class ;
+    rdfs:label "Place" .
+
+<https://cenguix.github.io/Text2KGBench/ont_16_city/concepts#State> a owl:Class ;
+    rdfs:label "State" .
+
+<https://cenguix.github.io/Text2KGBench/ont_16_city/concepts#Timezone> a owl:Class ;
+    rdfs:label "Timezone" .
+
+<https://cenguix.github.io/Text2KGBench/ont_16_city/concepts#Country> a owl:Class ;
+    rdfs:label "Country" .
+
+<https://cenguix.github.io/Text2KGBench/ont_16_city/concepts#City> a owl:Class ;
+    rdfs:label "City" .
+

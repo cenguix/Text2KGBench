@@ -1,0 +1,265 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix onto: <https://cenguix.github.io/Text2KGBench/ont_17_artist#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://example.com/ontology> a owl:Ontology ;
+    rdfs:label "Artist Ontology" ;
+    dc:creator <http://orcid.org/0000-0001-7197-0766>,
+        <http://orcid.org/0000-0003-4303-983X>,
+        <http://orcid.org/0000−0003−1707−4842> ;
+    rdfs:comment "An ontology used in the Text2KGBench" ;
+    owl:versionIRI onto:v1 .
+
+<https://cenguix.github.io/Text2KGBench/ont_17_artist/relations#activeYearsStartYear> a owl:ObjectProperty ;
+    rdfs:label "activeYearsStartYear" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#Artist> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#Year> .
+
+<https://cenguix.github.io/Text2KGBench/ont_17_artist/relations#alternativeName> a owl:ObjectProperty ;
+    rdfs:label "alternativeName" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#Artist> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#string> .
+
+<https://cenguix.github.io/Text2KGBench/ont_17_artist/relations#anthem> a owl:ObjectProperty ;
+    rdfs:label "anthem" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#Country> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#Anthem> .
+
+<https://cenguix.github.io/Text2KGBench/ont_17_artist/relations#areaTotal> a owl:ObjectProperty ;
+    rdfs:label "areaTotal" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#City> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_17_artist/relations#associatedBand/associatedMusicalArtist> a owl:ObjectProperty ;
+    rdfs:label "associatedBand/associatedMusicalArtist" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#Artist> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#Band> .
+
+<https://cenguix.github.io/Text2KGBench/ont_17_artist/relations#background> a owl:ObjectProperty ;
+    rdfs:label "background" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#Artist> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#Background> .
+
+<https://cenguix.github.io/Text2KGBench/ont_17_artist/relations#birthDate> a owl:ObjectProperty ;
+    rdfs:label "birthDate" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#Artist> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#Date> .
+
+<https://cenguix.github.io/Text2KGBench/ont_17_artist/relations#birthPlace> a owl:ObjectProperty ;
+    rdfs:label "birthPlace" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#Artist> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#Place> .
+
+<https://cenguix.github.io/Text2KGBench/ont_17_artist/relations#birthYear> a owl:ObjectProperty ;
+    rdfs:label "birthYear" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#Artist> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#Year> .
+
+<https://cenguix.github.io/Text2KGBench/ont_17_artist/relations#country> a owl:ObjectProperty ;
+    rdfs:label "country" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#Artist> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#Country> .
+
+<https://cenguix.github.io/Text2KGBench/ont_17_artist/relations#currency> a owl:ObjectProperty ;
+    rdfs:label "currency" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#Country> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#Currency> .
+
+<https://cenguix.github.io/Text2KGBench/ont_17_artist/relations#deathDate> a owl:ObjectProperty ;
+    rdfs:label "deathDate" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#Artist> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#Date> .
+
+<https://cenguix.github.io/Text2KGBench/ont_17_artist/relations#deathPlace> a owl:ObjectProperty ;
+    rdfs:label "deathPlace" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#Artist> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#Place> .
+
+<https://cenguix.github.io/Text2KGBench/ont_17_artist/relations#demonym> a owl:ObjectProperty ;
+    rdfs:label "demonym" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#Artist> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#Demonym> .
+
+<https://cenguix.github.io/Text2KGBench/ont_17_artist/relations#derivative> a owl:ObjectProperty ;
+    rdfs:label "derivative" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#MusicalWork> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#MusicalWork> .
+
+<https://cenguix.github.io/Text2KGBench/ont_17_artist/relations#elevationAboveTheSeaLevel> a owl:ObjectProperty ;
+    rdfs:label "elevationAboveTheSeaLevel" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#City> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_17_artist/relations#ethnicGroup> a owl:ObjectProperty ;
+    rdfs:label "ethnicGroup" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#Artist> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#EthnicGroup> .
+
+<https://cenguix.github.io/Text2KGBench/ont_17_artist/relations#foundingDate> a owl:ObjectProperty ;
+    rdfs:label "foundingDate" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#Company> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#Date> .
+
+<https://cenguix.github.io/Text2KGBench/ont_17_artist/relations#genre> a owl:ObjectProperty ;
+    rdfs:label "genre" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#Artist> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#Genre> .
+
+<https://cenguix.github.io/Text2KGBench/ont_17_artist/relations#instrument> a owl:ObjectProperty ;
+    rdfs:label "instrument" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#MusicalWork> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#Instrument> .
+
+<https://cenguix.github.io/Text2KGBench/ont_17_artist/relations#isPartOf> a owl:ObjectProperty ;
+    rdfs:label "isPartOf" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#Artist> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#Band> .
+
+<https://cenguix.github.io/Text2KGBench/ont_17_artist/relations#language> a owl:ObjectProperty ;
+    rdfs:label "language" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#MusicalWork> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#Language> .
+
+<https://cenguix.github.io/Text2KGBench/ont_17_artist/relations#leader> a owl:ObjectProperty ;
+    rdfs:label "leader" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#Country> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#leader> .
+
+<https://cenguix.github.io/Text2KGBench/ont_17_artist/relations#leaderTitle> a owl:ObjectProperty ;
+    rdfs:label "leaderTitle" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#Country> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#string> .
+
+<https://cenguix.github.io/Text2KGBench/ont_17_artist/relations#location> a owl:ObjectProperty ;
+    rdfs:label "location" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#Company> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#Place> .
+
+<https://cenguix.github.io/Text2KGBench/ont_17_artist/relations#longName> a owl:ObjectProperty ;
+    rdfs:label "longName" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#Artist> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#string> .
+
+<https://cenguix.github.io/Text2KGBench/ont_17_artist/relations#meaning> a owl:ObjectProperty ;
+    rdfs:label "meaning" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#MusicalWork> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#string> .
+
+<https://cenguix.github.io/Text2KGBench/ont_17_artist/relations#musicFusionGenre> a owl:ObjectProperty ;
+    rdfs:label "musicFusionGenre" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#Artist> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#Genre> .
+
+<https://cenguix.github.io/Text2KGBench/ont_17_artist/relations#musicSubgenre> a owl:ObjectProperty ;
+    rdfs:label "musicSubgenre" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#MusicalWork> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#Genre> .
+
+<https://cenguix.github.io/Text2KGBench/ont_17_artist/relations#nationality> a owl:ObjectProperty ;
+    rdfs:label "nationality" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#Artist> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#Country> .
+
+<https://cenguix.github.io/Text2KGBench/ont_17_artist/relations#occupation> a owl:ObjectProperty ;
+    rdfs:label "occupation" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#Artist> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#Occupation> .
+
+<https://cenguix.github.io/Text2KGBench/ont_17_artist/relations#officialLanguage> a owl:ObjectProperty ;
+    rdfs:label "officialLanguage" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#Country> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#Language> .
+
+<https://cenguix.github.io/Text2KGBench/ont_17_artist/relations#origin> a owl:ObjectProperty ;
+    rdfs:label "origin" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#Artist> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#Country> .
+
+<https://cenguix.github.io/Text2KGBench/ont_17_artist/relations#populationDensity> a owl:ObjectProperty ;
+    rdfs:label "populationDensity" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#City> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_17_artist/relations#postalCode> a owl:ObjectProperty ;
+    rdfs:label "postalCode" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#City> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#string> .
+
+<https://cenguix.github.io/Text2KGBench/ont_17_artist/relations#professionalField> a owl:ObjectProperty ;
+    rdfs:label "professionalField" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#Artist> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#Field> .
+
+<https://cenguix.github.io/Text2KGBench/ont_17_artist/relations#recordLabel> a owl:ObjectProperty ;
+    rdfs:label "recordLabel" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#Artist> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#RecordLabel> .
+
+<https://cenguix.github.io/Text2KGBench/ont_17_artist/relations#stylisticOrigin> a owl:ObjectProperty ;
+    rdfs:label "stylisticOrigin" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#Artist> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#Country> .
+
+<https://cenguix.github.io/Text2KGBench/ont_17_artist/relations#training> a owl:ObjectProperty ;
+    rdfs:label "training" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#Artist> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#Training> .
+
+<https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#Anthem> a owl:Class ;
+    rdfs:label "Anthem" .
+
+<https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#Background> a owl:Class ;
+    rdfs:label "Background" .
+
+<https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#Currency> a owl:Class ;
+    rdfs:label "Currency" .
+
+<https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#Demonym> a owl:Class ;
+    rdfs:label "Demonym" .
+
+<https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#EthnicGroup> a owl:Class ;
+    rdfs:label "EthnicGroup" .
+
+<https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#Field> a owl:Class ;
+    rdfs:label "Field" .
+
+<https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#Instrument> a owl:Class ;
+    rdfs:label "Instrument" .
+
+<https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#Occupation> a owl:Class ;
+    rdfs:label "Occupation" .
+
+<https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#RecordLabel> a owl:Class ;
+    rdfs:label "RecordLabel" .
+
+<https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#Training> a owl:Class ;
+    rdfs:label "Training" .
+
+<https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#Band> a owl:Class ;
+    rdfs:label "Band" .
+
+<https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#Company> a owl:Class ;
+    rdfs:label "Company" .
+
+<https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#Language> a owl:Class ;
+    rdfs:label "Language" .
+
+<https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#Genre> a owl:Class ;
+    rdfs:label "Genre" .
+
+<https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#Place> a owl:Class ;
+    rdfs:label "Place" .
+
+<https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#City> a owl:Class ;
+    rdfs:label "City" .
+
+<https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#MusicalWork> a owl:Class ;
+    rdfs:label "MusicalWork" .
+
+<https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#Country> a owl:Class ;
+    rdfs:label "Country" .
+
+<https://cenguix.github.io/Text2KGBench/ont_17_artist/concepts#Artist> a owl:Class ;
+    rdfs:label "Artist" .
+

@@ -1,0 +1,248 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix onto: <https://cenguix.github.io/Text2KGBench/ont_9_astronaut#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://example.com/ontology> a owl:Ontology ;
+    rdfs:label "Astronaut Ontology" ;
+    dc:creator <http://orcid.org/0000-0001-7197-0766>,
+        <http://orcid.org/0000-0003-4303-983X>,
+        <http://orcid.org/0000−0003−1707−4842> ;
+    rdfs:comment "An ontology used in the Text2KGBench" ;
+    owl:versionIRI onto:v1 .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_astronaut/relations#affiliation> a owl:ObjectProperty ;
+    rdfs:label "affiliation" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#Astronaut> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#Organisation> .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_astronaut/relations#almaMater> a owl:ObjectProperty ;
+    rdfs:label "almaMater" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#Person> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#School> .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_astronaut/relations#alternativeName> a owl:ObjectProperty ;
+    rdfs:label "alternativeName" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#Astronaut> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#string> .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_astronaut/relations#award> a owl:ObjectProperty ;
+    rdfs:label "award" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#Astronaut> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#Award> .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_astronaut/relations#awards> a owl:ObjectProperty ;
+    rdfs:label "awards" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#Astronaut> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#Award> .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_astronaut/relations#backupPilot> a owl:ObjectProperty ;
+    rdfs:label "backupPilot" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#Mission> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#Astronaut> .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_astronaut/relations#bird> a owl:ObjectProperty ;
+    rdfs:label "bird" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#Astronaut> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#Bird> .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_astronaut/relations#birthDate> a owl:ObjectProperty ;
+    rdfs:label "birthDate" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#Astronaut> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#Date> .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_astronaut/relations#birthPlace> a owl:ObjectProperty ;
+    rdfs:label "birthPlace" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#Astronaut> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#Place> .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_astronaut/relations#commander> a owl:ObjectProperty ;
+    rdfs:label "commander" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#Astronaut> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#Commander> .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_astronaut/relations#competeIn> a owl:ObjectProperty ;
+    rdfs:label "competeIn" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#Astronaut> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#Date> .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_astronaut/relations#cosparId> a owl:ObjectProperty ;
+    rdfs:label "cosparId" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#Astronaut> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#string> .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_astronaut/relations#crewMembers> a owl:ObjectProperty ;
+    rdfs:label "crewMembers" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#Mission> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#Astronaut> .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_astronaut/relations#dateOfRetirement> a owl:ObjectProperty ;
+    rdfs:label "dateOfRetirement" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#Astronaut> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#Date> .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_astronaut/relations#deathDate> a owl:ObjectProperty ;
+    rdfs:label "deathDate" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#Astronaut> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#Date> .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_astronaut/relations#deathPlace> a owl:ObjectProperty ;
+    rdfs:label "deathPlace" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#Astronaut> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#Place> .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_astronaut/relations#fossil> a owl:ObjectProperty ;
+    rdfs:label "fossil" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#Astronaut> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#Fossil> .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_astronaut/relations#gemstone> a owl:ObjectProperty ;
+    rdfs:label "gemstone" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#Astronaut> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#Gemstone> .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_astronaut/relations#higher> a owl:ObjectProperty ;
+    rdfs:label "higher" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#Astronaut> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_astronaut/relations#isPartOf> a owl:ObjectProperty ;
+    rdfs:label "isPartOf" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#Astronaut> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#Astronaut> .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_astronaut/relations#leader> a owl:ObjectProperty ;
+    rdfs:label "leader" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#Astronaut> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#leader> .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_astronaut/relations#mascot> a owl:ObjectProperty ;
+    rdfs:label "mascot" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#Astronaut> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#Mascot> .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_astronaut/relations#mission> a owl:ObjectProperty ;
+    rdfs:label "mission" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#Astronaut> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#Mission> .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_astronaut/relations#nationality> a owl:ObjectProperty ;
+    rdfs:label "nationality" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#Astronaut> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#Country> .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_astronaut/relations#occupation> a owl:ObjectProperty ;
+    rdfs:label "occupation" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#Astronaut> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#occupation> .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_astronaut/relations#operator> a owl:ObjectProperty ;
+    rdfs:label "operator" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#Mission> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#Astronaut> .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_astronaut/relations#part> a owl:ObjectProperty ;
+    rdfs:label "part" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#Astronaut> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#Mission> .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_astronaut/relations#partsType> a owl:ObjectProperty ;
+    rdfs:label "partsType" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#Astronaut> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#PartsType> .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_astronaut/relations#president> a owl:ObjectProperty ;
+    rdfs:label "president" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#Country> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#Person> .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_astronaut/relations#representative> a owl:ObjectProperty ;
+    rdfs:label "representative" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#Astronaut> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#representative> .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_astronaut/relations#ribbonAward> a owl:ObjectProperty ;
+    rdfs:label "ribbonAward" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#Astronaut> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#Award> .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_astronaut/relations#selectedByNasa> a owl:ObjectProperty ;
+    rdfs:label "selectedByNasa" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#Astronaut> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#string> .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_astronaut/relations#senators> a owl:ObjectProperty ;
+    rdfs:label "senators" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#State> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#Person> .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_astronaut/relations#servedAsChiefOfTheAstronautOfficeIn> a owl:ObjectProperty ;
+    rdfs:label "servedAsChiefOfTheAstronautOfficeIn" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#Astronaut> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#Mission> .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_astronaut/relations#status> a owl:ObjectProperty ;
+    rdfs:label "status" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#Mission> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#string> .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_astronaut/relations#timeInSpace> a owl:ObjectProperty ;
+    rdfs:label "timeInSpace" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#Astronaut> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_astronaut/relations#title> a owl:ObjectProperty ;
+    rdfs:label "title" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#Astronaut> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#string> .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_astronaut/relations#utcOffset> a owl:ObjectProperty ;
+    rdfs:label "utcOffset" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#Astronaut> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#Bird> a owl:Class ;
+    rdfs:label "Bird" .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#Commander> a owl:Class ;
+    rdfs:label "Commander" .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#Fossil> a owl:Class ;
+    rdfs:label "Fossil" .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#Gemstone> a owl:Class ;
+    rdfs:label "Gemstone" .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#Mascot> a owl:Class ;
+    rdfs:label "Mascot" .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#Organisation> a owl:Class ;
+    rdfs:label "Organisation" .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#PartsType> a owl:Class ;
+    rdfs:label "PartsType" .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#School> a owl:Class ;
+    rdfs:label "School" .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#State> a owl:Class ;
+    rdfs:label "State" .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#Country> a owl:Class ;
+    rdfs:label "Country" .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#Place> a owl:Class ;
+    rdfs:label "Place" .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#Award> a owl:Class ;
+    rdfs:label "Award" .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#Person> a owl:Class ;
+    rdfs:label "Person" .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#Mission> a owl:Class ;
+    rdfs:label "Mission" .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_astronaut/concepts#Astronaut> a owl:Class ;
+    rdfs:label "Astronaut" .
+

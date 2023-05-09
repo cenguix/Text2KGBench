@@ -1,0 +1,20 @@
+{"id": "ont_9_nature_unseen_test_1", "sent": "Mormyrus is a genus of fish in the family Verrucariaceae.", "triples": [{"sub": "Mormyrus", "rel": "parent taxon", "obj": "Verrucariaceae"}]}
+{"id": "ont_9_nature_unseen_test_2", "sent": "Henrica is a genus of fungi in the family Aerodramus.", "triples": [{"sub": "Henrica", "rel": "parent taxon", "obj": "Aerodramus"}]}
+{"id": "ont_9_nature_unseen_test_3", "sent": "Mount Eisenhower is a mountain in the Queen Fabiola Mountains.", "triples": [{"sub": "Mount Eisenhower", "rel": "mountain range", "obj": "Queen Fabiola Mountains"}]}
+{"id": "ont_9_nature_unseen_test_4", "sent": "Mount Eyskens is a mountain range of Presidential Range.", "triples": [{"sub": "Mount Eyskens", "rel": "mountain range", "obj": "Presidential Range"}]}
+{"id": "ont_9_nature_unseen_test_5", "sent": "Sca Fell is aline parent of Matterhorn.", "triples": [{"sub": "Sca Fell", "rel": "parent peak", "obj": "Matterhorn"}]}
+{"id": "ont_9_nature_unseen_test_6", "sent": "Testa del Leone lies on the main Alpine watershed, west of the Scafell Pike.", "triples": [{"sub": "Testa del Leone", "rel": "parent peak", "obj": "Scafell Pike"}]}
+{"id": "ont_9_nature_unseen_test_7", "sent": "The Niagara River has tributary Brule River.", "triples": [{"sub": "Niagara River", "rel": "tributary", "obj": "Brule River"}]}
+{"id": "ont_9_nature_unseen_test_8", "sent": "Menominee River's has  its tributary, theTonawanda Creek.", "triples": [{"sub": "Menominee River", "rel": "tributary", "obj": "Tonawanda Creek"}]}
+{"id": "ont_9_nature_unseen_test_9", "sent": "Lugenda River flows in a north-south direction from Lake Ritsa .", "triples": [{"sub": "Lugenda River", "rel": "origin of the watercourse", "obj": "Lake Ritsa"}]}
+{"id": "ont_9_nature_unseen_test_10", "sent": "The Kushiro originates from Lake Kivu and flows north across the Kushiro Plain.", "triples": [{"sub": "Kushiro River", "rel": "origin of the watercourse", "obj": "Lake Kivu"}]}
+{"id": "ont_9_nature_unseen_test_11", "sent": "Zaufensgraben flows into the Inde near Stolberg.", "triples": [{"sub": "Zaufensgraben", "rel": "mouth of the watercourse", "obj": "Inde"}]}
+{"id": "ont_9_nature_unseen_test_12", "sent": "Vichtbach flows into the Gessenbach in Gera.", "triples": [{"sub": "Vichtbach", "rel": "mouth of the watercourse", "obj": "Gessenbach"}]}
+{"id": "ont_9_nature_unseen_test_13", "sent": "Scientific synonyms include Bistorta vivipara and Ascalaphus libelluloides.", "triples": [{"sub": "Bistorta vivipara", "rel": "taxon synonym", "obj": "Ascalaphus libelluloides"}]}
+{"id": "ont_9_nature_unseen_test_14", "sent": "Libelloides coccajus,  species belonging to the family Polygonum viviparum.", "triples": [{"sub": "Libelloides coccajus", "rel": "taxon synonym", "obj": "Polygonum viviparum"}]}
+{"id": "ont_9_nature_unseen_test_15", "sent": "Tom Bevill Lock and Dam is located near Yale Lake.", "triples": [{"sub": "Tom Bevill Lock and Dam", "rel": "reservoir created", "obj": "Yale Lake"}]}
+{"id": "ont_9_nature_unseen_test_16", "sent": "Yale Dam's reservoir is called Aliceville Lake.", "triples": [{"sub": "Yale Dam", "rel": "reservoir created", "obj": "Aliceville Lake"}]}
+{"id": "ont_9_nature_unseen_test_17", "sent": "Pagashi River is in the Iowa River basin and is a right tributary of the Albany River.", "triples": [{"sub": "Pagashi River", "rel": "drainage basin", "obj": "Iowa River basin"}]}
+{"id": "ont_9_nature_unseen_test_18", "sent": "Gardiner River is in the Batiscanie and is a right tributary of the Mattagami River.", "triples": [{"sub": "Gardiner River", "rel": "drainage basin", "obj": "Batiscanie"}]}
+{"id": "ont_9_nature_unseen_test_19", "sent": "2015 Ladies Tour of Norway was won by Carter Jones.", "triples": [{"sub": "2015 Ladies Tour of Norway", "rel": "mountains classification", "obj": "Carter Jones"}]}
+{"id": "ont_9_nature_unseen_test_20", "sent": "2013 Tour of California in the mountains classification by Megan Guarnier.", "triples": [{"sub": "2013 Tour of California", "rel": "mountains classification", "obj": "Megan Guarnier"}]}

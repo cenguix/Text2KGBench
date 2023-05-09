@@ -1,0 +1,169 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix onto: <https://cenguix.github.io/Text2KGBench/ont_13_food#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://example.com/ontology> a owl:Ontology ;
+    rdfs:label "Food Ontology" ;
+    dc:creator <http://orcid.org/0000-0001-7197-0766>,
+        <http://orcid.org/0000-0003-4303-983X>,
+        <http://orcid.org/0000−0003−1707−4842> ;
+    rdfs:comment "An ontology used in the Text2KGBench" ;
+    owl:versionIRI onto:v1 .
+
+<https://cenguix.github.io/Text2KGBench/ont_13_food/relations#alternativeName> a owl:ObjectProperty ;
+    rdfs:label "alternativeName" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_13_food/concepts#Food> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_13_food/concepts#string> .
+
+<https://cenguix.github.io/Text2KGBench/ont_13_food/relations#capital> a owl:ObjectProperty ;
+    rdfs:label "capital" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_13_food/concepts#Country> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_13_food/concepts#City> .
+
+<https://cenguix.github.io/Text2KGBench/ont_13_food/relations#carbohydrate> a owl:ObjectProperty ;
+    rdfs:label "carbohydrate" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_13_food/concepts#Food> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_13_food/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_13_food/relations#country> a owl:ObjectProperty ;
+    rdfs:label "country" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_13_food/concepts#Food> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_13_food/concepts#Country> .
+
+<https://cenguix.github.io/Text2KGBench/ont_13_food/relations#course> a owl:ObjectProperty ;
+    rdfs:label "course" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_13_food/concepts#Food> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_13_food/concepts#Food> .
+
+<https://cenguix.github.io/Text2KGBench/ont_13_food/relations#creator> a owl:ObjectProperty ;
+    rdfs:label "creator" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_13_food/concepts#Food> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_13_food/concepts#Person> .
+
+<https://cenguix.github.io/Text2KGBench/ont_13_food/relations#currency> a owl:ObjectProperty ;
+    rdfs:label "currency" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_13_food/concepts#Country> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_13_food/concepts#Currency> .
+
+<https://cenguix.github.io/Text2KGBench/ont_13_food/relations#demonym> a owl:ObjectProperty ;
+    rdfs:label "demonym" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_13_food/concepts#Country> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_13_food/concepts#Demonym> .
+
+<https://cenguix.github.io/Text2KGBench/ont_13_food/relations#dishVariation> a owl:ObjectProperty ;
+    rdfs:label "dishVariation" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_13_food/concepts#Food> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_13_food/concepts#Food> .
+
+<https://cenguix.github.io/Text2KGBench/ont_13_food/relations#division> a owl:ObjectProperty ;
+    rdfs:label "division" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_13_food/concepts#Food> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_13_food/concepts#Division> .
+
+<https://cenguix.github.io/Text2KGBench/ont_13_food/relations#ethnicGroup> a owl:ObjectProperty ;
+    rdfs:label "ethnicGroup" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_13_food/concepts#Food> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_13_food/concepts#EthnicGroup> .
+
+<https://cenguix.github.io/Text2KGBench/ont_13_food/relations#family> a owl:ObjectProperty ;
+    rdfs:label "family" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_13_food/concepts#Food> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_13_food/concepts#FoodFamily> .
+
+<https://cenguix.github.io/Text2KGBench/ont_13_food/relations#fat> a owl:ObjectProperty ;
+    rdfs:label "fat" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_13_food/concepts#Food> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_13_food/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_13_food/relations#genus> a owl:ObjectProperty ;
+    rdfs:label "genus" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_13_food/concepts#Food> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_13_food/concepts#Genus> .
+
+<https://cenguix.github.io/Text2KGBench/ont_13_food/relations#ingredient> a owl:ObjectProperty ;
+    rdfs:label "ingredient" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_13_food/concepts#Food> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_13_food/concepts#Ingredient> .
+
+<https://cenguix.github.io/Text2KGBench/ont_13_food/relations#isPartOf> a owl:ObjectProperty ;
+    rdfs:label "isPartOf" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_13_food/concepts#Food> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_13_food/concepts#Food> .
+
+<https://cenguix.github.io/Text2KGBench/ont_13_food/relations#language> a owl:ObjectProperty ;
+    rdfs:label "language" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_13_food/concepts#Country> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_13_food/concepts#Language> .
+
+<https://cenguix.github.io/Text2KGBench/ont_13_food/relations#leader> a owl:ObjectProperty ;
+    rdfs:label "leader" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_13_food/concepts#Country> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_13_food/concepts#Person> .
+
+<https://cenguix.github.io/Text2KGBench/ont_13_food/relations#leaderTitle> a owl:ObjectProperty ;
+    rdfs:label "leaderTitle" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_13_food/concepts#Country> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_13_food/concepts#string> .
+
+<https://cenguix.github.io/Text2KGBench/ont_13_food/relations#mainIngredient> a owl:ObjectProperty ;
+    rdfs:label "mainIngredient" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_13_food/concepts#Food> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_13_food/concepts#Ingredient> .
+
+<https://cenguix.github.io/Text2KGBench/ont_13_food/relations#order> a owl:ObjectProperty ;
+    rdfs:label "order" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_13_food/concepts#Food> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_13_food/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_13_food/relations#protein> a owl:ObjectProperty ;
+    rdfs:label "protein" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_13_food/concepts#Food> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_13_food/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_13_food/relations#region> a owl:ObjectProperty ;
+    rdfs:label "region" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_13_food/concepts#Food> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_13_food/concepts#Place> .
+
+<https://cenguix.github.io/Text2KGBench/ont_13_food/relations#servingTemperature> a owl:ObjectProperty ;
+    rdfs:label "servingTemperature" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_13_food/concepts#Food> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_13_food/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_13_food/concepts#City> a owl:Class ;
+    rdfs:label "City" .
+
+<https://cenguix.github.io/Text2KGBench/ont_13_food/concepts#Currency> a owl:Class ;
+    rdfs:label "Currency" .
+
+<https://cenguix.github.io/Text2KGBench/ont_13_food/concepts#Demonym> a owl:Class ;
+    rdfs:label "Demonym" .
+
+<https://cenguix.github.io/Text2KGBench/ont_13_food/concepts#Division> a owl:Class ;
+    rdfs:label "Division" .
+
+<https://cenguix.github.io/Text2KGBench/ont_13_food/concepts#EthnicGroup> a owl:Class ;
+    rdfs:label "EthnicGroup" .
+
+<https://cenguix.github.io/Text2KGBench/ont_13_food/concepts#FoodFamily> a owl:Class ;
+    rdfs:label "FoodFamily" .
+
+<https://cenguix.github.io/Text2KGBench/ont_13_food/concepts#Genus> a owl:Class ;
+    rdfs:label "Genus" .
+
+<https://cenguix.github.io/Text2KGBench/ont_13_food/concepts#Language> a owl:Class ;
+    rdfs:label "Language" .
+
+<https://cenguix.github.io/Text2KGBench/ont_13_food/concepts#Place> a owl:Class ;
+    rdfs:label "Place" .
+
+<https://cenguix.github.io/Text2KGBench/ont_13_food/concepts#Person> a owl:Class ;
+    rdfs:label "Person" .
+
+<https://cenguix.github.io/Text2KGBench/ont_13_food/concepts#Country> a owl:Class ;
+    rdfs:label "Country" .
+
+<https://cenguix.github.io/Text2KGBench/ont_13_food/concepts#Food> a owl:Class ;
+    rdfs:label "Food" .
+

@@ -1,0 +1,287 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix onto: <https://cenguix.github.io/Text2KGBench/ont_19_film#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://example.com/ontology> a owl:Ontology ;
+    rdfs:label "Film Ontology" ;
+    dc:creator <http://orcid.org/0000-0001-7197-0766>,
+        <http://orcid.org/0000-0003-4303-983X>,
+        <http://orcid.org/0000−0003−1707−4842> ;
+    rdfs:comment "An ontology used in the Text2KGBench" ;
+    owl:versionIRI onto:v1 .
+
+<https://cenguix.github.io/Text2KGBench/ont_19_film/relations#activeYearsStartYear> a owl:ObjectProperty ;
+    rdfs:label "activeYearsStartYear" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Artist> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Year> .
+
+<https://cenguix.github.io/Text2KGBench/ont_19_film/relations#background> a owl:ObjectProperty ;
+    rdfs:label "background" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Film> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Background> .
+
+<https://cenguix.github.io/Text2KGBench/ont_19_film/relations#birthDate> a owl:ObjectProperty ;
+    rdfs:label "birthDate" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Artist> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Date> .
+
+<https://cenguix.github.io/Text2KGBench/ont_19_film/relations#birthName> a owl:ObjectProperty ;
+    rdfs:label "birthName" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Artist> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#string> .
+
+<https://cenguix.github.io/Text2KGBench/ont_19_film/relations#birthPlace> a owl:ObjectProperty ;
+    rdfs:label "birthPlace" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Artist> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Place> .
+
+<https://cenguix.github.io/Text2KGBench/ont_19_film/relations#birthYear> a owl:ObjectProperty ;
+    rdfs:label "birthYear" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Artist> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Year> .
+
+<https://cenguix.github.io/Text2KGBench/ont_19_film/relations#broadcastedBy> a owl:ObjectProperty ;
+    rdfs:label "broadcastedBy" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Film> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Company> .
+
+<https://cenguix.github.io/Text2KGBench/ont_19_film/relations#budget> a owl:ObjectProperty ;
+    rdfs:label "budget" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Film> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_19_film/relations#child> a owl:ObjectProperty ;
+    rdfs:label "child" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Artist> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Person> .
+
+<https://cenguix.github.io/Text2KGBench/ont_19_film/relations#cinematography> a owl:ObjectProperty ;
+    rdfs:label "cinematography" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Film> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Cinematography> .
+
+<https://cenguix.github.io/Text2KGBench/ont_19_film/relations#club> a owl:ObjectProperty ;
+    rdfs:label "club" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Film> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Club> .
+
+<https://cenguix.github.io/Text2KGBench/ont_19_film/relations#deathDate> a owl:ObjectProperty ;
+    rdfs:label "deathDate" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Artist> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Date> .
+
+<https://cenguix.github.io/Text2KGBench/ont_19_film/relations#deathPlace> a owl:ObjectProperty ;
+    rdfs:label "deathPlace" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Artist> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Place> .
+
+<https://cenguix.github.io/Text2KGBench/ont_19_film/relations#deathYear> a owl:ObjectProperty ;
+    rdfs:label "deathYear" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Artist> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Year> .
+
+<https://cenguix.github.io/Text2KGBench/ont_19_film/relations#director> a owl:ObjectProperty ;
+    rdfs:label "director" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Film> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Person> .
+
+<https://cenguix.github.io/Text2KGBench/ont_19_film/relations#distributor> a owl:ObjectProperty ;
+    rdfs:label "distributor" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Film> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Company> .
+
+<https://cenguix.github.io/Text2KGBench/ont_19_film/relations#editing> a owl:ObjectProperty ;
+    rdfs:label "editing" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Film> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Artist> .
+
+<https://cenguix.github.io/Text2KGBench/ont_19_film/relations#editor> a owl:ObjectProperty ;
+    rdfs:label "editor" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Film> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Person> .
+
+<https://cenguix.github.io/Text2KGBench/ont_19_film/relations#formerName> a owl:ObjectProperty ;
+    rdfs:label "formerName" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Artist> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#string> .
+
+<https://cenguix.github.io/Text2KGBench/ont_19_film/relations#foundedBy> a owl:ObjectProperty ;
+    rdfs:label "foundedBy" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Organisation> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Person> .
+
+<https://cenguix.github.io/Text2KGBench/ont_19_film/relations#foundingYear> a owl:ObjectProperty ;
+    rdfs:label "foundingYear" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Organisation> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Year> .
+
+<https://cenguix.github.io/Text2KGBench/ont_19_film/relations#gross> a owl:ObjectProperty ;
+    rdfs:label "gross" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Film> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_19_film/relations#headquarter> a owl:ObjectProperty ;
+    rdfs:label "headquarter" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Company> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#City> .
+
+<https://cenguix.github.io/Text2KGBench/ont_19_film/relations#imdbId> a owl:ObjectProperty ;
+    rdfs:label "imdbId" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Film> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#string> .
+
+<https://cenguix.github.io/Text2KGBench/ont_19_film/relations#industry> a owl:ObjectProperty ;
+    rdfs:label "industry" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Company> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Industry> .
+
+<https://cenguix.github.io/Text2KGBench/ont_19_film/relations#iso6391Code> a owl:ObjectProperty ;
+    rdfs:label "iso6391Code" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Country> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#string> .
+
+<https://cenguix.github.io/Text2KGBench/ont_19_film/relations#iso6392Code> a owl:ObjectProperty ;
+    rdfs:label "iso6392Code" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#City> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#string> .
+
+<https://cenguix.github.io/Text2KGBench/ont_19_film/relations#keyPerson> a owl:ObjectProperty ;
+    rdfs:label "keyPerson" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Organisation> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Person> .
+
+<https://cenguix.github.io/Text2KGBench/ont_19_film/relations#language> a owl:ObjectProperty ;
+    rdfs:label "language" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Film> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Language> .
+
+<https://cenguix.github.io/Text2KGBench/ont_19_film/relations#location> a owl:ObjectProperty ;
+    rdfs:label "location" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Company> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Place> .
+
+<https://cenguix.github.io/Text2KGBench/ont_19_film/relations#musicComposer> a owl:ObjectProperty ;
+    rdfs:label "musicComposer" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Film> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Artist> .
+
+<https://cenguix.github.io/Text2KGBench/ont_19_film/relations#occupation> a owl:ObjectProperty ;
+    rdfs:label "occupation" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Artist> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Occupation> .
+
+<https://cenguix.github.io/Text2KGBench/ont_19_film/relations#owner> a owl:ObjectProperty ;
+    rdfs:label "owner" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Company> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Person> .
+
+<https://cenguix.github.io/Text2KGBench/ont_19_film/relations#producer> a owl:ObjectProperty ;
+    rdfs:label "producer" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Film> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Person> .
+
+<https://cenguix.github.io/Text2KGBench/ont_19_film/relations#releaseDate> a owl:ObjectProperty ;
+    rdfs:label "releaseDate" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Film> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Date> .
+
+<https://cenguix.github.io/Text2KGBench/ont_19_film/relations#runtime> a owl:ObjectProperty ;
+    rdfs:label "runtime" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Film> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_19_film/relations#service> a owl:ObjectProperty ;
+    rdfs:label "service" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Company> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Service> .
+
+<https://cenguix.github.io/Text2KGBench/ont_19_film/relations#sisterStation> a owl:ObjectProperty ;
+    rdfs:label "sisterStation" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Film> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Station> .
+
+<https://cenguix.github.io/Text2KGBench/ont_19_film/relations#spokenIn> a owl:ObjectProperty ;
+    rdfs:label "spokenIn" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Language> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Country> .
+
+<https://cenguix.github.io/Text2KGBench/ont_19_film/relations#spouse> a owl:ObjectProperty ;
+    rdfs:label "spouse" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Artist> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Person> .
+
+<https://cenguix.github.io/Text2KGBench/ont_19_film/relations#starring> a owl:ObjectProperty ;
+    rdfs:label "starring" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Film> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Artist> .
+
+<https://cenguix.github.io/Text2KGBench/ont_19_film/relations#timeshiftChannel> a owl:ObjectProperty ;
+    rdfs:label "timeshiftChannel" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Film> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Channel> .
+
+<https://cenguix.github.io/Text2KGBench/ont_19_film/relations#type> a owl:ObjectProperty ;
+    rdfs:label "type" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Film> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Type> .
+
+<https://cenguix.github.io/Text2KGBench/ont_19_film/relations#writer> a owl:ObjectProperty ;
+    rdfs:label "writer" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#WrittenWork> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Person> .
+
+<https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Background> a owl:Class ;
+    rdfs:label "Background" .
+
+<https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Channel> a owl:Class ;
+    rdfs:label "Channel" .
+
+<https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Cinematography> a owl:Class ;
+    rdfs:label "Cinematography" .
+
+<https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Club> a owl:Class ;
+    rdfs:label "Club" .
+
+<https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Industry> a owl:Class ;
+    rdfs:label "Industry" .
+
+<https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Occupation> a owl:Class ;
+    rdfs:label "Occupation" .
+
+<https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Service> a owl:Class ;
+    rdfs:label "Service" .
+
+<https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Station> a owl:Class ;
+    rdfs:label "Station" .
+
+<https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Type> a owl:Class ;
+    rdfs:label "Type" .
+
+<https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#City> a owl:Class ;
+    rdfs:label "City" .
+
+<https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Country> a owl:Class ;
+    rdfs:label "Country" .
+
+<https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Language> a owl:Class ;
+    rdfs:label "Language" .
+
+<https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Organisation> a owl:Class ;
+    rdfs:label "Organisation" .
+
+<https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Place> a owl:Class ;
+    rdfs:label "Place" .
+
+<https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Company> a owl:Class ;
+    rdfs:label "Company" .
+
+<https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Person> a owl:Class ;
+    rdfs:label "Person" .
+
+<https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Artist> a owl:Class ;
+    rdfs:label "Artist" .
+
+<https://cenguix.github.io/Text2KGBench/ont_19_film/concepts#Film> a owl:Class ;
+    rdfs:label "Film" .
+

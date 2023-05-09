@@ -1,0 +1,100 @@
+{
+ "ont_5_military_unseen_test_1": [
+  "ont_5_military_train_62",
+  "ont_5_military_train_79",
+  "ont_5_military_train_20",
+  "ont_5_military_train_61",
+  "ont_5_military_train_13"
+ ],
+ "ont_5_military_unseen_test_2": [
+  "ont_5_military_train_107",
+  "ont_5_military_train_40",
+  "ont_5_military_train_106",
+  "ont_5_military_train_33",
+  "ont_5_military_train_155"
+ ],
+ "ont_5_military_unseen_test_3": [
+  "ont_5_military_train_61",
+  "ont_5_military_train_51",
+  "ont_5_military_train_13",
+  "ont_5_military_train_35",
+  "ont_5_military_train_79"
+ ],
+ "ont_5_military_unseen_test_4": [
+  "ont_5_military_train_188",
+  "ont_5_military_train_166",
+  "ont_5_military_train_32",
+  "ont_5_military_train_80",
+  "ont_5_military_train_68"
+ ],
+ "ont_5_military_unseen_test_5": [
+  "ont_5_military_train_234",
+  "ont_5_military_train_196",
+  "ont_5_military_train_186",
+  "ont_5_military_train_179",
+  "ont_5_military_train_229"
+ ],
+ "ont_5_military_unseen_test_6": [
+  "ont_5_military_train_204",
+  "ont_5_military_train_205",
+  "ont_5_military_train_228",
+  "ont_5_military_train_192",
+  "ont_5_military_train_184"
+ ],
+ "ont_5_military_unseen_test_7": [
+  "ont_5_military_train_281",
+  "ont_5_military_train_248",
+  "ont_5_military_train_267",
+  "ont_5_military_train_268",
+  "ont_5_military_train_254"
+ ],
+ "ont_5_military_unseen_test_8": [
+  "ont_5_military_train_251",
+  "ont_5_military_train_269",
+  "ont_5_military_train_285",
+  "ont_5_military_train_261",
+  "ont_5_military_train_243"
+ ],
+ "ont_5_military_unseen_test_9": [
+  "ont_5_military_train_289",
+  "ont_5_military_train_25",
+  "ont_5_military_train_30",
+  "ont_5_military_train_42",
+  "ont_5_military_train_33"
+ ],
+ "ont_5_military_unseen_test_10": [
+  "ont_5_military_train_289",
+  "ont_5_military_train_30",
+  "ont_5_military_train_25",
+  "ont_5_military_train_42",
+  "ont_5_military_train_33"
+ ],
+ "ont_5_military_unseen_test_11": [
+  "ont_5_military_train_293",
+  "ont_5_military_train_295",
+  "ont_5_military_train_292",
+  "ont_5_military_train_290",
+  "ont_5_military_train_294"
+ ],
+ "ont_5_military_unseen_test_12": [
+  "ont_5_military_train_293",
+  "ont_5_military_train_295",
+  "ont_5_military_train_292",
+  "ont_5_military_train_290",
+  "ont_5_military_train_104"
+ ],
+ "ont_5_military_unseen_test_13": [
+  "ont_5_military_train_297",
+  "ont_5_military_train_298",
+  "ont_5_military_train_255",
+  "ont_5_military_train_135",
+  "ont_5_military_train_247"
+ ],
+ "ont_5_military_unseen_test_14": [
+  "ont_5_military_train_298",
+  "ont_5_military_train_297",
+  "ont_5_military_train_265",
+  "ont_5_military_train_255",
+  "ont_5_military_train_251"
+ ]
+}

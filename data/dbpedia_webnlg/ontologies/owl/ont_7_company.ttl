@@ -1,0 +1,183 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix onto: <https://cenguix.github.io/Text2KGBench/ont_7_company#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://example.com/ontology> a owl:Ontology ;
+    rdfs:label "Company Ontology" ;
+    dc:creator <http://orcid.org/0000-0001-7197-0766>,
+        <http://orcid.org/0000-0003-4303-983X>,
+        <http://orcid.org/0000−0003−1707−4842> ;
+    rdfs:comment "An ontology used in the Text2KGBench" ;
+    owl:versionIRI onto:v1 .
+
+<https://cenguix.github.io/Text2KGBench/ont_7_company/relations#areaTotal> a owl:ObjectProperty ;
+    rdfs:label "areaTotal" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_7_company/concepts#Place> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_7_company/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_7_company/relations#capital> a owl:ObjectProperty ;
+    rdfs:label "capital" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_7_company/concepts#Country> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_7_company/concepts#City> .
+
+<https://cenguix.github.io/Text2KGBench/ont_7_company/relations#city> a owl:ObjectProperty ;
+    rdfs:label "city" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_7_company/concepts#Company> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_7_company/concepts#City> .
+
+<https://cenguix.github.io/Text2KGBench/ont_7_company/relations#country> a owl:ObjectProperty ;
+    rdfs:label "country" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_7_company/concepts#Company> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_7_company/concepts#Country> .
+
+<https://cenguix.github.io/Text2KGBench/ont_7_company/relations#elevationAboveTheSeaLevel> a owl:ObjectProperty ;
+    rdfs:label "elevationAboveTheSeaLevel" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_7_company/concepts#Place> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_7_company/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_7_company/relations#ethnicGroup> a owl:ObjectProperty ;
+    rdfs:label "ethnicGroup" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_7_company/concepts#Company> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_7_company/concepts#EthnicGroup> .
+
+<https://cenguix.github.io/Text2KGBench/ont_7_company/relations#foundationPlace> a owl:ObjectProperty ;
+    rdfs:label "foundationPlace" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_7_company/concepts#Company> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_7_company/concepts#Place> .
+
+<https://cenguix.github.io/Text2KGBench/ont_7_company/relations#foundingDate> a owl:ObjectProperty ;
+    rdfs:label "foundingDate" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_7_company/concepts#Company> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_7_company/concepts#Date> .
+
+<https://cenguix.github.io/Text2KGBench/ont_7_company/relations#industry> a owl:ObjectProperty ;
+    rdfs:label "industry" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_7_company/concepts#Company> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_7_company/concepts#Industry> .
+
+<https://cenguix.github.io/Text2KGBench/ont_7_company/relations#isPartOf> a owl:ObjectProperty ;
+    rdfs:label "isPartOf" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_7_company/concepts#Company> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_7_company/concepts#Company> .
+
+<https://cenguix.github.io/Text2KGBench/ont_7_company/relations#keyPerson> a owl:ObjectProperty ;
+    rdfs:label "keyPerson" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_7_company/concepts#Company> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_7_company/concepts#Person> .
+
+<https://cenguix.github.io/Text2KGBench/ont_7_company/relations#leader> a owl:ObjectProperty ;
+    rdfs:label "leader" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_7_company/concepts#Company> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_7_company/concepts#Person> .
+
+<https://cenguix.github.io/Text2KGBench/ont_7_company/relations#leaderParty> a owl:ObjectProperty ;
+    rdfs:label "leaderParty" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_7_company/concepts#Person> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_7_company/concepts#Party> .
+
+<https://cenguix.github.io/Text2KGBench/ont_7_company/relations#leaderTitle> a owl:ObjectProperty ;
+    rdfs:label "leaderTitle" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_7_company/concepts#Person> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_7_company/concepts#string> .
+
+<https://cenguix.github.io/Text2KGBench/ont_7_company/relations#location> a owl:ObjectProperty ;
+    rdfs:label "location" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_7_company/concepts#Company> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_7_company/concepts#Place> .
+
+<https://cenguix.github.io/Text2KGBench/ont_7_company/relations#longName> a owl:ObjectProperty ;
+    rdfs:label "longName" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_7_company/concepts#Company> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_7_company/concepts#string> .
+
+<https://cenguix.github.io/Text2KGBench/ont_7_company/relations#netIncome> a owl:ObjectProperty ;
+    rdfs:label "netIncome" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_7_company/concepts#Company> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_7_company/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_7_company/relations#numberOfEmployees> a owl:ObjectProperty ;
+    rdfs:label "numberOfEmployees" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_7_company/concepts#Company> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_7_company/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_7_company/relations#numberOfLocations> a owl:ObjectProperty ;
+    rdfs:label "numberOfLocations" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_7_company/concepts#Company> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_7_company/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_7_company/relations#operatingIncome> a owl:ObjectProperty ;
+    rdfs:label "operatingIncome" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_7_company/concepts#Company> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_7_company/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_7_company/relations#parentCompany> a owl:ObjectProperty ;
+    rdfs:label "parentCompany" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_7_company/concepts#Company> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_7_company/concepts#Company> .
+
+<https://cenguix.github.io/Text2KGBench/ont_7_company/relations#populationTotal> a owl:ObjectProperty ;
+    rdfs:label "populationTotal" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_7_company/concepts#Company> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_7_company/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_7_company/relations#product> a owl:ObjectProperty ;
+    rdfs:label "product" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_7_company/concepts#Company> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_7_company/concepts#Product> .
+
+<https://cenguix.github.io/Text2KGBench/ont_7_company/relations#regionServed> a owl:ObjectProperty ;
+    rdfs:label "regionServed" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_7_company/concepts#Company> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_7_company/concepts#Place> .
+
+<https://cenguix.github.io/Text2KGBench/ont_7_company/relations#revenue> a owl:ObjectProperty ;
+    rdfs:label "revenue" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_7_company/concepts#Company> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_7_company/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_7_company/relations#service> a owl:ObjectProperty ;
+    rdfs:label "service" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_7_company/concepts#Company> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_7_company/concepts#Service> .
+
+<https://cenguix.github.io/Text2KGBench/ont_7_company/relations#subsidiary> a owl:ObjectProperty ;
+    rdfs:label "subsidiary" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_7_company/concepts#Company> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_7_company/concepts#Company> .
+
+<https://cenguix.github.io/Text2KGBench/ont_7_company/relations#type> a owl:ObjectProperty ;
+    rdfs:label "type" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_7_company/concepts#Company> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_7_company/concepts#CompanyType> .
+
+<https://cenguix.github.io/Text2KGBench/ont_7_company/concepts#CompanyType> a owl:Class ;
+    rdfs:label "CompanyType" .
+
+<https://cenguix.github.io/Text2KGBench/ont_7_company/concepts#EthnicGroup> a owl:Class ;
+    rdfs:label "EthnicGroup" .
+
+<https://cenguix.github.io/Text2KGBench/ont_7_company/concepts#Industry> a owl:Class ;
+    rdfs:label "Industry" .
+
+<https://cenguix.github.io/Text2KGBench/ont_7_company/concepts#Product> a owl:Class ;
+    rdfs:label "Product" .
+
+<https://cenguix.github.io/Text2KGBench/ont_7_company/concepts#Service> a owl:Class ;
+    rdfs:label "Service" .
+
+<https://cenguix.github.io/Text2KGBench/ont_7_company/concepts#City> a owl:Class ;
+    rdfs:label "City" .
+
+<https://cenguix.github.io/Text2KGBench/ont_7_company/concepts#Country> a owl:Class ;
+    rdfs:label "Country" .
+
+<https://cenguix.github.io/Text2KGBench/ont_7_company/concepts#Person> a owl:Class ;
+    rdfs:label "Person" .
+
+<https://cenguix.github.io/Text2KGBench/ont_7_company/concepts#Place> a owl:Class ;
+    rdfs:label "Place" .
+
+<https://cenguix.github.io/Text2KGBench/ont_7_company/concepts#Company> a owl:Class ;
+    rdfs:label "Company" .
+

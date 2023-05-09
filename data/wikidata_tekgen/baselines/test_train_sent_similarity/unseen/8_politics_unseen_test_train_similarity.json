@@ -1,0 +1,86 @@
+{
+ "ont_8_politics_unseen_test_1": [
+  "ont_8_politics_train_49",
+  "ont_8_politics_train_57",
+  "ont_8_politics_train_6",
+  "ont_8_politics_train_73",
+  "ont_8_politics_train_78"
+ ],
+ "ont_8_politics_unseen_test_2": [
+  "ont_8_politics_train_8",
+  "ont_8_politics_train_73",
+  "ont_8_politics_train_78",
+  "ont_8_politics_train_19",
+  "ont_8_politics_train_12"
+ ],
+ "ont_8_politics_unseen_test_3": [
+  "ont_8_politics_train_30",
+  "ont_8_politics_train_6",
+  "ont_8_politics_train_71",
+  "ont_8_politics_train_5",
+  "ont_8_politics_train_79"
+ ],
+ "ont_8_politics_unseen_test_4": [
+  "ont_8_politics_train_30",
+  "ont_8_politics_train_19",
+  "ont_8_politics_train_12",
+  "ont_8_politics_train_8",
+  "ont_8_politics_train_16"
+ ],
+ "ont_8_politics_unseen_test_5": [
+  "ont_8_politics_train_19",
+  "ont_8_politics_train_56",
+  "ont_8_politics_train_33",
+  "ont_8_politics_train_22",
+  "ont_8_politics_train_59"
+ ],
+ "ont_8_politics_unseen_test_6": [
+  "ont_8_politics_train_56",
+  "ont_8_politics_train_66",
+  "ont_8_politics_train_78",
+  "ont_8_politics_train_19",
+  "ont_8_politics_train_72"
+ ],
+ "ont_8_politics_unseen_test_7": [
+  "ont_8_politics_train_115",
+  "ont_8_politics_train_160",
+  "ont_8_politics_train_90",
+  "ont_8_politics_train_152",
+  "ont_8_politics_train_151"
+ ],
+ "ont_8_politics_unseen_test_8": [
+  "ont_8_politics_train_151",
+  "ont_8_politics_train_118",
+  "ont_8_politics_train_119",
+  "ont_8_politics_train_149",
+  "ont_8_politics_train_99"
+ ],
+ "ont_8_politics_unseen_test_9": [
+  "ont_8_politics_train_152",
+  "ont_8_politics_train_183",
+  "ont_8_politics_train_201",
+  "ont_8_politics_train_115",
+  "ont_8_politics_train_160"
+ ],
+ "ont_8_politics_unseen_test_10": [
+  "ont_8_politics_train_206",
+  "ont_8_politics_train_175",
+  "ont_8_politics_train_208",
+  "ont_8_politics_train_168",
+  "ont_8_politics_train_190"
+ ],
+ "ont_8_politics_unseen_test_11": [
+  "ont_8_politics_train_215",
+  "ont_8_politics_train_223",
+  "ont_8_politics_train_266",
+  "ont_8_politics_train_271",
+  "ont_8_politics_train_250"
+ ],
+ "ont_8_politics_unseen_test_12": [
+  "ont_8_politics_train_250",
+  "ont_8_politics_train_266",
+  "ont_8_politics_train_271",
+  "ont_8_politics_train_223",
+  "ont_8_politics_train_215"
+ ]
+}

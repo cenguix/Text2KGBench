@@ -1,0 +1,115 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix onto: <https://cenguix.github.io/Text2KGBench/ont_6_computer#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://example.com/ontology> a owl:Ontology ;
+    rdfs:label "Computer Ontology" ;
+    dc:creator <http://orcid.org/0000-0001-7197-0766>,
+        <http://orcid.org/0000-0003-4303-983X>,
+        <http://orcid.org/0000−0003−1707−4842> ;
+    rdfs:comment "An ontology used in the Text2KGBench" ;
+    owl:versionIRI onto:v1 .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_computer/concepts#Q1301371> a owl:Class ;
+    rdfs:label "computer network" .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_computer/concepts#Q166142> a owl:Class ;
+    rdfs:label "application" .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_computer/concepts#Q1709010> a owl:Class ;
+    rdfs:label "software engineer" .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_computer/concepts#Q189210> a owl:Class ;
+    rdfs:label "web application" .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_computer/concepts#Q215627> a owl:Class ;
+    rdfs:label "person" .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_computer/concepts#Q41455> a owl:Class ;
+    rdfs:label "computer science" .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_computer/concepts#Q55990535> a owl:Class ;
+    rdfs:label "computer model" .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_computer/concepts#Q8366> a owl:Class ;
+    rdfs:label "algorithm" .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_computer/concepts#Q8513> a owl:Class ;
+    rdfs:label "database" .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_computer/relations#P138> a owl:ObjectProperty ;
+    rdfs:label "named after" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_6_computer/concepts#Q9143> .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_computer/relations#P170> a owl:ObjectProperty ;
+    rdfs:label "creator" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_6_computer/concepts#Q7397> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_6_computer/concepts#Q5> .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_computer/relations#P178> a owl:ObjectProperty ;
+    rdfs:label "developer" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_6_computer/concepts#Q7397> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_6_computer/concepts#Q4830453> .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_computer/relations#P2283> a owl:ObjectProperty ;
+    rdfs:label "uses" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_6_computer/concepts#Q7397> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_6_computer/concepts#Q7397> .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_computer/relations#P306> a owl:ObjectProperty ;
+    rdfs:label "operating system" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_6_computer/concepts#Q68> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_6_computer/concepts#Q9135> .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_computer/relations#P373> a owl:ObjectProperty ;
+    rdfs:label "influenced by" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_6_computer/concepts#Q9143> .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_computer/relations#P400> a owl:ObjectProperty ;
+    rdfs:label "platform" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_6_computer/concepts#Q7397> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_6_computer/concepts#Q68> .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_computer/relations#P437> a owl:ObjectProperty ;
+    rdfs:label "distribution format" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_6_computer/concepts#Q7397> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_6_computer/concepts#Q3966> .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_computer/relations#P4428> a owl:ObjectProperty ;
+    rdfs:label "implementation of" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_6_computer/concepts#Q7397> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_6_computer/concepts#Q9143> .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_computer/relations#P4969> a owl:ObjectProperty ;
+    rdfs:label "derivative work" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_6_computer/concepts#Q7397> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_6_computer/concepts#Q7397> .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_computer/relations#P61> a owl:ObjectProperty ;
+    rdfs:label "discoverer or inventor" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_6_computer/concepts#Q7397> .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_computer/relations#P880> a owl:ObjectProperty ;
+    rdfs:label "CPU" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_6_computer/concepts#Q62008942> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_6_computer/concepts#Q3966> .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_computer/concepts#Q5> a owl:Class ;
+    rdfs:label "human" .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_computer/concepts#Q9135> a owl:Class ;
+    rdfs:label "operating system" .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_computer/concepts#Q3966> a owl:Class ;
+    rdfs:label "computer hardware" .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_computer/concepts#Q68> a owl:Class ;
+    rdfs:label "computer" .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_computer/concepts#Q9143> a owl:Class ;
+    rdfs:label "programming language" .
+
+<https://cenguix.github.io/Text2KGBench/ont_6_computer/concepts#Q7397> a owl:Class ;
+    rdfs:label "software" .
+

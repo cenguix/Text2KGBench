@@ -1,0 +1,413 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix onto: <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://example.com/ontology> a owl:Ontology ;
+    rdfs:label "MeanOfTransportation Ontology" ;
+    dc:creator <http://orcid.org/0000-0001-7197-0766>,
+        <http://orcid.org/0000-0003-4303-983X>,
+        <http://orcid.org/0000−0003−1707−4842> ;
+    rdfs:comment "An ontology used in the Text2KGBench" ;
+    owl:versionIRI onto:v1 .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/relations#activeYearsStartDate> a owl:ObjectProperty ;
+    rdfs:label "activeYearsStartDate" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#MeanOfTransportation> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#Date> .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/relations#alternativeName> a owl:ObjectProperty ;
+    rdfs:label "alternativeName" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#MeanOfTransportation> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#string> .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/relations#anthem> a owl:ObjectProperty ;
+    rdfs:label "anthem" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#MeanOfTransportation> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#Anthem> .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/relations#areaTotal> a owl:ObjectProperty ;
+    rdfs:label "areaTotal" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#MeanOfTransportation> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/relations#assembly> a owl:ObjectProperty ;
+    rdfs:label "assembly" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#MeanOfTransportation> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#Place> .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/relations#bodyStyle> a owl:ObjectProperty ;
+    rdfs:label "bodyStyle" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#MeanOfTransportation> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#BodyStyle> .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/relations#buildDate> a owl:ObjectProperty ;
+    rdfs:label "buildDate" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#MeanOfTransportation> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#Date> .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/relations#builder> a owl:ObjectProperty ;
+    rdfs:label "builder" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#MeanOfTransportation> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#Company> .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/relations#capital> a owl:ObjectProperty ;
+    rdfs:label "capital" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#Country> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#City> .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/relations#christeningDate> a owl:ObjectProperty ;
+    rdfs:label "christeningDate" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#MeanOfTransportation> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#Date> .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/relations#city> a owl:ObjectProperty ;
+    rdfs:label "city" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#MeanOfTransportation> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#City> .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/relations#class> a owl:ObjectProperty ;
+    rdfs:label "class" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#MeanOfTransportation> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#Class> .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/relations#comparable> a owl:ObjectProperty ;
+    rdfs:label "comparable" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#MeanOfTransportation> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#MeanOfTransportation> .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/relations#completionDate> a owl:ObjectProperty ;
+    rdfs:label "completionDate" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#MeanOfTransportation> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#Date> .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/relations#country> a owl:ObjectProperty ;
+    rdfs:label "country" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#MeanOfTransportation> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#Country> .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/relations#countryOrigin> a owl:ObjectProperty ;
+    rdfs:label "countryOrigin" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#MeanOfTransportation> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#Country> .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/relations#cylinderCount> a owl:ObjectProperty ;
+    rdfs:label "cylinderCount" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#MeanOfTransportation> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/relations#demonym> a owl:ObjectProperty ;
+    rdfs:label "demonym" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#MeanOfTransportation> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#Demonym> .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/relations#designCompany> a owl:ObjectProperty ;
+    rdfs:label "designCompany" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#MeanOfTransportation> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#Company> .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/relations#diameter> a owl:ObjectProperty ;
+    rdfs:label "diameter" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#MeanOfTransportation> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/relations#division> a owl:ObjectProperty ;
+    rdfs:label "division" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#MeanOfTransportation> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#Division> .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/relations#engine> a owl:ObjectProperty ;
+    rdfs:label "engine" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#MeanOfTransportation> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#string> .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/relations#ethnicGroup> a owl:ObjectProperty ;
+    rdfs:label "ethnicGroup" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#Country> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#EthnicGroup> .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/relations#extinctionDate> a owl:ObjectProperty ;
+    rdfs:label "extinctionDate" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#MeanOfTransportation> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#Date> .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/relations#failedLaunches> a owl:ObjectProperty ;
+    rdfs:label "failedLaunches" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#MeanOfTransportation> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/relations#fate> a owl:ObjectProperty ;
+    rdfs:label "fate" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#MeanOfTransportation> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#Fate> .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/relations#finalFlight> a owl:ObjectProperty ;
+    rdfs:label "finalFlight" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#MeanOfTransportation> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#Flight> .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/relations#foundationPlace> a owl:ObjectProperty ;
+    rdfs:label "foundationPlace" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#Company> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#Place> .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/relations#foundedBy> a owl:ObjectProperty ;
+    rdfs:label "foundedBy" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#Company> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#Person> .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/relations#function> a owl:ObjectProperty ;
+    rdfs:label "function" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#MeanOfTransportation> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#Function> .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/relations#headquarter> a owl:ObjectProperty ;
+    rdfs:label "headquarter" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#MeanOfTransportation> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#headquarter> .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/relations#isPartOf> a owl:ObjectProperty ;
+    rdfs:label "isPartOf" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#City> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#Country> .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/relations#keyPerson> a owl:ObjectProperty ;
+    rdfs:label "keyPerson" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#Company> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#Person> .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/relations#language> a owl:ObjectProperty ;
+    rdfs:label "language" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#Country> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#Language> .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/relations#launchSite> a owl:ObjectProperty ;
+    rdfs:label "launchSite" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#MeanOfTransportation> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#Place> .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/relations#leader> a owl:ObjectProperty ;
+    rdfs:label "leader" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#Country> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#Person> .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/relations#leaderTitle> a owl:ObjectProperty ;
+    rdfs:label "leaderTitle" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#Country> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#string> .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/relations#length> a owl:ObjectProperty ;
+    rdfs:label "length" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#MeanOfTransportation> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/relations#location> a owl:ObjectProperty ;
+    rdfs:label "location" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#MeanOfTransportation> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#Place> .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/relations#maidenFlight> a owl:ObjectProperty ;
+    rdfs:label "maidenFlight" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#Airport> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#Flight> .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/relations#maidenVoyage> a owl:ObjectProperty ;
+    rdfs:label "maidenVoyage" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#MeanOfTransportation> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#Date> .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/relations#manufacturer> a owl:ObjectProperty ;
+    rdfs:label "manufacturer" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#MeanOfTransportation> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#Company> .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/relations#modelYears> a owl:ObjectProperty ;
+    rdfs:label "modelYears" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#MeanOfTransportation> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/relations#operator> a owl:ObjectProperty ;
+    rdfs:label "operator" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#MeanOfTransportation> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#Company> .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/relations#owner> a owl:ObjectProperty ;
+    rdfs:label "owner" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#MeanOfTransportation> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#Organisation> .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/relations#parentCompany> a owl:ObjectProperty ;
+    rdfs:label "parentCompany" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#Company> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#Company> .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/relations#powerType> a owl:ObjectProperty ;
+    rdfs:label "powerType" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#MeanOfTransportation> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#PowerType> .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/relations#product> a owl:ObjectProperty ;
+    rdfs:label "product" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#Company> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#Product> .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/relations#productionEndYear> a owl:ObjectProperty ;
+    rdfs:label "productionEndYear" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#MeanOfTransportation> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#Year> .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/relations#productionStartYear> a owl:ObjectProperty ;
+    rdfs:label "productionStartYear" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#MeanOfTransportation> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#Year> .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/relations#relatedMeanOfTransportation> a owl:ObjectProperty ;
+    rdfs:label "relatedMeanOfTransportation" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#MeanOfTransportation> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#MeanOfTransportation> .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/relations#rocketStages> a owl:ObjectProperty ;
+    rdfs:label "rocketStages" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#MeanOfTransportation> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/relations#saint> a owl:ObjectProperty ;
+    rdfs:label "saint" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#Country> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#Saint> .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/relations#shipBeam> a owl:ObjectProperty ;
+    rdfs:label "shipBeam" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#MeanOfTransportation> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#shipBeam> .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/relations#shipClass> a owl:ObjectProperty ;
+    rdfs:label "shipClass" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#MeanOfTransportation> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#ShipClass> .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/relations#shipDisplacement> a owl:ObjectProperty ;
+    rdfs:label "shipDisplacement" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#MeanOfTransportation> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#shipDisplacement> .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/relations#shipDraft> a owl:ObjectProperty ;
+    rdfs:label "shipDraft" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#MeanOfTransportation> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#Ship> .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/relations#shipLaunch> a owl:ObjectProperty ;
+    rdfs:label "shipLaunch" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#MeanOfTransportation> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#Ship> .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/relations#shipOrdered> a owl:ObjectProperty ;
+    rdfs:label "shipOrdered" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#MeanOfTransportation> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/relations#site> a owl:ObjectProperty ;
+    rdfs:label "site" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#MeanOfTransportation> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#Place> .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/relations#status> a owl:ObjectProperty ;
+    rdfs:label "status" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#MeanOfTransportation> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#string> .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/relations#subsidiary> a owl:ObjectProperty ;
+    rdfs:label "subsidiary" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#MeanOfTransportation> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#subsidiary> .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/relations#successor> a owl:ObjectProperty ;
+    rdfs:label "successor" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#Person> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#Person> .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/relations#topSpeed> a owl:ObjectProperty ;
+    rdfs:label "topSpeed" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#MeanOfTransportation> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/relations#totalLaunches> a owl:ObjectProperty ;
+    rdfs:label "totalLaunches" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#MeanOfTransportation> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/relations#totalProduction> a owl:ObjectProperty ;
+    rdfs:label "totalProduction" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#MeanOfTransportation> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/relations#transmission> a owl:ObjectProperty ;
+    rdfs:label "transmission" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#MeanOfTransportation> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#transmission> .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/relations#wheelbase> a owl:ObjectProperty ;
+    rdfs:label "wheelbase" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#MeanOfTransportation> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#Wheelbase> .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#Airport> a owl:Class ;
+    rdfs:label "Airport" .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#Anthem> a owl:Class ;
+    rdfs:label "Anthem" .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#BodyStyle> a owl:Class ;
+    rdfs:label "BodyStyle" .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#Demonym> a owl:Class ;
+    rdfs:label "Demonym" .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#Division> a owl:Class ;
+    rdfs:label "Division" .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#EthnicGroup> a owl:Class ;
+    rdfs:label "EthnicGroup" .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#Function> a owl:Class ;
+    rdfs:label "Function" .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#Language> a owl:Class ;
+    rdfs:label "Language" .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#Organisation> a owl:Class ;
+    rdfs:label "Organisation" .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#PowerType> a owl:Class ;
+    rdfs:label "PowerType" .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#Product> a owl:Class ;
+    rdfs:label "Product" .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#Saint> a owl:Class ;
+    rdfs:label "Saint" .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#ShipClass> a owl:Class ;
+    rdfs:label "ShipClass" .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#Wheelbase> a owl:Class ;
+    rdfs:label "Wheelbase" .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#Flight> a owl:Class ;
+    rdfs:label "Flight" .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#Ship> a owl:Class ;
+    rdfs:label "Ship" .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#City> a owl:Class ;
+    rdfs:label "City" .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#Place> a owl:Class ;
+    rdfs:label "Place" .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#Country> a owl:Class ;
+    rdfs:label "Country" .
+
+<https://cenguix.github.io/Text2KGBench/ont_11_meanoftransportation/concepts#MeanOfTransportation> a owl:Class ;
+    rdfs:label "MeanOfTransportation" .
+

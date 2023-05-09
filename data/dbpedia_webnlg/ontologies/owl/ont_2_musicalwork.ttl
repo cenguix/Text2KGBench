@@ -1,0 +1,233 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix onto: <https://cenguix.github.io/Text2KGBench/ont_2_musicalwork#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://example.com/ontology> a owl:Ontology ;
+    rdfs:label "MusicalWork Ontology" ;
+    dc:creator <http://orcid.org/0000-0001-7197-0766>,
+        <http://orcid.org/0000-0003-4303-983X>,
+        <http://orcid.org/0000−0003−1707−4842> ;
+    rdfs:comment "An ontology used in the Text2KGBench" ;
+    owl:versionIRI onto:v1 .
+
+<https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/relations#album> a owl:ObjectProperty ;
+    rdfs:label "album" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#MusicalWork> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#Album> .
+
+<https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/relations#areaCode> a owl:ObjectProperty ;
+    rdfs:label "areaCode" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#MusicalWork> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#string> .
+
+<https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/relations#areaTotal> a owl:ObjectProperty ;
+    rdfs:label "areaTotal" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#MusicalWork> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/relations#artist> a owl:ObjectProperty ;
+    rdfs:label "artist" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#MusicalWork> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#Person> .
+
+<https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/relations#associatedBand/associatedMusicalArtist> a owl:ObjectProperty ;
+    rdfs:label "associatedBand/associatedMusicalArtist" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#MusicalWork> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#Person> .
+
+<https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/relations#birthDate> a owl:ObjectProperty ;
+    rdfs:label "birthDate" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#MusicalWork> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#Date> .
+
+<https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/relations#certification> a owl:ObjectProperty ;
+    rdfs:label "certification" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#MusicalWork> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#Certification> .
+
+<https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/relations#derivative> a owl:ObjectProperty ;
+    rdfs:label "derivative" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#MusicalWork> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#MusicalWork> .
+
+<https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/relations#distributingLabel> a owl:ObjectProperty ;
+    rdfs:label "distributingLabel" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#MusicalWork> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#RecordLabel> .
+
+<https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/relations#followedBy> a owl:ObjectProperty ;
+    rdfs:label "followedBy" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#MusicalWork> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#MusicalWork> .
+
+<https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/relations#format> a owl:ObjectProperty ;
+    rdfs:label "format" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#MusicalWork> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#Format> .
+
+<https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/relations#formerBandMember> a owl:ObjectProperty ;
+    rdfs:label "formerBandMember" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#MusicalWork> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#Person> .
+
+<https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/relations#genre> a owl:ObjectProperty ;
+    rdfs:label "genre" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#MusicalWork> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#Genre> .
+
+<https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/relations#instrument> a owl:ObjectProperty ;
+    rdfs:label "instrument" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#MusicalWork> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#Instrument> .
+
+<https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/relations#keyPerson> a owl:ObjectProperty ;
+    rdfs:label "keyPerson" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#MusicalWork> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#Person> .
+
+<https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/relations#language> a owl:ObjectProperty ;
+    rdfs:label "language" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#MusicalWork> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#Language> .
+
+<https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/relations#leader> a owl:ObjectProperty ;
+    rdfs:label "leader" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#MusicalWork> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#Person> .
+
+<https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/relations#location> a owl:ObjectProperty ;
+    rdfs:label "location" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#MusicalWork> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#Place> .
+
+<https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/relations#musicFusionGenre> a owl:ObjectProperty ;
+    rdfs:label "musicFusionGenre" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#MusicalWork> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#Genre> .
+
+<https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/relations#musicSubgenre> a owl:ObjectProperty ;
+    rdfs:label "musicSubgenre" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#MusicalWork> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#Genre> .
+
+<https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/relations#musicalArtist> a owl:ObjectProperty ;
+    rdfs:label "musicalArtist" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#MusicalWork> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#Person> .
+
+<https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/relations#musicalBand> a owl:ObjectProperty ;
+    rdfs:label "musicalBand" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#MusicalWork> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#Band> .
+
+<https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/relations#owner> a owl:ObjectProperty ;
+    rdfs:label "owner" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#MusicalWork> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#Organisation> .
+
+<https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/relations#parentCompany> a owl:ObjectProperty ;
+    rdfs:label "parentCompany" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#MusicalWork> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#Company> .
+
+<https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/relations#precededBy> a owl:ObjectProperty ;
+    rdfs:label "precededBy" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#MusicalWork> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#MusicalWork> .
+
+<https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/relations#producer> a owl:ObjectProperty ;
+    rdfs:label "producer" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#MusicalWork> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#Person> .
+
+<https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/relations#recordLabel> a owl:ObjectProperty ;
+    rdfs:label "recordLabel" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#MusicalWork> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#RecordLabel> .
+
+<https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/relations#recordedIn> a owl:ObjectProperty ;
+    rdfs:label "recordedIn" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#MusicalWork> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#Place> .
+
+<https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/relations#releaseDate> a owl:ObjectProperty ;
+    rdfs:label "releaseDate" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#MusicalWork> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#Date> .
+
+<https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/relations#runtime> a owl:ObjectProperty ;
+    rdfs:label "runtime" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#MusicalWork> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/relations#stylisticOrigin> a owl:ObjectProperty ;
+    rdfs:label "stylisticOrigin" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#MusicalWork> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#stylisticOrigin> .
+
+<https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/relations#timeZone> a owl:ObjectProperty ;
+    rdfs:label "timeZone" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#MusicalWork> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#Timezone> .
+
+<https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/relations#type> a owl:ObjectProperty ;
+    rdfs:label "type" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#MusicalWork> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#MusicType> .
+
+<https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/relations#utcOffset> a owl:ObjectProperty ;
+    rdfs:label "utcOffset" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#MusicalWork> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/relations#writer> a owl:ObjectProperty ;
+    rdfs:label "writer" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#MusicalWork> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#writer> .
+
+<https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#Album> a owl:Class ;
+    rdfs:label "Album" .
+
+<https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#Band> a owl:Class ;
+    rdfs:label "Band" .
+
+<https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#Certification> a owl:Class ;
+    rdfs:label "Certification" .
+
+<https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#Company> a owl:Class ;
+    rdfs:label "Company" .
+
+<https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#Format> a owl:Class ;
+    rdfs:label "Format" .
+
+<https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#Instrument> a owl:Class ;
+    rdfs:label "Instrument" .
+
+<https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#Language> a owl:Class ;
+    rdfs:label "Language" .
+
+<https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#MusicType> a owl:Class ;
+    rdfs:label "MusicType" .
+
+<https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#Organisation> a owl:Class ;
+    rdfs:label "Organisation" .
+
+<https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#Timezone> a owl:Class ;
+    rdfs:label "Timezone" .
+
+<https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#Place> a owl:Class ;
+    rdfs:label "Place" .
+
+<https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#RecordLabel> a owl:Class ;
+    rdfs:label "RecordLabel" .
+
+<https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#Genre> a owl:Class ;
+    rdfs:label "Genre" .
+
+<https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#Person> a owl:Class ;
+    rdfs:label "Person" .
+
+<https://cenguix.github.io/Text2KGBench/ont_2_musicalwork/concepts#MusicalWork> a owl:Class ;
+    rdfs:label "MusicalWork" .
+
