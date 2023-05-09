@@ -18,17 +18,24 @@ The structure of the repo is as following.
         - [ontologies](data/wikidata_tekgen/ontologies) 10 ontologies used by this dataset
         - [train](data/wikidata_tekgen/train) training data 
         - `test`test data 
-        - `selected_ids` a subset of test cases manually validated
+        - [manually_verified_sentences](data/wikidata_tekgen/manually_verified_sentences) ids of a subset of test cases manually validated
+        - [unseen_sentences](data/wikidata_tekgen/unseen_sentences) new sentences that are added by the authors which are not part of Wikipedia
+          - test unseen test sentences 
+          - ground_truth ground truth for unseen test sentecnes.
         - `ground_truth`ground truth for the test data
         - `baselines` data related to running the baselines.
           - `test_train_sent_similarity` for each test case, 5 most similar train sentences generated using SBERT T5-XXL model.
           - `prompts` prompts corresponding to each test file
+            - `unseen` prompts for the unseen test cases
           - `Alpaca-LoRA-13B` data related to the Alpaca-LoRA model
             - `llm_responses` raw LLM responses and extracte triples 
             - `eval_metrics` ontology-level and aggregated evaluation results
-           - `Vicuna-13B` data related to the Alpaca-LoRA model
-            - `llm_responses` raw LLM responses and extracte triples 
-            - `eval_metrics` ontology-level and aggregated evaluation results 
+            - `unseen` results for the unseen test cases
+              - `llm_responses` raw LLM responses and extracte triples 
+              - `eval_metrics` ontology-level and aggregated evaluation results
+          - `Vicuna-13B` data related to the Alpaca-LoRA model
+          - `llm_responses` raw LLM responses and extracte triples 
+          - `eval_metrics` ontology-level and aggregated evaluation results 
       - dbpedia_webnlg
         - `ontologies` 19 ontologies used by this dataset
         - `train` training data 
@@ -46,7 +53,6 @@ The structure of the repo is as following.
 
 This benchmark contains data derived from TekGen corpus (part of  the KELM corpus) [1] released under CC BY-SA 2.0 license
 and WebNLG 3.0 corpus [2] released under CC BY-NC-SA 4.0 license.
-
 
 [1] Oshin Agarwal, Heming Ge, Siamak Shakeri, and Rami Al-Rfou. 2021. Knowledge Graph Based Synthetic Corpus Generation 
 for Knowledge-Enhanced Language Model Pre-training. In Proceedings of the 2021 Conference of the North American Chapter 
