@@ -1,0 +1,131 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix onto: <https://cenguix.github.io/Text2KGBench/ont_4_book#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://example.com/ontology> a owl:Ontology ;
+    rdfs:label "Book Ontology" ;
+    dc:creator <http://orcid.org/0000-0001-7197-0766>,
+        <http://orcid.org/0000-0003-4303-983X>,
+        <http://orcid.org/0000−0003−1707−4842> ;
+    rdfs:comment "An ontology used in the Text2KGBench" ;
+    owl:versionIRI onto:v1 .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_book/concepts#Q11424> a owl:Class ;
+    rdfs:label "film" .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_book/concepts#Q15621286> a owl:Class ;
+    rdfs:label "intellectual work" .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_book/concepts#Q191067> a owl:Class ;
+    rdfs:label "article" .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_book/concepts#Q205892> a owl:Class ;
+    rdfs:label "calender date" .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_book/concepts#Q33057> a owl:Class ;
+    rdfs:label "International Standard Book Number" .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_book/concepts#Q36180> a owl:Class ;
+    rdfs:label "writer" .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_book/concepts#Q482980> a owl:Class ;
+    rdfs:label "author" .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_book/concepts#Q5633421> a owl:Class ;
+    rdfs:label "scientific journal" .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_book/concepts#Q6256> a owl:Class ;
+    rdfs:label "country" .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_book/concepts#Q7075> a owl:Class ;
+    rdfs:label "library" .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_book/concepts#Q732577> a owl:Class ;
+    rdfs:label "publication" .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_book/relations#P110> a owl:ObjectProperty ;
+    rdfs:label "illustrator" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_4_book/concepts#Q47461344> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_4_book/concepts#Q5> .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_book/relations#P123> a owl:ObjectProperty ;
+    rdfs:label "publisher" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_4_book/concepts#Q571> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_4_book/concepts#Q2085381> .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_book/relations#P136> a owl:ObjectProperty ;
+    rdfs:label "genre" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_4_book/concepts#Q7725634> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_4_book/concepts#Q223393> .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_book/relations#P156> a owl:ObjectProperty ;
+    rdfs:label "followed by" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_4_book/concepts#Q47461344> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_4_book/concepts#Q47461344> .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_book/relations#P180> a owl:ObjectProperty ;
+    rdfs:label "depicts" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_4_book/concepts#Q47461344> .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_book/relations#P291> a owl:ObjectProperty ;
+    rdfs:label "place of publication" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_4_book/concepts#Q47461344> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_4_book/concepts#Q82794> .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_book/relations#P407> a owl:ObjectProperty ;
+    rdfs:label "language of work or name" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_4_book/concepts#Q7725634> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_4_book/concepts#Q34770> .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_book/relations#P50> a owl:ObjectProperty ;
+    rdfs:label "author" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_4_book/concepts#Q571> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_4_book/concepts#Q5> .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_book/relations#P577> a owl:ObjectProperty ;
+    rdfs:label "publication date" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_4_book/concepts#Q571> .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_book/relations#P674> a owl:ObjectProperty ;
+    rdfs:label "characters" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_4_book/concepts#Q7725634> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_4_book/concepts#Q95074> .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_book/relations#P840> a owl:ObjectProperty ;
+    rdfs:label "narrative location" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_4_book/concepts#Q7725634> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_4_book/concepts#Q4835091> .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_book/relations#P98> a owl:ObjectProperty ;
+    rdfs:label "editor" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_4_book/concepts#Q685935> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_4_book/concepts#Q5> .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_book/concepts#Q2085381> a owl:Class ;
+    rdfs:label "publisher" .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_book/concepts#Q223393> a owl:Class ;
+    rdfs:label "literary genre" .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_book/concepts#Q34770> a owl:Class ;
+    rdfs:label "language" .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_book/concepts#Q4835091> a owl:Class ;
+    rdfs:label "territory" .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_book/concepts#Q685935> a owl:Class ;
+    rdfs:label "trade magazine" .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_book/concepts#Q95074> a owl:Class ;
+    rdfs:label "fictional character" .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_book/concepts#Q5> a owl:Class ;
+    rdfs:label "human" .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_book/concepts#Q571> a owl:Class ;
+    rdfs:label "book" .
+
+<https://cenguix.github.io/Text2KGBench/ont_4_book/concepts#Q7725634> a owl:Class ;
+    rdfs:label "literary work" .
+

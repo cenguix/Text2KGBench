@@ -3,12 +3,21 @@
 [![Data License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/release/python-390/)
 
-This is the repository for ISWC 2023 Resource Track submission for Ontology Driven Knowledge Graph Generation from Text.
+This is the repository for ISWC 2023 Resource Track submission for `Text2KGBench: Benchmark for
+Ontology-Driven Knowledge Graph Generation from Text`.
+Text2KGBench is a benchmark to evaluate the capabilities of language models to generate KGs
+from natural language text guided by an ontology. Given an input ontology and a set of sentences, the task is to extract facts from the text
+while complying to the given ontology (concepts, relations, domain/range
+constraints) and being faithful to the input sentences.
 
+It contains two datasets (i) Wikidata-TekGen with 10 ontologies and 13,474 sentences
+and (ii) Bpedia-WebNLG with 19 ontologies and 4,860 sentences.
+
+The data is released under under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY 4.0) License.
 
 The structure of the repo is as following.
 
-- Text2KG
+- Text2KGBench
   - src: the source code used for generation and evaluation, and baseline
     - [`benchmark`](src/benchmark) the code used to generate the benchmark
     - [`evaluation`](src/evaluation) evaluation scripts for calculating the results

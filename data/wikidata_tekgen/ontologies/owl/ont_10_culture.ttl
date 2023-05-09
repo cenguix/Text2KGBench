@@ -1,0 +1,94 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix onto: <https://cenguix.github.io/Text2KGBench/ont_10_culture#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://example.com/ontology> a owl:Ontology ;
+    rdfs:label "Culture Ontology" ;
+    dc:creator <http://orcid.org/0000-0001-7197-0766>,
+        <http://orcid.org/0000-0003-4303-983X>,
+        <http://orcid.org/0000−0003−1707−4842> ;
+    rdfs:comment "An ontology used in the Text2KGBench" ;
+    owl:versionIRI onto:v1 .
+
+<https://cenguix.github.io/Text2KGBench/ont_10_culture/concepts#Q11042> a owl:Class ;
+    rdfs:label "culture" .
+
+<https://cenguix.github.io/Text2KGBench/ont_10_culture/concepts#Q1778821> a owl:Class ;
+    rdfs:label "cuisine" .
+
+<https://cenguix.github.io/Text2KGBench/ont_10_culture/concepts#Q2434238> a owl:Class ;
+    rdfs:label "heritage" .
+
+<https://cenguix.github.io/Text2KGBench/ont_10_culture/concepts#Q251777> a owl:Class ;
+    rdfs:label "custom" .
+
+<https://cenguix.github.io/Text2KGBench/ont_10_culture/concepts#Q309> a owl:Class ;
+    rdfs:label "history" .
+
+<https://cenguix.github.io/Text2KGBench/ont_10_culture/concepts#Q618123> a owl:Class ;
+    rdfs:label "geographical feature" .
+
+<https://cenguix.github.io/Text2KGBench/ont_10_culture/concepts#Q82821> a owl:Class ;
+    rdfs:label "tradition" .
+
+<https://cenguix.github.io/Text2KGBench/ont_10_culture/relations#P1412> a owl:ObjectProperty ;
+    rdfs:label "languages spoken, written or signed" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_10_culture/concepts#Q5> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_10_culture/concepts#Q34770> .
+
+<https://cenguix.github.io/Text2KGBench/ont_10_culture/relations#P172> a owl:ObjectProperty ;
+    rdfs:label "ethnic group" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_10_culture/concepts#Q5> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_10_culture/concepts#Q41710> .
+
+<https://cenguix.github.io/Text2KGBench/ont_10_culture/relations#P2341> a owl:ObjectProperty ;
+    rdfs:label "indigenous to" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_10_culture/concepts#Q11639> .
+
+<https://cenguix.github.io/Text2KGBench/ont_10_culture/relations#P4185> a owl:ObjectProperty ;
+    rdfs:label "iconographic symbol" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_10_culture/concepts#Q5> .
+
+<https://cenguix.github.io/Text2KGBench/ont_10_culture/relations#P571> a owl:ObjectProperty ;
+    rdfs:label "inception" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_10_culture/concepts#Q8242> .
+
+<https://cenguix.github.io/Text2KGBench/ont_10_culture/relations#P580> a owl:ObjectProperty ;
+    rdfs:label "start time" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_10_culture/concepts#Q132241> .
+
+<https://cenguix.github.io/Text2KGBench/ont_10_culture/relations#P611> a owl:ObjectProperty ;
+    rdfs:label "religious order" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_10_culture/concepts#Q9174> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_10_culture/concepts#Q9174> .
+
+<https://cenguix.github.io/Text2KGBench/ont_10_culture/relations#P825> a owl:ObjectProperty ;
+    rdfs:label "dedicated to" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_10_culture/concepts#Q735> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_10_culture/concepts#Q5> .
+
+<https://cenguix.github.io/Text2KGBench/ont_10_culture/concepts#Q11639> a owl:Class ;
+    rdfs:label "dance" .
+
+<https://cenguix.github.io/Text2KGBench/ont_10_culture/concepts#Q132241> a owl:Class ;
+    rdfs:label "festival" .
+
+<https://cenguix.github.io/Text2KGBench/ont_10_culture/concepts#Q34770> a owl:Class ;
+    rdfs:label "language" .
+
+<https://cenguix.github.io/Text2KGBench/ont_10_culture/concepts#Q41710> a owl:Class ;
+    rdfs:label "ethnic group" .
+
+<https://cenguix.github.io/Text2KGBench/ont_10_culture/concepts#Q735> a owl:Class ;
+    rdfs:label "art" .
+
+<https://cenguix.github.io/Text2KGBench/ont_10_culture/concepts#Q8242> a owl:Class ;
+    rdfs:label "literature" .
+
+<https://cenguix.github.io/Text2KGBench/ont_10_culture/concepts#Q9174> a owl:Class ;
+    rdfs:label "religion" .
+
+<https://cenguix.github.io/Text2KGBench/ont_10_culture/concepts#Q5> a owl:Class ;
+    rdfs:label "human" .
+

@@ -1,0 +1,119 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix onto: <https://cenguix.github.io/Text2KGBench/ont_9_nature#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://example.com/ontology> a owl:Ontology ;
+    rdfs:label "Nature Ontology" ;
+    dc:creator <http://orcid.org/0000-0001-7197-0766>,
+        <http://orcid.org/0000-0003-4303-983X>,
+        <http://orcid.org/0000−0003−1707−4842> ;
+    rdfs:comment "An ontology used in the Text2KGBench" ;
+    owl:versionIRI onto:v1 .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_nature/concepts#Q52105> a owl:Class ;
+    rdfs:label "Habitat" .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_nature/concepts#Q618123> a owl:Class ;
+    rdfs:label "geographical feature" .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_nature/relations#P141> a owl:ObjectProperty ;
+    rdfs:label "IUCN conservation status" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_9_nature/concepts#Q16521> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_9_nature/concepts#Q82673> .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_nature/relations#P1420> a owl:ObjectProperty ;
+    rdfs:label "taxon synonym" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_9_nature/concepts#Q16521> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_9_nature/concepts#Q1040689> .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_nature/relations#P171> a owl:ObjectProperty ;
+    rdfs:label "parent taxon" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_9_nature/concepts#Q16521> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_9_nature/concepts#Q16521> .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_nature/relations#P1843> a owl:ObjectProperty ;
+    rdfs:label "taxon common name" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_9_nature/concepts#Q7432> .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_nature/relations#P2974> a owl:ObjectProperty ;
+    rdfs:label "Habitat" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_9_nature/concepts#Q16521> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_9_nature/concepts#Q15324> .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_nature/relations#P3137> a owl:ObjectProperty ;
+    rdfs:label "parent peak" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_9_nature/concepts#Q8502> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_9_nature/concepts#Q8502> .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_nature/relations#P403> a owl:ObjectProperty ;
+    rdfs:label "mouth of the watercourse" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_9_nature/concepts#Q355304> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_9_nature/concepts#Q355304> .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_nature/relations#P4320> a owl:ObjectProperty ;
+    rdfs:label "mountains classification " ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_9_nature/concepts#Q15091377> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_9_nature/concepts#Q5> .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_nature/relations#P4552> a owl:ObjectProperty ;
+    rdfs:label "mountain range" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_9_nature/concepts#Q8502> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_9_nature/concepts#Q46831> .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_nature/relations#P4614> a owl:ObjectProperty ;
+    rdfs:label "drainage basin" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_9_nature/concepts#Q355304> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_9_nature/concepts#Q166620> .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_nature/relations#P4661> a owl:ObjectProperty ;
+    rdfs:label "reservoir created" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_9_nature/concepts#Q12323> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_9_nature/concepts#Q131681> .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_nature/relations#P885> a owl:ObjectProperty ;
+    rdfs:label "origin of the watercourse" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_9_nature/concepts#Q355304> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_9_nature/concepts#Q15324> .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_nature/relations#P974> a owl:ObjectProperty ;
+    rdfs:label "tributary" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_9_nature/concepts#Q355304> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_9_nature/concepts#Q355304> .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_nature/concepts#Q1040689> a owl:Class ;
+    rdfs:label "synonym" .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_nature/concepts#Q12323> a owl:Class ;
+    rdfs:label "dam" .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_nature/concepts#Q131681> a owl:Class ;
+    rdfs:label "reservoir" .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_nature/concepts#Q15091377> a owl:Class ;
+    rdfs:label "cycling race" .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_nature/concepts#Q166620> a owl:Class ;
+    rdfs:label "drainage basin" .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_nature/concepts#Q46831> a owl:Class ;
+    rdfs:label "mountain range" .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_nature/concepts#Q5> a owl:Class ;
+    rdfs:label "human" .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_nature/concepts#Q82673> a owl:Class ;
+    rdfs:label "conservation status" .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_nature/concepts#Q15324> a owl:Class ;
+    rdfs:label "body of water" .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_nature/concepts#Q8502> a owl:Class ;
+    rdfs:label "mountain" .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_nature/concepts#Q16521> a owl:Class ;
+    rdfs:label "taxon" .
+
+<https://cenguix.github.io/Text2KGBench/ont_9_nature/concepts#Q355304> a owl:Class ;
+    rdfs:label "watercourse" .
+

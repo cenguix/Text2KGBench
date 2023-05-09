@@ -1,0 +1,240 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix onto: <https://cenguix.github.io/Text2KGBench/ont_5_athlete#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://example.com/ontology> a owl:Ontology ;
+    rdfs:label "Athlete Ontology" ;
+    dc:creator <http://orcid.org/0000-0001-7197-0766>,
+        <http://orcid.org/0000-0003-4303-983X>,
+        <http://orcid.org/0000−0003−1707−4842> ;
+    rdfs:comment "An ontology used in the Text2KGBench" ;
+    owl:versionIRI onto:v1 .
+
+<https://cenguix.github.io/Text2KGBench/ont_5_athlete/relations#activeYearsStartYear> a owl:ObjectProperty ;
+    rdfs:label "activeYearsStartYear" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#Athlete> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#Year> .
+
+<https://cenguix.github.io/Text2KGBench/ont_5_athlete/relations#anthem> a owl:ObjectProperty ;
+    rdfs:label "anthem" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#Club> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#Anthem> .
+
+<https://cenguix.github.io/Text2KGBench/ont_5_athlete/relations#areaTotal> a owl:ObjectProperty ;
+    rdfs:label "areaTotal" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#Athlete> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_5_athlete/relations#birthDate> a owl:ObjectProperty ;
+    rdfs:label "birthDate" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#Athlete> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#Date> .
+
+<https://cenguix.github.io/Text2KGBench/ont_5_athlete/relations#birthPlace> a owl:ObjectProperty ;
+    rdfs:label "birthPlace" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#Athlete> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#Place> .
+
+<https://cenguix.github.io/Text2KGBench/ont_5_athlete/relations#birthYear> a owl:ObjectProperty ;
+    rdfs:label "birthYear" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#Athlete> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#Year> .
+
+<https://cenguix.github.io/Text2KGBench/ont_5_athlete/relations#chairman> a owl:ObjectProperty ;
+    rdfs:label "chairman" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#Athlete> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#Person> .
+
+<https://cenguix.github.io/Text2KGBench/ont_5_athlete/relations#city> a owl:ObjectProperty ;
+    rdfs:label "city" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#Athlete> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#City> .
+
+<https://cenguix.github.io/Text2KGBench/ont_5_athlete/relations#club> a owl:ObjectProperty ;
+    rdfs:label "club" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#Athlete> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#Club> .
+
+<https://cenguix.github.io/Text2KGBench/ont_5_athlete/relations#coach> a owl:ObjectProperty ;
+    rdfs:label "coach" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#Athlete> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#Person> .
+
+<https://cenguix.github.io/Text2KGBench/ont_5_athlete/relations#college> a owl:ObjectProperty ;
+    rdfs:label "college" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#Athlete> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#College> .
+
+<https://cenguix.github.io/Text2KGBench/ont_5_athlete/relations#currentclub> a owl:ObjectProperty ;
+    rdfs:label "currentclub" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#Athlete> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#Club> .
+
+<https://cenguix.github.io/Text2KGBench/ont_5_athlete/relations#currentteam> a owl:ObjectProperty ;
+    rdfs:label "currentteam" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#Athlete> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#Team> .
+
+<https://cenguix.github.io/Text2KGBench/ont_5_athlete/relations#deathPlace> a owl:ObjectProperty ;
+    rdfs:label "deathPlace" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#Athlete> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#Place> .
+
+<https://cenguix.github.io/Text2KGBench/ont_5_athlete/relations#debutTeam> a owl:ObjectProperty ;
+    rdfs:label "debutTeam" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#Athlete> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#Team> .
+
+<https://cenguix.github.io/Text2KGBench/ont_5_athlete/relations#draftPick> a owl:ObjectProperty ;
+    rdfs:label "draftPick" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#Athlete> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_5_athlete/relations#draftRound> a owl:ObjectProperty ;
+    rdfs:label "draftRound" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#Athlete> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_5_athlete/relations#draftTeam> a owl:ObjectProperty ;
+    rdfs:label "draftTeam" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#Athlete> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#Team> .
+
+<https://cenguix.github.io/Text2KGBench/ont_5_athlete/relations#draftYear> a owl:ObjectProperty ;
+    rdfs:label "draftYear" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#Athlete> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#Year> .
+
+<https://cenguix.github.io/Text2KGBench/ont_5_athlete/relations#ethnicGroup> a owl:ObjectProperty ;
+    rdfs:label "ethnicGroup" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#Athlete> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#EthnicGroup> .
+
+<https://cenguix.github.io/Text2KGBench/ont_5_athlete/relations#formerTeam> a owl:ObjectProperty ;
+    rdfs:label "formerTeam" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#Athlete> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#Team> .
+
+<https://cenguix.github.io/Text2KGBench/ont_5_athlete/relations#foundingDate> a owl:ObjectProperty ;
+    rdfs:label "foundingDate" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#Club> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#Date> .
+
+<https://cenguix.github.io/Text2KGBench/ont_5_athlete/relations#generalManager> a owl:ObjectProperty ;
+    rdfs:label "generalManager" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#Club> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#Person> .
+
+<https://cenguix.github.io/Text2KGBench/ont_5_athlete/relations#ground> a owl:ObjectProperty ;
+    rdfs:label "ground" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#Club> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#Place> .
+
+<https://cenguix.github.io/Text2KGBench/ont_5_athlete/relations#height> a owl:ObjectProperty ;
+    rdfs:label "height" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#Athlete> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_5_athlete/relations#isPartOf> a owl:ObjectProperty ;
+    rdfs:label "isPartOf" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#Athlete> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#Team> .
+
+<https://cenguix.github.io/Text2KGBench/ont_5_athlete/relations#language> a owl:ObjectProperty ;
+    rdfs:label "language" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#Athlete> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#Language> .
+
+<https://cenguix.github.io/Text2KGBench/ont_5_athlete/relations#leader> a owl:ObjectProperty ;
+    rdfs:label "leader" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#Organisation> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#Person> .
+
+<https://cenguix.github.io/Text2KGBench/ont_5_athlete/relations#leaderTitle> a owl:ObjectProperty ;
+    rdfs:label "leaderTitle" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#Athlete> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#string> .
+
+<https://cenguix.github.io/Text2KGBench/ont_5_athlete/relations#league> a owl:ObjectProperty ;
+    rdfs:label "league" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#Athlete> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#League> .
+
+<https://cenguix.github.io/Text2KGBench/ont_5_athlete/relations#manager> a owl:ObjectProperty ;
+    rdfs:label "manager" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#Club> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#Person> .
+
+<https://cenguix.github.io/Text2KGBench/ont_5_athlete/relations#owner> a owl:ObjectProperty ;
+    rdfs:label "owner" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#Club> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#Person> .
+
+<https://cenguix.github.io/Text2KGBench/ont_5_athlete/relations#season> a owl:ObjectProperty ;
+    rdfs:label "season" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#Athlete> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#Season> .
+
+<https://cenguix.github.io/Text2KGBench/ont_5_athlete/relations#timeZone> a owl:ObjectProperty ;
+    rdfs:label "timeZone" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#Athlete> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#Timezone> .
+
+<https://cenguix.github.io/Text2KGBench/ont_5_athlete/relations#utcOffset> a owl:ObjectProperty ;
+    rdfs:label "utcOffset" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#Athlete> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_5_athlete/relations#weight> a owl:ObjectProperty ;
+    rdfs:label "weight" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#Athlete> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_5_athlete/relations#youthclub> a owl:ObjectProperty ;
+    rdfs:label "youthclub" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#Athlete> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#Club> .
+
+<https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#Anthem> a owl:Class ;
+    rdfs:label "Anthem" .
+
+<https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#College> a owl:Class ;
+    rdfs:label "College" .
+
+<https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#EthnicGroup> a owl:Class ;
+    rdfs:label "EthnicGroup" .
+
+<https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#Language> a owl:Class ;
+    rdfs:label "Language" .
+
+<https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#League> a owl:Class ;
+    rdfs:label "League" .
+
+<https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#Season> a owl:Class ;
+    rdfs:label "Season" .
+
+<https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#Timezone> a owl:Class ;
+    rdfs:label "Timezone" .
+
+<https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#Date> a owl:Class ;
+    rdfs:label "Date" .
+
+<https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#Place> a owl:Class ;
+    rdfs:label "Place" .
+
+<https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#Year> a owl:Class ;
+    rdfs:label "Year" .
+
+<https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#Team> a owl:Class ;
+    rdfs:label "Team" .
+
+<https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#Person> a owl:Class ;
+    rdfs:label "Person" .
+
+<https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#Club> a owl:Class ;
+    rdfs:label "Club" .
+
+<https://cenguix.github.io/Text2KGBench/ont_5_athlete/concepts#Athlete> a owl:Class ;
+    rdfs:label "Athlete" .
+

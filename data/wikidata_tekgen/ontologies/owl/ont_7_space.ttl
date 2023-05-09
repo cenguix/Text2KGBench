@@ -1,0 +1,92 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix onto: <https://cenguix.github.io/Text2KGBench/ont_7_space#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://example.com/ontology> a owl:Ontology ;
+    rdfs:label "Space Ontology" ;
+    dc:creator <http://orcid.org/0000-0001-7197-0766>,
+        <http://orcid.org/0000-0003-4303-983X>,
+        <http://orcid.org/0000−0003−1707−4842> ;
+    rdfs:comment "An ontology used in the Text2KGBench" ;
+    owl:versionIRI onto:v1 .
+
+<https://cenguix.github.io/Text2KGBench/ont_7_space/concepts#Q109228604> a owl:Class ;
+    rdfs:label "Celestial bodies" .
+
+<https://cenguix.github.io/Text2KGBench/ont_7_space/concepts#Q11631> a owl:Class ;
+    rdfs:label "astronaut" .
+
+<https://cenguix.github.io/Text2KGBench/ont_7_space/concepts#Q205892> a owl:Class ;
+    rdfs:label "calendar date" .
+
+<https://cenguix.github.io/Text2KGBench/ont_7_space/concepts#Q2133344> a owl:Class ;
+    rdfs:label "space mission" .
+
+<https://cenguix.github.io/Text2KGBench/ont_7_space/concepts#Q4169> a owl:Class ;
+    rdfs:label "outer space" .
+
+<https://cenguix.github.io/Text2KGBench/ont_7_space/concepts#Q634> a owl:Class ;
+    rdfs:label "planet" .
+
+<https://cenguix.github.io/Text2KGBench/ont_7_space/relations#P1158> a owl:ObjectProperty ;
+    rdfs:label "location of landing" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_7_space/concepts#Q40218> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_7_space/concepts#Q82794> .
+
+<https://cenguix.github.io/Text2KGBench/ont_7_space/relations#P196> a owl:ObjectProperty ;
+    rdfs:label "minor planet group" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_7_space/concepts#Q3863> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_7_space/concepts#Q17444909> .
+
+<https://cenguix.github.io/Text2KGBench/ont_7_space/relations#P3015> a owl:ObjectProperty ;
+    rdfs:label "backup or reserve team or crew" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_7_space/concepts#Q5916> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_7_space/concepts#Q5> .
+
+<https://cenguix.github.io/Text2KGBench/ont_7_space/relations#P450> a owl:ObjectProperty ;
+    rdfs:label "astronaut mission" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_7_space/concepts#Q5> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_7_space/concepts#Q5916> .
+
+<https://cenguix.github.io/Text2KGBench/ont_7_space/relations#P59> a owl:ObjectProperty ;
+    rdfs:label "constellation" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_7_space/concepts#Q2488> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_7_space/concepts#Q8928> .
+
+<https://cenguix.github.io/Text2KGBench/ont_7_space/relations#P622> a owl:ObjectProperty ;
+    rdfs:label "spacecraft docking/undocking date" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_7_space/concepts#Q40218> .
+
+<https://cenguix.github.io/Text2KGBench/ont_7_space/relations#P65> a owl:ObjectProperty ;
+    rdfs:label "site of astronomical discovery" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_7_space/concepts#Q3863> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_7_space/concepts#Q62832> .
+
+<https://cenguix.github.io/Text2KGBench/ont_7_space/concepts#Q17444909> a owl:Class ;
+    rdfs:label "astronomical object type" .
+
+<https://cenguix.github.io/Text2KGBench/ont_7_space/concepts#Q2488> a owl:Class ;
+    rdfs:label "spiral galaxy" .
+
+<https://cenguix.github.io/Text2KGBench/ont_7_space/concepts#Q62832> a owl:Class ;
+    rdfs:label "observatory" .
+
+<https://cenguix.github.io/Text2KGBench/ont_7_space/concepts#Q82794> a owl:Class ;
+    rdfs:label "geographic region" .
+
+<https://cenguix.github.io/Text2KGBench/ont_7_space/concepts#Q8928> a owl:Class ;
+    rdfs:label "constellation" .
+
+<https://cenguix.github.io/Text2KGBench/ont_7_space/concepts#Q3863> a owl:Class ;
+    rdfs:label "asteroid" .
+
+<https://cenguix.github.io/Text2KGBench/ont_7_space/concepts#Q40218> a owl:Class ;
+    rdfs:label "Spacecraft" .
+
+<https://cenguix.github.io/Text2KGBench/ont_7_space/concepts#Q5> a owl:Class ;
+    rdfs:label "human" .
+
+<https://cenguix.github.io/Text2KGBench/ont_7_space/concepts#Q5916> a owl:Class ;
+    rdfs:label "spaceflight" .
+

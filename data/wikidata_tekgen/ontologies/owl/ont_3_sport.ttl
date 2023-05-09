@@ -1,0 +1,118 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix onto: <https://cenguix.github.io/Text2KGBench/ont_3_sport#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://example.com/ontology> a owl:Ontology ;
+    rdfs:label "Sports Ontology" ;
+    dc:creator <http://orcid.org/0000-0001-7197-0766>,
+        <http://orcid.org/0000-0003-4303-983X>,
+        <http://orcid.org/0000−0003−1707−4842> ;
+    rdfs:comment "An ontology used in the Text2KGBench" ;
+    owl:versionIRI onto:v1 .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_sport/concepts#Q1154710> a owl:Class ;
+    rdfs:label "association football venue" .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_sport/concepts#Q1539532> a owl:Class ;
+    rdfs:label "sports season of a sports club" .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_sport/concepts#Q16510064> a owl:Class ;
+    rdfs:label "sporting event" .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_sport/concepts#Q167170> a owl:Class ;
+    rdfs:label "multi-sport event" .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_sport/concepts#Q2312410> a owl:Class ;
+    rdfs:label "sports discipline" .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_sport/concepts#Q2485448> a owl:Class ;
+    rdfs:label "sports governing body" .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_sport/concepts#Q327245> a owl:Class ;
+    rdfs:label "team" .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_sport/concepts#Q50995749> a owl:Class ;
+    rdfs:label "sportsperson" .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_sport/concepts#Q747883> a owl:Class ;
+    rdfs:label "physical activity" .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_sport/relations#P106> a owl:ObjectProperty ;
+    rdfs:label "occupation" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_3_sport/concepts#Q5> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_3_sport/concepts#Q2066131> .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_sport/relations#P118> a owl:ObjectProperty ;
+    rdfs:label "league" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_3_sport/concepts#Q5> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_3_sport/concepts#Q15991290>,
+        <https://cenguix.github.io/Text2KGBench/ont_3_sport/concepts#Q623109> .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_sport/relations#P1532> a owl:ObjectProperty ;
+    rdfs:label "country for sport" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_3_sport/concepts#Q5> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_3_sport/concepts#Q6256> .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_sport/relations#P159> a owl:ObjectProperty ;
+    rdfs:label "home venue" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_3_sport/concepts#Q847017> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_3_sport/concepts#Q23764314> .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_sport/relations#P2094> a owl:ObjectProperty ;
+    rdfs:label "competition class" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_3_sport/concepts#Q4438121> .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_sport/relations#P3450> a owl:ObjectProperty ;
+    rdfs:label "sports season of league or competition" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_3_sport/concepts#Q27020041> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_3_sport/concepts#Q500834> .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_sport/relations#P495> a owl:ObjectProperty ;
+    rdfs:label "country of origin " ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_3_sport/concepts#Q349> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_3_sport/concepts#Q6256> .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_sport/relations#P54> a owl:ObjectProperty ;
+    rdfs:label "member of sports team" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_3_sport/concepts#Q5> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_3_sport/concepts#Q847017> .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_sport/relations#P6087> a owl:ObjectProperty ;
+    rdfs:label "coach of sports team" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_3_sport/concepts#Q5> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_3_sport/concepts#Q847017> .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_sport/relations#P641> a owl:ObjectProperty ;
+    rdfs:label "sport" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_3_sport/concepts#Q13406554> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_3_sport/concepts#Q349> .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_sport/concepts#Q13406554> a owl:Class ;
+    rdfs:label "sports competition" .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_sport/concepts#Q15991290> a owl:Class ;
+    rdfs:label "professional sports league" .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_sport/concepts#Q2066131> a owl:Class ;
+    rdfs:label "athlete" .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_sport/concepts#Q27020041> a owl:Class ;
+    rdfs:label "sports season",
+        "sports team season" .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_sport/concepts#Q4438121> a owl:Class ;
+    rdfs:label "sports organization" .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_sport/concepts#Q349> a owl:Class ;
+    rdfs:label "sport" .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_sport/concepts#Q6256> a owl:Class ;
+    rdfs:label "country" .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_sport/concepts#Q847017> a owl:Class ;
+    rdfs:label "sports club" .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_sport/concepts#Q5> a owl:Class ;
+    rdfs:label "human" .
+

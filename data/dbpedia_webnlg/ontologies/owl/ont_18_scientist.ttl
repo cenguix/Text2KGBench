@@ -1,0 +1,293 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix onto: <https://cenguix.github.io/Text2KGBench/ont_18_scientist#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://example.com/ontology> a owl:Ontology ;
+    rdfs:label "Scientist Ontology" ;
+    dc:creator <http://orcid.org/0000-0001-7197-0766>,
+        <http://orcid.org/0000-0003-4303-983X>,
+        <http://orcid.org/0000−0003−1707−4842> ;
+    rdfs:comment "An ontology used in the Text2KGBench" ;
+    owl:versionIRI onto:v1 .
+
+<https://cenguix.github.io/Text2KGBench/ont_18_scientist/relations#affiliation> a owl:ObjectProperty ;
+    rdfs:label "affiliation" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#Scientist> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#University> .
+
+<https://cenguix.github.io/Text2KGBench/ont_18_scientist/relations#almaMater> a owl:ObjectProperty ;
+    rdfs:label "almaMater" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#Scientist> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#School> .
+
+<https://cenguix.github.io/Text2KGBench/ont_18_scientist/relations#areaCode> a owl:ObjectProperty ;
+    rdfs:label "areaCode" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#City> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#string> .
+
+<https://cenguix.github.io/Text2KGBench/ont_18_scientist/relations#areaMetro> a owl:ObjectProperty ;
+    rdfs:label "areaMetro" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#City> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_18_scientist/relations#areaOfWater> a owl:ObjectProperty ;
+    rdfs:label "areaOfWater" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#Place> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_18_scientist/relations#areaTotal> a owl:ObjectProperty ;
+    rdfs:label "areaTotal" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#City> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_18_scientist/relations#award> a owl:ObjectProperty ;
+    rdfs:label "award" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#Scientist> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#Award> .
+
+<https://cenguix.github.io/Text2KGBench/ont_18_scientist/relations#birthDate> a owl:ObjectProperty ;
+    rdfs:label "birthDate" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#Scientist> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#Date> .
+
+<https://cenguix.github.io/Text2KGBench/ont_18_scientist/relations#birthName> a owl:ObjectProperty ;
+    rdfs:label "birthName" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#Scientist> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#string> .
+
+<https://cenguix.github.io/Text2KGBench/ont_18_scientist/relations#birthPlace> a owl:ObjectProperty ;
+    rdfs:label "birthPlace" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#Scientist> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#Place> .
+
+<https://cenguix.github.io/Text2KGBench/ont_18_scientist/relations#capital> a owl:ObjectProperty ;
+    rdfs:label "capital" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#Country> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#City> .
+
+<https://cenguix.github.io/Text2KGBench/ont_18_scientist/relations#chancellor> a owl:ObjectProperty ;
+    rdfs:label "chancellor" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#University> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#Person> .
+
+<https://cenguix.github.io/Text2KGBench/ont_18_scientist/relations#citizenship> a owl:ObjectProperty ;
+    rdfs:label "citizenship" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#Scientist> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#Country> .
+
+<https://cenguix.github.io/Text2KGBench/ont_18_scientist/relations#country> a owl:ObjectProperty ;
+    rdfs:label "country" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#Scientist> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#Country> .
+
+<https://cenguix.github.io/Text2KGBench/ont_18_scientist/relations#currency> a owl:ObjectProperty ;
+    rdfs:label "currency" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#Country> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#Currency> .
+
+<https://cenguix.github.io/Text2KGBench/ont_18_scientist/relations#deathDate> a owl:ObjectProperty ;
+    rdfs:label "deathDate" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#Scientist> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#Date> .
+
+<https://cenguix.github.io/Text2KGBench/ont_18_scientist/relations#deathPlace> a owl:ObjectProperty ;
+    rdfs:label "deathPlace" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#Scientist> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#Place> .
+
+<https://cenguix.github.io/Text2KGBench/ont_18_scientist/relations#demonym> a owl:ObjectProperty ;
+    rdfs:label "demonym" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#Scientist> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#Demonym> .
+
+<https://cenguix.github.io/Text2KGBench/ont_18_scientist/relations#dissolutionYear> a owl:ObjectProperty ;
+    rdfs:label "dissolutionYear" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#Organisation> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#Year> .
+
+<https://cenguix.github.io/Text2KGBench/ont_18_scientist/relations#doctoralAdvisor> a owl:ObjectProperty ;
+    rdfs:label "doctoralAdvisor" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#Scientist> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#Scientist> .
+
+<https://cenguix.github.io/Text2KGBench/ont_18_scientist/relations#foundingDate> a owl:ObjectProperty ;
+    rdfs:label "foundingDate" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#Organisation> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#Date> .
+
+<https://cenguix.github.io/Text2KGBench/ont_18_scientist/relations#foundingYear> a owl:ObjectProperty ;
+    rdfs:label "foundingYear" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#Organisation> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#Year> .
+
+<https://cenguix.github.io/Text2KGBench/ont_18_scientist/relations#governmentType> a owl:ObjectProperty ;
+    rdfs:label "governmentType" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#Country> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#governmentType> .
+
+<https://cenguix.github.io/Text2KGBench/ont_18_scientist/relations#gridReference> a owl:ObjectProperty ;
+    rdfs:label "gridReference" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#City> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#string> .
+
+<https://cenguix.github.io/Text2KGBench/ont_18_scientist/relations#influencedBy> a owl:ObjectProperty ;
+    rdfs:label "influencedBy" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#Scientist> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#Scientist> .
+
+<https://cenguix.github.io/Text2KGBench/ont_18_scientist/relations#isPartOf> a owl:ObjectProperty ;
+    rdfs:label "isPartOf" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#City> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#Country> .
+
+<https://cenguix.github.io/Text2KGBench/ont_18_scientist/relations#knownFor> a owl:ObjectProperty ;
+    rdfs:label "knownFor" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#Scientist> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#Thing> .
+
+<https://cenguix.github.io/Text2KGBench/ont_18_scientist/relations#language> a owl:ObjectProperty ;
+    rdfs:label "language" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#WrittenWork> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#Language> .
+
+<https://cenguix.github.io/Text2KGBench/ont_18_scientist/relations#leader> a owl:ObjectProperty ;
+    rdfs:label "leader" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#Country> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#leader> .
+
+<https://cenguix.github.io/Text2KGBench/ont_18_scientist/relations#leaderTitle> a owl:ObjectProperty ;
+    rdfs:label "leaderTitle" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#Country> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#string> .
+
+<https://cenguix.github.io/Text2KGBench/ont_18_scientist/relations#longName> a owl:ObjectProperty ;
+    rdfs:label "longName" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#Scientist> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#string> .
+
+<https://cenguix.github.io/Text2KGBench/ont_18_scientist/relations#motto> a owl:ObjectProperty ;
+    rdfs:label "motto" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#University> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#string> .
+
+<https://cenguix.github.io/Text2KGBench/ont_18_scientist/relations#nationality> a owl:ObjectProperty ;
+    rdfs:label "nationality" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#Scientist> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#Country> .
+
+<https://cenguix.github.io/Text2KGBench/ont_18_scientist/relations#officialLanguage> a owl:ObjectProperty ;
+    rdfs:label "officialLanguage" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#Country> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#Language> .
+
+<https://cenguix.github.io/Text2KGBench/ont_18_scientist/relations#percentageOfAreaWater> a owl:ObjectProperty ;
+    rdfs:label "percentageOfAreaWater" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#Place> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_18_scientist/relations#populationMetroDensity> a owl:ObjectProperty ;
+    rdfs:label "populationMetroDensity" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#City> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_18_scientist/relations#populationTotal> a owl:ObjectProperty ;
+    rdfs:label "populationTotal" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#City> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_18_scientist/relations#postalCode> a owl:ObjectProperty ;
+    rdfs:label "postalCode" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#City> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#string> .
+
+<https://cenguix.github.io/Text2KGBench/ont_18_scientist/relations#professionalField> a owl:ObjectProperty ;
+    rdfs:label "professionalField" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#Scientist> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#Field> .
+
+<https://cenguix.github.io/Text2KGBench/ont_18_scientist/relations#region> a owl:ObjectProperty ;
+    rdfs:label "region" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#Scientist> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#Place> .
+
+<https://cenguix.github.io/Text2KGBench/ont_18_scientist/relations#religion> a owl:ObjectProperty ;
+    rdfs:label "religion" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#Scientist> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#Religion> .
+
+<https://cenguix.github.io/Text2KGBench/ont_18_scientist/relations#residence> a owl:ObjectProperty ;
+    rdfs:label "residence" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#Scientist> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#Place> .
+
+<https://cenguix.github.io/Text2KGBench/ont_18_scientist/relations#spouse> a owl:ObjectProperty ;
+    rdfs:label "spouse" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#Scientist> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#Person> .
+
+<https://cenguix.github.io/Text2KGBench/ont_18_scientist/relations#timeZone> a owl:ObjectProperty ;
+    rdfs:label "timeZone" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#City> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#Timezone> .
+
+<https://cenguix.github.io/Text2KGBench/ont_18_scientist/relations#type> a owl:ObjectProperty ;
+    rdfs:label "type" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#Scientist> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#Type> .
+
+<https://cenguix.github.io/Text2KGBench/ont_18_scientist/relations#utcOffset> a owl:ObjectProperty ;
+    rdfs:label "utcOffset" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#Place> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_18_scientist/relations#viceChancellor> a owl:ObjectProperty ;
+    rdfs:label "viceChancellor" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#University> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#Person> .
+
+<https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#Award> a owl:Class ;
+    rdfs:label "Award" .
+
+<https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#Currency> a owl:Class ;
+    rdfs:label "Currency" .
+
+<https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#Demonym> a owl:Class ;
+    rdfs:label "Demonym" .
+
+<https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#Field> a owl:Class ;
+    rdfs:label "Field" .
+
+<https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#School> a owl:Class ;
+    rdfs:label "School" .
+
+<https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#Timezone> a owl:Class ;
+    rdfs:label "Timezone" .
+
+<https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#Type> a owl:Class ;
+    rdfs:label "Type" .
+
+<https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#WrittenWork> a owl:Class ;
+    rdfs:label "WrittenWork" .
+
+<https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#Language> a owl:Class ;
+    rdfs:label "Language" .
+
+<https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#Organisation> a owl:Class ;
+    rdfs:label "Organisation" .
+
+<https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#University> a owl:Class ;
+    rdfs:label "University" .
+
+<https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#Place> a owl:Class ;
+    rdfs:label "Place" .
+
+<https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#City> a owl:Class ;
+    rdfs:label "City" .
+
+<https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#Country> a owl:Class ;
+    rdfs:label "Country" .
+
+<https://cenguix.github.io/Text2KGBench/ont_18_scientist/concepts#Scientist> a owl:Class ;
+    rdfs:label "Scientist" .
+

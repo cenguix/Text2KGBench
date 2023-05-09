@@ -1,0 +1,247 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix onto: <https://cenguix.github.io/Text2KGBench/ont_3_airport#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://example.com/ontology> a owl:Ontology ;
+    rdfs:label "Airport Ontology" ;
+    dc:creator <http://orcid.org/0000-0001-7197-0766>,
+        <http://orcid.org/0000-0003-4303-983X>,
+        <http://orcid.org/0000−0003−1707−4842> ;
+    rdfs:comment "An ontology used in the Text2KGBench" ;
+    owl:versionIRI onto:v1 .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_airport/relations#1stRunwaySurfaceType> a owl:ObjectProperty ;
+    rdfs:label "1stRunwaySurfaceType" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#Airport> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#1stRunwaySurfaceType> .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_airport/relations#2ndRunwaySurfaceType> a owl:ObjectProperty ;
+    rdfs:label "2ndRunwaySurfaceType" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#Airport> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#RunwaySurfaceType> .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_airport/relations#3rdRunwaySurfaceType> a owl:ObjectProperty ;
+    rdfs:label "3rdRunwaySurfaceType" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#Airport> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#RunwaySurfaceType> .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_airport/relations#aircraftFighter> a owl:ObjectProperty ;
+    rdfs:label "aircraftFighter" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#Airport> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#Aircraft> .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_airport/relations#aircraftHelicopter> a owl:ObjectProperty ;
+    rdfs:label "aircraftHelicopter" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#Airport> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#Aircraft> .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_airport/relations#areaCode> a owl:ObjectProperty ;
+    rdfs:label "areaCode" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#Airport> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#string> .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_airport/relations#battle> a owl:ObjectProperty ;
+    rdfs:label "battle" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#Airport> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#Battle> .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_airport/relations#capital> a owl:ObjectProperty ;
+    rdfs:label "capital" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#Airport> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#City> .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_airport/relations#ceremonialCounty> a owl:ObjectProperty ;
+    rdfs:label "ceremonialCounty" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#Airport> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#County> .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_airport/relations#city> a owl:ObjectProperty ;
+    rdfs:label "city" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#Airport> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#City> .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_airport/relations#cityServed> a owl:ObjectProperty ;
+    rdfs:label "cityServed" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#Airport> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#City> .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_airport/relations#class> a owl:ObjectProperty ;
+    rdfs:label "class" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#Airport> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#Class> .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_airport/relations#country> a owl:ObjectProperty ;
+    rdfs:label "country" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#Airport> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#Country> .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_airport/relations#demonym> a owl:ObjectProperty ;
+    rdfs:label "demonym" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#Airport> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#Demonym> .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_airport/relations#division> a owl:ObjectProperty ;
+    rdfs:label "division" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#Airport> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#Division> .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_airport/relations#elevationAboveTheSeaLevel> a owl:ObjectProperty ;
+    rdfs:label "elevationAboveTheSeaLevel" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#Airport> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_airport/relations#elevationAboveTheSeaLevelInMetres> a owl:ObjectProperty ;
+    rdfs:label "elevationAboveTheSeaLevelInMetres" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#Airport> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_airport/relations#foundedBy> a owl:ObjectProperty ;
+    rdfs:label "foundedBy" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#Airport> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#Person> .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_airport/relations#foundingYear> a owl:ObjectProperty ;
+    rdfs:label "foundingYear" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#Airport> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#Year> .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_airport/relations#headquarter> a owl:ObjectProperty ;
+    rdfs:label "headquarter" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#Airport> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#City> .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_airport/relations#hubAirport> a owl:ObjectProperty ;
+    rdfs:label "hubAirport" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#Airport> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#Airport> .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_airport/relations#icaoLocationIdentifier> a owl:ObjectProperty ;
+    rdfs:label "icaoLocationIdentifier" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#Airport> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#string> .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_airport/relations#isPartOf> a owl:ObjectProperty ;
+    rdfs:label "isPartOf" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#Airport> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#Airport> .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_airport/relations#language> a owl:ObjectProperty ;
+    rdfs:label "language" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#Airport> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#Language> .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_airport/relations#largestCity> a owl:ObjectProperty ;
+    rdfs:label "largestCity" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#Airport> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#City> .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_airport/relations#leader> a owl:ObjectProperty ;
+    rdfs:label "leader" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#Airport> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#Person> .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_airport/relations#leaderParty> a owl:ObjectProperty ;
+    rdfs:label "leaderParty" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#Airport> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#Party> .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_airport/relations#leaderTitle> a owl:ObjectProperty ;
+    rdfs:label "leaderTitle" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#Airport> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#string> .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_airport/relations#location> a owl:ObjectProperty ;
+    rdfs:label "location" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#Airport> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#Place> .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_airport/relations#officialLanguage> a owl:ObjectProperty ;
+    rdfs:label "officialLanguage" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#Airport> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#Language> .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_airport/relations#operatingOrganisation> a owl:ObjectProperty ;
+    rdfs:label "operatingOrganisation" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#Airport> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#Organisation> .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_airport/relations#order> a owl:ObjectProperty ;
+    rdfs:label "order" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#Airport> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_airport/relations#owner> a owl:ObjectProperty ;
+    rdfs:label "owner" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#Airport> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#Organisation> .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_airport/relations#postalCode> a owl:ObjectProperty ;
+    rdfs:label "postalCode" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#Airport> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#string> .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_airport/relations#regionServed> a owl:ObjectProperty ;
+    rdfs:label "regionServed" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#Airport> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#Place> .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_airport/relations#runwayLength> a owl:ObjectProperty ;
+    rdfs:label "runwayLength" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#Airport> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_airport/relations#runwayName> a owl:ObjectProperty ;
+    rdfs:label "runwayName" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#Airport> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#string> .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_airport/relations#runwaySurfaceType> a owl:ObjectProperty ;
+    rdfs:label "runwaySurfaceType" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#Airport> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#RunwaySurfaceType> .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_airport/relations#transportAircraft> a owl:ObjectProperty ;
+    rdfs:label "transportAircraft" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#Airport> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#Aircraft> .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#Battle> a owl:Class ;
+    rdfs:label "Battle" .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#Class> a owl:Class ;
+    rdfs:label "Class" .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#Country> a owl:Class ;
+    rdfs:label "Country" .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#County> a owl:Class ;
+    rdfs:label "County" .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#Demonym> a owl:Class ;
+    rdfs:label "Demonym" .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#Division> a owl:Class ;
+    rdfs:label "Division" .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#Party> a owl:Class ;
+    rdfs:label "Party" .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#Language> a owl:Class ;
+    rdfs:label "Language" .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#Place> a owl:Class ;
+    rdfs:label "Place" .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#Aircraft> a owl:Class ;
+    rdfs:label "Aircraft" .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#RunwaySurfaceType> a owl:Class ;
+    rdfs:label "RunwaySurfaceType" .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#City> a owl:Class ;
+    rdfs:label "City" .
+
+<https://cenguix.github.io/Text2KGBench/ont_3_airport/concepts#Airport> a owl:Class ;
+    rdfs:label "Airport" .
+

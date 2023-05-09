@@ -1,0 +1,92 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix onto: <https://cenguix.github.io/Text2KGBench/ont_5_military#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://example.com/ontology> a owl:Ontology ;
+    rdfs:label "Military Ontology" ;
+    dc:creator <http://orcid.org/0000-0001-7197-0766>,
+        <http://orcid.org/0000-0003-4303-983X>,
+        <http://orcid.org/0000−0003−1707−4842> ;
+    rdfs:comment "An ontology used in the Text2KGBench" ;
+    owl:versionIRI onto:v1 .
+
+<https://cenguix.github.io/Text2KGBench/ont_5_military/concepts#Q2772772> a owl:Class ;
+    rdfs:label "military museum" .
+
+<https://cenguix.github.io/Text2KGBench/ont_5_military/concepts#Q47064> a owl:Class ;
+    rdfs:label "military personnel" .
+
+<https://cenguix.github.io/Text2KGBench/ont_5_military/relations#P1347> a owl:ObjectProperty ;
+    rdfs:label "military casualty classification " ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_5_military/concepts#Q5> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_5_military/concepts#Q16861376> .
+
+<https://cenguix.github.io/Text2KGBench/ont_5_military/relations#P1654> a owl:ObjectProperty ;
+    rdfs:label "wing configuration" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_5_military/concepts#Q11436> .
+
+<https://cenguix.github.io/Text2KGBench/ont_5_military/relations#P241> a owl:ObjectProperty ;
+    rdfs:label "military branch" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_5_military/concepts#Q5> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_5_military/concepts#Q176799> .
+
+<https://cenguix.github.io/Text2KGBench/ont_5_military/relations#P287> a owl:ObjectProperty ;
+    rdfs:label "designed by" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_5_military/concepts#Q1184840>,
+        <https://cenguix.github.io/Text2KGBench/ont_5_military/concepts#Q18643213> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_5_military/concepts#Q43229> .
+
+<https://cenguix.github.io/Text2KGBench/ont_5_military/relations#P3461> a owl:ObjectProperty ;
+    rdfs:label "designated as terrorist by" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_5_military/concepts#Q17149090> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_5_military/concepts#Q6256> .
+
+<https://cenguix.github.io/Text2KGBench/ont_5_military/relations#P3730> a owl:ObjectProperty ;
+    rdfs:label "next higher rank" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_5_military/concepts#Q56019> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_5_military/concepts#Q4189293> .
+
+<https://cenguix.github.io/Text2KGBench/ont_5_military/relations#P410> a owl:ObjectProperty ;
+    rdfs:label "military rank" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_5_military/concepts#Q5> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_5_military/concepts#Q56019> .
+
+<https://cenguix.github.io/Text2KGBench/ont_5_military/relations#P4791> a owl:ObjectProperty ;
+    rdfs:label "commanded by" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_5_military/concepts#Q2008856> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_5_military/concepts#Q5> .
+
+<https://cenguix.github.io/Text2KGBench/ont_5_military/concepts#Q1184840> a owl:Class ;
+    rdfs:label "military vehicle" .
+
+<https://cenguix.github.io/Text2KGBench/ont_5_military/concepts#Q16861376> a owl:Class ;
+    rdfs:label "military casualty classification" .
+
+<https://cenguix.github.io/Text2KGBench/ont_5_military/concepts#Q17149090> a owl:Class ;
+    rdfs:label "armed organization" .
+
+<https://cenguix.github.io/Text2KGBench/ont_5_military/concepts#Q176799> a owl:Class ;
+    rdfs:label "military unit" .
+
+<https://cenguix.github.io/Text2KGBench/ont_5_military/concepts#Q18643213> a owl:Class ;
+    rdfs:label "military equipment" .
+
+<https://cenguix.github.io/Text2KGBench/ont_5_military/concepts#Q2008856> a owl:Class ;
+    rdfs:label "command" .
+
+<https://cenguix.github.io/Text2KGBench/ont_5_military/concepts#Q4189293> a owl:Class ;
+    rdfs:label "rank" .
+
+<https://cenguix.github.io/Text2KGBench/ont_5_military/concepts#Q43229> a owl:Class ;
+    rdfs:label "organization" .
+
+<https://cenguix.github.io/Text2KGBench/ont_5_military/concepts#Q6256> a owl:Class ;
+    rdfs:label "country" .
+
+<https://cenguix.github.io/Text2KGBench/ont_5_military/concepts#Q56019> a owl:Class ;
+    rdfs:label "military rank" .
+
+<https://cenguix.github.io/Text2KGBench/ont_5_military/concepts#Q5> a owl:Class ;
+    rdfs:label "human" .
+
