@@ -7,11 +7,10 @@ This is the repository for ISWC 2023 Resource Track submission for `Text2KGBench
 Ontology-Driven Knowledge Graph Generation from Text`.
 Text2KGBench is a benchmark to evaluate the capabilities of language models to generate KGs
 from natural language text guided by an ontology. Given an input ontology and a set of sentences, the task is to extract facts from the text
-while complying to the given ontology (concepts, relations, domain/range
-constraints) and being faithful to the input sentences.
+while complying to the given ontology (concepts, relations, domain/range constraints) and being faithful to the input sentences.
 
 It contains two datasets (i) Wikidata-TekGen with 10 ontologies and 13,474 sentences
-and (ii) Bpedia-WebNLG with 19 ontologies and 4,860 sentences.
+and (ii) DBpedia-WebNLG with 19 ontologies and 4,860 sentences.
 
 The data is released under under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY 4.0) License.
 
@@ -37,13 +36,13 @@ The structure of the repo is as following.
           - `prompts` prompts corresponding to each test file
             - `unseen` prompts for the unseen test cases
           - `Alpaca-LoRA-13B` data related to the Alpaca-LoRA model
-            - `llm_responses` raw LLM responses and extracte triples 
+            - `llm_responses` raw LLM responses and extracted triples 
             - `eval_metrics` ontology-level and aggregated evaluation results
             - `unseen` results for the unseen test cases
               - `llm_responses` raw LLM responses and extracte triples 
               - `eval_metrics` ontology-level and aggregated evaluation results
-          - `Vicuna-13B` data related to the Alpaca-LoRA model
-          - `llm_responses` raw LLM responses and extracte triples 
+          - `Vicuna-13B` data related to the Vicuna-13B model
+          - `llm_responses` raw LLM responses and extracted triples 
           - `eval_metrics` ontology-level and aggregated evaluation results 
       - dbpedia_webnlg
         - `ontologies` 19 ontologies used by this dataset
@@ -56,8 +55,8 @@ The structure of the repo is as following.
           - `Alpaca-LoRA-13B` data related to the Alpaca-LoRA model
             - `llm_responses` raw LLM responses and extracte triples 
             - `eval_metrics` ontology-level and aggregated evaluation results
-          - `Vicuna-13B` data related to the Alpaca-LoRA model
-          - `llm_responses` raw LLM responses and extracte triples 
+          - `Vicuna-13B` data related to the Vicuna-13B model
+          - `llm_responses` raw LLM responses and extracted triples 
           - `eval_metrics` ontology-level and aggregated evaluation results     
 
 This benchmark contains data derived from TekGen corpus (part of  the KELM corpus) [1] released under CC BY-SA 2.0 license
