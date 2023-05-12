@@ -42,22 +42,22 @@ The structure of the repo is as following.
               - [llm_responses](data/wikidata_tekgen/baselines/Alpaca-LoRA-13B/unseen/llm_responses) raw LLM responses and extracte triples 
               - [eval_metrics](data/wikidata_tekgen/baselines/Alpaca-LoRA-13B/unseen/eval_metrics) ontology-level and aggregated evaluation results
           - `Vicuna-13B` data related to the Vicuna-13B model
-          - [llm_responses](data/wikidata_tekgen/baselines/Vicuna-13B/llm_responses) raw LLM responses and extracted triples 
-          - [eval_metrics](data/wikidata_tekgen/baselines/Vicuna-13B/eval_metrics) ontology-level and aggregated evaluation results 
+            - [llm_responses](data/wikidata_tekgen/baselines/Vicuna-13B/llm_responses) raw LLM responses and extracted triples 
+            - [eval_metrics](data/wikidata_tekgen/baselines/Vicuna-13B/eval_metrics) ontology-level and aggregated evaluation results 
       - dbpedia_webnlg
-        - `ontologies` 19 ontologies used by this dataset
-        - `train` training data 
-        - `test`test data 
-        - `ground_truth`ground truth for the test data
+        - [ontologies](data/dbpedia_webnlg/ontologies) 19 ontologies used by this dataset
+        - [train](data/dbpedia_webnlg/train) training data 
+        - [test](data/dbpedia_webnlg/test) test data 
+        - [ground_truth](data/dbpedia_webnlg/ground_truth) ground truth for the test data
         - `baselines` data related to running the baselines.
-          - `test_train_sent_similarity` for each test case, 5 most similar train sentences generated using SBERT T5-XXL model.
-          - `prompts` prompts corresponding to each test file
+          - [test_train_sent_similarity](data/dbpedia_webnlg/baselines/test_train_sent_similarity) for each test case, 5 most similar train sentences generated using SBERT T5-XXL model.
+          - [prompts](data/dbpedia_webnlg/baselines/prompts) prompts corresponding to each test file
           - `Alpaca-LoRA-13B` data related to the Alpaca-LoRA model
-            - `llm_responses` raw LLM responses and extracte triples 
-            - `eval_metrics` ontology-level and aggregated evaluation results
+            - [llm_responses](data/dbpedia_webnlg/baselines/Alpaca-LoRA-13B/llm_responses) raw LLM responses and extracte triples 
+            - [eval_metrics](data/dbpedia_webnlg/baselines/Alpaca-LoRA-13B/eval_metrics) ontology-level and aggregated evaluation results
           - `Vicuna-13B` data related to the Vicuna-13B model
-          - `llm_responses` raw LLM responses and extracted triples 
-          - `eval_metrics` ontology-level and aggregated evaluation results     
+            - [llm_responses](data/dbpedia_webnlg/baselines/Vicuna-13B/llm_responses) raw LLM responses and extracted triples 
+            - [eval_metrics](data/dbpedia_webnlg/baselines/Vicuna-13B/llm_responses) ontology-level and aggregated evaluation results     
 
 This benchmark contains data derived from TekGen corpus (part of  the KELM corpus) [1] released under CC BY-SA 2.0 license
 and WebNLG 3.0 corpus [2] released under CC BY-NC-SA 4.0 license.
