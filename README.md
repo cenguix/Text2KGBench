@@ -25,7 +25,7 @@ The structure of the repo is as following.
       - [wikidata_tekgen](data/wikidata_tekgen)
         - [ontologies](data/wikidata_tekgen/ontologies) 10 ontologies used by this dataset
         - [train](data/wikidata_tekgen/train) training data 
-        - `test`test data 
+        - [test test data](data/wikidata_tekgen/test) test data 
         - [manually_verified_sentences](data/wikidata_tekgen/manually_verified_sentences) ids of a subset of test cases manually validated
         - [unseen_sentences](data/wikidata_tekgen/unseen_sentences) new sentences that are added by the authors which are not part of Wikipedia
           - test unseen test sentences 
