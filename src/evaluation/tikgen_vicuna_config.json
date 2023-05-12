@@ -3,7 +3,7 @@
     "1_movie",  "2_music", "3_sport", "4_book", "5_military", "6_computer", "7_space", "8_politics", "9_nature", "10_culture"
   ],
   "path_patterns": {
-    "sys": "../../data/baselines/vicuna_13B/llm_responses/ont_$$onto$$_llm_responses_v2.jsonl",
+    "sys": "../../data/baselines/vicuna_13B/llm_responses/ont_$$onto$$_llm_responses.jsonl",
     "gt":"../../data/ground_truth/ont_$$onto$$_ground_truth_v1.jsonl",
     "selected_ids": "../../data/ground_truth/selected_ids/selected_ont_$$onto$$.txt",
     "onto": "../../data/ontology/$$onto$$_ontology.json",

@@ -172,9 +172,9 @@ def main():
                 if  f1 < 1  and len(filtered_system_triples) > 0 and subj_hallucination == 0 and obj_hallucination == 0:
                     print(f"sent: {sentence}\nf1: {f1}\nsys:{filtered_system_triples}\nground:{gt_triples}\n\n")
 
-                eval_metrics = {"id": sent_id, "precision": precision, "recall": recall, "f1": f1,
-                                "onto_conf": ont_conformance, "rel_halluc": rel_hallucination,
-                                "sub_halluc": subj_hallucination, "obj_halluc": obj_hallucination,
+                eval_metrics = {"id": sent_id, "precision": f"{precision:.2f}" , "recall": f"{recall:.2f}", "f1": f"{f1:.2f}",
+                                "onto_conf": f"{ont_conformance:.2f}", "rel_halluc": f"{rel_hallucination:.2f}",
+                                "sub_halluc": f"{subj_hallucination:.2f}", "obj_halluc": f"{obj_hallucination:.2f}",
                                 "llm_triples": system_triples, "filtered_llm_triples": filtered_system_triples,
                                 "gt_triples": gt_triples, "sent": sentence}
                 eval_metrics_list.append(eval_metrics)
