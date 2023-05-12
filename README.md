@@ -14,7 +14,7 @@ and (ii) DBpedia-WebNLG with 19 ontologies and 4,860 sentences.
 
 The data is released under under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY 4.0) License.
 
-The structure of the repo is as following.
+The structure of the repo is as the following.
 
 - Text2KGBench
   - src: the source code used for generation and evaluation, and baseline
@@ -31,7 +31,7 @@ The structure of the repo is as following.
           - [test unseen](data/wikidata_tekgen/unseen_sentences/test) test unseen test sentences
           - [ground_truth](data/wikidata_tekgen/unseen_sentences/ground_truth) ground truth for unseen test sentences.
         - [ground_truth](data/wikidata_tekgen/ground_truth) ground truth for the test data
-        - `baselines` data related to running the baselines.
+        - [baselines](data/wikidata_tekgen/baselines) data related to running the baselines.
           - [test_train_sent_similarity](data/wikidata_tekgen/baselines/test_train_sent_similarity) for each test case, 5 most similar train sentences generated using SBERT T5-XXL model.
           - [prompts](data/wikidata_tekgen/baselines/prompts) prompts corresponding to each test file
             - [unseen prompts](data/wikidata_tekgen/baselines/prompts/unseen) unseen prompts for the unseen test cases
@@ -49,7 +49,7 @@ The structure of the repo is as following.
         - [train](data/dbpedia_webnlg/train) training data 
         - [test](data/dbpedia_webnlg/test) test data 
         - [ground_truth](data/dbpedia_webnlg/ground_truth) ground truth for the test data
-        - `baselines` data related to running the baselines.
+        - [baselines](data/dbpedia_webnlg/baselines) data related to running the baselines.
           - [test_train_sent_similarity](data/dbpedia_webnlg/baselines/test_train_sent_similarity) for each test case, 5 most similar train sentences generated using SBERT T5-XXL model.
           - [prompts](data/dbpedia_webnlg/baselines/prompts) prompts corresponding to each test file
           - [Alpaca-LoRA-13B](data/dbpedia_webnlg/baselines/Alpaca-LoRA-13B) data related to the Alpaca-LoRA model
