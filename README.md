@@ -25,25 +25,25 @@ The structure of the repo is as following.
       - [wikidata_tekgen](data/wikidata_tekgen)
         - [ontologies](data/wikidata_tekgen/ontologies) 10 ontologies used by this dataset
         - [train](data/wikidata_tekgen/train) training data 
-        - [test test data](data/wikidata_tekgen/test) test data 
+        - [test](data/wikidata_tekgen/test) test data 
         - [manually_verified_sentences](data/wikidata_tekgen/manually_verified_sentences) ids of a subset of test cases manually validated
         - [unseen_sentences](data/wikidata_tekgen/unseen_sentences) new sentences that are added by the authors which are not part of Wikipedia
-          - test unseen test sentences 
-          - ground_truth ground truth for unseen test sentecnes.
-        - `ground_truth`ground truth for the test data
+          - [test unseen](data/wikidata_tekgen/unseen_sentences/test) test unseen test sentences
+          - [ground_truth](data/wikidata_tekgen/unseen_sentences/ground_truth) ground truth for unseen test sentences.
+        - [ground_truth](data/wikidata_tekgen/ground_truth) ground truth for the test data
         - `baselines` data related to running the baselines.
-          - `test_train_sent_similarity` for each test case, 5 most similar train sentences generated using SBERT T5-XXL model.
-          - `prompts` prompts corresponding to each test file
-            - `unseen` prompts for the unseen test cases
+          - [test_train_sent_similarity](data/wikidata_tekgen/baselines/test_train_sent_similarity) for each test case, 5 most similar train sentences generated using SBERT T5-XXL model.
+          - [prompts](data/wikidata_tekgen/baselines/prompts) prompts corresponding to each test file
+            - [unseen prompts](data/wikidata_tekgen/baselines/prompts/unseen) unseen prompts for the unseen test cases
           - `Alpaca-LoRA-13B` data related to the Alpaca-LoRA model
-            - `llm_responses` raw LLM responses and extracted triples 
-            - `eval_metrics` ontology-level and aggregated evaluation results
+            - [llm_responses](data/wikidata_tekgen/baselines/Alpaca-LoRA-13B/llm_responses) raw LLM responses and extracted triples 
+            - [eval_metrics](data/wikidata_tekgen/baselines/Alpaca-LoRA-13B/eval_metrics) ontology-level and aggregated evaluation results
             - `unseen` results for the unseen test cases
-              - `llm_responses` raw LLM responses and extracte triples 
-              - `eval_metrics` ontology-level and aggregated evaluation results
+              - [llm_responses](data/wikidata_tekgen/baselines/Alpaca-LoRA-13B/unseen/llm_responses) raw LLM responses and extracte triples 
+              - [eval_metrics](data/wikidata_tekgen/baselines/Alpaca-LoRA-13B/unseen/eval_metrics) ontology-level and aggregated evaluation results
           - `Vicuna-13B` data related to the Vicuna-13B model
-          - `llm_responses` raw LLM responses and extracted triples 
-          - `eval_metrics` ontology-level and aggregated evaluation results 
+          - [llm_responses](data/wikidata_tekgen/baselines/Vicuna-13B/llm_responses) raw LLM responses and extracted triples 
+          - [eval_metrics](data/wikidata_tekgen/baselines/Vicuna-13B/eval_metrics) ontology-level and aggregated evaluation results 
       - dbpedia_webnlg
         - `ontologies` 19 ontologies used by this dataset
         - `train` training data 
