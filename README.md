@@ -57,7 +57,7 @@ The structure of the repo is as following.
             - [eval_metrics](data/dbpedia_webnlg/baselines/Alpaca-LoRA-13B/eval_metrics) ontology-level and aggregated evaluation results
           - `Vicuna-13B` data related to the Vicuna-13B model
             - [llm_responses](data/dbpedia_webnlg/baselines/Vicuna-13B/llm_responses) raw LLM responses and extracted triples 
-            - [eval_metrics](data/dbpedia_webnlg/baselines/Vicuna-13B/llm_responses) ontology-level and aggregated evaluation results     
+            - [eval_metrics](data/dbpedia_webnlg/baselines/Vicuna-13B/eval_metrics) ontology-level and aggregated evaluation results     
 
 This benchmark contains data derived from TekGen corpus (part of  the KELM corpus) [1] released under CC BY-SA 2.0 license
 and WebNLG 3.0 corpus [2] released under CC BY-NC-SA 4.0 license.
