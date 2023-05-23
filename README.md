@@ -12,6 +12,43 @@ while complying to the given ontology (concepts, relations, domain/range constra
 It contains two datasets (i) Wikidata-TekGen with 10 ontologies and 13,474 sentences
 and (ii) DBpedia-WebNLG with 19 ontologies and 4,860 sentences.
 
+## An example
+
+An example test sentence:
+```
+Test Sentence:
+{"id": "ont_music_test_n", "sent": "\"The Loco-Motion\" is a 1962 pop song written by 
+American songwriters Gerry Goffin and Carole King."}
+```
+
+An example ontology:
+
+Ontology: [Music Ontology](data/wikidata_tekgen/ontologies/owl/ont_2_music.ttl)
+
+<img width="1258" alt="music3" src="https://github.com/nandana/iswc-2023/assets/204855/1ff0bfa3-3b2f-4908-9d1b-074d0698485c">
+
+Expected Output:
+```
+{
+ "id": "ont_k_music_test_n", 
+ "sent": "\"The Loco-Motion\" is a 1962 pop song written by American songwriters Gerry Goffin and Carole King.", 
+ "triples": [
+  {
+    "sub": "The Loco-Motion", 
+    "rel": "publication date",
+    "obj": "01 January 1962"
+  },{
+    "sub": "The Loco-Motion",
+    "rel": "lyrics by",
+    "obj": "Gerry Goffin"
+  },{
+    "sub": "The Loco-Motion", 
+    "rel": "lyrics by", 
+    "obj": "Carole King"
+  },]
+}
+```
+
 The data is released under under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY 4.0) License.
 
 The structure of the repo is as the following.
