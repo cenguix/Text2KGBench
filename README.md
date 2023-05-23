@@ -76,7 +76,7 @@ The structure of the repo is as the following.
             - [llm_responses](data/wikidata_tekgen/baselines/Alpaca-LoRA-13B/llm_responses) raw LLM responses and extracted triples 
             - [eval_metrics](data/wikidata_tekgen/baselines/Alpaca-LoRA-13B/eval_metrics) ontology-level and aggregated evaluation results
             - [unseen results](data/wikidata_tekgen/baselines/Alpaca-LoRA-13B/unseen) results for the unseen test cases
-              - [llm_responses](data/wikidata_tekgen/baselines/Alpaca-LoRA-13B/unseen/llm_responses) raw LLM responses and extracte triples 
+              - [llm_responses](data/wikidata_tekgen/baselines/Alpaca-LoRA-13B/unseen/llm_responses) raw LLM responses and extracted triples 
               - [eval_metrics](data/wikidata_tekgen/baselines/Alpaca-LoRA-13B/unseen/eval_metrics) ontology-level and aggregated evaluation results
           - [Vicuna-13B](data/wikidata_tekgen/baselines/Vicuna-13B) data related to the Vicuna-13B model
             - [llm_responses](data/wikidata_tekgen/baselines/Vicuna-13B/llm_responses) raw LLM responses and extracted triples 
