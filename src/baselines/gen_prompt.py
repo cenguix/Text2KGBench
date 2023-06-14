@@ -4,25 +4,37 @@ from typing import List
 
 
 def get_ontology_concepts(ontology):
+    """
+    Generate a verbalized list of concepts in the given ontology to be included in the prompt
+    :param ontology: an ontology as a dictionary
+    :return: A string for ontology concepts.
+             e.g. human, city, country, film, film genre....
+    """
     ont_concepts = ""
     for onto in ontology['concepts']:
         ont_concepts += onto['label'] + ", "
     return ont_concepts[0:-1]
 
 
-def get_domain(ontology, ont_dom):
+def get_concept_label(ontology, concept):
+    """
+    Get the label for the ontology concept
+    :param ontology: ontology with concepts ids and labels
+    :param ont_dom: input concept ID
+    :return: the label of the input concept
+    """
     for onto in ontology['concepts']:
-        if onto['qid'] == ont_dom:
-            return onto['label']
-
-
-def get_range(ontology, ont_range):
-    for onto in ontology['concepts']:
-        if onto['qid'] == ont_range:
+        if onto['qid'] == concept:
             return onto['label']
 
 
 def get_ontology_relations(ontology):
+    """
+    Generate a verbalized list of relations in the given ontology to be included in the prompt
+    :param ontology:  an ontology as a dictionary
+    :return: A string for ontology relations.
+            e.g. cast_member(film,human), director (film,human), screenwriter(film,human), producer(film,human), ...
+    """
 
     ont_rels = ""
     onto_rel_strings = list()
@@ -31,8 +43,8 @@ def get_ontology_relations(ontology):
         ont_rel = ont_rel.replace(" ", "_")
         ont_dom = onto['domain']
         ont_range = onto['range']
-        ont_domain = get_domain(ontology, ont_dom)
-        ont_range = get_range(ontology, ont_range)
+        ont_domain = get_concept_label(ontology, ont_dom)
+        ont_range = get_concept_label(ontology, ont_range)
 
         if ont_rel == None:
             continue
