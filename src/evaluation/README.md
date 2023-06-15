@@ -27,14 +27,14 @@ In order to run the run_eval.py script we have to move to the Text2KGBench\src\e
 *cd Text2KGBench\src\evaluation*
 
 If we run the script with no parameters such as:
-*python run_eval.py*
+**python run_eval.py**
 
 It will return the following response:
 usage: run_eval.py [-h] --eval_config_path EVAL_CONFIG_PATH
 run_eval.py: error: the following arguments are required: --eval_config_path
 
 If we run the run_eval.py script with a --help parameter it will output the following response:
-*python run_eval.py -h*
+**python run_eval.py -h**
 
 usage: run_eval.py [-h] --eval_config_path EVAL_CONFIG_PATH
 
@@ -42,18 +42,20 @@ options:
   -h, --help            show this help message and exit
   --eval_config_path EVAL_CONFIG_PATH
 
-In the config directory (cd config) we find the following configuration files:
-14/06/2023  16:59               780 tekgen_vicuna_config.json
-14/06/2023  16:59               684 tikgen_alpaca_config.json
-14/06/2023  16:59               744 tikgen_unseen_alpaca_config.json
-14/06/2023  16:59               729 tikgen_unseen_vicuna_config.json
-14/06/2023  16:59               667 tikgen_vicuna_config.json
-14/06/2023  16:59               916 webnlg_alpaca_config.json
-14/06/2023  16:59               897 webnlg_vicuna_config.json
+In the config directory (*cd config*) we find the following configuration files:
+
+|14/06/2023|  16:59|              780 tekgen_vicuna_config.json|
+|14/06/2023|  16:59|               684 tikgen_alpaca_config.json|
+|14/06/2023|  16:59|               744 tikgen_unseen_alpaca_config.json|
+|14/06/2023|  16:59|              729 tikgen_unseen_vicuna_config.json|
+|14/06/2023|  16:59|               667 tikgen_vicuna_config.json|
+|14/06/2023|  16:59|               916 webnlg_alpaca_config.json|
+|14/06/2023|  16:59|               897 webnlg_vicuna_config.json|
                7 File(s)          5.417 bytes
  
 Next, for running the run_eval.py script with a respective configuration file:
 In this case we input the tekgen_vicuna_config.json with the following contents for example:
+
 `
 {
   "onto_list" : [
@@ -69,8 +71,9 @@ In this case we input the tekgen_vicuna_config.json with the following contents 
   "avg_out_file": "../../data/wikidata_tekgen/baselines/Vicuna-13B/eval_metrics/ont_llm_avg_stats_v2.jsonl"
 }
 `
+
 Finally we run the run_eval.py script with a configuration file as parameter:
-*python run_eval.py --eval_config_path config/tekgen_vicuna_config.json*
+**python run_eval.py --eval_config_path config/tekgen_vicuna_config.json**
 
 In this case the generated files can be found in the *"Text2KGBench\data\wikidata_tekgen\baselines\Vicuna-13B\eval_metrics"* directory:
 
