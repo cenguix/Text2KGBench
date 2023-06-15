@@ -1,7 +1,7 @@
 # Evaluation
 
 ## Evaluation config
-For running the evaluation, you will need to create an evaluation script. Some examples can be found in the config direcotry.
+For running the evaluation, you will need to create an evaluation script. Some examples can be found in the config directory.
 
 
 ```
