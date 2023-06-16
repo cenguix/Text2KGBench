@@ -1,8 +1,9 @@
 # Evaluation
 
 ## Evaluation config
-For running the evaluation, you will need to create an evaluation script. Some examples can be found in the config directory.
+For running the evaluation, you will need to create an evaluation script. Some examples can be found in the [config directory](config). Each test suite such as Wikidata_Tekgen or DBpedia_WebNLG contains set of ontologies and the config file contains parametrized path patterns to files corresponding to each ontology in the test suite.  
 
+The following shows one example.
 
 ```
 {
@@ -15,11 +16,25 @@ For running the evaluation, you will need to create an evaluation script. Some e
     "gt":"../../data/wikidata_tekgen/ground_truth/ont_$$onto$$_ground_truth.jsonl",
     "selected_ids": "../../data/wikidata_tekgen/manually_verified_sentences/selected_ont_$$onto$$.txt",
     "onto": "../../data/wikidata_tekgen/ontologies/$$onto$$_ontology.json",
-    "output": "../../data/wikidata_tekgen/baselines/Vicuna-13B/eval_metrics/ont_$$onto$$_llm_stats_v2.jsonl"
+    "output": "../../data/wikidata_tekgen/baselines/Vicuna-13B/eval_metrics/ont_$$onto$$_llm_stats.jsonl"
   },
-  "avg_out_file": "../../data/wikidata_tekgen/baselines/Vicuna-13B/eval_metrics/ont_llm_avg_stats_v2.jsonl"
+  "avg_out_file": "../../data/wikidata_tekgen/baselines/Vicuna-13B/eval_metrics/ont_llm_avg_stats.jsonl"
 }
 ```
+
+Here are the description of each of the paramters in the config.
+
+| Parameter                  | Description                                                                                                    |
+|----------------------------|----------------------------------------------------------------------------------------------------------------|
+| onto_list                  | List of ids of ontologies. These are used for converting file path patterns to absolute paths.                 |
+| path_patterns/sys          | The path pattern to system outputs for test sentences in each ontology.                                        |
+| path_patterns/gt           | The path pattern to ground truth triples for each ontology.                                                    |
+| path_patterns/selected_ids | (Optional) The path pattern to a selected list of manually validated test cases if applicable.                 |
+| path_patterns/onto         | The path pattern to the ontology file.                                                                         |
+| path_patterns/output       | The path pattern for the detailed output file with metrics for each individual test sentence in each ontology. |
+| avg_out_file               | The path pattern for average metrics at ontology level and globally for the whole dataset.                     |
+
+
 
 ## Running the evaluation script
 In order to run the run_eval.py script we have to move to the Text2KGBench\src\evaluation directory:
