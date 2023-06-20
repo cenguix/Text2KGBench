@@ -46,13 +46,16 @@ If we run the **run_eval.py** script with a --help parameter it will output the 
 ```
 python run_eval.py -h
 ```
-> usage: run_eval.py [-h] --eval_config_path EVAL_CONFIG_PATH
->
-> options:
-> 
->  -h, --help            show this help message and exit
->  
->  --eval_config_path EVAL_CONFIG_PATH
+It will generate an output similar to the following. 
+```
+usage: run_eval.py [-h] --eval_config_path EVAL_CONFIG_PATH
+
+ options:
+ 
+  -h, --help            show this help message and exit
+  
+  --eval_config_path EVAL_CONFIG_PATH
+```
 
 To run the evaluation, we need an evaluation configuration file as discussed in the previous section. You can find evaluation configurations for various setups in [config directory](config).
 
