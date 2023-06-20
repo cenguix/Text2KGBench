@@ -79,7 +79,49 @@ It will generate a results file for each ontology and a results file with aggreg
 | ont_10_culture_llm_stats.jsonl|
 | ont_llm_avg_stats.jsonl|
                
-Ten files are generated plus the total avg figures file. You may be able to view each file's contents in your favorite text editor.
+The individual ontology results file contains the results at each test sentence level.
+```
+{
+   "id":"ont_1_movie_test_1",
+   "precision":"1.00",
+   "recall":"0.50",
+   "f1":"0.67",
+   "onto_conf":"1.00",
+   "rel_halluc":"0.00",
+   "sub_halluc":"0.00",
+   "obj_halluc":"0.00",
+   "llm_triples":[
+      [
+         "Bleach: Hell Verse",
+         "director",
+         "Noriyuki Abe"
+      ]
+   ],
+   "filtered_llm_triples":[
+      [
+         "Bleach: Hell Verse",
+         "director",
+         "Noriyuki Abe"
+      ]
+   ],
+   "gt_triples":[
+      [
+         "Bleach : Hell Verse",
+         "director",
+         "Noriyuki Abe"
+      ],
+      [
+         "Bleach : Hell Verse",
+         "publication date",
+         "01 January 2010"
+      ]
+   ],
+   "sent":"Bleach: Hell Verse (Japanese: BLEACH , Hepburn: Bur\u00c4\u00abchi Jigoku-Hen) is a 2010 Japanese animated film directed by Noriyuki Abe."
+}, 
+...
+
+```
+
 
 Each generated file contains the following entries:
 * **id**: the ontology test identifier i.e. "ont_1_movie_test_1" 
@@ -94,6 +136,23 @@ Each generated file contains the following entries:
 * **filtered_llm_triples**: filtered LLM triples i.e. [["Bleach: Hell Verse", "director", "Noriyuki Abe"]]
 * **gt_triples**: ground truth triples i.e. [["Bleach : Hell Verse", "director", "Noriyuki Abe"], ["Bleach : Hell Verse", "publication date", "01 January 2010"]], 
 * **sent**: original test sentence for extracting facts i.e. "Bleach: Hell Verse (Japanese: BLEACH , Hepburn: Bur\u00c4\u00abchi Jigoku-Hen) is a 2010 Japanese animated film directed by Noriyuki Abe."}
+
+The average results file contains the results at each ontology level.
+
+```
+{
+   "onto":"1_movie",
+   "type":"all_test_cases",
+   "avg_precision":"0.33",
+   "avg_recall":"0.23",
+   "avg_f1":"0.25",
+   "avg_onto_conf":"0.89",
+   "avg_sub_halluc":"0.26",
+   "avg_rel_halluc":"0.11",
+   "avg_obj_halluc":"0.26"
+}, ...
+
+```
 
 The total avg metrics file contains the following fields:
 * **onto**: the ontology identifier i.e. "1_movie", 
