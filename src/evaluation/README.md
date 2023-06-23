@@ -41,6 +41,19 @@ In order to run the run_eval.py script, set the working directory to the Text2KG
 ```
 cd Text2KGBench\src\evaluation
 ```
+```
+|   README.md
+|   run_eval.py
+|
+\---config
+        tekgen_vicuna_config.json
+        tikgen_alpaca_config.json
+        tikgen_unseen_alpaca_config.json
+        tikgen_unseen_vicuna_config.json
+        tikgen_vicuna_config.json
+        webnlg_alpaca_config.json
+        webnlg_vicuna_config.json
+```
 
 If we run the **run_eval.py** script with a --help parameter it will output the following response:
 ```
