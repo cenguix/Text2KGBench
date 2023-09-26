@@ -1,0 +1,287 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix onto: <https://cenguix.github.io/Text2KGBench/ont_1_university#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://example.com/ontology> a owl:Ontology ;
+    rdfs:label "University Ontology" ;
+    dc:creator <http://orcid.org/0000-0001-7197-0766>,
+        <http://orcid.org/0000-0003-4303-983X>,
+        <http://orcid.org/0000−0003−1707−4842> ;
+    rdfs:comment "An ontology used in the Text2KGBench" ;
+    owl:versionIRI onto:v1 .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_university/relations#academicStaffSize> a owl:ObjectProperty ;
+    rdfs:label "academicStaffSize" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#University> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_university/relations#affiliation> a owl:ObjectProperty ;
+    rdfs:label "affiliation" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#University> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#University> .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_university/relations#anthem> a owl:ObjectProperty ;
+    rdfs:label "anthem" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#University> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#Anthem> .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_university/relations#campus> a owl:ObjectProperty ;
+    rdfs:label "campus" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#University> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#Campus> .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_university/relations#capital> a owl:ObjectProperty ;
+    rdfs:label "capital" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#University> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#City> .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_university/relations#city> a owl:ObjectProperty ;
+    rdfs:label "city" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#University> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#City> .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_university/relations#country> a owl:ObjectProperty ;
+    rdfs:label "country" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#University> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#Country> .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_university/relations#dean> a owl:ObjectProperty ;
+    rdfs:label "dean" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#University> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#Person> .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_university/relations#director> a owl:ObjectProperty ;
+    rdfs:label "director" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#University> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#Person> .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_university/relations#elevationAboveTheSeaLevel> a owl:ObjectProperty ;
+    rdfs:label "elevationAboveTheSeaLevel" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#University> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_university/relations#established> a owl:ObjectProperty ;
+    rdfs:label "established" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#University> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#date> .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_university/relations#ethnicGroup> a owl:ObjectProperty ;
+    rdfs:label "ethnicGroup" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#University> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#EthnicGroup> .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_university/relations#founder> a owl:ObjectProperty ;
+    rdfs:label "founder" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#University> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#Person> .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_university/relations#governmentType> a owl:ObjectProperty ;
+    rdfs:label "governmentType" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#University> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#Organization> .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_university/relations#hasToItsNortheast> a owl:ObjectProperty ;
+    rdfs:label "hasToItsNortheast" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#University> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#Place> .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_university/relations#hasToItsNorthwest> a owl:ObjectProperty ;
+    rdfs:label "hasToItsNorthwest" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#University> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#Place> .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_university/relations#hasToItsWest> a owl:ObjectProperty ;
+    rdfs:label "hasToItsWest" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#University> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#Place> .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_university/relations#headquarter> a owl:ObjectProperty ;
+    rdfs:label "headquarter" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#University> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#City> .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_university/relations#isPartOf> a owl:ObjectProperty ;
+    rdfs:label "isPartOf" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#University> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#University> .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_university/relations#largestCity> a owl:ObjectProperty ;
+    rdfs:label "largestCity" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#University> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#City> .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_university/relations#latinName> a owl:ObjectProperty ;
+    rdfs:label "latinName" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#University> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#string> .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_university/relations#leader> a owl:ObjectProperty ;
+    rdfs:label "leader" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#University> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#Person> .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_university/relations#leaderTitle> a owl:ObjectProperty ;
+    rdfs:label "leaderTitle" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#University> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#string> .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_university/relations#legislature> a owl:ObjectProperty ;
+    rdfs:label "legislature" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#University> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#Country> .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_university/relations#location> a owl:ObjectProperty ;
+    rdfs:label "location" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#University> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#Place> .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_university/relations#longName> a owl:ObjectProperty ;
+    rdfs:label "longName" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#University> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#string> .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_university/relations#motto> a owl:ObjectProperty ;
+    rdfs:label "motto" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#University> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#string> .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_university/relations#neighboringMunicipality> a owl:ObjectProperty ;
+    rdfs:label "neighboringMunicipality" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#University> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#City> .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_university/relations#nickname> a owl:ObjectProperty ;
+    rdfs:label "nickname" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#University> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#string> .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_university/relations#numberOfDoctoralStudents> a owl:ObjectProperty ;
+    rdfs:label "numberOfDoctoralStudents" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#University> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_university/relations#numberOfPostgraduateStudents> a owl:ObjectProperty ;
+    rdfs:label "numberOfPostgraduateStudents" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#University> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_university/relations#numberOfStudents> a owl:ObjectProperty ;
+    rdfs:label "numberOfStudents" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#University> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_university/relations#numberOfUndergraduateStudents> a owl:ObjectProperty ;
+    rdfs:label "numberOfUndergraduateStudents" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#University> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_university/relations#officialSchoolColour> a owl:ObjectProperty ;
+    rdfs:label "officialSchoolColour" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#University> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#Colour> .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_university/relations#outlookRanking> a owl:ObjectProperty ;
+    rdfs:label "outlookRanking" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#University> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#number> .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_university/relations#patronSaint> a owl:ObjectProperty ;
+    rdfs:label "patronSaint" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#University> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#Saint> .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_university/relations#postalCode> a owl:ObjectProperty ;
+    rdfs:label "postalCode" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#University> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#string> .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_university/relations#president> a owl:ObjectProperty ;
+    rdfs:label "president" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#University> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#Person> .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_university/relations#rector> a owl:ObjectProperty ;
+    rdfs:label "rector" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#University> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#Person> .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_university/relations#religion> a owl:ObjectProperty ;
+    rdfs:label "religion" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#University> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#Religion> .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_university/relations#river> a owl:ObjectProperty ;
+    rdfs:label "river" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#University> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#River> .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_university/relations#sportGoverningBody> a owl:ObjectProperty ;
+    rdfs:label "sportGoverningBody" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#University> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#Organization> .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_university/relations#sportsOffered> a owl:ObjectProperty ;
+    rdfs:label "sportsOffered" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#University> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#Sport> .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_university/relations#staff> a owl:ObjectProperty ;
+    rdfs:label "staff" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#University> .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_university/relations#state> a owl:ObjectProperty ;
+    rdfs:label "state" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#University> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#State> .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_university/relations#wasGivenTheTechnicalCampusStatusBy> a owl:ObjectProperty ;
+    rdfs:label "wasGivenTheTechnicalCampusStatusBy" ;
+    rdfs:domain <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#University> ;
+    rdfs:range <https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#Organization> .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#Anthem> a owl:Class ;
+    rdfs:label "Anthem" .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#Campus> a owl:Class ;
+    rdfs:label "Campus" .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#Colour> a owl:Class ;
+    rdfs:label "Colour" .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#EthnicGroup> a owl:Class ;
+    rdfs:label "EthnicGroup" .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#Religion> a owl:Class ;
+    rdfs:label "Religion" .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#River> a owl:Class ;
+    rdfs:label "River" .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#Saint> a owl:Class ;
+    rdfs:label "Saint" .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#Sport> a owl:Class ;
+    rdfs:label "Sport" .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#State> a owl:Class ;
+    rdfs:label "State" .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#Country> a owl:Class ;
+    rdfs:label "Country" .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#Organization> a owl:Class ;
+    rdfs:label "Organization" .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#Place> a owl:Class ;
+    rdfs:label "Place" .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#City> a owl:Class ;
+    rdfs:label "City" .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#Person> a owl:Class ;
+    rdfs:label "Person" .
+
+<https://cenguix.github.io/Text2KGBench/ont_1_university/concepts#University> a owl:Class ;
+    rdfs:label "University" .
+
